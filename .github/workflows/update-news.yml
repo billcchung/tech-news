@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
       - name: Fetch news
         run: python scripts/fetch_news.py site/news.json
 
