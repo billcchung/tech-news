@@ -1,7 +1,231 @@
 {
- "updated": "2026-07-13T07:20:23.621667+00:00",
+ "updated": "2026-07-14T06:54:01.860127+00:00",
  "failed_sources": [],
  "items": [
+  {
+   "title": "The US government warns that Russia state hackers are coming after your router",
+   "link": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
+   "summary": "With residential proxies all the rage, CISA urges router users to be vigilant.",
+   "source": "Ars Technica",
+   "category": "Tech",
+   "published": "2026-07-13T21:03:07+00:00"
+  },
+  {
+   "title": "Why Developer Workstations Have Become a Critical Part of the Software Supply Chain",
+   "link": "https://devops.com/why-developer-workstations-have-become-a-critical-part-of-the-software-supply-chain/",
+   "summary": "For years, software supply-chain security discussions focused on centralized infrastructure such as build servers, package registries, and CI/CD systems. Recent attacks suggest that this view is incomplete. The Megalodon campaign injected malicious GitHub Actions workflows into thousands of repositories, while a separate incident involving a malicious Visual Studio Code extension demonstrated how ",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-13T20:01:01+00:00"
+  },
+  {
+   "title": "Operating AI/ML Workloads on Kubernetes: A Headlamp Plugin for Kubeflow",
+   "link": "https://kubernetes.io/blog/2026/07/13/introducing-headlamp-plugin-for-kubeflow/",
+   "summary": "Kubernetes has quietly become the default platform for AI and machine learning. Whether you run notebook servers for data scientists, schedule distributed training jobs, tune hyperparameters, or orchestrate multi-step ML pipelines, those workloads increasingly land on a Kubernetes cluster. Kubeflow is one of the most popular ways to assemble that stack, and it does so the Kubernetes-native way: ev",
+   "source": "Kubernetes Blog",
+   "category": "DevOps/SRE",
+   "published": "2026-07-13T20:00:00+00:00"
+  },
+  {
+   "title": "Amazon SQS turns 20: Two decades of reliable messaging at scale",
+   "link": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/",
+   "summary": "On July 13, 2006, we launched Amazon Simple Queue Service (Amazon SQS) as one of the first three services available to customers, alongside Amazon EC2 and Amazon S3. We had learned firsthand that distributed systems need a reliable way to pass messages between components without creating tight dependencies. If one service called another directly and […]",
+   "source": "AWS Blog",
+   "category": "Cloud",
+   "published": "2026-07-13T18:13:57+00:00"
+  },
+  {
+   "title": "Panasonic’s PV-460 Camcorder Stabilized Shaky Videos",
+   "link": "https://spectrum.ieee.org/panasonic-camcorder-ieee-milstone",
+   "summary": "If you grew up in the 1980s or ’90s, you likely remember shaky home video footage, taken with a handheld camcorder , of family gatherings, vacations, and other events. Camcorders combined a camera with a video recorder . They included a rechargeable battery, a slot for a videotape, and a shoulder strap. Most were outfitted with an optical zoom lens and a small, articulating screen—a display mounte",
+   "source": "IEEE Spectrum",
+   "category": "Tech",
+   "published": "2026-07-13T18:00:02+00:00"
+  },
+  {
+   "title": "Kubernetes Dashboard to Headlamp: A Step-by-Step Guide",
+   "link": "https://kubernetes.io/blog/2026/07/13/kubernetes-dashboard-to-headlamp/",
+   "summary": "1. Before you start: know what is changing Kubernetes Dashboard and Headlamp both show what is running in a cluster, but they work differently. When Headlamp runs on the desktop, it uses your existing kubeconfig to connect to one or more clusters and can be extended with plugins. When Headlamp runs inside a cluster, it uses a Kubernetes ServiceAccount to access the API and follow RBAC rules. Kuber",
+   "source": "Kubernetes Blog",
+   "category": "DevOps/SRE",
+   "published": "2026-07-13T18:00:00+00:00"
+  },
+  {
+   "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+   "link": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s looking into whether AI models can feel pain, for example,…",
+   "source": "MIT Technology Review",
+   "category": "Tech",
+   "published": "2026-07-13T18:00:00+00:00"
+  },
+  {
+   "title": "AWS Weekly Roundup: AWS Builder Center at 1 year, Network Scanning in Security Hub, Loom for AWS, and more (July 13, 2026)",
+   "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-at-one-year-network-scanning-in-security-hub-loom-for-aws-and-more-july-13-2026/",
+   "summary": "AWS Builder Center turned one year old last week. Launched on July 9, 2025, the platform has grown from a community hub with Wishlist voting, community profiles, and a toolbox into a full ecosystem with sandbox environments, workshops, Spaces, and a Builders’ Library. To mark the anniversary, Rick Suttles published a full feature timeline covering […]",
+   "source": "AWS Blog",
+   "category": "Cloud",
+   "published": "2026-07-13T16:18:20+00:00"
+  },
+  {
+   "title": "Key findings from the 2026 Public Sector M-Trends report and beyond",
+   "link": "https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/",
+   "summary": "In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant i",
+   "source": "Google Cloud Blog",
+   "category": "Cloud",
+   "published": "2026-07-13T16:00:00+00:00"
+  },
+  {
+   "title": "Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs",
+   "link": "https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials/",
+   "summary": "How should your security team manage shadow AI? Workloads deployed by developers without formal registration can often evade traditional security scanners, because organizations are reluctant to slow down development and compromise stability by demanding privileged Daemonsets, kernel-level access, and manual pod-spec edits. To break this deadlock, today we are open-sourcing k8s-aibom . This lightw",
+   "source": "Google Cloud Blog",
+   "category": "Cloud",
+   "published": "2026-07-13T16:00:00+00:00"
+  },
+  {
+   "title": "Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV",
+   "link": "https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/",
+   "summary": "The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Andr",
+   "source": "Google Cloud Blog",
+   "category": "Cloud",
+   "published": "2026-07-13T16:00:00+00:00"
+  },
+  {
+   "title": "Now, defenders are embracing the prompt injection, too",
+   "link": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+   "summary": "\"Context bombing\" tricks hacking agents into shutting down before they can do harm.",
+   "source": "Ars Technica",
+   "category": "Tech",
+   "published": "2026-07-13T15:06:34+00:00"
+  },
+  {
+   "title": "Ten Great DevOps Job Opportunities",
+   "link": "https://devops.com/ten-great-devops-job-opportunities-14/",
+   "summary": "DevOps.com is now providing a weekly DevOps jobs report through which opportunities for DevOps professionals will be highlighted as part of an effort to better serve our audience. Our goal in these challenging economic times is to make it just that much easier for DevOps professionals to advance their careers. Of course, the pool of […]",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-13T14:16:15+00:00"
+  },
+  {
+   "title": "The Path to Sovereign Data: Challenges and Priorities in Local-First Computing",
+   "link": "https://www.infoq.com/news/2026/07/data-ownership-localfirst/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "A panel on data ownership challenged the definition of \"ownership,\" arguing it must extend beyond simple account control to include structural independence, interoperability, and community governance. Speakers like Zenna Fiscella, Paul Frazee, Boris Mann, and Robin Berjon emphasised the need for shared standards, unbundled platforms, and better tools to support user sovereignty. By Olimpiu Pop",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-13T14:14:00+00:00"
+  },
+  {
+   "title": "How DoorDash Built an AI Shopping Assistant That Doesn’t Rely on the LLM Alone",
+   "link": "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "DoorDash details the architecture behind Ask DoorDash, its AI-powered conversational shopping assistant, combining LLMs, specialized AI agents, MCP-based tooling, and an intelligence layer with persistent consumer memory and live backend data. Early results show up to 24% higher checkout conversion, 17% larger baskets, and improved intent accuracy using memory-backed sessions. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-13T14:08:00+00:00"
+  },
+  {
+   "title": "Nokia’s 14 Years of Mobile-Phone Supremacy Ended in an Afternoon",
+   "link": "https://spectrum.ieee.org/nokia-phones-history",
+   "summary": "In 2005, Nokia sold its billionth mobile phone , a budget-friendly device that went to a customer in Nigeria. By then, the company, based in Espoo, Finland, was making one of every three cellphones globally. But just nine years later, the mobile-device maker offloaded its entire handset division to Microsoft for pennies on the dollar, compared to what it had been worth at its peak. Nokia had risen",
+   "source": "IEEE Spectrum",
+   "category": "Tech",
+   "published": "2026-07-13T13:00:01+00:00"
+  },
+  {
+   "title": "Java News Roundup: TornadoVM 5, JHipster, Google ADK, OmniFish Build of Payara, Introducing Vidocq",
+   "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul06-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This week's Java roundup for July 6th, 2026, features news highlighting: the GA release of TornadoVM 5.0; point releases of JHipster, Keycloak and Google ADK; maintenance releases of GraalVM Native Build Tools and Micronaut; the OmniFish Build of Payara and introducing Vidocq, a new implementation of the Jakarta EE 11 Core Profile and MicroProfile 7.1. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-13T12:40:00+00:00"
+  },
+  {
+   "title": "Presentation: Road to Compliance: Will Your Internal Users Hate Your Platform Team?",
+   "link": "https://www.infoq.com/presentations/platform-engineering-team-compliance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Davide de Paolis discusses the realities of rolling out cloud infrastructure compliance without fracturing developer relations. Drawing from a real-world platform team reboot at Sevdesk, he explains how to implement \"minimum viable governance\" on AWS, utilize event-driven Slack alerting to automate policy feedback, and shift from rigid enforcement to high-empathy, data-driven collaboration. By Dav",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-13T12:20:00+00:00"
+  },
+  {
+   "title": "The Download: a donor conception cap and world models for AI",
+   "link": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Sperm donors need limits, says a European fertility group Ties van der Meer doesn’t know how many siblings he has. The 47-year-old was conceived at a private fertility clinic using sperm…",
+   "source": "MIT Technology Review",
+   "category": "Tech",
+   "published": "2026-07-13T12:10:00+00:00"
+  },
+  {
+   "title": "Operating OpenTelemetry at scale with OpAMP",
+   "link": "https://www.cncf.io/blog/2026/07/13/operating-opentelemetry-at-scale-with-opamp/",
+   "summary": "As more organizations move to use OpenTelemetry in production at scale, with multiple Collectors across heterogeneous environments, a new challenge arises: how to remotely manage, configure, and update this agent fleet in a consistent and secure...",
+   "source": "CNCF",
+   "category": "DevOps/SRE",
+   "published": "2026-07-13T11:30:00+00:00"
+  },
+  {
+   "title": "Article: Removing a Hidden Round Trip from a Multi-Region AWS API",
+   "link": "https://www.infoq.com/articles/aws-multi-region-signing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "When a series of regional outages forced a rethink of a multi-region AWS API, the team discovered that an obstacle to global failover was hiding in plain sight: a pre-flight discovery call baked into every client session years earlier as the only available option. This article describes what it took to remove it, and what the rollout actually cost. By Suresh Gururajan",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-13T11:00:00+00:00"
+  },
+  {
+   "title": "Podcast: Governance in the Age of AI: A Conversation with Sarah Wells",
+   "link": "https://www.infoq.com/podcasts/governance-age-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this podcast, Michael Stiefel spoke to Sarah Wells about the relationship of governance to software architecture. Governance enables teams to work effectively by establishing procedures that minimize system complexity, improve security, and reduce repetitive tasks. Targeted checklists help engineers by reducing the stress over these procedures. By Sarah Wells",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-13T11:00:00+00:00"
+  },
+  {
+   "title": "Building a Foundation Stack for General-Purpose Robots",
+   "link": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
+   "summary": "This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate perception, planning, and control parts that rarely add up to intelligence a robot can carry from one task to another, or one",
+   "source": "IEEE Spectrum",
+   "category": "Tech",
+   "published": "2026-07-13T10:19:51+00:00"
+  },
+  {
+   "title": "‘HalluSquatting’ Compromises AI Coding Agents to Install Malware, Create Botnets",
+   "link": "https://devops.com/hallusquatting-compromises-ai-coding-agents-to-install-malware-create-botnets/",
+   "summary": "Hallucinations have been an ongoing problem since OpenAI first introduced its ChatGPT chatbot in November 2022, highlighting generative AI’s tendency to generate plausible but false or misleading information and its inability to just say “I don’t know.” They can lead to embarrassing or uncomfortable moments. However, security researchers in Israel have found that the large […]",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-13T08:20:12+00:00"
+  },
+  {
+   "title": "IBM Bob Gets Multi-Agent Muscle and a Cost Dashboard for Enterprise Coding",
+   "link": "https://devops.com/ibm-bob-gets-multi-agent-muscle-and-a-cost-dashboard-for-enterprise-coding/",
+   "summary": "IBM Bob adds multi-agent coordination, cost analytics, and modernization workflows for IBM Z, IBM i, and Java as AI governance takes center stage.",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-13T08:12:56+00:00"
+  },
+  {
+   "title": "GitHub’s Redesigned PR Inbox Tackles the Review Bottleneck AI Created",
+   "link": "https://devops.com/githubs-redesigned-pr-inbox-tackles-the-review-bottleneck-ai-created/",
+   "summary": "GitHub's redesigned pull requests dashboard is now GA, adding Inbox, saved views, and smarter filters as PR review queues grow.",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-13T07:56:41+00:00"
+  },
+  {
+   "title": "How to Build More Resilient Local-First Applications With AT Protocol Infrastructure",
+   "link": "https://www.infoq.com/news/2026/07/atproto-webapp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Jake Lazaroff discussed the AT Protocol as a framework for distributed applications beyond social networking. He emphasised a local-first architecture where users maintain data in PDSs while leveraging shared infrastructure for synchronisation and updates. The presentation included experiments showcasing collaborative tools and highlighted the benefits of reduced reliance on app-specific backends.",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-13T07:07:00+00:00"
+  },
+  {
+   "title": "Preparing for the post-quantum era: Discover and prioritize now",
+   "link": "https://www.hashicorp.com/blog/preparing-for-the-post-quantum-era-discover-and-prioritize-now",
+   "summary": "As organizations prepare for the post-quantum era, it may seem natural to immediately dive into quantum-safe cryptography migration efforts.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps/SRE",
+   "published": "2026-07-13T07:00:00+00:00"
+  },
   {
    "title": "Cloudflare Identifies Race Condition in hyper’s HTTP/1 Implementation",
    "link": "https://www.infoq.com/news/2026/07/cloudflare-hyper-bug-fix/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -57,6 +281,14 @@
    "source": "InfoQ",
    "category": "Tech",
    "published": "2026-07-10T15:16:00+00:00"
+  },
+  {
+   "title": "Announcing the public beta of Vault Kubernetes key management",
+   "link": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
+   "summary": "Announcing the public beta of Vault Kubernetes key management, enabling Kubernetes to use Vault Enterprise as a KMS provider for etcd encryption.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps/SRE",
+   "published": "2026-07-10T14:00:00+00:00"
   },
   {
    "title": "Slack Introduces Agent Driven End-to-End Testing to Improve Resilience in UI Test Automation",
@@ -123,14 +355,6 @@
    "published": "2026-07-10T09:00:00+00:00"
   },
   {
-   "title": "How Datadog Used Claude and Cursor for Test-Driven Production Migration",
-   "link": "https://www.infoq.com/news/2026/07/datadog-ai-production-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "In a recent article, Datadog engineer Arnold Wakim shared what worked, what didn't, and the lessons they learned while evolving a critical production system using AI to overcome hard limits in its storage backend and significantly improve performance. By Sergio De Simone",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-10T08:00:00+00:00"
-  },
-  {
    "title": "SpaceXAI’s Grok 4.5 Undercuts Anthropic and OpenAI on Coding Agent Pricing",
    "link": "https://devops.com/spacexais-grok-4-5-undercuts-anthropic-and-openai-on-coding-agent-pricing/",
    "summary": "SpaceXAI's Grok 4.5 undercuts Opus 4.8 on price, matching it on key coding benchmarks, and adds new safeguards against cybersecurity risks.",
@@ -147,12 +371,12 @@
    "published": "2026-07-10T07:00:00+00:00"
   },
   {
-   "title": "WordPress 7.0 Ships with AI Foundations in Core, a Modernized Admin, and New Design Tools",
-   "link": "https://www.infoq.com/news/2026/07/wordpress-7-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "WordPress 7.0, released on May 20, 2026, includes new AI infrastructure, a redesigned admin interface, and updated design tools. Key features comprise an AI Client, Abilities API, and Command Palette, alongside increased PHP requirements. Community feedback is mixed, particularly regarding AI integration. Developers are advised to consult the official documentation for upgrade guidance. By Daniel ",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-10T06:30:00+00:00"
+   "title": "Getting started with ChatGPT",
+   "link": "https://openai.com/academy/getting-started",
+   "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
+   "source": "OpenAI News",
+   "category": "AI",
+   "published": "2026-07-10T00:00:00+00:00"
   },
   {
    "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
@@ -251,22 +475,6 @@
    "published": "2026-07-09T16:00:00+00:00"
   },
   {
-   "title": "GhostApproval Flaw Featuring Decades-Old Feature Found in Six AI Coding Tools",
-   "link": "https://devops.com/ghostapproval-flaw-featuring-decades-old-feature-found-in-six-ai-coding-tools/",
-   "summary": "A security flaw found in six popular AI coding agents can let attackers abuse a decades-old feature in Unix to trick an AI agent into giving them control of a developer’s system. Researchers with Google-owned Wiz said the vulnerability, dubbed “GhostApproval,” relies on symbolic links – or symlinks – a file system feature that has […]",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-09T15:46:55+00:00"
-  },
-  {
-   "title": "Presentation: Accelerating Netflix Data: a Cross-Team Journey from Offline to Online",
-   "link": "https://www.infoq.com/presentations/netflix-data-offline-online/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Raj Ummadisetty and Ken Kurzweil share Netflix's architectural pivot to CloudStream, a repeatable capture, conversion, and deployment framework. They discuss shifting key-value abstractions from stateless to stateful to move terabytes of bulk data safely. Software architects will learn to exploit data access patterns, use \"Pathfinder\" prototypes, and maintain a 99% faster rollout. By Rajasekhar Um",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-09T15:20:00+00:00"
-  },
-  {
    "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
    "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
    "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
@@ -283,52 +491,12 @@
    "published": "2026-07-09T12:10:00+00:00"
   },
   {
-   "title": "Multi-Model AI Debate: The New Way to Design Software Systems",
-   "link": "https://devops.com/multi-model-ai-debate-the-new-way-to-design-software-systems/",
-   "summary": "How agentic workflows can automate architecture debates, compare tradeoffs and produce stronger software designs",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-09T11:53:34+00:00"
-  },
-  {
-   "title": "How Open Source Enables Collaboration in Creating a Platform",
-   "link": "https://www.infoq.com/news/2026/07/open-source-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "A platform is a collaboration system: platform teams depend on application teams, and both need shared standards. Engineers trust a platform through its predictable behavior, not its features. Being an engineer is about problem-solving and being passionate about it. And being an engineer means sharing your passion for problem-solving. By Ben Linders",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-09T11:53:00+00:00"
-  },
-  {
-   "title": "How to Build a DevSecOps CI/CD Pipeline on Azure With GitHub Actions",
-   "link": "https://devops.com/how-to-build-a-devsecops-ci-cd-pipeline-on-azure-with-github-actions/",
-   "summary": "Fix security problems when they’re cheap to fix, which is before the code is deployed. A pipeline that enforces this automatically is what makes that principle real.",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-09T11:27:59+00:00"
-  },
-  {
-   "title": "Shadow Mode Continuous Integration: The Missing Test Layer for AI Agents",
-   "link": "https://devops.com/shadow-mode-continuous-integration-the-missing-test-layer-for-ai-agents/",
-   "summary": "Autonomous agents require CI/CD pipelines that evaluate behavior, not just artifacts. Containerized shadow mode gives platform teams a practical control point: Run the agent in an isolated Docker environment, replay realistic workflows, capture structured traces and evaluate behavior against statistical and policy baselines.",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-09T11:16:01+00:00"
-  },
-  {
-   "title": "From Alerts to Intelligence: Building a Production Self-Healing System for Port-Down Failures",
-   "link": "https://devops.com/from-alerts-to-intelligence-building-a-production-self-healing-system-for-port-down-failures/",
-   "summary": "Big, distributed computing systems seldom have visible failures. Most of them start without any bang, frequently with a health-check disconnection, a failed TCP connection or a service port that is no longer listening. Such signals are not too big when considered in isolation. However, in the scenario where systems are running with several hundreds of […]",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-09T11:02:19+00:00"
-  },
-  {
-   "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology",
-   "link": "https://www.infoq.com/news/2026/07/openai-libunwind-core-dumps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "OpenAI found two unrelated bugs masquerading as one in ChatGPT's data infrastructure. Silent hardware corruption on one Azure host and an 18-year-old race condition in GNU libunwind's setcontext function with a one-instruction vulnerability window. The breakthrough came from switching to population-level crash analysis rather than examining individual core dumps. By Steef-Jan Wiggers",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-09T10:15:00+00:00"
+   "title": "GPT-5.5 Bio Bug Bounty",
+   "link": "https://openai.com/index/bio-bug-bounty",
+   "summary": "Details about the OpenAI Bio Bounty program",
+   "source": "OpenAI News",
+   "category": "AI",
+   "published": "2026-07-09T10:00:00+00:00"
   },
   {
    "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
@@ -347,22 +515,6 @@
    "published": "2026-07-09T10:00:00+00:00"
   },
   {
-   "title": "GPT-5.5 Bio Bug Bounty",
-   "link": "https://openai.com/index/bio-bug-bounty",
-   "summary": "Details about the OpenAI Bio Bounty program",
-   "source": "OpenAI News",
-   "category": "AI",
-   "published": "2026-07-09T10:00:00+00:00"
-  },
-  {
-   "title": "Article: Beat-Aligned Mobile Audio Streaming with Virtual Chunks and Native Playback",
-   "link": "https://www.infoq.com/articles/android-beat-aligned-mobile-audio-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "In this article, I describe the challenges and the design of a React Native real-time mobile beat-aligned playback system for iOS and Android. The system combines personalization with low-latency, and seamless navigation and was the result of careful analysis and experimentation to address strict mobile and network constraints as well as meet user expectations. By Vladyslav Melnychenko",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-09T09:00:00+00:00"
-  },
-  {
    "title": "Four nuclear reactors hit a big milestone in the US",
    "link": "https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/",
    "summary": "I was really looking forward to July 4, and not just because I love a poolside barbecue. This year the American holiday also marked a big symbolic deadline for US nuclear power. Last year the Trump administration set a goal to see three new microreactors achieve criticality, a technical milestone establishing that a reactor can…",
@@ -371,12 +523,12 @@
    "published": "2026-07-09T08:00:00+00:00"
   },
   {
-   "title": "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference inside the Database",
-   "link": "https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Google shipped AlloyDB AI functions GA with a proxy model architecture that trains a lightweight local model from LLM outputs, then runs queries at database speed without external calls. Smart batching delivers 2,400x throughput improvement. The proxy model reaches 100,000 rows per second in preview, but benchmark numbers apply only to ai.if in internal testing. By Steef-Jan Wiggers",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-09T08:00:00+00:00"
+   "title": "Building resiliency into Boundary session recording",
+   "link": "https://www.hashicorp.com/blog/building-resiliency-into-boundary-session-recording",
+   "summary": "Build resilient, tamper-evident audit trails using Boundary session recording to ensure durable, verifiable capture of privileged activity despite failures.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps/SRE",
+   "published": "2026-07-09T07:09:00+00:00"
   },
   {
    "title": "Autopilot Clusters with GKE managed DRANET: GPUs and TPUs",
@@ -595,30 +747,6 @@
    "published": "2026-07-07T16:00:00+00:00"
   },
   {
-   "title": "Report: 83% of organizations need to upgrade their infrastructure to support agentic AI",
-   "link": "https://cloud.google.com/blog/products/compute/state-of-ai-infrastructure-report-overview/",
-   "summary": "For years, enterprise AI has been synonymous with conversational AI — the customer service bots and digital assistants we interact with every day. But today, the market has shifted. We’ve officially moved from moving from AI that answers through simple chats, to AI that takes action, automated workflows, and executes complex tasks on its own. While this unlocks entirely new use cases, there’s a ca",
-   "source": "Google Cloud Blog",
-   "category": "Cloud",
-   "published": "2026-07-07T16:00:00+00:00"
-  },
-  {
-   "title": "20 questions for the Agentic Enterprise (and how Agent Platform can help)",
-   "link": "https://cloud.google.com/blog/products/ai-machine-learning/20-questions-for-the-agentic-enterprise/",
-   "summary": "If you’re an IT leader, you might be getting a lot of questions about how to build and deploy agents. The pressure to move fast is intense, but the engineering reality is incredibly complex. Where do your teams even begin? How do you untangle a fragmented mess of disconnected tools? And as things grow, how do you ensure your agents don’t accidentally leak sensitive data, or burn through your token",
-   "source": "Google Cloud Blog",
-   "category": "Cloud",
-   "published": "2026-07-07T16:00:00+00:00"
-  },
-  {
-   "title": "BGP route policies: Top 3 use cases by customer demand",
-   "link": "https://cloud.google.com/blog/products/networking/bgp-route-policies-top-3-use-cases-by-customer-demand/",
-   "summary": "When we first made BGP route policies for Cloud Router generally available over a year ago, our goal was to give network administrators deep, programmable control over how network paths are evaluated and propagated. Since then, we’ve been watching closely how our customers have adopted this feature. We've seen network engineering teams build incredibly sophisticated, resilient routing architecture",
-   "source": "Google Cloud Blog",
-   "category": "Cloud",
-   "published": "2026-07-07T16:00:00+00:00"
-  },
-  {
    "title": "External key management for Azure Managed HSM is now in public preview",
    "link": "https://azure.microsoft.com/en-us/blog/external-key-management-for-azure-managed-hsm-is-now-in-public-preview/",
    "summary": "Azure Key Vault Managed Hardware Security Module (HSM) provides strong sovereignty over your encryption keys. Keys are generated and stored in a single-tenant, FIPS 140-3 Level 3 HSM that only you control: Microsoft has no access to your key material, and you govern who can use each key. The post External key management for Azure Managed HSM is now in public preview appeared first on Microsoft Azu",
@@ -643,14 +771,6 @@
    "published": "2026-07-07T15:20:06+00:00"
   },
   {
-   "title": "Streamline identity lifecycle management on HCP with SCIM provisioning",
-   "link": "https://www.hashicorp.com/blog/streamline-identity-lifecycle-management-on-hcp-with-scim-provisioning",
-   "summary": "New HCP SCIM provisioning automates user and group lifecycle management from your identity provider to reduce admin overhead and improve secure, consistent access.",
-   "source": "HashiCorp Blog",
-   "category": "DevOps/SRE",
-   "published": "2026-07-07T15:00:00+00:00"
-  },
-  {
    "title": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
    "link": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Your family’s $300 stake in OpenAI Sam Altman’s proposal that Americans should share in the wealth created by AI is back in the spotlight, with reports that he is discussing giving…",
@@ -665,22 +785,6 @@
    "source": "CNCF",
    "category": "DevOps/SRE",
    "published": "2026-07-07T11:30:00+00:00"
-  },
-  {
-   "title": "The foundational elements of AI architecture that IT leaders need to scale",
-   "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-   "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leaders to wonder which investments will prove valuable even six months into the future. Returning to the foundational elements of AI architecture—the…",
-   "source": "MIT Technology Review",
-   "category": "Tech",
-   "published": "2026-07-07T11:10:52+00:00"
-  },
-  {
-   "title": "Why worms (and microbes) are catching on as a manure pollution solution",
-   "link": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
-   "summary": "Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips on his family’s land in Hickman, a tiny town in the state’s agricultural heartland. He reaches down with both hands and pulls up a clump of muck, turning it over to reveal a half-dozen squirming red earthworms.…",
-   "source": "MIT Technology Review",
-   "category": "Tech",
-   "published": "2026-07-07T10:00:00+00:00"
   },
   {
    "title": "MUFG aims to become AI-native with OpenAI",
@@ -795,14 +899,6 @@
    "published": "2026-07-02T16:00:00+00:00"
   },
   {
-   "title": "(re)introducing kpt: Your toolchain for infrastructure automation",
-   "link": "https://www.cncf.io/blog/2026/07/02/reintroducing-kpt-your-toolchain-for-infrastructure-automation/",
-   "summary": "What is kpt? The opening tagline of the kpt documentation describes it as “… a package-centric toolchain that enables a WYSIWYG configuration authoring, automation, and delivery experience, which simplifies managing Kubernetes platforms and KRM-driven infrastructure at...",
-   "source": "CNCF",
-   "category": "DevOps/SRE",
-   "published": "2026-07-02T15:01:38+00:00"
-  },
-  {
    "title": "T-Mobile moving tens of thousands of virtual machines off VMware amid lawsuit",
    "link": "https://arstechnica.com/information-technology/2026/07/t-mobile-moving-tens-of-thousands-of-virtual-machines-off-vmware-amid-lawsuit/",
    "summary": "T-Mobile wants Broadcom to keep supporting its VMware perpetual licenses.",
@@ -865,102 +961,6 @@
    "source": "Hugging Face Blog",
    "category": "AI",
    "published": "2026-07-01T00:00:00+00:00"
-  },
-  {
-   "title": "Accelerate your infrastructure deployments by up to 4x with AWS CloudFormation Express mode",
-   "link": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/",
-   "summary": "AWS CloudFormation speeds up infrastructure deployment with Express mode, enabling AI agents and developers to receive deployment confirmation in seconds and iterate faster. Available in all commercial Regions at no additional cost.",
-   "source": "AWS Blog",
-   "category": "Cloud",
-   "published": "2026-06-30T21:30:33+00:00"
-  },
-  {
-   "title": "Amazon EC2 C9g and C9gd instances powered by AWS Graviton5 processors are now available",
-   "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-c9g-and-c9gd-instances-powered-by-aws-graviton5-processors-are-now-available/",
-   "summary": "Amazon EC2 C9g and C9gd instances, powered by AWS Graviton5, are now generally available. They deliver up to 25% better compute performance than Graviton4-based instances, 5x larger cache, fastest memory of any processor instances in the cloud, and local NVMe storage options (C9gd).",
-   "source": "AWS Blog",
-   "category": "Cloud",
-   "published": "2026-06-30T20:56:44+00:00"
-  },
-  {
-   "title": "Automate public TLS certificate issuance with ACME support in AWS Certificate Manager",
-   "link": "https://aws.amazon.com/blogs/aws/automate-public-tls-certificate-issuance-with-acme-support-in-aws-certificate-manager/",
-   "summary": "AWS Certificate Manager now supports the ACME protocol for public TLS certificates, enabling automated issuance and renewal through any ACMEv2-compatible client on any workload. Administrators get centralized governance, IAM-based access controls, and domain scoping, reducing operational risk as certificate lifetimes continue to reduce.",
-   "source": "AWS Blog",
-   "category": "Cloud",
-   "published": "2026-06-30T20:15:11+00:00"
-  },
-  {
-   "title": "New attack provides one more reason why AI browsers are a bad idea",
-   "link": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
-   "summary": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
-   "source": "Ars Technica",
-   "category": "Tech",
-   "published": "2026-06-30T20:03:14+00:00"
-  },
-  {
-   "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-   "link": "https://huggingface.co/blog/ibm-research/scarfbench",
-   "summary": "",
-   "source": "Hugging Face Blog",
-   "category": "AI",
-   "published": "2026-06-30T18:32:50+00:00"
-  },
-  {
-   "title": "Azure IaaS: How to design, build, and optimize cloud infrastructure for long-term cost efficiency",
-   "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-how-to-design-build-and-optimize-cloud-infrastructure-for-long-term-cost-optimization-efficiency/",
-   "summary": "As organizations modernize infrastructure, migrate mission-critical workloads, build cloud-native applications, and scale AI—cost efficiency remains a foundational principle of cloud architectures. The post Azure IaaS: How to design, build, and optimize cloud infrastructure for long-term cost efficiency appeared first on Microsoft Azure Blog .",
-   "source": "Azure Blog",
-   "category": "Cloud",
-   "published": "2026-06-30T16:00:00+00:00"
-  },
-  {
-   "title": "Discover, govern, and scale Azure infrastructure in the AI era",
-   "link": "https://www.hashicorp.com/blog/discover-govern-and-scale-azure-infrastructure-in-the-ai-era",
-   "summary": "Learn how Terraform helps teams discover unmanaged Azure resources, reduce infrastructure drift, and establish governance as cloud and AI environments scale.",
-   "source": "HashiCorp Blog",
-   "category": "DevOps/SRE",
-   "published": "2026-06-30T16:00:00+00:00"
-  },
-  {
-   "title": "Why Specialization Is Inevitable",
-   "link": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-   "summary": "",
-   "source": "Hugging Face Blog",
-   "category": "AI",
-   "published": "2026-06-30T14:39:11+00:00"
-  },
-  {
-   "title": "The History and Mystery of Fireworks",
-   "link": "https://spectrum.ieee.org/history-of-fireworks",
-   "summary": "In the 1970s, American Fireworks , a family-run pyrotechnics company in Hudson, Ohio, used a “home run box” to offer quick and easy fireworks displays for the Cleveland Indians (now the Cleveland Guardians) baseball games. The red wooden crate had metal silos to store the rockets. Each switch on the control panel allowed the operator to set off a different firing sequence. This setup instantly tri",
-   "source": "IEEE Spectrum",
-   "category": "Tech",
-   "published": "2026-06-30T13:00:02+00:00"
-  },
-  {
-   "title": "Poetry for Engineers: Nine Lives of Nikola Tesla",
-   "link": "https://spectrum.ieee.org/poetry-for-engineers-nine-lives-of-nikola-tesla",
-   "summary": "He was born into a storm, lightning split the summer sky, in a village the world had not yet heard of. The midwife called it a bad omen, his mother called it a sign. Your first life began in a storm, under open sky. One winter night you ran your hand along a cat’s back, and the darkness cracked open with sparks. Your mother warned the house could burn. You were already chasing what you learned: Li",
-   "source": "IEEE Spectrum",
-   "category": "Tech",
-   "published": "2026-06-30T12:24:33+00:00"
-  },
-  {
-   "title": "How ChatGPT adoption has expanded",
-   "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-   "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-   "source": "OpenAI News",
-   "category": "AI",
-   "published": "2026-06-30T09:00:00+00:00"
-  },
-  {
-   "title": "HCP Terraform powered by Infragraph is now in limited availability",
-   "link": "https://www.hashicorp.com/blog/hcp-terraform-powered-by-infragraph-limited-availability-launch",
-   "summary": "Hybrid and multi-cloud estates create data silos. HCP Terraform powered by Infragraph provides a single source of truth to help optimize and secure infrastructure.",
-   "source": "HashiCorp Blog",
-   "category": "DevOps/SRE",
-   "published": "2026-06-30T07:00:00+00:00"
   }
  ]
 }
