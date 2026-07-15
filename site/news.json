@@ -1,7 +1,183 @@
 {
- "updated": "2026-07-14T06:54:01.860127+00:00",
+ "updated": "2026-07-15T06:55:12.184952+00:00",
  "failed_sources": [],
  "items": [
+  {
+   "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+   "link": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+   "summary": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
+   "source": "Ars Technica",
+   "category": "Tech",
+   "published": "2026-07-14T22:20:48+00:00"
+  },
+  {
+   "title": "Google Cloud Workbench Notebooks Extension Connects VS Code to Google Cloud's Jupyter Notebooks",
+   "link": "https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The Google Cloud Workbench Notebooks extension for VS Code is a new tool that enables developers to connect their local IDE directly to managed Jupyter notebook environments on Google Cloud. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-14T22:00:00+00:00"
+  },
+  {
+   "title": "KeycloakCon Japan 2026: Navigating cloud native identity and the AI frontier",
+   "link": "https://www.cncf.io/blog/2026/07/14/keycloakcon-japan-2026-navigating-cloud-native-identity-and-the-ai-frontier/",
+   "summary": "The countdown is officially on. In just a few weeks, the cloud-native ecosystem meets in Yokohama for KubeCon + CloudNativeCon Japan 2026. Taking place on Tuesday, July 28 from 09:00 – 12:30, KeycloakCon Japan brings together...",
+   "source": "CNCF",
+   "category": "DevOps/SRE",
+   "published": "2026-07-14T21:34:55+00:00"
+  },
+  {
+   "title": "Google named a Leader in the 2026 IDC MarketScape for Worldwide Foundation Model Software",
+   "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape/",
+   "summary": "For years, we’ve built with a clear priority: putting the practical needs of the enterprise first. Long before generative AI dominated the headlines, we were focused on building the global infrastructure, security frameworks, and data platforms that power the world's largest organizations. We’ve always believed that technology is only as good as its reliability, security, and predictability in pro",
+   "source": "Google Cloud Blog",
+   "category": "Cloud",
+   "published": "2026-07-14T18:00:00+00:00"
+  },
+  {
+   "title": "Building a Custom Metrics Exporter for Kubernetes",
+   "link": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
+   "summary": "Kubernetes ships with built-in awareness of CPU and memory, but most real-world scaling decisions depend on signals that live entirely outside that narrow window: how many messages are waiting in a queue, how long the last batch job took, how many active WebSocket connections a pod is holding. When the built-in metrics are not enough, a metrics exporter bridges that gap. This post walks through wr",
+   "source": "Kubernetes Blog",
+   "category": "DevOps/SRE",
+   "published": "2026-07-14T18:00:00+00:00"
+  },
+  {
+   "title": "Claude at scale on Google Cloud: Frontier AI, built for enterprise production",
+   "link": "https://cloud.google.com/blog/products/ai-machine-learning/claude-at-scale-on-google-cloud-frontier-ai-built-for-enterprise-production/",
+   "summary": "Running frontier AI in production is demanding — accelerators to manage, latency to hold steady across continents, regulated data to keep in-region, and long-context requests to serve reliably. Claude on Google Cloud is built for exactly this. Like Monet and water lilies , frontier models and the enterprise platforms are often better together. In our case, Claude brings the reasoning, and Google C",
+   "source": "Google Cloud Blog",
+   "category": "Cloud",
+   "published": "2026-07-14T16:00:00+00:00"
+  },
+  {
+   "title": "How I Turned AI to the Dark Side",
+   "link": "https://spectrum.ieee.org/jailbreaking-llms",
+   "summary": "Summary Researcher Dave Kuszmar discovered multiple systemic vulnerabilities that let him bypass LLM safety and obtain dangerous instructions . These exploits worked across nearly all major LLMs revealing an industry-wide security problem. Kuszmar calls for slowing deployment, increasing transparency , and large-scale research into LLM safety before further integrating these systems into society. ",
+   "source": "IEEE Spectrum",
+   "category": "Tech",
+   "published": "2026-07-14T15:59:35+00:00"
+  },
+  {
+   "title": "Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents",
+   "link": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google and industry partners announced Agentic Resource Discovery (ARD) Specification, an open standard for publishing, discovering, and verifying AI tools, APIs, and agents. ARD introduces a discovery layer built on catalogs and registries, enabling dynamic capability discovery while leveraging existing protocols such as MCP and OpenAPI for execution and emphasizing trust and interoperability. By",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-14T13:40:00+00:00"
+  },
+  {
+   "title": "Meta's Noninvasive Brain–Computer Interface Brain2Qwerty Achieves 61% Accuracy",
+   "link": "https://www.infoq.com/news/2026/07/meta-brain-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Meta recently open-sourced Brain2Qwerty v2, a noninvasive Brain–Computer Interface (BCI) that can decode sentences from thoughts using electroencephalography (EEG) or magnetoencephalography (MEG) signals from the brain. In evaluations, the system achieved a word accuracy rate 61% on average, compared to 8% for other non-invasive methods. By Anthony Alford",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-14T13:00:00+00:00"
+  },
+  {
+   "title": "Presentation: Lessons Learned in Migrating to Micro-Frontends",
+   "link": "https://www.infoq.com/presentations/migration-micro-frontend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Luca Mezzalira shares proven learnings from guiding hundreds of teams through the migration from monolithic web applications to distributed frontend architectures. He explains the core architectural difference between components and micro-frontends, outlines a 6-step decision framework spanning client vs. server rendering, and discusses how to utilize edge compute for safe, iterative rollouts. By ",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-14T12:42:00+00:00"
+  },
+  {
+   "title": "The Download: Claude’s inner workings, and the future of world models",
+   "link": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O’Donnell When Anthropic announced last week that it had found a new window into its models’ “internal thoughts” as they reason through answers,…",
+   "source": "MIT Technology Review",
+   "category": "Tech",
+   "published": "2026-07-14T12:10:00+00:00"
+  },
+  {
+   "title": "Linkerd 2.20 Delivers Smarter Traffic Management and Dramatic Efficiency Gains",
+   "link": "https://www.infoq.com/news/2026/07/linkerd-2-20-improvements/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The Linkerd community has announced the release of Linkerd 2.20, introducing a series of performance, observability, and traffic management enhancements that further strengthen the CNCF-graduated service mesh's position as a lightweight alternative for Kubernetes networking. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-14T12:00:00+00:00"
+  },
+  {
+   "title": "Is a Pod the right deployment unit for an AI agent?",
+   "link": "https://www.cncf.io/blog/2026/07/14/is-a-pod-the-right-deployment-unit-for-an-ai-agent/",
+   "summary": "When we first started building kagent, we didn’t run every agent in its own Kubernetes Pod, Service, and ServiceAccount. Instead, agents were simply executed inside the kagent runtime. It was the simplest architecture possible: one runtime...",
+   "source": "CNCF",
+   "category": "DevOps/SRE",
+   "published": "2026-07-14T11:20:00+00:00"
+  },
+  {
+   "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
+   "link": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google released the Genkit Agents API in preview for TypeScript and Go. The open-source framework packages message history, tool loops, streaming, and state persistence behind a single chat() interface. Detached turns let agents work after clients disconnect. Interruptible tools provide human-in-the-loop control with anti-forgery validation on resume. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-14T10:17:00+00:00"
+  },
+  {
+   "title": "How to manage AI investments in the agentic era",
+   "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
+   "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
+   "source": "OpenAI News",
+   "category": "AI",
+   "published": "2026-07-14T10:00:00+00:00"
+  },
+  {
+   "title": "Article: Comprehension at AI Speed: Building a Context Store for Evolutionary Architecture",
+   "link": "https://www.infoq.com/articles/ai-speed-context-store-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AI makes the first 80% of development feel fast, but hides architectural complexity until it's too late. To prevent system instability, engineering leaders must shift from raw throughput to systemic comprehension. By unifying spec-anchored SDD, TDD, and automated fitness functions into a repo-bound \"Context Store,\" teams can ensure AI agents and human reviewers evolve code safely. By Stella Berhe,",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-14T09:00:00+00:00"
+  },
+  {
+   "title": "Evolutionary Data Through Schemaboi: Achieving Forward, Backwards, and Sideways Compatibility",
+   "link": "https://www.infoq.com/news/2026/07/durable-document-schema/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Drawing from the enduring adaptability of HTML and HTTP, Seph Gentle proposes embedding self-contained schemas directly into file headers, ensuring data remains readable without external definitions. His experimental format prioritises forward, backwards, and sideways compatibility, enabling data format evolution without central coordination or data loss By Olimpiu Pop",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-14T08:08:00+00:00"
+  },
+  {
+   "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
+   "link": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
+   "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute zero.…",
+   "source": "MIT Technology Review",
+   "category": "Tech",
+   "published": "2026-07-14T08:00:00+00:00"
+  },
+  {
+   "title": "SwiftData Enhances Queries, Adds Support for External Types and Data Store Observation",
+   "link": "https://www.infoq.com/news/2026/07/swiftdata-27-whats-new/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The 2027 release of SwiftData introduces support for persisting custom and third-party types via Codable, along with the ability to organize data into SwiftUI list sections. It also adds new capabilities for observing data store changes through ResultsObserver and HistoryObserver. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-14T08:00:00+00:00"
+  },
+  {
+   "title": "GitHub API Abuse, ‘Ghost’ Accounts Part of Malicious Efforts to Map Organizations",
+   "link": "https://devops.com/github-api-abuse-ghost-accounts-part-of-malicious-efforts-to-map-organizations/",
+   "summary": "Datadog researchers uncover months-long overlapping campaigns to scrape data about companies and their developers.",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-14T06:55:48+00:00"
+  },
+  {
+   "title": "How data science teams use ChatGPT Work",
+   "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
+   "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+   "source": "OpenAI News",
+   "category": "AI",
+   "published": "2026-07-14T00:00:00+00:00"
+  },
+  {
+   "title": "How sales teams use ChatGPT Work",
+   "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
+   "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+   "source": "OpenAI News",
+   "category": "AI",
+   "published": "2026-07-14T00:00:00+00:00"
+  },
   {
    "title": "The US government warns that Russia state hackers are coming after your router",
    "link": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
@@ -67,9 +243,9 @@
    "published": "2026-07-13T16:18:20+00:00"
   },
   {
-   "title": "Key findings from the 2026 Public Sector M-Trends report and beyond",
-   "link": "https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/",
-   "summary": "In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant i",
+   "title": "Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV",
+   "link": "https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/",
+   "summary": "The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Andr",
    "source": "Google Cloud Blog",
    "category": "Cloud",
    "published": "2026-07-13T16:00:00+00:00"
@@ -83,9 +259,9 @@
    "published": "2026-07-13T16:00:00+00:00"
   },
   {
-   "title": "Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV",
-   "link": "https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles/",
-   "summary": "The automotive industry is moving from building hardware-centric platforms toward building their own sophisticated Software-Defined Vehicle (SDV) architectures. For OEMs, a vehicle is no longer just a way to go from point A to point B, but an intelligent, connected node within an AI-native ecosystem! With its partners, Google’s Android and Google Cloud are at the forefront of this transition. Andr",
+   "title": "Key findings from the 2026 Public Sector M-Trends report and beyond",
+   "link": "https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond/",
+   "summary": "In 2026, the public sector is no longer defending a traditional perimeter. Instead, they are defending a complex web of interconnected trust relationships against adversaries that now operate at machine speed. We recently published the 2026 Public Sector Threat Landscape: M-Trends and Beyond report, which distills more than 500,000 hours of frontline incident investigations conducted by Mandiant i",
    "source": "Google Cloud Blog",
    "category": "Cloud",
    "published": "2026-07-13T16:00:00+00:00"
@@ -211,28 +387,12 @@
    "published": "2026-07-13T07:56:41+00:00"
   },
   {
-   "title": "How to Build More Resilient Local-First Applications With AT Protocol Infrastructure",
-   "link": "https://www.infoq.com/news/2026/07/atproto-webapp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Jake Lazaroff discussed the AT Protocol as a framework for distributed applications beyond social networking. He emphasised a local-first architecture where users maintain data in PDSs while leveraging shared infrastructure for synchronisation and updates. The presentation included experiments showcasing collaborative tools and highlighted the benefits of reduced reliance on app-specific backends.",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-13T07:07:00+00:00"
-  },
-  {
    "title": "Preparing for the post-quantum era: Discover and prioritize now",
    "link": "https://www.hashicorp.com/blog/preparing-for-the-post-quantum-era-discover-and-prioritize-now",
    "summary": "As organizations prepare for the post-quantum era, it may seem natural to immediately dive into quantum-safe cryptography migration efforts.",
    "source": "HashiCorp Blog",
    "category": "DevOps/SRE",
    "published": "2026-07-13T07:00:00+00:00"
-  },
-  {
-   "title": "Cloudflare Identifies Race Condition in hyper’s HTTP/1 Implementation",
-   "link": "https://www.infoq.com/news/2026/07/cloudflare-hyper-bug-fix/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Cloudflare recently documented how its development team identified and fixed a rare bug in the widely used Rust HTTP library hyper that could silently truncate large HTTP responses while still returning a successful 200 OK status. The issue had existed for years, was triggered only under specific timing conditions, and has now been fixed upstream. By Renato Losio",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-12T06:18:00+00:00"
   },
   {
    "title": "Where should AI workloads run? A sovereign and sensible approach",
@@ -275,36 +435,12 @@
    "published": "2026-07-10T16:00:00+00:00"
   },
   {
-   "title": "Cloudflare Introduces Temporary Accounts for Autonomous Worker Deployment",
-   "link": "https://www.infoq.com/news/2026/07/cloudflare-temp-accounts/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Cloudflare has recently introduced temporary accounts that let AI agents deploy Cloudflare Workers immediately, without first creating or authenticating with a permanent account. If left unclaimed, the accounts and their deployments expire automatically after 60 minutes. By Renato Losio",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-10T15:16:00+00:00"
-  },
-  {
    "title": "Announcing the public beta of Vault Kubernetes key management",
    "link": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
    "summary": "Announcing the public beta of Vault Kubernetes key management, enabling Kubernetes to use Vault Enterprise as a KMS provider for etcd encryption.",
    "source": "HashiCorp Blog",
    "category": "DevOps/SRE",
    "published": "2026-07-10T14:00:00+00:00"
-  },
-  {
-   "title": "Slack Introduces Agent Driven End-to-End Testing to Improve Resilience in UI Test Automation",
-   "link": "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Agentic testing is an AI-driven approach to end-to-end test automation introduced by Slack engineering. It uses AI agents that execute workflows based on intent rather than fixed scripts, adapting to UI and system changes at runtime. The approach aims to reduce brittle tests in distributed systems while complementing deterministic unit, integration, and E2E testing strategies. By Leela Kumili",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-10T13:48:00+00:00"
-  },
-  {
-   "title": "Presentation: Chaos Engineering GPU Clusters",
-   "link": "https://www.infoq.com/presentations/chaos-engineering-gpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Bryan Oliver discusses the frontier of AI infrastructure: chaos engineering for large-scale GPU clusters. He shares how engineering leaders can handle complex topologies, network protocols like RDMA, and NUMA misalignments. Discover seven practical fault-injection strategies to maximize multi-million dollar hardware efficiency and build robust observability loops. By Bryan Oliver",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-10T13:42:00+00:00"
   },
   {
    "title": "The Download: Claude’s inner workings and OpenAI’s “super app”",
@@ -315,42 +451,10 @@
    "published": "2026-07-10T12:10:00+00:00"
   },
   {
-   "title": "Linux Foundation Launches Akrites to Protect Critical Open Source Software from AI-Powered Threats",
-   "link": "https://www.infoq.com/news/2026/07/akrites-open-source-ai-threats/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "The Linux Foundation has launched Akrites, a new industry-wide initiative aimed at defending the world's most critical open source software against a rapidly evolving generation of AI-enabled cyber threats. By Craig Risi",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-10T12:00:00+00:00"
-  },
-  {
-   "title": "GitHub Copilot CLI Gets Tabs and No-Config-File Tool Setup in Redesigned Terminal UI",
-   "link": "https://www.infoq.com/news/2026/07/copilot-cli-terminal-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "GitHub has made the redesigned GitHub Copilot CLI terminal interface generally available. It adds a tabbed layout for sessions, gists, issues, and pull requests; an in-session, form-driven setup for MCP servers, skills, and plugins that avoids hand-editing config files; and a cleaner, theme-aware, more accessible UI with screen reader support. By Mark Silvester",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-10T10:00:00+00:00"
-  },
-  {
    "title": "Sperm donors need limits, says a European fertility group",
    "link": "https://www.technologyreview.com/2026/07/10/1140289/sperm-donors-need-limits-says-a-european-fertility-group/",
    "summary": "Ties van der Meer doesn’t know how many siblings he has. The 47-year-old was conceived at a private fertility clinic in the Netherlands using sperm provided by an anonymous donor. After the Netherlands banned anonymous donation in 2004, the doctor who ran the clinic destroyed records that might have identified those donors, he says. He…",
    "source": "MIT Technology Review",
-   "category": "Tech",
-   "published": "2026-07-10T09:00:00+00:00"
-  },
-  {
-   "title": "Article: Trade-Offs in Multi-Region Architectures: Latency vs. Cost",
-   "link": "https://www.infoq.com/articles/multi-region-latency-cost-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Adding cloud regions changes latency and cost in ways simple math can't capture. This article presents a framework from multiple launches: decompose your latency budget before committing to infrastructure, choose deployment patterns by consistency and traffic profile, and optimize before expanding. A phased approach cut latency 35% through routing alone, before a new region brought it under 60ms. ",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-10T09:00:00+00:00"
-  },
-  {
-   "title": "Podcast: Formal Methods for Every Engineer in an AI-Powered Future",
-   "link": "https://www.infoq.com/podcasts/formal-methods-ai-powered-future/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "In this podcast Shane Hastie, Lead Editor for Culture & Methods spoke to Gabriela Moreira about making formal methods accessible through the Quint specification language, how AI is dramatically lowering the barrier to entry for formal specification and model-based testing, and why defining correct system behaviour remains essential human work in an AI-driven world. By Gabriela Moreira",
-   "source": "InfoQ",
    "category": "Tech",
    "published": "2026-07-10T09:00:00+00:00"
   },
@@ -443,14 +547,6 @@
    "published": "2026-07-09T19:38:38+00:00"
   },
   {
-   "title": "Why Your Best People Can’t Save a Broken Delivery System",
-   "link": "https://devops.com/why-your-best-people-cant-save-a-broken-delivery-system/",
-   "summary": "When delivery falls apart, the reflex is to blame the team. Missed dates, quality slips, a burned-out squad — leadership tends to reach for a personnel fix and quietly move on. The uncomfortable pattern in most enterprise organizations is that the system itself is the failure mode. Decision latency, priority misalignment, and layers of governance […]",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-09T19:37:27+00:00"
-  },
-  {
    "title": "Frontier models and production agents: Advancing Microsoft Foundry for the agentic era",
    "link": "https://azure.microsoft.com/en-us/blog/frontier-models-and-production-agents-advancing-microsoft-foundry-for-the-agentic-era/",
    "summary": "Introducing OpenAI's latest frontier model series, the Asia Pacific Data Zone, and product agent capabilities, all generally available in Microsoft Foundry. The post Frontier models and production agents: Advancing Microsoft Foundry for the agentic era appeared first on Microsoft Azure Blog .",
@@ -491,17 +587,17 @@
    "published": "2026-07-09T12:10:00+00:00"
   },
   {
-   "title": "GPT-5.5 Bio Bug Bounty",
-   "link": "https://openai.com/index/bio-bug-bounty",
-   "summary": "Details about the OpenAI Bio Bounty program",
+   "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+   "link": "https://openai.com/index/gpt-5-6",
+   "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
    "source": "OpenAI News",
    "category": "AI",
    "published": "2026-07-09T10:00:00+00:00"
   },
   {
-   "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
-   "link": "https://openai.com/index/gpt-5-6",
-   "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+   "title": "GPT-5.5 Bio Bug Bounty",
+   "link": "https://openai.com/index/bio-bug-bounty",
+   "summary": "Details about the OpenAI Bio Bounty program",
    "source": "OpenAI News",
    "category": "AI",
    "published": "2026-07-09T10:00:00+00:00"
@@ -635,14 +731,6 @@
    "published": "2026-07-08T15:14:00+00:00"
   },
   {
-   "title": "Meet the 33 cybersecurity startups joining the Gemini Startup Forum",
-   "link": "https://cloud.google.com/blog/products/identity-security/meet-the-33-cybersecurity-startups-joining-the-gemini-startup-forum/",
-   "summary": "Startups are at the forefront of tackling some of the world’s most complex challenges, especially in cybersecurity, where new ideas and adaptability are always needed. These companies are embracing AI as a powerful tool, enabling them to scale their impact. Google believes that enabling the next generation of AI-native cybersecurity startups will have a positive impact across the globe. Today, we ",
-   "source": "Google Cloud Blog",
-   "category": "Cloud",
-   "published": "2026-07-08T13:30:00+00:00"
-  },
-  {
    "title": "Our approach to government and national security partnerships",
    "link": "https://openai.com/index/government-national-security-partnerships",
    "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
@@ -665,14 +753,6 @@
    "source": "OpenAI News",
    "category": "AI",
    "published": "2026-07-08T13:00:00+00:00"
-  },
-  {
-   "title": "The Download: worms fight pollution, and geoengineering faces reality",
-   "link": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
-   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why worms (and microbes) are catching on as a manure pollution solution Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips to…",
-   "source": "MIT Technology Review",
-   "category": "Tech",
-   "published": "2026-07-08T12:10:00+00:00"
   },
   {
    "title": "Announcing etcd v3.7.0",
@@ -739,14 +819,6 @@
    "published": "2026-07-07T19:02:42+00:00"
   },
   {
-   "title": "A developer's guide to publishing agents in Gemini Enterprise and Google Cloud Marketplace",
-   "link": "https://cloud.google.com/blog/topics/developers-practitioners/publish-agents-in-gemini-enterprise-and-google-cloud-marketplace/",
-   "summary": "Software-as-a-service (SaaS) is evolving into Agents-as-a-service (AaaS). Instead of isolated applications, developers are creating AI agents that interoperate using standardized open protocols such as the Agent2Agent (A2A) protocol and can be orchestrated through centralized agent platforms like Gemini Enterprise Agent Platform. When building for your specific use case, we believe the goal should",
-   "source": "Google Cloud Blog",
-   "category": "Cloud",
-   "published": "2026-07-07T16:00:00+00:00"
-  },
-  {
    "title": "External key management for Azure Managed HSM is now in public preview",
    "link": "https://azure.microsoft.com/en-us/blog/external-key-management-for-azure-managed-hsm-is-now-in-public-preview/",
    "summary": "Azure Key Vault Managed Hardware Security Module (HSM) provides strong sovereignty over your encryption keys. Keys are generated and stored in a single-tenant, FIPS 140-3 Level 3 HSM that only you control: Microsoft has no access to your key material, and you govern who can use each key. The post External key management for Azure Managed HSM is now in public preview appeared first on Microsoft Azu",
@@ -769,14 +841,6 @@
    "source": "Hugging Face Blog",
    "category": "AI",
    "published": "2026-07-07T15:20:06+00:00"
-  },
-  {
-   "title": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
-   "link": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
-   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Your family’s $300 stake in OpenAI Sam Altman’s proposal that Americans should share in the wealth created by AI is back in the spotlight, with reports that he is discussing giving…",
-   "source": "MIT Technology Review",
-   "category": "Tech",
-   "published": "2026-07-07T12:10:00+00:00"
   },
   {
    "title": "Why sandboxing your agent is not enough",
@@ -843,14 +907,6 @@
    "published": "2026-07-06T11:00:00+00:00"
   },
   {
-   "title": "The 4-body problem of SRE: Why autonomous operations depend on context",
-   "link": "https://www.cncf.io/blog/2026/07/06/the-4-body-problem-of-sre-why-autonomous-operations-depend-on-context/",
-   "summary": "What a room full of senior SREs confirmed about the trust gap, and where the actual work begins I spent a day last week at an event in Bengaluru asking a room full of senior SREs,...",
-   "source": "CNCF",
-   "category": "DevOps/SRE",
-   "published": "2026-07-06T11:00:00+00:00"
-  },
-  {
    "title": "🤗 Kernels: Major Updates",
    "link": "https://huggingface.co/blog/revamped-kernels",
    "summary": "",
@@ -873,14 +929,6 @@
    "source": "IEEE Spectrum",
    "category": "Tech",
    "published": "2026-07-03T12:00:01+00:00"
-  },
-  {
-   "title": "How data sovereignty is changing cloud native infrastructure design",
-   "link": "https://www.cncf.io/blog/2026/07/03/how-data-sovereignty-is-changing-cloud-native-infrastructure-design/",
-   "summary": "The core issue isn’t where your server sits. It’s who can be compelled to hand over what’s on it. For years, cloud providers treated sovereignty as a geography problem. Pick a region. Choose a country. Keep...",
-   "source": "CNCF",
-   "category": "DevOps/SRE",
-   "published": "2026-07-03T11:00:00+00:00"
   },
   {
    "title": "Newly discovered PamStealer isn't your typical macOS malware",
@@ -913,54 +961,6 @@
    "source": "IEEE Spectrum",
    "category": "Tech",
    "published": "2026-07-01T18:15:02+00:00"
-  },
-  {
-   "title": "Why Mentorship Is the Most Underrated Leadership Skill",
-   "link": "https://spectrum.ieee.org/mentorship-is-an-underrated-leadership-skill",
-   "summary": "I started my professional journey as an engineer before moving into product strategy and innovation leadership roles for several global technology organizations. Over the years, I have served as a mentor for a variety of programs including Products That Count ’s strategic product management, Women in Product mentorship initiatives, and Alchemist accelerator programs. In 2024 and 2025 I led Walmart",
-   "source": "IEEE Spectrum",
-   "category": "Tech",
-   "published": "2026-07-01T18:00:02+00:00"
-  },
-  {
-   "title": "Upgrade Amazon EKS clusters with confidence using Kubernetes version rollbacks",
-   "link": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/",
-   "summary": "Learn how Kubernetes version rollbacks for Amazon EKS let you reverse cluster upgrades within seven days. This new feature provides a safety net for upgrade failures—no cluster rebuilds required—turning Kubernetes version upgrades into a reversible, low-risk operation.",
-   "source": "AWS Blog",
-   "category": "Cloud",
-   "published": "2026-07-01T17:20:30+00:00"
-  },
-  {
-   "title": "As AI Reshapes Global Energy Systems, Melbourne Leads Through Engineering Collaboration",
-   "link": "https://spectrum.ieee.org/ai-energy-systems-melbourne",
-   "summary": "This article is brought to you by Melbourne Convention Bureau (MCB) supported by Business Events Australia . As artificial intelligence accelerates global demand for compute, a parallel constraint is emerging with equal urgency: energy. From hyperscale data centers to electrified industries, AI is driving a step change in electricity demand. This is not a future challenge, it is a present, system-",
-   "source": "IEEE Spectrum",
-   "category": "Tech",
-   "published": "2026-07-01T16:01:27+00:00"
-  },
-  {
-   "title": "Proving application resilience on Azure with Chaos Studio",
-   "link": "https://azure.microsoft.com/en-us/blog/proving-application-resilience-on-azure-with-chaos-studio/",
-   "summary": "Azure Chaos Studio helps organizations validate application resilience by simulating outages, failovers, network disruptions, and infrastructure failures before they impact production. The post Proving application resilience on Azure with Chaos Studio appeared first on Microsoft Azure Blog .",
-   "source": "Azure Blog",
-   "category": "Cloud",
-   "published": "2026-07-01T16:00:00+00:00"
-  },
-  {
-   "title": "The Space-based Data Center Hype Machine Is Already in Orbit",
-   "link": "https://spectrum.ieee.org/orbital-data-center-hype",
-   "summary": "“ The lowest-cost place to put AI will be in space, and that will be true within two years, maybe three at the latest,” SpaceX founder Elon Musk told the World Economic Forum in Davos this past January, as his company was preparing to go public . Later that month, SpaceX filed an application with the Federal Communications Commission for an orbital data center constellation of up to 1 million sate",
-   "source": "IEEE Spectrum",
-   "category": "Tech",
-   "published": "2026-07-01T12:00:01+00:00"
-  },
-  {
-   "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-   "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-   "summary": "",
-   "source": "Hugging Face Blog",
-   "category": "AI",
-   "published": "2026-07-01T00:00:00+00:00"
   }
  ]
 }
