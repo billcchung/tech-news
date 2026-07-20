@@ -1,7 +1,23 @@
 {
- "updated": "2026-07-19T07:00:23.533002+00:00",
+ "updated": "2026-07-20T07:17:58.540856+00:00",
  "failed_sources": [],
  "items": [
+  {
+   "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages",
+   "link": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "GenPage is a generative AI system developed by Netflix to replace its traditional multi-stage recommendation pipeline by directly generating personalized user homepages. GenPage leverages user history and request context as a prompt to produce the entire page, resulting in improved user engagement and reduced serving latency. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-19T20:00:00+00:00"
+  },
+  {
+   "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization as a Service",
+   "link": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google's AlphaEvolve reached general availability on the Gemini Enterprise Agent Platform, turning the DeepMind research project into an evolutionary code optimization service. Evaluators run client-side so code never leaves the customer's infrastructure. Klarna doubled ML training throughput; practitioners note it only works where a measurable evaluation function exists. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-19T10:16:00+00:00"
+  },
   {
    "title": "AWS Introduces CloudFormation Express Mode for Faster Infrastructure Deployments",
    "link": "https://www.infoq.com/news/2026/07/cloudformation-express-mode/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -139,7 +155,7 @@
    "published": "2026-07-17T09:00:00+00:00"
   },
   {
-   "title": "QCon AI Boston: Production AI Moves Beyond Prompts to Platforms, Harnesses, and Evals",
+   "title": "QCon AI Boston: Production AI Moves beyond Prompts to Platforms, Harnesses, and Evals",
    "link": "https://www.infoq.com/news/2026/07/production-ai-platforms-evals/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "QCon AI Boston 2026 focused on the operational challenges of deploying AI agents, emphasizing the need for robust production infrastructure. Key themes included improving context management, ensuring security through a \"harness\" around agents, and adopting a comprehensive engineering model for AI. By Tatiana Fesenko",
    "source": "InfoQ",
@@ -499,6 +515,14 @@
    "published": "2026-07-15T15:35:53+00:00"
   },
   {
+   "title": "Azure Databricks delivers proven business value",
+   "link": "https://azure.microsoft.com/en-us/blog/azure-databricks-delivers-proven-business-value/",
+   "summary": "Microsoft Azure Databricks delivers the first-party advantage of Databricks on Microsoft—and for customers, that advantage shows up as real, measurable value. It is the same Databricks platform your teams already know, co-engineered with Microsoft and delivered as a native Azure service, so it fits naturally into the Microsoft tools, identity, and governance your organization already runs. The pos",
+   "source": "Azure Blog",
+   "category": "Cloud",
+   "published": "2026-07-15T15:00:00+00:00"
+  },
+  {
    "title": "Stripe Benchmark Shows AI Agents Build Integrations but Struggle with Validation",
    "link": "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Stripe introduces a benchmark suite to evaluate whether AI agents can build real-world Stripe integrations across backend, frontend, and browser-based checkout workflows. The study examines end-to-end software engineering capability, focusing on execution, testing, and validation gaps in agentic systems under production-like constraints. By Leela Kumili",
@@ -539,14 +563,6 @@
    "published": "2026-07-15T12:00:00+00:00"
   },
   {
-   "title": "AWS Ships Claude Apps Gateway as Self-Hosted Control Plane for Claude Code and Claude Desktop",
-   "link": "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "AWS and Anthropic have released the Claude apps gateway for AWS, a self-hosted control plane that centralizes identity, policy, telemetry, routing, and spend caps for Claude Code and Claude Desktop. The gateway runs as a single stateless container and routes inference to Amazon Bedrock or Claude Platform on AWS. By Steef-Jan Wiggers",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-15T11:04:00+00:00"
-  },
-  {
    "title": "On-prem DBaaS in 2026: Platforms, standards, and gaps",
    "link": "https://www.cncf.io/blog/2026/07/15/on-prem-dbaas-in-2026-platforms-standards-and-gaps/",
    "summary": "For application teams, databases should feel like a solved problem. A team needs PostgreSQL, MariaDB, Redis, or another data service, submits a request, receives credentials, and starts building. In practice, the experience is rarely that simple....",
@@ -585,14 +601,6 @@
    "source": "Ars Technica",
    "category": "Tech",
    "published": "2026-07-14T22:20:48+00:00"
-  },
-  {
-   "title": "Google Cloud Workbench Notebooks Extension Connects VS Code to Google Cloud's Jupyter Notebooks",
-   "link": "https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "The Google Cloud Workbench Notebooks extension for VS Code is a new tool that enables developers to connect their local IDE directly to managed Jupyter notebook environments on Google Cloud. By Sergio De Simone",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-14T22:00:00+00:00"
   },
   {
    "title": "KeycloakCon Japan 2026: Navigating cloud native identity and the AI frontier",
@@ -953,14 +961,6 @@
    "source": "Kubernetes Blog",
    "category": "DevOps/SRE",
    "published": "2026-07-08T12:00:00+00:00"
-  },
-  {
-   "title": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
-   "link": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
-   "summary": "\"HalluSquatting\" weaponizes LLMs' inability to say \"I don't know.\"",
-   "source": "Ars Technica",
-   "category": "Tech",
-   "published": "2026-07-08T07:00:51+00:00"
   }
  ]
 }
