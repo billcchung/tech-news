@@ -1,7 +1,247 @@
 {
- "updated": "2026-07-23T07:00:26.376581+00:00",
+ "updated": "2026-07-24T07:00:48.334991+00:00",
  "failed_sources": [],
  "items": [
+  {
+   "title": "Jotai v2.20: Rework Store Building Blocks for High-Throughput Performance and Sets the Stage for v3",
+   "link": "https://www.infoq.com/news/2026/07/jotai-rework-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Jotai v2.20.0 has been released, focusing on improved performance for high-throughput scenarios. Key changes involve adjustments to internal building blocks and addressing previous performance regressions. While the API for everyday use remains unchanged, library authors should note some deprecations as the groundwork for Jotai v3 begins. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-24T06:26:00+00:00"
+  },
+  {
+   "title": "The End of Manual Triage",
+   "link": "https://devops.com/the-end-of-manual-triage/",
+   "summary": "Why SRE teams are replacing manual incident triage with AI-assisted correlation, stronger observability and controlled agentic workflows.",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-24T05:55:15+00:00"
+  },
+  {
+   "title": "AI Agents Are Writing Your Infrastructure Code. Is Anyone Governing It?",
+   "link": "https://devops.com/ai-agents-are-writing-your-infrastructure-code-is-anyone-governing-it/",
+   "summary": "AI agents now generate infrastructure code at scale, but security pass rates are stuck at 55%. Here’s how teams can close the governance gap.",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-24T05:46:04+00:00"
+  },
+  {
+   "title": "Building SOC 2 Compliant CI/CD Pipelines on AWS with GitHub Actions",
+   "link": "https://devops.com/building-soc-2-compliant-ci-cd-pipelines-on-aws-with-github-actions/",
+   "summary": "How to design a secure, traceable AWS CI/CD pipeline using separate accounts, centralized ECR, OIDC and immutable image promotion for SOC 2.",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-24T05:33:18+00:00"
+  },
+  {
+   "title": "From Reactive Monitoring to AI-Driven Operational Intelligence",
+   "link": "https://devops.com/from-reactive-monitoring-to-ai-driven-operational-intelligence/",
+   "summary": "Traditional monitoring often meant chasing alerts and toggling between dashboards after an issue had already impacted users. AWS CloudWatch — long the backbone of metrics, logs and traces on AWS — is evolving past that reactive paradigm. The latest CloudWatch capabilities infuse AI-driven operational intelligence into observability, helping engineers surface issues before they escalate and […]",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-24T05:23:47+00:00"
+  },
+  {
+   "title": "AI-Assisted Development Under Deadline: What It Takes to Ship Production Code on an Unfamiliar Stack",
+   "link": "https://devops.com/ai-assisted-development-under-deadline-what-it-takes-to-ship-production-code-on-an-unfamiliar-stack/",
+   "summary": "How Claude Code accelerated development on an unfamiliar stack while proving that production-ready AI-generated code still requires human judgment.",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-24T05:11:44+00:00"
+  },
+  {
+   "title": "When the Message Broker Becomes the Bottleneck: Scaling Push and SMS With MongoDB Polling",
+   "link": "https://devops.com/when-the-message-broker-becomes-the-bottleneck-scaling-push-and-sms-with-mongodb-polling/",
+   "summary": "A back-end team extracted notification delivery from a large Ruby monolith into a centralized Go service, only to discover that their shared RabbitMQ cluster could not reliably support the new workload. Here’s how they solved the problem using MongoDB as a polling queue and the trade-offs that came with it. The Scaling Problem Inside the […]",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-24T05:01:45+00:00"
+  },
+  {
+   "title": "Launch of the AI Infra SIG under the CNCF Japan chapter: First meetup and call for speakers",
+   "link": "https://www.cncf.io/blog/2026/07/23/launch-of-the-ai-infra-sig-under-the-cncf-japan-chapter-first-meetup-and-call-for-speakers/",
+   "summary": "Japanese article follows English one. As we all know, AI is advancing from generative AI to agents, driving growing demand for scalable, efficient infrastructure. Kubernetes and the broader Cloud Native ecosystem are becoming increasingly critical foundations...",
+   "source": "CNCF",
+   "category": "DevOps/SRE",
+   "published": "2026-07-24T00:05:00+00:00"
+  },
+  {
+   "title": "FakeGit Targets AI Coding Agents with Malicious GitHub Repos",
+   "link": "https://devops.com/fakegit-targets-ai-coding-agents-with-malicious-github-repos/",
+   "summary": "Threat actors continue to find new ways to incorporate AI into schemes aimed at luring developers into downloading malware from fake repositories. The latest example involves almost 7,600 malicious GitHub repositories that are being used to distribute a loader and an information-stealer. The FakeGit campaign is nothing new, with Oleg Zaytsev, lead security researcher with […]",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-23T22:33:12+00:00"
+  },
+  {
+   "title": "AI-Native Testing Is Now a Core Quality Engineering Discipline",
+   "link": "https://devops.com/ai-native-testing-is-now-a-core-quality-engineering-discipline/",
+   "summary": "Predictions from some of the most prominent voices in the technology industry suggest that software engineering could become increasingly obsolete within a year, jolting the developer community in ways that are still unfolding. The ripple effect spreads further across social media and news outlets, with some leaders urging developers to start seriously considering alternative career […]",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-23T20:04:07+00:00"
+  },
+  {
+   "title": "Indirect Prompt Injection Exploits GitHub's AI Agent to Leak Private Repository Data",
+   "link": "https://www.infoq.com/news/2026/07/gitlost-github-prompt-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "GitLost is a prompt-injection exploit discovered by Noma Security that tricks GitHub's new Agentic Workflows into leaking private data. By embedding concealed instructions within public GitHub issues, attackers can circumvent security safeguards and induce AI agents to reveal confidential information in public comments. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-23T20:00:00+00:00"
+  },
+  {
+   "title": "AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD",
+   "link": "https://azure.microsoft.com/en-us/blog/att-and-microsoft-scale-trillion-token-workloads-with-microsoft-foundry-and-amd/",
+   "summary": "AT&T processed approximately one trillion tokens while developing OTel2.0 using Microsoft Foundry Managed Compute, open AI models, and AMD and NVIDIA GPU infrastructure. Discover how flexible model choice and scalable infrastructure are enabling production-scale telecom AI. The post AT&T and Microsoft scale trillion-token workloads with Microsoft Foundry and AMD appeared first on Microsoft Azure B",
+   "source": "Azure Blog",
+   "category": "Cloud",
+   "published": "2026-07-23T18:30:00+00:00"
+  },
+  {
+   "title": "Minimize idle accelerators: Native RL job interleaving with co-operative time-slicing in llm-d",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/introducing-co-operative-time-slicing-for-rl-in-llm-d/",
+   "summary": "The math behind reinforcement learning (RL) post-training for large language models (LLMs) is notoriously unforgiving. As frontier AI labs push the boundaries of reasoning and coding models using RL post-training algorithms like Group Relative Policy Optimization (GRPO), they routinely hit hard architectural and infrastructure constraints. While much of the industry's focus remains on acquiring ra",
+   "source": "Google Cloud Blog",
+   "category": "Cloud",
+   "published": "2026-07-23T17:00:00+00:00"
+  },
+  {
+   "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
+   "link": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+   "summary": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too long and the organ will become unusable. In most cases, organs will be kept…",
+   "source": "MIT Technology Review",
+   "category": "Tech",
+   "published": "2026-07-23T16:58:28+00:00"
+  },
+  {
+   "title": "Your AI agents are ready. Is your data?",
+   "link": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud/",
+   "summary": "What’s one of the biggest bottlenecks stopping organizations from scaling their AI initiatives? It isn’t the capabilities of today’s models — it’s their access to business context and semantic meaning. In the agentic era, enterprises need to go beyond simply storing data to activating it with trusted context, moving from passive systems of record to proactive systems of action . But AI agents oper",
+   "source": "Google Cloud Blog",
+   "category": "Cloud",
+   "published": "2026-07-23T16:00:00+00:00"
+  },
+  {
+   "title": "The Blueprint: How Voicify makes AI-enabled ordering a delight for customers",
+   "link": "https://cloud.google.com/blog/topics/customers/bringing-delight-to-customer-phone-calls-with-ai/",
+   "summary": "Welcome to The Blueprint, a new feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work . Founded in 2018, Voicify reimagines the traditional phone call with the goal of transforming every call into a seamless and engaging experience. The",
+   "source": "Google Cloud Blog",
+   "category": "Cloud",
+   "published": "2026-07-23T16:00:00+00:00"
+  },
+  {
+   "title": "Expedia Uses AI Driven Service Telemetry Analyzer to Accelerate Incident Investigation",
+   "link": "https://www.infoq.com/news/2026/07/expedia-ai-observability-star/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Expedia Group has introduced STAR, an internal AI-assisted observability platform that helps engineers investigate production incidents using service telemetry and LLMs. Built with FastAPI, Datadog, Celery, Redis, and Langfuse, STAR follows structured workflows to analyze telemetry, generate root cause assessments, and support incident response while keeping engineers in the loop. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-23T14:15:00+00:00"
+  },
+  {
+   "title": "New Copilot Dashboard Shows Enterprises Which Developers Are Actually Using AI — Not Just Who’s Logged In",
+   "link": "https://devops.com/new-copilot-dashboard-shows-enterprises-which-developers-are-actually-using-ai-not-just-whos-logged-in/",
+   "summary": "GitHub's new Copilot dashboard shows enterprises which developers use AI deeply — turning adoption data into a real productivity business case.",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-23T13:19:36+00:00"
+  },
+  {
+   "title": "Sustaining OpenTelemetry: What a 10-week contributor cohort actually looks like",
+   "link": "https://www.cncf.io/blog/2026/07/23/sustaining-opentelemetry-what-a-10-week-contributor-cohort-actually-looks-like/",
+   "summary": "A follow-up to our earlier post: “Sustaining OpenTelemetry: Moving from Dependency Management to Stewardship” *** In April 2026, the Cloud Native Computing Foundation (CNCF), the OpenTelemetry (OTel) project, and Bloomberg’s Open Source Program Office came together...",
+   "source": "CNCF",
+   "category": "DevOps/SRE",
+   "published": "2026-07-23T13:00:00+00:00"
+  },
+  {
+   "title": "Building Reliable EMR Pipelines With Custom AMIs and Step Functions",
+   "link": "https://devops.com/building-reliable-emr-pipelines-with-custom-amis-and-step-functions/",
+   "summary": "The goal is not custom AMIs for every workload. It is to make dependency management, patching and recovery explicit platform responsibilities rather than repeated job-level tasks.",
+   "source": "DevOps.com",
+   "category": "DevOps/SRE",
+   "published": "2026-07-23T12:53:48+00:00"
+  },
+  {
+   "title": "The Download: energy transmission and US threats against Chinese AI",
+   "link": "https://www.technologyreview.com/2026/07/23/1140753/the-download-energy-transmission-and-us-threats-chinese-ai/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The power line that could reshape New York’s grid is hitting snags During a heat wave on July 3, New York State’s grid imported enough electricity from Canada to meet about…",
+   "source": "MIT Technology Review",
+   "category": "Tech",
+   "published": "2026-07-23T12:10:00+00:00"
+  },
+  {
+   "title": "How AI helps scientists design the next generation of medicines",
+   "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+   "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates never reach the patient. For biologic medicines, therapies made from engineered proteins rather than synthetic chemistry (which are often used to…",
+   "source": "MIT Technology Review",
+   "category": "Tech",
+   "published": "2026-07-23T12:00:00+00:00"
+  },
+  {
+   "title": "Achieving Compliance as a Platform Engineering Team by Helping Developers",
+   "link": "https://www.infoq.com/news/2026/07/platform-that-helps-developers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "When a new platform team set out on implementing their roadmap through forced workflows with poor documentation, developer experience declined. Success came from simplifying governance, prioritizing what matters, and rolling out compliance incrementally through prevention, detection, and communication. Empathy, focus, and shared purpose drove successful adoption. By Ben Linders",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-23T11:42:00+00:00"
+  },
+  {
+   "title": "When Kubeflow meets Cilium: Debugging 60% idle GPUs in Kubernetes",
+   "link": "https://www.cncf.io/blog/2026/07/23/when-kubeflow-meets-cilium-debugging-60-idle-gpus-in-kubernetes/",
+   "summary": "The symptom that made no sense The first time we saw it, we didn’t trust the dashboard. A distributed training job was scheduled and healthy — every pod was running, no crashes, no OOMKills, nothing in...",
+   "source": "CNCF",
+   "category": "DevOps/SRE",
+   "published": "2026-07-23T11:33:00+00:00"
+  },
+  {
+   "title": "Presentation: Compiling Workflows into Databases: The Architecture That Shouldn't Work (But Does)",
+   "link": "https://www.infoq.com/presentations/dbos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Jeremy Edberg & Qian Li discuss why external orchestrators decrease reliability and how to use your existing database for durable execution. They share how DBOS Transact uses standard tables, SKIP LOCKED queues, and unique primary keys to manage complex, fault-tolerant AI workflows with minimal latency, all without the operational overhead of separate distributed systems. By Jeremy Edberg, Qian Li",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-23T10:26:00+00:00"
+  },
+  {
+   "title": "QCon AI New York 2026: Registration Opens for December 15-16 Production-AI Conference",
+   "link": "https://www.infoq.com/news/2026/07/qcon-ai-newyork-2026-live/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "QCon AI New York 2026 (Dec 15-16) has opened registration at The Westin Jersey City Newport. Six tracks on production AI, chaired by Eder Ignatowicz with Faye Zhang and Wes Reisz. First sessions announced in August, full program by November. By Artenisa Chatziou",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-23T10:00:00+00:00"
+  },
+  {
+   "title": "Ink & Switch Introduces Bijou64: Canonical Variable-Length Integer Encoding for Safe Parsing",
+   "link": "https://www.infoq.com/news/2026/07/bijou64-canonical-varint/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Ink & Switch published bijou64, a variable-length integer encoding where every number has exactly one byte representation, closing the canonicality bug class behind attacks on PKCS#1, JWT libraries, and Bitcoin. The design also decodes two to ten times faster than LEB128. Community ports to Elixir, Go, Perl, and Java followed, while HN commenters debated SIMD performance and residual range checks.",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-23T09:43:00+00:00"
+  },
+  {
+   "title": "The power line that could reshape New York’s grid is hitting snags",
+   "link": "https://www.technologyreview.com/2026/07/23/1140739/power-line-grid-chpe/",
+   "summary": "On July 3, as a heat wave swept the region, New York State’s grid imported 52 gigawatt-hours of electricity from Canada—enough to meet about 9% of its total electricity demand that day. Some of that power shuttled in on a 339-mile power line stretching from Quebec to Queens called the Champlain Hudson Power Express (CHPE).…",
+   "source": "MIT Technology Review",
+   "category": "Tech",
+   "published": "2026-07-23T09:00:00+00:00"
+  },
+  {
+   "title": "Article: Multi-Agent AI for Production Security Operations: An A2A and MCP Architecture in a 5G Core",
+   "link": "https://www.infoq.com/articles/multi-agent-security-operations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The bottleneck in a mature SOC is rarely analyst triage; rather, it is the detection-engineering team's ability to keep the rule base aligned with a threat landscape that evolves faster than rules can be written. Learn how multi-agent system for production security operations has reduced mean times to detect and to respond by 40% and compressed the human work required by 12x. By Willem Berroubache",
+   "source": "InfoQ",
+   "category": "Tech",
+   "published": "2026-07-23T09:00:00+00:00"
+  },
+  {
+   "title": "The future of AI is community driven and open",
+   "link": "https://www.cncf.io/blog/2026/07/23/the-future-of-ai-is-community-driven-and-open/",
+   "summary": "Kubernetes has become the de facto operating system for AI. In CNCF’s 2025 Annual Cloud Native Survey, 82% of container users now run Kubernetes in production, and 66% of organizations hosting generative AI use it to...",
+   "source": "CNCF",
+   "category": "DevOps/SRE",
+   "published": "2026-07-23T08:56:53+00:00"
+  },
   {
    "title": "Meta Ports React Compiler to Rust for Faster Builds and Tighter Toolchain Integration",
    "link": "https://www.infoq.com/news/2026/07/meta-react-compiler-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -9,6 +249,22 @@
    "source": "InfoQ",
    "category": "Tech",
    "published": "2026-07-23T06:07:00+00:00"
+  },
+  {
+   "title": "Launching Health in ChatGPT",
+   "link": "https://openai.com/index/health-in-chatgpt",
+   "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+   "source": "OpenAI News",
+   "category": "AI",
+   "published": "2026-07-23T00:00:00+00:00"
+  },
+  {
+   "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
+   "link": "https://huggingface.co/blog/nunchaku-diffusers",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI",
+   "published": "2026-07-23T00:00:00+00:00"
   },
   {
    "title": "The Computer That Helped Win World War II",
@@ -19,20 +275,12 @@
    "published": "2026-07-22T18:00:01+00:00"
   },
   {
-   "title": "OpenAI’s Codex Context Cut Puts Enterprise AI Coding Workflows on Notice",
-   "link": "https://devops.com/openais-codex-context-cut-puts-enterprise-ai-coding-workflows-on-notice/",
-   "summary": "OpenAI quietly trimmed the default input context window for GPT-5.6 inside its Codex CLI, dropping it from 372,000 tokens to 272,000 tokens. That’s a 27% cut, and developers noticed fast. The change surfaced in a GitHub pull request to the Codex CLI, and within days, developers on Reddit and X were asking why OpenAI shrunk […]",
-   "source": "DevOps.com",
+   "title": "Terraform introduces workspaces and Stacks restore, and more",
+   "link": "https://www.hashicorp.com/blog/terraform-introduces-workspaces-and-stacks-restore-and-more",
+   "summary": "HCP Terraform and Terraform Enterprise boost resiliency, governance, and scalability, helping platform teams manage infrastructure and deliver faster at scale.",
+   "source": "HashiCorp Blog",
    "category": "DevOps/SRE",
-   "published": "2026-07-22T17:19:32+00:00"
-  },
-  {
-   "title": "VS Code 1.129 Moves Agent Sessions Out of the Editor Window",
-   "link": "https://devops.com/vs-code-1-129-moves-agent-sessions-out-of-the-editor-window/",
-   "summary": "Microsoft has released Visual Studio Code 1.129, and the headline change isn’t a new feature so much as a new foundation. The update introduces the agent host, a dedicated process that runs AI coding agents like Copilot, Claude, and Codex outside the editor itself, using a new open protocol called the Agent Host Protocol (AHP). […]",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-22T17:13:12+00:00"
+   "published": "2026-07-22T17:00:00+00:00"
   },
   {
    "title": "Confidential Containers becomes a CNCF incubating project",
@@ -43,14 +291,6 @@
    "published": "2026-07-22T16:00:00+00:00"
   },
   {
-   "title": "Security Risks from AI Coding Agents Expand Beyond the Sandbox: Pillar",
-   "link": "https://devops.com/security-risks-from-ai-coding-agents-expand-beyond-the-sandbox-pillar/",
-   "summary": "AI coding assistants have become an essential part of developers’ work, automating many of the repetitive tasks – think boilerplate coding and scaffolding – that in the past ate up a lot of their time. More jobs can now get done faster. That said, such agents also represent a significant security risk, making developers – […]",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-22T14:41:09+00:00"
-  },
-  {
    "title": "GitHub Increased Instant Navigation from 4% to 22% by Rethinking Client Side Architecture",
    "link": "https://www.infoq.com/news/2026/07/github-issues-navigation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "GitHub redesigned GitHub Issues navigation using a client-side architecture that combines caching, predictive prefetching, and service workers to reduce perceived latency. The approach uses IndexedDB, in-memory caching, and background synchronization to serve data faster. GitHub reported instant navigation improvements from 4% to 22%, with latency reductions across multiple navigation By Leela Kum",
@@ -59,7 +299,7 @@
    "published": "2026-07-22T14:09:00+00:00"
   },
   {
-   "title": "From maintenance to innovation: Checking in on Checkout.com’s Cloud Composer 3 migration",
+   "title": "From maintenance to innovation: Checkout's migration to Managed Service for Apache Airflow",
    "link": "https://cloud.google.com/blog/products/data-analytics/how-checkout-com-tallies-data-with-cloud-composer-3/",
    "summary": "Data engineering teams often face a “Day 2” operational reality after building a data platform: the ongoing work of maintaining the orchestrator itself. For the Data Platform team at Checkout.com , managing a self-hosted Apache Airflow environment on another hyperscaler was consuming time the team wanted to spend elsewhere as server management, patching, and incident response were pulling focus fr",
    "source": "Google Cloud Blog",
@@ -147,14 +387,6 @@
    "published": "2026-07-22T10:19:00+00:00"
   },
   {
-   "title": "Signed, Attested, and Malicious: The Software Supply Chain Has a Deepfake Problem",
-   "link": "https://devops.com/signed-attested-and-malicious-the-software-supply-chain-has-a-deepfake-problem/",
-   "summary": "A developer pulls a package from a reliable repo. It is signed, has provenance, and has been scanned. And then…it contains malware. That is no longer hypothetical. When the Miasma worm tore through the @redhat-cloud-services npm namespace in June, its malicious releases carried real SLSA provenance, because they were built in Red Hat’s own GitHub […]",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-22T09:24:39+00:00"
-  },
-  {
    "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
    "link": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/",
    "summary": "When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will attempt one of astronomy’s most precise disappearing acts to date. The telescope will carry the first space-bound “active” coronagraph, an instrument that effectively erases most of the light from a star during photography. It will allow astronomers…",
@@ -211,20 +443,20 @@
    "published": "2026-07-21T20:00:27+00:00"
   },
   {
+   "title": "Terraform Stacks, explained",
+   "link": "https://www.hashicorp.com/blog/terraform-stacks-explained",
+   "summary": "Terraform Stacks simplify provisioning and managing resources at scale, reducing the time and overhead of managing infrastructure.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps/SRE",
+   "published": "2026-07-21T19:00:00+00:00"
+  },
+  {
    "title": "Android Studio Quail 2 Redesigns Agent Mode, Streamlines AI-Assisted Coding",
    "link": "https://www.infoq.com/news/2026/07/android-studio-quail-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "The latest release of Android Studio, Quail 2, now stable, expands Gemini/AI Agent Mode inside the IDE by enabling multiple AI conversations in parallel and further advancing Google's push to integrate AI-powered workflows directly into Android Studio. It also enhances debugging and profiling capabilities and makes it easier to explore experimental features. By Sergio De Simone",
    "source": "InfoQ",
    "category": "Tech",
    "published": "2026-07-21T19:00:00+00:00"
-  },
-  {
-   "title": "Zero Trust Starts at the Code: Building Secure Systems with PKI and DevOps Automation",
-   "link": "https://devops.com/zero-trust-starts-at-the-code-building-secure-systems-with-pki-and-devops-automation/",
-   "summary": "When a certificate expires, it can take down a production system, and teams usually only find out after something goes wrong. These issues are hard to catch because they rarely trigger alerts. Expired certificates often remain unnoticed in a config file or an old key until they cause trouble. Enterprise apps are no longer single, […]",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-21T18:26:33+00:00"
   },
   {
    "title": "Why AI Needs a “Genie Coefficient”",
@@ -259,28 +491,12 @@
    "published": "2026-07-21T16:00:00+00:00"
   },
   {
-   "title": "RSPack 2.0: Performance Gains, Leaner Dependencies and ESM Core",
-   "link": "https://www.infoq.com/news/2026/07/rspack-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Rspack, developed by ByteDance, has released version 2.0, featuring enhanced performance, reduced dependencies, and a focus on modern ECMAScript modules. Key updates include a pure ESM core, improved static analysis, and support for RSC. Performance benchmarks show big improvements in build times. The project has experienced substantial growth, with npm downloads exceeding 5 million weekly. By Dan",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-21T15:23:00+00:00"
-  },
-  {
    "title": "TreeSize won't renew perpetual-license support unless users subscribe",
    "link": "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe/",
    "summary": "\"Current economic conditions\" have shifted TreeSize's business model.",
    "source": "Ars Technica",
    "category": "Tech",
    "published": "2026-07-21T15:18:23+00:00"
-  },
-  {
-   "title": "Harness Extends DevOps Reach to the Realm of AI Agents",
-   "link": "https://devops.com/harness-extends-devops-reach-to-the-realm-of-ai-agents/",
-   "summary": "Harness today extended the reach of its core continuous integration/continuous delivery (CI/CD) platform to enable DevOps teams to build and deploy artificial intelligence (AI) agents. At the core of that capability are five additions to the Harness portfolio, including an AI Asset Catalog that automatically discovers every agent, skill, and plugin that exists within repositories […]",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-21T15:00:53+00:00"
   },
   {
    "title": "Now in preview: Find and fix software vulnerabilities with CodeMender",
@@ -297,22 +513,6 @@
    "source": "MIT Technology Review",
    "category": "Tech",
    "published": "2026-07-21T12:10:00+00:00"
-  },
-  {
-   "title": "GitLab Brings Carbon Awareness to CI/CD to Measure the Environmental Cost of Software Delivery",
-   "link": "https://www.infoq.com/news/2026/07/gitlab-carbon-awareness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "GitLab has introduced a new approach to Green DevOps, demonstrating how software engineering teams can measure the carbon emissions generated by their CI/CD pipelines. By Craig Risi",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-21T12:00:00+00:00"
-  },
-  {
-   "title": "AI Moved the Bottleneck From Writing Code to Understanding and Trusting It",
-   "link": "https://devops.com/ai-moved-the-bottleneck-from-writing-code-to-understanding-and-trusting-it/",
-   "summary": "AI coding boosts velocity, but without stronger review, governance and codebase visibility, teams risk higher costs, security gaps and production failures. TL;DR",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-21T11:32:19+00:00"
   },
   {
    "title": "Generosity Under Conditions: Hardening Google Cloud Access Management",
@@ -347,30 +547,6 @@
    "published": "2026-07-21T10:37:34+00:00"
   },
   {
-   "title": "Presentation: Engineering AI for Creativity and Curiosity on Mobile",
-   "link": "https://www.infoq.com/presentations/ai-mobile/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Bhavuk Jain discusses translating foundational AI into scalable mobile products. He shares the engineering challenges behind AI Wallpapers and Circle to Search, detailing how to implement robust runtime guardrails, fine-tuning, and seamless OS integration. For engineering leaders, he explains balancing UX constraints with model latency and infrastructure cost to deliver safe, reliable AI. By Bhavu",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-21T10:20:00+00:00"
-  },
-  {
-   "title": "Yelp Unifies ML Model Training with Training Orchestrator",
-   "link": "https://www.infoq.com/news/2026/07/yelp-ai-model-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Yelp has launched Training Orchestrator. This new internal framework replaces individual team Spark training scripts. Now, it uses a configuration-driven, DAG-based execution model. By Claudio Masolo",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-21T10:00:00+00:00"
-  },
-  {
-   "title": "GitLab 19.2 Puts AI Agents to Work on the Security Backlog",
-   "link": "https://www.infoq.com/news/2026/07/gitlab-19-2-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "GitLab has released version 19.2 of its DevSecOps platform, adding agentic automation aimed at the security and review work that has piled up as AI coding tools generate more code than developers can check by hand. The release, announced on 16 July 2026, brings four features out of beta or into public beta: Dependency Scanning Auto-Remediation, Security Review Flow, GitLab Duo CLI and Custom Flows",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-21T08:00:00+00:00"
-  },
-  {
    "title": "AI speeds software development. Is your secret security keeping up?",
    "link": "https://www.hashicorp.com/blog/ai-speeds-software-development-is-your-secret-security-keeping-up",
    "summary": "As AI accelerates software development, secret sprawl is becoming one of the fastest growing sources of security, compliance, and operational risk.",
@@ -401,14 +577,6 @@
    "source": "Hugging Face Blog",
    "category": "AI",
    "published": "2026-07-21T00:00:00+00:00"
-  },
-  {
-   "title": "Java News Roundup: Value Objects, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio",
-   "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul13-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "This week's Java roundup for July 13th, 2026, features news highlighting: a reintroduction of Value Objects (Preview); the GA release of WildFly 41; the July 2026 edition of Open Liberty 26.0.0.7; point releases of TornadoVM, Apache TomEE, Java Operator SDK and LangChain4j; a maintenance release of Micronaut; a new extension, Quarkus Shim; and a new Oracle AI Agent Studio for Fusion Applications. ",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-20T18:45:00+00:00"
   },
   {
    "title": "IEEE Program Helps Girls In India See a Future In STEM",
@@ -451,36 +619,12 @@
    "published": "2026-07-20T16:00:00+00:00"
   },
   {
-   "title": "Ten Great DevOps Job Opportunities",
-   "link": "https://devops.com/ten-great-devops-job-opportunities-15/",
-   "summary": "DevOps.com is now providing a weekly DevOps jobs report through which opportunities for DevOps professionals will be highlighted as part of an effort to better serve our audience. Our goal in these challenging economic times is to make it just that much easier for DevOps professionals to advance their careers. Of course, the pool of […]",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-20T14:08:07+00:00"
-  },
-  {
-   "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability",
-   "link": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "DoorDash has developed Entity Cache, a transparent proxy caching platform built on Envoy and Valkey to reduce redundant service-to-service requests across its microservices architecture. Operating within DoorDash’s service mesh, the platform serves over 1.5M requests per second with 99.99999% availability through caching, event-driven invalidation, failure handling, and performance optimizations. ",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-20T13:53:00+00:00"
-  },
-  {
    "title": "We’re Squandering LEDs’ Potential to Save Our Night Skies",
    "link": "https://spectrum.ieee.org/led-light-pollution",
    "summary": "In the chill of a London spring night, under overcast skies, iconic Trafalgar Square opens around me. Admiral Nelson rises on his pedestal, the National Gallery rests behind, the church of St Martin-in-the-Fields sits nearby. From the 13th century, the site served as the Royal Mews for hawks and then horses. By 1844, it was a public space at the heart of one of the biggest cities in the world. Des",
    "source": "IEEE Spectrum",
    "category": "Tech",
    "published": "2026-07-20T13:00:01+00:00"
-  },
-  {
-   "title": "Three InfoQ Certification Cohorts Start This August: Meet the Facilitators",
-   "link": "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "InfoQ has opened enrollment for three five-week online certification cohorts starting in August, each led by a senior practitioner applying QCon talk frameworks to participants' own work: architecture with Luca Mezzalira, engineering leadership with Michelle Brush, and AI security and privacy with Katharine Jarmul. By Artenisa Chatziou",
-   "source": "InfoQ",
-   "category": "Tech",
-   "published": "2026-07-20T13:00:00+00:00"
   },
   {
    "title": "ArgoCon Japan 2026: Meeting the Maintainers, enterprise insights, and the road to Argo CD 3.5",
@@ -499,44 +643,12 @@
    "published": "2026-07-20T12:10:00+00:00"
   },
   {
-   "title": "Why goodput matters more than throughput for LLM serving",
-   "link": "https://www.cncf.io/blog/2026/07/20/why-goodput-matters-more-than-throughput-for-llm-serving/",
-   "summary": "When we benchmark an LLM serving setup, the number almost everyone reaches for first is throughput: how many requests per second the system can push through. It is easy to measure, easy to compare, and it...",
-   "source": "CNCF",
-   "category": "DevOps/SRE",
-   "published": "2026-07-20T11:00:00+00:00"
-  },
-  {
    "title": "Safety and alignment in an era of long-horizon models",
    "link": "https://openai.com/index/safety-alignment-long-horizon-models",
    "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
    "source": "OpenAI News",
    "category": "AI",
    "published": "2026-07-20T10:00:00+00:00"
-  },
-  {
-   "title": "AI is more likely than humans to form biases when hiring",
-   "link": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
-   "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from their training data. New research suggests that LLMs can also develop their own biases from…",
-   "source": "MIT Technology Review",
-   "category": "Tech",
-   "published": "2026-07-20T08:39:01+00:00"
-  },
-  {
-   "title": "xAI Open-Sources Grok Build Coding Agent After Cloud Upload Exposes SSH Keys, Repos",
-   "link": "https://devops.com/xai-open-sources-grok-build-coding-agent-after-cloud-upload-exposes-ssh-keys-repos/",
-   "summary": "xAI has published the full source code for Grok Build, its terminal-based AI coding agent, on GitHub under an Apache 2.0 license. The release lands three days after a security researcher showed the tool quietly shipping entire developer repositories — SSH keys and password databases included — to a Google Cloud bucket xAI controls. The […]",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-20T08:29:43+00:00"
-  },
-  {
-   "title": "HashiCorp Introduces tfpolicy, a Native Policy Framework for Terraform",
-   "link": "https://devops.com/hashicorp-introduces-tfpolicy-a-native-policy-framework-for-terraform/",
-   "summary": "HashiCorp’s new tfpolicy framework brings native policy-as-code governance to Terraform using HCL and lifecycle-aware infrastructure checks.",
-   "source": "DevOps.com",
-   "category": "DevOps/SRE",
-   "published": "2026-07-20T08:18:22+00:00"
   },
   {
    "title": "This Graduate Student Equips NASA’s Robots With Assembly Skills",
@@ -571,22 +683,6 @@
    "published": "2026-07-17T16:00:00+00:00"
   },
   {
-   "title": "The Download: perimenopause misinformation and China’s latest AI leap",
-   "link": "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
-   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. There’s a lot of hype around perimenopause. Don’t buy it. Perimenopause used to be considered taboo, but not anymore. Thanks at least in part to TV doctors and social media influencers,…",
-   "source": "MIT Technology Review",
-   "category": "Tech",
-   "published": "2026-07-17T12:10:00+00:00"
-  },
-  {
-   "title": "Flipkart and LitmusChaos at KubeCon + CloudNativeCon India 2026: A recap",
-   "link": "https://www.cncf.io/blog/2026/07/17/flipkart-and-litmuschaos-at-kubecon-cloudnativecon-india-2026-a-recap/",
-   "summary": "KubeCon + CloudNativeCon India 2026 brought the cloud native community to Mumbai on June 18-19. For LitmusChaos, this was not just another conference. It was one of our most significant events to date. We walked away...",
-   "source": "CNCF",
-   "category": "DevOps/SRE",
-   "published": "2026-07-17T11:00:00+00:00"
-  },
-  {
    "title": "A scorecard for the AI age",
    "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
    "summary": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
@@ -601,22 +697,6 @@
    "source": "Google Cloud Blog",
    "category": "Cloud",
    "published": "2026-07-17T09:14:00+00:00"
-  },
-  {
-   "title": "There’s a lot of hype around perimenopause. Don’t buy it.",
-   "link": "https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/",
-   "summary": "Perimenopause has entered the chat. Perimenopause—and its better-known relative, menopause—used to be considered taboo. Not anymore, thanks at least in part to TV doctors and social media influencers. Perhaps it’s my age, but these days, both my algorithm and my conversations with friends increasingly swing toward perimenopause. Menopause is defined as the life stage that…",
-   "source": "MIT Technology Review",
-   "category": "Tech",
-   "published": "2026-07-17T09:00:00+00:00"
-  },
-  {
-   "title": "The risk of weather data sabotage is rising",
-   "link": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
-   "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds, weather predictions influence major strategic decisions in many industries, with real money, livelihoods, and even actual lives at stake. Farmers use…",
-   "source": "MIT Technology Review",
-   "category": "Tech",
-   "published": "2026-07-17T08:57:32+00:00"
   },
   {
    "title": "HP fined 1.4 billion rupees for “cartelization” of ink cartridges, toner, PCs",
@@ -635,44 +715,12 @@
    "published": "2026-07-16T19:28:33+00:00"
   },
   {
-   "title": "Google is a Leader and positioned furthest in Vision and highest in Execution in the 2026 Gartner® Magic Quadrant™ for Conversational AI Platforms",
-   "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-the-gartner-magic-quadrant-for-conversational-ai/",
-   "summary": "For the second consecutive year, Google has been named a Leader in the Gartner® Magic Quadrant™ for Conversational AI Platforms. Google received the furthest and highest in positioning on the \"Vision\" and \"Execution\" axes and is now ranked #1 in three out of four Critical Capabilities Use Cases. We believe this recognition reflects our continued investment in frontier AI research, enterprise infra",
-   "source": "Google Cloud Blog",
-   "category": "Cloud",
-   "published": "2026-07-16T19:00:00+00:00"
-  },
-  {
    "title": "Understanding Vault performance: Benchmarks from real-world workloads",
    "link": "https://www.hashicorp.com/blog/understanding-vault-performance-benchmarks-from-real-world-workloads",
    "summary": "Discover how Vault Enterprise performs under real-world concurrency and payload sizes, with KV, SSH, and PKI benchmarks on HashiCorp Validated Designs.",
    "source": "HashiCorp Blog",
    "category": "DevOps/SRE",
    "published": "2026-07-16T17:30:00+00:00"
-  },
-  {
-   "title": "What 10 autonomous film crews taught us about agent teamwork",
-   "link": "https://cloud.google.com/blog/topics/developers-practitioners/what-we-learned-about-agent-teamwork/",
-   "summary": "Can teams of AI agents collaborate to create a short film? As part of an internal Google generative media hackathon, we put this question to the test – specifically, to uncover whether AI agents could work collaboratively in a domain less innately familiar than software development. We gave each crew three agents with distinct roles and had them collaborate through messages and shared files under ",
-   "source": "Google Cloud Blog",
-   "category": "Cloud",
-   "published": "2026-07-16T16:00:00+00:00"
-  },
-  {
-   "title": "Bridging the gap between SQL and Python with BigQuery and the %%bqsql magic",
-   "link": "https://cloud.google.com/blog/products/data-analytics/bridge-sql-and-python-with-bigquery/",
-   "summary": "Data scientists and data engineers often find themselves caught between two worlds: SQL and Python. Some find SQL more intuitive, especially when combined with a powerful engine like BigQuery to process data at scale. Others find it easier to work in Python with its rich ecosystem of libraries and runtimes. Historically, using these languages together in one notebook required moving data from SQL ",
-   "source": "Google Cloud Blog",
-   "category": "Cloud",
-   "published": "2026-07-16T16:00:00+00:00"
-  },
-  {
-   "title": "CNCF Strengthens Partnership with Broadcom as a Platinum Member to Advance AI-Ready Cloud Native Infrastructure",
-   "link": "https://www.cncf.io/announcements/2026/07/16/cncf-strengthens-partnership-with-broadcom-as-a-platinum-member-to-to-advance-ai-ready-cloud-native-infrastructure/",
-   "summary": "Collaboration with CNCF reflects Broadcom’s continued investment in open source innovation, cloud native resilience and the technologies powering the next generation of AI workloads Key Highlights SAN FRANCISCO, California — July 16, 2026 — The Cloud...",
-   "source": "CNCF",
-   "category": "DevOps/SRE",
-   "published": "2026-07-16T16:00:00+00:00"
   },
   {
    "title": "Introducing tfpolicy: A declarative policy workflow built for Terraform",
@@ -715,12 +763,12 @@
    "published": "2026-07-16T11:49:48+00:00"
   },
   {
-   "title": "Running a self-hosted LLM in Kubernetes with vLLM",
-   "link": "https://www.cncf.io/blog/2026/07/16/running-a-self-hosted-llm-in-kubernetes-with-vllm/",
-   "summary": "Running large language model (LLM) workloads in-house is one of several patterns teams adopt alongside managed API services. Managed API services are convenient and well suited to many workloads. Self-hosting is a complementary option that some...",
-   "source": "CNCF",
-   "category": "DevOps/SRE",
-   "published": "2026-07-16T11:00:00+00:00"
+   "title": "How Codex became a collaborator for OpenAI’s creative team",
+   "link": "https://openai.com/index/codex-collaborator-creative-team",
+   "summary": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
+   "source": "OpenAI News",
+   "category": "AI",
+   "published": "2026-07-16T07:00:00+00:00"
   },
   {
    "title": "How Cars24 scales conversations and builds faster with OpenAI",
@@ -811,14 +859,6 @@
    "published": "2026-07-15T12:00:00+00:00"
   },
   {
-   "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-   "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-   "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-   "source": "OpenAI News",
-   "category": "AI",
-   "published": "2026-07-15T10:00:00+00:00"
-  },
-  {
    "title": "Welcome Inkling by Thinking Machines",
    "link": "https://huggingface.co/blog/thinkingmachines-inkling",
    "summary": "",
@@ -857,14 +897,6 @@
    "source": "IEEE Spectrum",
    "category": "Tech",
    "published": "2026-07-14T15:59:35+00:00"
-  },
-  {
-   "title": "How to manage AI investments in the agentic era",
-   "link": "https://openai.com/index/managing-ai-investments-in-agentic-era",
-   "summary": "Learn how enterprises can manage AI investments in the agentic era by measuring useful work per dollar, improving efficiency, and scaling high-value workflows.",
-   "source": "OpenAI News",
-   "category": "AI",
-   "published": "2026-07-14T10:00:00+00:00"
   },
   {
    "title": "The US government warns that Russia state hackers are coming after your router",
@@ -929,38 +961,6 @@
    "source": "IEEE Spectrum",
    "category": "Tech",
    "published": "2026-07-13T13:00:01+00:00"
-  },
-  {
-   "title": "Building a Foundation Stack for General-Purpose Robots",
-   "link": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
-   "summary": "This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability follows. Robotics has no such recipe. Robotics systems have long been assembled from separate perception, planning, and control parts that rarely add up to intelligence a robot can carry from one task to another, or one",
-   "source": "IEEE Spectrum",
-   "category": "Tech",
-   "published": "2026-07-13T10:19:51+00:00"
-  },
-  {
-   "title": "Preparing for the post-quantum era: Discover and prioritize now",
-   "link": "https://www.hashicorp.com/blog/preparing-for-the-post-quantum-era-discover-and-prioritize-now",
-   "summary": "As organizations prepare for the post-quantum era, it may seem natural to immediately dive into quantum-safe cryptography migration efforts.",
-   "source": "HashiCorp Blog",
-   "category": "DevOps/SRE",
-   "published": "2026-07-13T07:00:00+00:00"
-  },
-  {
-   "title": "IEEE Remembers Pioneering Computer Scientist Peter G. Neumann",
-   "link": "https://spectrum.ieee.org/ieee-remembers-peter-g-neumann",
-   "summary": "The computing community recently lost one of its enduring voices: IEEE Fellow Peter G. Neumann . The renowned computer scientist and respected risk analyst died on 17 May at the age of 93. For almost 70 years, Neumann shaped the computing field through his pioneering work on risks, system dependability, security, and fault tolerance with rare intellectual depth and unwavering ethical clarity. Five",
-   "source": "IEEE Spectrum",
-   "category": "Tech",
-   "published": "2026-07-10T18:00:01+00:00"
-  },
-  {
-   "title": "Announcing the public beta of Vault Kubernetes key management",
-   "link": "https://www.hashicorp.com/blog/announcing-the-public-beta-of-vault-kubernetes-key-management",
-   "summary": "Announcing the public beta of Vault Kubernetes key management, enabling Kubernetes to use Vault Enterprise as a KMS provider for etcd encryption.",
-   "source": "HashiCorp Blog",
-   "category": "DevOps/SRE",
-   "published": "2026-07-10T14:00:00+00:00"
   }
  ]
 }
