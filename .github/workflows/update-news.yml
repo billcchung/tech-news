@@ -29,17 +29,24 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run tests
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Run Python tests
         run: python -m unittest discover -s tests -v
+
+      - name: Run browser tests
+        run: node --test tests_js/*.test.mjs
 
       - name: Fetch news
         run: python scripts/fetch_news.py site/news.json
 
-      - name: Commit updated news.json
+      - name: Commit updated news data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add site/news.json
+          git add site/news.json site/archive
           git diff --cached --quiet || git commit -m "chore: update news $(date -u +%F)"
           # -X theirs keeps OUR freshly generated news.json if the remote moved
           # (during rebase, "theirs" = the commit being replayed, i.e. ours)

@@ -59,6 +59,30 @@ class BackfillTests(unittest.TestCase):
         self.assertEqual(result["snapshot_count"], 1)
         self.assertEqual(len(result["warnings"]), 1)
 
+    def test_backfill_keeps_valid_articles_when_snapshot_contains_removed_source(self):
+        mixed = snapshot("2026-07-10T06:00:00+00:00", "valid")
+        mixed["items"].append(
+            {
+                "title": "Aggregator item",
+                "link": "https://example.com/aggregated",
+                "summary": "removed",
+                "source": "Hacker News",
+                "category": "Tech",
+                "published": "2026-07-10T09:00:00+00:00",
+            }
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            result = backfill_snapshots(
+                [mixed],
+                Path(directory),
+                datetime(2026, 7, 26, 6, 0, tzinfo=timezone.utc),
+            )
+
+        self.assertEqual(result["snapshot_count"], 1)
+        self.assertEqual(result["article_count"], 1)
+        self.assertEqual(len(result["warnings"]), 1)
+        self.assertIn("unknown source: Hacker News", result["warnings"][0])
+
     def test_read_git_snapshots_reports_unreadable_commit(self):
         responses = {
             ("log", "--format=%H", "--", "site/news.json"): subprocess.CompletedProcess(

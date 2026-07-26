@@ -1,0 +1,80 @@
+{
+ "month": "2026-02",
+ "updated": "2026-07-26T03:35:01.798231+00:00",
+ "items": [
+  {
+   "title": "Why is WebAssembly a second-class language on the web?",
+   "link": "https://hacks.mozilla.org/2026/02/making-webassembly-a-first-class-language-on-the-web/",
+   "summary": "This post is an expanded version of a presentation I gave at the 2025 WebAssembly CG meeting in Munich. WebAssembly has come a long way since its first release in 2017. The first version of WebAssembly was already a great fit for low-level languages like C and C++, and immediately enabled many new kinds of […] The post Why is WebAssembly a second-class language on the web? appeared first on Mozill",
+   "source": "Mozilla Hacks",
+   "category": "Software Engineering",
+   "published": "2026-02-26T16:02:36+00:00",
+   "id": "e3115eca03723f5c670a8b34df9d1b214b126a00348b1fe745f7b672fe95dad4",
+   "tags": [
+    "open-source",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-07-26T03:30:53.125044+00:00"
+  },
+  {
+   "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
+   "link": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
+   "summary": "In my previous blog post I mentioned the GetProcessHandleFromHwnd API. This was an API I didn’t know existed until I found a publicly disclosed UAC bypass using the Quick Assist UI Access application. This API looked interesting so I thought I should take a closer look. I typically start by reading the documentation for an API I don’t know about, assuming it’s documented at all. It can give you an",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-02-26T08:00:00+00:00",
+   "id": "70e01b76e84c3722baf9331117b045fce8eec011c7c44f85a18590556cda21f1",
+   "tags": [
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-07-26T03:35:01.798231+00:00"
+  },
+  {
+   "title": "Goodbye innerHTML, Hello setHTML: Stronger XSS Protection in Firefox 148",
+   "link": "https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/",
+   "summary": "Cross-site scripting (XSS) remains one of the most prevalent vulnerabilities on the web. The new standardized Sanitizer API provides a straightforward way for web developers to sanitize untrusted HTML before inserting it into the DOM. Firefox 148 is the first browser to ship this standardized security enhancing API, advancing a safer web for everyone. We […] The post Goodbye innerHTML, Hello setHT",
+   "source": "Mozilla Hacks",
+   "category": "Software Engineering",
+   "published": "2026-02-24T13:00:02+00:00",
+   "id": "9cb8a113414be63e8e6ec24e9d66b06cabeba777a8349b5a0bb7f27edce10e3a",
+   "tags": [
+    "open-source",
+    "programming",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-07-26T03:30:53.125044+00:00"
+  },
+  {
+   "title": "Launching Interop 2026",
+   "link": "https://hacks.mozilla.org/2026/02/launching-interop-2026/",
+   "summary": "The Interop Project is a cross-browser initiative to improve web compatibility in areas that offer the most benefit to both users and developers. The group, including Apple, Google, Igalia, Microsoft, and Mozilla, takes proposals of features that are well defined in a sufficiently stable web standard, and have good test suite coverage. Then, we come […] The post Launching Interop 2026 appeared fir",
+   "source": "Mozilla Hacks",
+   "category": "Software Engineering",
+   "published": "2026-02-12T17:07:24+00:00",
+   "id": "2644f0c749db6e0970bd2baa380cde920d81088dae7f2d8eac9d97141af3ebe4",
+   "tags": [
+    "open-source",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-07-26T03:30:53.125044+00:00"
+  },
+  {
+   "title": "Bypassing Administrator Protection by Abusing UI Access",
+   "link": "https://projectzero.google/2026/02/windows-administrator-protection.html",
+   "summary": "In my last blog post I introduced the new Windows feature, Administrator Protection and how it aimed to create a secure boundary for UAC where one didn’t exist. I described one of the ways I was able to bypass the feature before it was released. In total I found 9 bypasses during my research that have now all been fixed. In this blog post I wanted to describe the root cause of 5 of those 9 issues,",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-02-12T08:00:00+00:00",
+   "id": "c89ad05b567c686aae22afced717954c911171d8bc7d972bfdf15cbcb28783b5",
+   "tags": [
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-07-26T03:35:01.798231+00:00"
+  }
+ ]
+}

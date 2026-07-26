@@ -40,7 +40,7 @@ The existing thirteen feeds remain. Add these seven sources:
 | Netflix TechBlog | Software Engineering | `https://netflixtechblog.com/feed` | `netflixtechblog.com` | `architecture`, `databases`, `programming` |
 | Mozilla Hacks | Software Engineering | `https://hacks.mozilla.org/feed/` | `hacks.mozilla.org` | `open-source`, `programming`, `web` |
 | KrebsOnSecurity | Security & Privacy | `https://krebsonsecurity.com/feed/` | `krebsonsecurity.com` | `privacy`, `security` |
-| Google Project Zero | Security & Privacy | `https://googleprojectzero.blogspot.com/feeds/posts/default` | `googleprojectzero.blogspot.com`, `projectzero.googleblog.com` | `research`, `security` |
+| Google Project Zero | Security & Privacy | `https://googleprojectzero.blogspot.com/feeds/posts/default` | `googleprojectzero.blogspot.com`, `projectzero.googleblog.com`, `projectzero.google` | `research`, `security` |
 | Google DeepMind | AI & ML | `https://deepmind.google/blog/rss.xml` | `deepmind.google` | `ai`, `research` |
 
 The existing sources use these assignments:

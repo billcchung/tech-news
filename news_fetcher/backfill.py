@@ -54,10 +54,11 @@ def backfill_snapshots(
     valid = []
     for position, snapshot in enumerate(snapshots):
         try:
-            updated, items = _normalize_snapshot(snapshot)
+            updated, items, item_warnings = _normalize_snapshot(snapshot)
         except (KeyError, TypeError, ValueError) as error:
             warnings.append(f"snapshot {position}: {error}")
             continue
+        warnings.extend(f"snapshot {position}: {warning}" for warning in item_warnings)
         valid.append((updated, items))
     valid.sort(key=lambda entry: entry[0])
 
@@ -72,7 +73,7 @@ def backfill_snapshots(
     }
 
 
-def _normalize_snapshot(snapshot: dict) -> Tuple[datetime, List[dict]]:
+def _normalize_snapshot(snapshot: dict) -> Tuple[datetime, List[dict], List[str]]:
     if not isinstance(snapshot, dict):
         raise ValueError("snapshot must be an object")
     updated = _parse_timestamp(snapshot["updated"])
@@ -81,27 +82,35 @@ def _normalize_snapshot(snapshot: dict) -> Tuple[datetime, List[dict]]:
         raise ValueError("items must be a list")
     sources = {source.name: source for source in SOURCES}
     normalized = []
-    for raw_item in raw_items:
-        if not isinstance(raw_item, dict):
-            raise ValueError("article must be an object")
-        source_name = raw_item.get("source")
-        source = sources.get(str(source_name))
-        if source is None:
-            raise ValueError(f"unknown source: {source_name}")
-        for field in ("title", "link", "summary", "published"):
-            if field not in raw_item:
-                raise ValueError(f"article missing field: {field}")
-        candidate = {
-            "title": raw_item["title"],
-            "link": raw_item["link"],
-            "summary": raw_item["summary"],
-            "source": source.name,
-            "category": source.category,
-            "default_tags": source.default_tags,
-            "published": raw_item["published"],
-        }
-        normalized.append(enrich_article(candidate, updated))
-    return updated, normalized
+    warnings = []
+    for item_position, raw_item in enumerate(raw_items):
+        try:
+            normalized.append(_normalize_article(raw_item, sources, updated))
+        except (KeyError, TypeError, ValueError) as error:
+            warnings.append(f"article {item_position}: {error}")
+    return updated, normalized, warnings
+
+
+def _normalize_article(raw_item: object, sources: dict, updated: datetime) -> dict:
+    if not isinstance(raw_item, dict):
+        raise ValueError("article must be an object")
+    source_name = raw_item.get("source")
+    source = sources.get(str(source_name))
+    if source is None:
+        raise ValueError(f"unknown source: {source_name}")
+    for field in ("title", "link", "summary", "published"):
+        if field not in raw_item:
+            raise ValueError(f"article missing field: {field}")
+    candidate = {
+        "title": raw_item["title"],
+        "link": raw_item["link"],
+        "summary": raw_item["summary"],
+        "source": source.name,
+        "category": source.category,
+        "default_tags": source.default_tags,
+        "published": raw_item["published"],
+    }
+    return enrich_article(candidate, updated)
 
 
 def _parse_timestamp(raw: object) -> datetime:

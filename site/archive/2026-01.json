@@ -1,0 +1,92 @@
+{
+ "month": "2026-01",
+ "updated": "2026-07-26T03:35:01.798231+00:00",
+ "items": [
+  {
+   "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
+   "link": "https://projectzero.google/2026/01/sound-barrier-2.html",
+   "summary": "In the first part of this series, I detailed my journey into macOS security research, which led to the discovery of a type confusion vulnerability (CVE-2024-54529) and a double-free vulnerability (CVE-2025-31235) in the coreaudiod system daemon through a process I call knowledge-driven fuzzing. While the first post focused on the process of finding the vulnerabilities, this post dives into the int",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-01-30T08:00:00+00:00",
+   "id": "3bf1edc501a46da87e9bb5139b14062ad080d360719c1e6e76bb75c1b8a121e6",
+   "tags": [
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-07-26T03:35:01.798231+00:00"
+  },
+  {
+   "title": "From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner",
+   "link": "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
+   "summary": "Learn how GitHub built an accessible, multi-terminal-safe ASCII animation for the Copilot CLI using custom tooling, ANSI color roles, and advanced terminal engineering. The post From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner appeared first on The GitHub Blog .",
+   "source": "GitHub Engineering",
+   "category": "Software Engineering",
+   "published": "2026-01-28T17:00:00+00:00",
+   "id": "e2848dc72d29965e601562e05f91204c5223a12fff8f631cbaf71d8c6fd8db97",
+   "tags": [
+    "dev-tools",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-07-26T03:30:53.125044+00:00"
+  },
+  {
+   "title": "Bypassing Windows Administrator Protection",
+   "link": "https://projectzero.google/2026/26/windows-administrator-protection.html",
+   "summary": "A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-01-26T08:00:00+00:00",
+   "id": "0ba6cedb52a04e8b3aa6e055c1a6feb344267a7add7d8bba8eb940b87d2f50e7",
+   "tags": [
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-07-26T03:35:01.798231+00:00"
+  },
+  {
+   "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
+   "link": "https://projectzero.google/2026/01/pixel-0-click-part-3.html",
+   "summary": "While our previous two blog posts provided technical recommendations for increasing the effort required by attackers to develop 0-click exploit chains, our experience finding, reporting and exploiting these vulnerabilities highlighted some broader issues in the Android ecosystem. This post describes the problems we encountered and recommendations for improvement. Audio Attack Surface The Dolby UDC",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-01-14T18:01:00+00:00",
+   "id": "5efa0720e9007829aafd2b46d8714d9b0f50b7c0221ceaf18d047b0372d11145",
+   "tags": [
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-07-26T03:35:01.798231+00:00"
+  },
+  {
+   "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
+   "link": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
+   "summary": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my Dr",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-01-14T18:00:00+00:00",
+   "id": "b28951cbb12db1add70681c8c3c2b13956fa01b61a5cc8f4a1d45d38d60c8499",
+   "tags": [
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-07-26T03:35:01.798231+00:00"
+  },
+  {
+   "title": "A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby",
+   "link": "https://projectzero.google/2026/01/pixel-0-click-part-1.html",
+   "summary": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-01-14T17:59:00+00:00",
+   "id": "6c62436ff594a227ebfd40369762ebdfe7750f256fa80037af2c85cc77523086",
+   "tags": [
+    "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-07-26T03:35:01.798231+00:00"
+  }
+ ]
+}

@@ -3,6 +3,7 @@ from urllib.parse import urlsplit
 
 from news_fetcher.sources import SOURCES
 from news_fetcher.taxonomy import CATEGORIES, TAGS
+from news_fetcher.policy import is_allowed_article_url
 
 
 class SourceConfigurationTests(unittest.TestCase):
@@ -42,6 +43,15 @@ class SourceConfigurationTests(unittest.TestCase):
                 "Google Project Zero",
                 "Google DeepMind",
             },
+        )
+
+    def test_project_zero_accepts_its_current_article_host(self):
+        source = next(source for source in SOURCES if source.name == "Google Project Zero")
+        self.assertTrue(
+            is_allowed_article_url(
+                "https://projectzero.google/2026/05/pixel-10-exploit.html",
+                source.allowed_hosts,
+            )
         )
 
 

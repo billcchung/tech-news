@@ -118,7 +118,7 @@ SOURCES = (
         "Google Project Zero",
         "Security & Privacy",
         "https://googleprojectzero.blogspot.com/feeds/posts/default",
-        ("googleprojectzero.blogspot.com", "projectzero.googleblog.com"),
+        ("googleprojectzero.blogspot.com", "projectzero.googleblog.com", "projectzero.google"),
         ("research", "security"),
     ),
     Source(
