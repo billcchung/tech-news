@@ -2,6 +2,7 @@ import unittest
 from urllib.parse import urlsplit
 
 from news_fetcher.sources import SOURCES
+from news_fetcher.taxonomy import CATEGORIES, TAGS
 
 
 class SourceConfigurationTests(unittest.TestCase):
@@ -12,8 +13,10 @@ class SourceConfigurationTests(unittest.TestCase):
         for source in SOURCES:
             self.assertEqual(urlsplit(source.feed_url).scheme, "https")
             self.assertTrue(source.allowed_hosts)
+            self.assertIn(source.category, CATEGORIES)
+            self.assertTrue(set(source.default_tags) <= set(TAGS))
 
-    def test_source_list_excludes_aggregators_and_adds_selected_publications(self):
+    def test_source_list_matches_the_curated_catalogue(self):
         names = {source.name for source in SOURCES}
         self.assertEqual(
             names,
@@ -31,6 +34,13 @@ class SourceConfigurationTests(unittest.TestCase):
                 "MIT Technology Review",
                 "IEEE Spectrum",
                 "InfoQ",
+                "Cloudflare Blog",
+                "GitHub Engineering",
+                "Netflix TechBlog",
+                "Mozilla Hacks",
+                "KrebsOnSecurity",
+                "Google Project Zero",
+                "Google DeepMind",
             },
         )
 

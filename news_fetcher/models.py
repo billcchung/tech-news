@@ -17,3 +17,4 @@ class Source:
     category: str
     feed_url: str
     allowed_hosts: Tuple[str, ...]
+    default_tags: Tuple[str, ...] = ()
