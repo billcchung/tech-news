@@ -1,8 +1,8 @@
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from typing import Callable, Dict, List, Sequence
-from urllib.parse import urlsplit, urlunsplit
 
+from .articles import enrich_article
 from .feed_parser import parse_feed
 from .models import Source
 from .policy import is_allowed_article_url
@@ -28,6 +28,7 @@ def fetch_source(
                 "summary": entry.summary[:400],
                 "source": source.name,
                 "category": source.category,
+                "default_tags": source.default_tags,
                 "published": entry.published.isoformat() if entry.published else None,
             }
         )
@@ -68,13 +69,14 @@ def aggregate(
     ]
     all_items.sort(key=lambda item: item["published"] or "0000", reverse=True)
 
+    enriched_items = [enrich_article(item, now) for item in all_items]
     seen = set()
     deduplicated = []
-    for item in all_items:
-        canonical_url = _canonical_url(str(item["link"]))
-        if canonical_url in seen:
+    for item in enriched_items:
+        item_id = item["id"]
+        if item_id in seen:
             continue
-        seen.add(canonical_url)
+        seen.add(item_id)
         deduplicated.append(item)
 
     if not deduplicated:
@@ -85,16 +87,3 @@ def aggregate(
         "failed_sources": [source.name for source in sources if source.name in failed_names],
         "items": deduplicated[:max_total],
     }
-
-
-def _canonical_url(url: str) -> str:
-    parsed = urlsplit(url)
-    return urlunsplit(
-        (
-            parsed.scheme.lower(),
-            parsed.netloc.lower(),
-            parsed.path.rstrip("/") or "/",
-            parsed.query,
-            "",
-        )
-    )

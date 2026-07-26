@@ -53,6 +53,9 @@ class AggregationTests(unittest.TestCase):
 
         self.assertEqual([item["title"] for item in result["items"]], ["Newer", "Duplicate"])
         self.assertEqual(result["updated"], self.now.isoformat())
+        self.assertEqual(result["items"][0]["first_seen"], self.now.isoformat())
+        self.assertEqual(len(result["items"][0]["id"]), 64)
+        self.assertIn("tags", result["items"][0])
 
     def test_aggregate_records_partial_failures_in_source_order(self):
         def reader(url):
