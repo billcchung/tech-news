@@ -1,7 +1,421 @@
 {
  "month": "2026-07",
- "updated": "2026-07-29T07:05:11.325583+00:00",
+ "updated": "2026-07-30T07:03:06.188934+00:00",
  "items": [
+  {
+   "title": "The Surprisingly High Cost of ‘Free’ Search Solutions",
+   "link": "https://devops.com/the-surprisingly-high-cost-of-free-search-solutions/",
+   "summary": "Not long ago, some business leaders seemed to view enterprise search as a “nice-to-have.” Or, at the very least, they considered it more of a supporting utility than a strategic, business-critical platform. Organizations use enterprise search tools to help employees locate internal documents and enable support teams to surface relevant information. And, of course, retailers […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-07-29T22:26:22+00:00",
+   "id": "33ad684d880838e408dcb3977b33c110067de707c58edb583649ac38fe54aceb",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Mythos attack on 3rd-round PQC algorithm candidate puts it out of commission",
+   "link": "https://arstechnica.com/security/2026/07/mythos-uncovers-crypto-weaknesses-that-went-unknown-for-years/",
+   "summary": "HAWK withstood years of testing that had yet to uncover a fatal weakness found through Mythos.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-07-29T22:07:06+00:00",
+   "id": "644500d3f071dce6fad9ef1fad9725a1e8dd70129d4ee4beaf12dfc8bc211c64",
+   "tags": [],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "OpenAI Open Sources Codex Security CLI for the Merge Path",
+   "link": "https://devops.com/openai-open-sources-codex-security-cli-for-the-merge-path/",
+   "summary": "OpenAI has released its Codex Security command-line interface and software development kit as open source software under the Apache 2.0 license, providing a new way to bring its AI security scanner into development workflows. The CLI can scan repositories, review staged and unstaged changes before a commit, compare findings across scans and export results for […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-07-29T22:03:40+00:00",
+   "id": "3acc69978f5c9329f1b1b2b1bb7c1c5269748a31bbf2ee35c91c8dfa51886f78",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "How the controller-runtime Cache Actually Works, and Why Your Controller Does Not Crash the API Server",
+   "link": "https://kubernetes.io/blog/2026/07/29/controller-runtime-cache-explained/",
+   "summary": "Kubernetes has long been the default platform for distributed workloads, and writing your own controller for it is now a matter of a few hours. The common path — Golang, using kubebuilder on top of controller-runtime — gives you a project scaffold, types, and a reconciler. For typical scenarios that is more than enough. But as soon as load grows or the controller starts behaving in ways you did no",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-07-29T18:00:00+00:00",
+   "id": "9d8af9008162cc0b8bf040258c5e1e26b6db9127647909247f251d4d28087663",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "How an overlooked geothermal plant got a second chance",
+   "link": "https://www.technologyreview.com/2026/07/29/1140896/geothermal-second-chance/",
+   "summary": "In June 2024, a small company called Zanskar purchased a geothermal power plant in New Mexico that was failing fast. The water coming from the underground reservoir was getting colder by the day, making the plant uneconomical to run. Now, two years later, that plant is running at full capacity again, thanks to a new…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-07-29T17:58:44+00:00",
+   "id": "7a0f7af6a414deb47253c5f4b0b2ef6b14d7ad4c643d1dbbb80c6d3e14b87f4a",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "AI Code Generation Raises New Quality Risks",
+   "link": "https://devops.com/ai-code-generation-raises-new-risk/",
+   "summary": "Mladen Lazic, CTO of Scopic, joins Mike Vizard to explain why AI-generated code is outpacing review capacity — and why independent QA agents that never see the source code are becoming essential.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-07-29T17:18:06+00:00",
+   "id": "e19ee8a283c41db938d3468284985bf7f225b3f1a32bdb59dee16fa160e4eda8",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Why Agentic Coding Needs Governance at Scale",
+   "link": "https://devops.com/why-agentic-coding-needs-governance-at-scale/",
+   "summary": "CloudBees CEO Moritz Plassnig joins Alan Shimel to explain why agentic coding is exposing every unfinished piece of the DevOps transformation — and why AI-scale delivery needs AI-scale governance.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-07-29T17:13:32+00:00",
+   "id": "a478c4e8e311512bbc59a2cb40bd1fc5d161c8d2bf115f2cf2253185ba83a8a5",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+   "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-07-29T16:02:10+00:00",
+   "id": "c469407231ee79071f8861869777474876893dca8405489c3db2c6f9928da87b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "The borderless Lakehouse: Bring AWS, Databricks and Snowflake data to your AI agents",
+   "link": "https://cloud.google.com/blog/products/data-analytics/introducing-the-borderless-lakehouse/",
+   "summary": "Today’s data lakehouse is no longer mere data repository, but increasingly a system of action, actively executing tasks via always-on, autonomous AI agents. Rather than waiting for static reports, these agents run continuous, real-time reasoning loops, monitoring supply chains, flagging anomalies, and executing business workflows. To scale this model, AI agents need to access your entire data esta",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-07-29T16:00:00+00:00",
+   "id": "52498f4779e376598471dd6957f8ff01572d7234e6e44f7665fa8616412e5dbb",
+   "tags": [
+    "ai",
+    "cloud",
+    "observability"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Automate data monitoring and root-cause analysis with Looker Agentic Workflows",
+   "link": "https://cloud.google.com/blog/products/business-intelligence/looker-adds-agentic-workflows-for-data-monitoring-and-insights/",
+   "summary": "Traditional business intelligence alerts can only tell you that a metric changed, leaving data analysts to manually hunt through dashboards to figure out why. Today, we are introducing Looker Agentic Workflows in preview, a new capability in Looker that automates both metric monitoring and root-cause analysis, using intelligent background agents. With Conversational Analytics in Looker, teams can ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-07-29T16:00:00+00:00",
+   "id": "e6d90913e3613e9a105550597677349f50498186e78e9a1271a8ce8acf014ec6",
+   "tags": [
+    "cloud",
+    "observability"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Automate your agent development lifecycle using any coding agent",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/automate-agent-development-lifecycles-with-gemini-enterprise/",
+   "summary": "Welcome to our latest Gemini Enterprise Agent Platform deep dive, a practical walkthrough where we’ll teach you how to build real-world, production-ready agents starting from step 1. If you haven’t already, tune into our livestream to guide you through the entire agentic lifecycle and read more in our announcement blog . Most AI projects get stuck in prototype mode. Moving from a local script to a",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-07-29T16:00:00+00:00",
+   "id": "ada51a8ee5505cb285a9b9302357cd9d39614e163526c27ebcafce39254af4a7",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "What’s new in Gemini Enterprise Agent Platform",
+   "link": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise-agent-platform/",
+   "summary": "Since we launched Gemini Enterprise Agent Platform a few months ago, we’ve seen inspiring progress from businesses and builders alike. To stir up development, we’ve also shared 13 demos that can walk you through the versatility and power of Agent Platform, and 20 questions you can ask your teams about building a solid agentic foundation. Meanwhile at Google Cloud, our teams have been hard at work ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-07-29T16:00:00+00:00",
+   "id": "493d5f73653f0eaceb64ca5555d233fd288f8cf4d67c05daa8408f1928554bb5",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
+   "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
+   "summary": "Dependabot keeps your dependencies current, but its defaults can flood your repository with pull requests. Here's how grouping updates, slowing the cadence, and keeping security fixes fast cut the noise on a Microsoft open source project. The post Tame Dependabot: Group your updates, slow the cadence, keep security fast appeared first on The GitHub Blog .",
+   "source": "GitHub Engineering",
+   "category": "Software Engineering",
+   "published": "2026-07-29T16:00:00+00:00",
+   "id": "930d2a6442fd3ef5f50894dc7c56f10ca0dd1d262d09b77df3a47590ed1e00ee",
+   "tags": [
+    "dev-tools",
+    "open-source",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+   "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+   "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-07-29T15:00:00+00:00",
+   "id": "265c6a0134aba9b6d5ff886a2c1062b903d9dc8f0af87700b1f7d6960b8f6865",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Negotiating Your Salary Is About More Than Money",
+   "link": "https://spectrum.ieee.org/how-to-negotiate-your-salary",
+   "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! Scroll through LinkedIn right now and you may find the same advice repeated by well-meaning people: “In a market this rough, just be grateful anyone ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-07-29T14:55:45+00:00",
+   "id": "fa4a3e817080a5c6e407db07afd140fea0bd23b08d55d19c2fa5ea17388f32a1",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Siobahn Day Grady Wants Everyone to Be AI Literate",
+   "link": "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu",
+   "summary": "Artificial intelligence is reshaping the skills employers expect from new graduates. In response, universities are scrambling to launch new courses, research centers, and industry partnerships that prepare students for today’s workforce. But building a cutting-edge AI curriculum demands funding and access to industry networks, resources that remain unevenly distributed across higher education. At ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-07-29T14:00:02+00:00",
+   "id": "a1ba55cf7cb792e045b8a24503c5e9e83cd6beb5af36f3967f2d93532bc9f88d",
+   "tags": [
+    "ai",
+    "hardware",
+    "networking",
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Sweet Security Brings Autonomous Protection to the AI Enterprise with New Blocking Capabilities",
+   "link": "https://devops.com/sweet-security-brings-autonomous-protection-to-the-ai-enterprise-with-new-blocking-capabilities/",
+   "summary": "Las Vegas, USA, 29th July 2026, CyberNewswire",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-07-29T13:01:06+00:00",
+   "id": "4e339924d79295cf392e3e3a94dddabe4867b20701cec2a5e70563b1b1a31017",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Post-quantum authentication to origins is now supported",
+   "link": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/",
+   "summary": "Cloudflare now supports post-quantum (PQ) authentication when connecting to customer origin servers via Authenticated Origin Pulls and Custom Origin Trust Store. This is the first step towards providing PQ authentication for all Cloudflare products.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-07-29T13:00:00+00:00",
+   "id": "0702c15267480d5113f28f420b3726c8dd8b2a6a781e6a9b7f26677f0a8945cd",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "The Download: a chip talent battle, and deflating AI hype",
+   "link": "https://www.technologyreview.com/2026/07/29/1140884/the-download-chip-talent-battle-deflating-ai-hype/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Samsung’s chip workers are jumping ship to rival SK Hynix Lee, an engineer at Samsung’s semiconductor division, used to work late. But lately, he’s been clocking out on time and heading…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-07-29T12:10:00+00:00",
+   "id": "2c4565c021a335f613293df1a7453d30be2b70b8b458720d20f269e59aa4a065",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Microsoft Three-Layer LLM Routing Architecture for AI Agents on AKS",
+   "link": "https://www.infoq.com/news/2026/07/microsoft-agents-aks-routing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Microsoft has released a reference architecture for routing agent traffic on Azure Kubernetes Service. It breaks down the issue into three key choices: which model answers a call, how the call is managed, and which GPU replica handles it. By Claudio Masolo",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-07-29T12:00:00+00:00",
+   "id": "eece6d542c75b62031e1af17064a19886240c74a2444cdf98ee2d240734d07d1",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "hardware",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "AI Is Hyper-Scaling Digital Inequality",
+   "link": "https://spectrum.ieee.org/ai-digital-divide",
+   "summary": "Artificial intelligence is rapidly becoming part of everyday infrastructure–in some places. It helps write emails and software code, filters job applications, powers recommendation systems, and is increasingly being integrated into education, health care, finance, and public administration. Industry leaders talk about “AI for everyone,” while governments rush to publish national AI strategies and ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-07-29T11:00:04+00:00",
+   "id": "62ef58c30416a271297b57844e8a3dc9ce5acc40e85b863a0650982171163035",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Your Kubernetes health checks are accidentally waking your services. Here’s the fix.",
+   "link": "https://www.cncf.io/blog/2026/07/29/your-kubernetes-health-checks-are-accidentally-waking-your-services-heres-the-fix/",
+   "summary": "Scale-to-zero breaks when health checks scale you back up. Learn how KubeElasti’s ProbeResponse lets Kubernetes services stay genuinely idle — while keeping load balancers and uptime monitors happy. Scale-to-zero sounds perfect on paper. Idle service. No...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-07-29T11:00:00+00:00",
+   "id": "c77be5ee549ee2643ca46c91af8c090a89f1a995d62cfa7c096f7e795ffd3492",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source",
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Cloudflare Makes Internal DNS Generally Available",
+   "link": "https://www.infoq.com/news/2026/07/cloudflare-internal-dns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has launched its Internal DNS service, providing authoritative and recursive DNS for private networks. This service simplifies DNS management by consolidating private and public DNS operations on a single platform. By Gianmarco Nalin",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-07-29T10:30:00+00:00",
+   "id": "203f798947ae31aaad1f51fb3eeda571d828a14fd84ccf33d5f5b80cf4e91700",
+   "tags": [
+    "architecture",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Presentation: Getting Rid of LeetCode Interviews in the World of AI",
+   "link": "https://www.infoq.com/presentations/ai-lead-interview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Daniel Doubrovkine explains why traditional LeetCode whiteboard interviews fail to evaluate senior engineering talent. He discusses his own experience bombing basic algorithm tests despite decades of leadership, and shares actionable frameworks for redefining the interview loop. Discover how evaluating human judgment, system design, and hands-on AI collaboration yields far better hiring signals. B",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-07-29T10:25:00+00:00",
+   "id": "59ae74ce632289fd1636203a21d3d31e9f87d13b56997ee1e86d6fe374981053",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+   "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+   "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-07-29T10:00:00+00:00",
+   "id": "47da73cdc4f72b4cf63e62ddec1cddac6d047b374618b3abac91adde86c4557b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway",
+   "link": "https://www.infoq.com/articles/securing-mcp-production-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This article presents a defense-in-depth approach for securing Model Context Protocol (MCP) deployments in production. It outlines four architectural control layers: safe execution, management infrastructure, outbound trust, and semantic integrity, arguing that production security requires enforcement beyond the gateway at the earliest trustworthy control points. By Nik Kale",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-07-29T09:00:00+00:00",
+   "id": "b3e544440cc4b64197824c695c22afb24c4831ee2958a237017b224f2dd2fc5f",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": "The AI Hype Index: Unsexy AI",
+   "link": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+   "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-07-29T08:42:57+00:00",
+   "id": "f3ba6426979fb08a9d87fb1cf8a383b64b454b4a32dabe966a33c8febc37e9bd",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
+  {
+   "title": ".NET 11 Preview 6 Modernises MAUI CollectionView and Android Shell",
+   "link": "https://www.infoq.com/news/2026/07/net-maui-11-preview-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Microsoft has released .NET 11 Preview 6 with several architectural and reliability improvements for .NET MAUI. The update brings the next-generation CollectionView implementation to Windows, moves Android Shell toward the handler model, improves Native AOT compatibility, and adds recovery support for interrupted media-picker operations. By Edin Kapić",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-07-29T08:00:00+00:00",
+   "id": "2eb4d538c33db49b112d4c1b05986ecb26939a2686251db2e4ec5f2745b420c5",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
+  },
   {
    "title": "CNCF and SlashData Report Finds Japan’s Cloud Native Community Reaches Nearly 1 Million Developers",
    "link": "https://www.cncf.io/announcements/2026/07/28/cncf-and-slashdata-report-finds-japans-cloud-native-community-reaches-nearly-1-million-developers/",
@@ -62,6 +476,20 @@
     "open-source"
    ],
    "first_seen": "2026-07-29T07:05:11.325583+00:00"
+  },
+  {
+   "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+   "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+   "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-07-29T00:00:00+00:00",
+   "id": "eb71f165025c2507b7b7067abfaf7b4dd62559816723e433f19a86477a150965",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-07-30T07:03:06.188934+00:00"
   },
   {
    "title": "How Japan’s 250% Training Surge is Shaping Global AI Talent",
