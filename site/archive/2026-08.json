@@ -1,7 +1,404 @@
 {
  "month": "2026-08",
- "updated": "2026-08-05T07:03:27.633658+00:00",
+ "updated": "2026-08-06T07:03:47.487026+00:00",
  "items": [
+  {
+   "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
+   "link": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Running AI agents on Kubernetes raises a key question: should each agent get its own Pod? The kagent project argues no—agents are bursty, short-lived, can spawn subagents, and may wait for human approval, making one Pod per agent wasteful. Agent-substrate adds a control plane to schedule logical “Actors” onto long-lived worker Pods. By Mark Silvester",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-06T06:00:00+00:00",
+   "id": "1989176ae068c7457ad16c06a3e971b1593a5b26e19643ff7dca0c1941f8c0ee",
+   "tags": [
+    "ai",
+    "architecture",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
+   "link": "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Vercel Labs has introduced Zero, an experimental systems programming language aimed at AI rather than human users. It employs unique features like a specific toolchain contract and structured error messages. Reaching version 0.3.4, it compiles to native binaries for major operating systems. The language prioritizes size, speed, and agent usability, though it is still in development. By Daniel Curt",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-06T05:51:00+00:00",
+   "id": "3a15d7a8659ebb3a7418d2cc8b82d7c2de37163a229582e2b411029caa9c4680",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
+   "link": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
+   "summary": "We're honored to announce that Cloudflare is the only vendor that has been recognized as a Visionary in both the 2026 Gartner® Magic Quadrant™ for SASE Platforms and the 2026 Gartner® Magic Quadrant™ for Security Service Edge reports.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-05T23:24:51+00:00",
+   "id": "decb3be3119c4cfdec2b110449f568cccda5d30bea4943b85984ee82797e3360",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
+   "link": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+   "summary": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-08-05T22:35:20+00:00",
+   "id": "c0c8850272a8a8d9e461ea16ce04631e6caa323d1bb0f7d9f5e52391d7d2be55",
+   "tags": [
+    "security"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Sandbox Testing for API-Heavy Systems: What Changes When You Don’t Own the Dependency",
+   "link": "https://devops.com/sandbox-testing-for-api-heavy-systems-what-changes-when-you-dont-own-the-dependency/",
+   "summary": "Sandbox testing works well when your team controls both sides of the integration. You define the service, you define the mock, you know exactly what the sandbox should return. That setup holds up fine for internal microservices and first-party APIs. It starts to break down when you don’t own the dependency. Payment processors, identity providers, […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-05T21:13:16+00:00",
+   "id": "a90b5a0b28835189e298de984c4354ba8482f871c2dbcc01b0762e76859d2f81",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "AWS Adds Agentic Workspace to Kiro AI Coding Tool",
+   "link": "https://devops.com/aws-adds-agentic-workspace-to-kiro-ai-coding-tool/",
+   "summary": "Amazon Web Services (AWS) this week added an open source workspace for its Kiro artificial intelligence (AI) coding tool that enables application developers to asynchronously assign tasks to an AI agent that is capable of autonomously performing tasks, such as testing code as it is created, in a way that maintains context across multiple sessions. […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-05T20:11:20+00:00",
+   "id": "ec4e3da318d1312b38af86aecb4380f56d0356b32dee48f207854a91ff444247",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+   "link": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
+   "summary": "Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point , according to the U.S. Department of Energy . Built decades ago for a more predictable world in which power came mostly from centralize",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-05T18:00:03+00:00",
+   "id": "7ee15b010b037053e75fd9c23b0ab14cfef0fbbbb6e3ce5e862c840f5eaa406d",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Scaling agentic AI: How UiPath built its high-performance GPU platform on AI Hypercomputer",
+   "link": "https://cloud.google.com/blog/topics/customers/how-uipath-built-its-high-performance-gpu-platform/",
+   "summary": "As a market leader in enterprise agentic automation and business orchestration, UiPath is helping to pioneer an industry shift toward agentic AI. With it, the company is deploying autonomous agents to actively reason, make decisions, and execute complex business processes across its disparate systems. This transition from simple task automation to cognitive decision-making agents requires a massiv",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-05T16:00:00+00:00",
+   "id": "a6c58d6b0e0e9b0f856343dcdd34f33deed1b6ae9137248f88eb90391adb5cdf",
+   "tags": [
+    "ai",
+    "cloud",
+    "hardware"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Solving the \"Noisy Neighbor\": How Sharded Architecture Protects Multi-Tenant Platforms",
+   "link": "https://cloud.google.com/blog/products/data-analytics/solving-the-noisy-neighbor-with-sharded-architecture/",
+   "summary": "Whether you are a multi-tenant SaaS provider, a large enterprise managing internal data platforms, or a company handling mixed-workload data processing, managing a shared infrastructure environment means facing a common threat: the 'noisy neighbor'. A single tenant with a massive data burst or a failing database instance can bring down the entire neighborhood, manifesting as significant backlog ac",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-05T16:00:00+00:00",
+   "id": "2858148ba3b51f1377f6e5732633b256149a0ad44f920672bccefff8e40d8ce9",
+   "tags": [
+    "architecture",
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "K8gb becomes a CNCF incubating project",
+   "link": "https://www.cncf.io/announcements/2026/08/05/k8gb-becomes-a-cncf-incubating-project/",
+   "summary": "The CNCF Technical Oversight Committee (TOC) has voted to accept Kubernetes Global Balancer (K8gb) as a CNCF incubating project. About K8gb K8gb is an open source, cloud native Global Server Load Balancing (GSLB) solution designed specifically...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-05T16:00:00+00:00",
+   "id": "06d3a8950f7da3a5c1c845f9a038b59650422c474de3b7f88e1c435e6d3e8969",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "HCP Terraform is the control plane for AI-driven infrastructure",
+   "link": "https://www.hashicorp.com/blog/hcp-terraform-is-the-control-plane-for-ai-driven-infrastructure",
+   "summary": "AI agents author and run Terraform on their own. HCP Terraform makes autonomy accountable: provenance, policy, identity, isolation, and audit.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-05T16:00:00+00:00",
+   "id": "e6867a29d9acc6ee31f84e9ba50eca0b347d3406a0e96888384ceffee90653a1",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Puzzle Corner",
+   "link": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/",
+   "summary": "Ready for a fresh set of puzzles? Click here for the September/October 2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the Puzzle Corner Puzzle Crew (aka PC2), which also includes Edward Faulkner ’03, MEng ’04, and Abe Kunin ’03. This column includes solutions to the May/June issue. Send problems, solutions (by October…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-05T14:56:29+00:00",
+   "id": "2e0d7f90ec126ea1e22ae241d7dd64634a003c77dd324d15e46841cd976cc59a",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Amazon DynamoDB now supports real-time vector search at any scale",
+   "link": "https://aws.amazon.com/blogs/aws/amazon-dynamodb-now-supports-real-time-vector-search-at-any-scale/",
+   "summary": "DynamoDB now supports native vector search with single-digit millisecond latency at 99%+ recall. It is designed for any scale, even trillions of vectors and requires zero infrastructure management.",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-05T14:45:10+00:00",
+   "id": "da8c7d2f16f27d27a69615b90da5972ec2879901d2f789a881a9fffb4e208462",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "JioHotstar Explains the Distributed Engineering Behind Personalized Ad Requests at Streaming Scale",
+   "link": "https://www.infoq.com/news/2026/08/jiohotstar-ad-decisioning-flow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "JioHotstar explains the distributed architecture behind its real-time ad request workflow, covering ad decisioning, waterfall tiering, pacing algorithms, latency optimization, and service coordination required to select and deliver personalized advertisements during streaming playback at scale. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-05T14:09:00+00:00",
+   "id": "683bb0fc9d43b5609e2e768760d3dda3d356e58efd239183dffd79899afc9b86",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "The Agent Access Model",
+   "link": "https://blog.cloudflare.com/the-agent-access-model/",
+   "summary": "The Agent Access Model proposes a new architecture to secure task-scoped agents using strict identity brokering, continuous mediation, and stateful trust.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-05T13:00:41+00:00",
+   "id": "a652f4f70be70d352ce88b48ba0f578dbfdb665f00d5ba530b06a0c1399c9a8c",
+   "tags": [
+    "architecture",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
+   "link": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
+   "summary": "We built Cloudflare OS to equip our teams to safely rethink how they get work done with AI. The platform brings together the best of our technologies, from our Compute primitives to our Zero Trust suite. This post walks through our journey to give our users the best AI tools available.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-05T13:00:01+00:00",
+   "id": "de939e172fb01e7c79cc3fd63aeec4378d457f494b4cc570eab12e4f6110dd1b",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Unlocking the future of shared storage: Filestore on Colossus",
+   "link": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-file-service-runs-on-colossus/",
+   "summary": "Today, enterprise storage must be as agile, elastic, and responsive as the workloads it supports. Filestore, Google Cloud’s first-party, secure, scalable NFS file service, can service a wide-range of enterprise use cases as well as cutting-edge AI and agentic workflows. Today, we’re sharing a major enhancement: Filestore now incorporates a cloud-native backend storage layer built directly on Colos",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-05T13:00:00+00:00",
+   "id": "18062fea032b40311b8639c08023d1b1f9bb9bb4310b73fdbee354957ba0754f",
+   "tags": [
+    "ai",
+    "cloud",
+    "cloud-native"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Cloudflare OS: an open platform for agents, apps, and work",
+   "link": "https://blog.cloudflare.com/cloudflare-os/",
+   "summary": "Cloudflare OS is an open-source platform that lets everyone in your company build apps, automate work, and safely access internal systems, shaped around what your organization knows and how it operates",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-05T13:00:00+00:00",
+   "id": "6fd49dfa949117ea383fd0ed8e19fbdadddd178c9a4fc42500531da4f8ae18ad",
+   "tags": [
+    "cloud",
+    "networking",
+    "open-source",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "WriteGuard: fine-grained controls for MCP Servers",
+   "link": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
+   "summary": "At Cloudflare, we knew we could not depend on every employee to configure every agent perfectly or watch every tool call. Before expanding write access across our own internal MCP servers, we built WriteGuard. We are now bringing those controls to Cloudflare MCP server portals through a private beta.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-05T13:00:00+00:00",
+   "id": "dfea5af212ed73e31f50d8fbe5664b9634e6252a9a21c7dfa999602a7040892d",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Catching rogue AI behavior with identity-aware analytics",
+   "link": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
+   "summary": "Identity-aware AI Gateway is now in open beta. User Insights turns that traffic into a behavioral baseline for every person and agent, and flags insider risk the moment it appears.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-05T13:00:00+00:00",
+   "id": "8f0f28cf6b2ac41267b39968d57a0dd4700927005315bd55c060b827b22f388f",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "The Download: NASA’s new telescope and Chinese tech import curbs",
+   "link": "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. NASA’s new dark energy space telescope can also detect killer asteroids At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-05T12:10:00+00:00",
+   "id": "caba151a8c07fef29d8c2ed88fbe1b1cd90fee8bc50cc8ac922b6616a5826cf1",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "OpenCost 1.121.0: First-of-a-kind Kubernetes inference cost tracking",
+   "link": "https://www.cncf.io/blog/2026/08/05/opencost-1-121-0-first-of-a-kind-kubernetes-inference-cost-tracking/",
+   "summary": "Your GPU bill is rising. Your models are serving billions of tokens. Yet one question remains unanswered: what does each token actually cost? This is not a hypothetical problem. Platform teams today operate in a fog...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-05T11:00:00+00:00",
+   "id": "ddf9beb428abda38eeb1d537c6d6a56a3b20a8393c2d0cd7e951cc6a4687052a",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "open-source",
+    "privacy"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Presentation: Automatically Retrofitting JIT Compilers",
+   "link": "https://www.infoq.com/presentations/yk-meta-tracing-jit-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Laurence Tratt discusses yk, an open-source meta-tracing JIT compiler framework. He shares how to automatically speed up C-based language interpreters like Lua and MicroPython with minimal, non-invasive code changes. He explains the inner workings of tracing loops, optimizing compiled traces using developer hints, and managing complex deoptimization back to the interpreter. By Laurence Tratt",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-05T11:00:00+00:00",
+   "id": "0056f5a073265454b08c9d5b0a088f493d903d71037f1ffe2cecba60cddea71e",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "observability",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "NASA’s new dark-energy space telescope can also detect killer asteroids",
+   "link": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
+   "summary": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its goal is to help us better understand how the universe works, from the glue-like dark matter that keeps galaxies together to the elusive dark energy that drives the expansion of the cosmos.…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-05T08:06:40+00:00",
+   "id": "5d42b515c78fd2f299d98853debaf9521aca5e09e47e807f0f246232b671e4f2",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "Ponytail Agent Skill Corrects Its Own Benchmark After Contributor Challenge",
+   "link": "https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "A single-author repo of instruction files, not code, Ponytail passed 44,000 GitHub stars in nine days by making coding agents stop over-building. Its headline claim of 80-94% less code came from a flawed baseline; after a contributor said so, the maintainer rebuilt the benchmark as a real agentic run and published a lower figure of 54%. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-05T08:05:00+00:00",
+   "id": "4200e30d50170256d09d9a0f771144cfd848060712070a2860d6e652dd4d05e4",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "programming",
+    "research"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "SkiaSharp 4.0 Establishes Milestone-Aligned Release Cadence",
+   "link": "https://www.infoq.com/news/2026/08/skia-sharp-4-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Microsoft and Uno Platform have released the first stable versions in the SkiaSharp 4 series, beginning with SkiaSharp 4.148.0 and followed shortly afterward by 4.150.0. A 4.151.0 prerelease line is also available, demonstrating the project’s new approach of aligning package versions and release cadence with upstream Skia milestones. By Edin Kapić",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-05T08:00:00+00:00",
+   "id": "63c9a6787eb23a69921afe6a6b67ab70c87645e1d9b8e95cd15c01f447c0681b",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
   {
    "title": "RapidFort Extends Open Source Software Security Reach to Runtime Environments",
    "link": "https://devops.com/rapidfort-extends-open-source-software-security-reach-to-runtime-environments/",
@@ -306,7 +703,7 @@
    "first_seen": "2026-08-05T07:03:27.633658+00:00"
   },
   {
-   "title": "The Download: US robot restrictions, and ICE’s DNA grab",
+   "title": "The Download: US robot restrictions and ICE’s DNA grab",
    "link": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Trump’s AI protectionism has come for robotics —James O’Donnell Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s…",
    "source": "MIT Technology Review",
@@ -354,7 +751,7 @@
   {
    "title": "You can’t debug what you can’t see — Observability for AI Agents",
    "link": "https://www.cncf.io/blog/2026/08/04/you-cant-debug-what-you-cant-see-observability-for-ai-agents/",
-   "summary": "Traditional APM can’t tell you why your agent spent far more than usual asking the same question three times. We’ve been running AI agents in production for months. The hardest part isn’t building them, it’s understanding...",
+   "summary": "This article reflects practical experience building and operating production AI agent systems. Traditional APM can’t tell you why your agent spent far more than usual asking the same question three times. We’ve been running AI agents...",
    "source": "CNCF",
    "category": "DevOps & Reliability",
    "published": "2026-08-04T11:00:00+00:00",
@@ -578,7 +975,7 @@
   {
    "title": "Real-world mainframe modernization with AI: A safe, scalable path from mainframe to cloud",
    "link": "https://cloud.google.com/blog/products/infrastructure-modernization/mainframe-migration-and-modernization-with-ai/",
-   "summary": "For too long, enterprises with legacy mainframe estates have been faced with a high-stakes dilemma: continue maintaining their mainframes, essentially kicking the modernization can down the road (they know they will need to deal with it eventually), or perform a dangerous \"big bang\" migration with many unknowns and risks. At Google Cloud, we propose an alternative: a modernization strategy that le",
+   "summary": "For too long, enterprises with legacy mainframe estates have been faced with a high-stakes dilemma: continue maintaining their mainframes, essentially kicking the modernization can down the road (fully aware that delayed action only compounds future technical debt), or perform \"big bang\" modernization with more unknowns and risks. At Google Cloud, we propose an alternative: a modernization strateg",
    "source": "Google Cloud Blog",
    "category": "Cloud & Infrastructure",
    "published": "2026-08-03T17:00:00+00:00",
@@ -775,7 +1172,7 @@
    "first_seen": "2026-08-04T07:01:59.311067+00:00"
   },
   {
-   "title": "The Download: reward hacking explained, and suspected Iranian cyberattacks",
+   "title": "The Download: reward hacking explained and suspected Iranian cyberattacks",
    "link": "https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/",
    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Face last month, they weren’t trying to make money or commit sabotage—they were…",
    "source": "MIT Technology Review",
