@@ -1,7 +1,417 @@
 {
  "month": "2026-08",
- "updated": "2026-08-06T07:03:47.487026+00:00",
+ "updated": "2026-08-07T06:31:32.850113+00:00",
  "items": [
+  {
+   "title": "npm Staged Publishing Available, Adding a Human Approval Step Before Packages Go Live",
+   "link": "https://www.infoq.com/news/2026/08/npm-stage-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "npm has introduced staged publishing for Node.js, requiring maintainer approval before a version is installable. Versions are queued and must pass a two-factor authentication challenge for release. This feature aims to enhance security amid rising supply chain threats. It is available in npm CLI 11.15.0+ and Node 22.14.0+, alongside new configurable permission flags. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-07T06:12:00+00:00",
+   "id": "0c2d027d78dbb3520d3671eaae332eab8e30173677f5ec83b21e8ce630d2d259",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Runtime instances: persistent compute for production AI agents on Amazon Bedrock AgentCore",
+   "link": "https://aws.amazon.com/blogs/aws/runtime-instances-persistent-compute-for-production-ai-agents-on-amazon-bedrock-agentcore/",
+   "summary": "Announcing runtime instances in Amazon Bedrock AgentCore—persistent, managed EC2 infrastructure for production AI agents with multi-agent collaboration, GPU support, and sessions lasting up to 14 days.",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T22:58:00+00:00",
+   "id": "359e8e10191f153b3fc77a1bf9a26d4929ada28159772321edb2125468ca7ca3",
+   "tags": [
+    "ai",
+    "cloud",
+    "hardware"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Why Reliability Guardrails Are Needed in Every AI Coding Pipeline",
+   "link": "https://devops.com/why-reliability-guardrails-are-needed-in-every-ai-coding-pipeline/",
+   "summary": "We’re in the middle of a reliability reckoning. Thanks to AI, companies are shipping code much faster than before. But if there’s anything to learn from the surge in high-profile outages over the last couple of years, it’s that with more code comes more reliability risks. And when those risks do lead to an outage, […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-06T20:47:04+00:00",
+   "id": "0db1a2608e36c4945d811c934c73172640cf2772a5f8ae39534aa5a4dd027cd5",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Meta Launches AI Coding Agent to Challenge OpenAI and Anthropic",
+   "link": "https://devops.com/meta-launches-ai-coding-agent-to-challenge-openai-and-anthropic/",
+   "summary": "In an effort to catch up with OpenAI and Anthropic in one of AI’s fastest-growing markets, Meta has launched its first AI coding agent, Muse Code, alongside an updated coding-focused AI model. CEO Mark Zuckerberg announced the preview release of Muse Code, describing it as a tool that can handle software engineering tasks from planning […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-06T19:41:45+00:00",
+   "id": "c1657f65d297d12edf2fd3b4581bb9cbf65be894521a8d5368867dc5295be435",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+   "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+   "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&T customers.",
+   "source": "KrebsOnSecurity",
+   "category": "Security & Privacy",
+   "published": "2026-08-06T17:00:56+00:00",
+   "id": "4ef4f6231fd05373ebe4196bba99d48feb1f5fecc2dc68e4fcfe6eaabc4c793f",
+   "tags": [
+    "privacy",
+    "security"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Agentic Future Ready With BigQuery: Continually Improving Price-Performance, Zero Effort",
+   "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-performance-optimizations/",
+   "summary": "In the modern data landscape, query performance tuning and managing system price-performance is challenging, especially as the number of agentic workloads increase. Even for experienced developers and DBAs, constantly analyzing query execution plans, tweaking schemas, and adding query hints with ever exploding volume, variety, and velocity of data is a never-ending cycle that drains business veloc",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T16:00:00+00:00",
+   "id": "702a1361a1af0acdf8fd4f1e1f3f425edd5d9bfdd6116da734391eb08969487b",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Advancing brain tumor research with privacy-first AI",
+   "link": "https://cloud.google.com/blog/products/identity-security/privacy-first-medical-ai-with-medperf-and-google-cloud/",
+   "summary": "The intersection of medicine and AI has led to remarkable innovations. However, developers now face the thorny challenge of building robust medical AI tools that have been tested and evaluated on diverse, real-world patient data while also protecting patient privacy. At Google Cloud, our approach combines strategic collaboration with Confidential Computing. To help protect both patient privacy and",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T16:00:00+00:00",
+   "id": "33d17501913074f0c5e09a7f29fd84cd23a761a668aa2fc5ba79f20c4b78cd2e",
+   "tags": [
+    "ai",
+    "cloud",
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Your agentic summer: No-cost lessons from Google experts to build and scale agents",
+   "link": "https://cloud.google.com/blog/topics/training-certifications/free-gemini-enterrprise-training/",
+   "summary": "I’ve talked to developers, IT leaders, and builders who all ask the same question: How do we actually get agents into production? The answer isn't theoretical — it's hands-on. Whether it’s designing a system that allows your agents to interact with external data sources while maintaining strict security guardrails or creating self-optimizing supply chain workflows or whatever you can think up, we’",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T16:00:00+00:00",
+   "id": "45320acb98f76651ec27937b274b353821dd2d78d7348674409204f2309670b2",
+   "tags": [
+    "cloud",
+    "security"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Digital sovereignty in the age of AI: You don’t have to choose between control and innovation",
+   "link": "https://cloud.google.com/blog/topics/hybrid-cloud/state-of-ai-infrastructure-report-on-hybrid-cloud-and-gdc/",
+   "summary": "For enterprises and governments with strict compliance and sovereignty requirements, keeping sensitive data on-premises often means missing out on the latest AI. These organizations are managing three major risks: Jurisdictional risk: Shifting local regulations, the need to protect intellectual property and the potential of foreign data access requests make local data handling essential. Economic ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T16:00:00+00:00",
+   "id": "2952f94b95ee57b1c6b27ab4d4498c699fa531672e467c4eb6b1e5efbd9c3605",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "AWS Extends DevSecOps Reach to AI Coding Tools from Anthropic and OpenAI",
+   "link": "https://devops.com/aws-extends-devsecops-reach-to-ai-coding-tools-from-anthropic-and-openai/",
+   "summary": "Amazon Web Services (AWS) this week at the Black Hat USA conference revealed it is working with both Anthropic and OpenAI to integrate their respective coding tools with a service it has developed that makes available artificial intelligence (AI) agents to help application developers write more secure code. Launched earlier this year, the AWS Continuum […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-06T15:53:22+00:00",
+   "id": "08715c7e4be6bb7ec0a21d4fe4e69ac0c9caa5377899afaa0d8050a1bce3293e",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+   "link": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-08-06T15:06:15+00:00",
+   "id": "ebc5821a44c45c7a5386a7b98a285e9f1b977894a7f66b75b993a724c0e9fd04",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools",
+   "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-augmented-code-modernization-tools/",
+   "summary": "GitHub Copilot and Azure are helping organizations modernize legacy applications, reduce technical debt, and prepare for AI innovation. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI-Augmented Code Modernization Tools appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T15:00:00+00:00",
+   "id": "bc391b76d98b16785255c164d9d3856081c57140205727ba817056f350624fdd",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
+   "link": "https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments/",
+   "summary": "Written by: Tyler McLellan, Austin Larsen Introduction Google Threat Intelligence Group (GTIG) continues to track UNC6671 actively conducting compromises leading to data theft extortion, despite the alleged announced retirement of the BlackFile extortion brand in May 2026. Telemetry and infrastructure analysis reveal that rather than disbanding, UNC6671 has diversified its operations across multip",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T14:00:00+00:00",
+   "id": "0f56214542b30c75b57a5d3d0305575ef270a35248d8343bbcf25cf829292a51",
+   "tags": [
+    "cloud",
+    "observability"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Mirendil taps AI Hypercomputer TPUs and GPUs for pre- and post-training applications",
+   "link": "https://cloud.google.com/blog/topics/startups/mirendil-selects-ai-hypercomputer/",
+   "summary": "Nearly every major AI lab uses Google Cloud infrastructure, including for training of models, inference for agents, and new frontier research. Google Cloud also continues to be the platform of choice for new, high-growth AI startups who are driving much of the industry’s research and innovation. Today, we’re announcing that Mirendil , an exciting frontier AI lab focused on accelerating AI developm",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T13:00:00+00:00",
+   "id": "a4aefe232f6230b1bc3f8990c90fc0f41eb92c66c794955ea4bf5d1e69a4f003",
+   "tags": [
+    "ai",
+    "cloud",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Cloudflare AI Search: give your agents a search engine for your data",
+   "link": "https://blog.cloudflare.com/ai-search-easier/",
+   "summary": "AI Search makes search easier than ever, with no Cloudflare primitives to stitch together. Point it at your data to create a search for your own files and websites. We're also sharing a preview of our new pricing model.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T13:00:00+00:00",
+   "id": "f954d86e102f2f9321c15cd22c5458a8b70d4bb3dfdf98bb385a43e101ff9fd0",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "The next generation of MCP",
+   "link": "https://blog.cloudflare.com/mcp-v2/",
+   "summary": "The next version of MCP has a rewritten, stateless core that just works on Workers. We cover upgrades to the protocol, the new feature lifecycle and SDK migration path, and hear from early adopters already running it in production.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T13:00:00+00:00",
+   "id": "f3d7b89cf654e34d7b3c039dbe7504e91728f91977512d8efd70770445b2683d",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
+   "link": "https://blog.cloudflare.com/aeo/",
+   "summary": "More than half of requests now come from machines, not people. Agent Readiness shows how well agents can discover and read your site, while Answer Engine Optimization tracks how often AI assistants recommend you.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T13:00:00+00:00",
+   "id": "df6247db840a99f65ea3d7e753b971d7cb68f09ba6d7b71378147a2320304c0b",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
+   "link": "https://blog.cloudflare.com/the-agentic-internet/",
+   "summary": "Agents are a new kind of visitor. They don't render CSS or click ads, but they have a paying human on the other end. Block them and you block your customer. We're building the open tools and protocols so publishers and agents can cooperate and not collide.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T13:00:00+00:00",
+   "id": "e59e91879b325c7b98284fe80a7c4e3d71be223cbeba4d912d0a788e94273742",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+   "link": "https://blog.cloudflare.com/kitesurf/",
+   "summary": "We should be giving all agents tools that excel at what’s important for an AI model. Kitesurf is Cloudflare’s new stateless, highly scalable, and cost-effective web browser that runs entirely on top of Workers and was designed specifically for the Agentic Cloud.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T13:00:00+00:00",
+   "id": "40f5467ebbabf387c83fc8e85a05973faef1d0a503fabb8bebc1020390d3b93e",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Give any website a WebMCP interface",
+   "link": "https://blog.cloudflare.com/webmcp/",
+   "summary": "Today we're launching a developer preview of WebMCP on Cloudflare. With one switch, any site becomes usable by browser AI agents — no new APIs, no origin changes — while the human stays in control and creators keep their traffic.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-06T13:00:00+00:00",
+   "id": "9bc2fea669f83e1e583ae2572db362ec6827ddabd7dd41a8af035d1bfb1237fc",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
+   "link": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship model, and murmurings of poor morale,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-06T12:10:00+00:00",
+   "id": "9067d55d9edd35cd6e87f4b8b0abb8c56224ec944ca06625d968a5fcd4560404",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "From Projects to Products: Turning Platforms into Products People Use",
+   "link": "https://www.infoq.com/news/2026/08/platform-products-people-use/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Having a platform is not enough; the real challenge is ensuring that it is understandable, usable, and actually adopted by its users. A capability is done when it can be reliably used by others. To evaluate progress, you can ask yourself “Is this being used?” and “Does it reduce friction for users?” This can help align development work with actual user value rather than delivery, By Ben Linders",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-06T11:59:00+00:00",
+   "id": "193a980e970fb0f504352d91089d20f98ceb485998f6eb23bb8b755857a2c502",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "LitmusChaos Q1-Q2 2026 update: community, contributions, and project progress",
+   "link": "https://www.cncf.io/blog/2026/08/06/litmuschaos-q1-q2-2026-update-community-contributions-and-project-progress/",
+   "summary": "About LitmusChaos LitmusChaos is an open source chaos engineering platform that helps teams identify weaknesses and potential outages in their infrastructure by running controlled chaos experiments. Built on cloud native principles, LitmusChaos enables teams to validate...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-06T11:30:00+00:00",
+   "id": "6f306c114fb3fdb9fa54a3a0112605cce0e0652312b268caf1f0d7c706f6de32",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+   "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+   "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-06T10:00:00+00:00",
+   "id": "b1c9322e571fec76add6efbb8731702af6e8bef4bc88e55c10f99eba51b1b389",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Presentation: From ms to µs: OSS Valkey Architecture Patterns for Modern AI",
+   "link": "https://www.infoq.com/presentations/valkey-architecture-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Dumanshu Goyal discusses optimizing data layers for low-latency workloads like AI feature stores. Drawing lessons from NASA's Space Shuttle, he explains how proxy architectures introduce hidden CPU costs, elevated tail latencies, and blast-radius risks. He demonstrates how direct-access Valkey architectures achieve microsecond latency, improve resilience, and slash infrastructure costs. By Dumansh",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-06T09:34:00+00:00",
+   "id": "c45ba9f62626fb3e136e957449591a28d409640a7b856b3ae1af44af91092bcc",
+   "tags": [
+    "ai",
+    "architecture",
+    "hardware",
+    "programming"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Wiz Discloses CosmosEscape, and Practitioners Debate What Customers Could Have Done",
+   "link": "https://www.infoq.com/news/2026/08/cosmosescape-master-key/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Wiz Research disclosed CosmosEscape, a chain that escaped Azure Cosmos DB's Gremlin sandbox and reached a platform-wide key granting read and write access to every database on the service. Microsoft blocked the entry point within two days but took until July 2026 to remove the key. Practitioners debated shared responsibility and what that rearchitecture actually cost. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-06T09:21:00+00:00",
+   "id": "b6c25a28581f37bdc28347a6011ce1487722687e61c1320920d0f5c156956b09",
+   "tags": [
+    "architecture",
+    "cloud",
+    "databases",
+    "programming",
+    "research"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Article: Runtime-Agnostic AI Workflows: A Pattern for Production Durability and Fast Eval Iteration",
+   "link": "https://www.infoq.com/articles/ai-workflow-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AI workflows have two needs that trade off directly. Running reliably in production requires persisting and distributing every step so it survives crashes, deploys, and restarts. But that same machinery is what makes runs too heavy for the fast, throwaway loop you need to check an LLM's output quality. The properties that buy durability are the ones that kill iteration speed. By Mateus Moury",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-06T09:00:00+00:00",
+   "id": "b2ddab7a4fa2288ce7e2a14f72496f66602e8493a0bb4eab19d82b637230ce4a",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
   {
    "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
    "link": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -19,6 +429,20 @@
    "first_seen": "2026-08-06T07:03:47.487026+00:00"
   },
   {
+   "title": "Working with the American Psychological Association on youth mental health and AI",
+   "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+   "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-06T06:00:00+00:00",
+   "id": "0c4923a8268d927d546252610841ad4a1fc1c83aca865bccdf7cd8269d11f0bf",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
    "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
    "link": "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Vercel Labs has introduced Zero, an experimental systems programming language aimed at AI rather than human users. It employs unique features like a specific toolchain contract and structured error messages. Reaching version 0.3.4, it compiles to native binaries for major operating systems. The language prioritizes size, speed, and agent usability, though it is still in development. By Daniel Curt",
@@ -32,6 +456,34 @@
     "programming"
    ],
    "first_seen": "2026-08-06T07:03:47.487026+00:00"
+  },
+  {
+   "title": "From asking to doing: How the world is putting ChatGPT to work",
+   "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+   "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-06T00:00:00+00:00",
+   "id": "3763c3e63f841c3b3b74d16d1ba5de9c93b7101a863852074f838c2e6bfac109",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
+  },
+  {
+   "title": "Baseten on Hugging Face Inference Providers 🔥",
+   "link": "https://huggingface.co/blog/baseten",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-08-06T00:00:00+00:00",
+   "id": "23ccd9ff0c11ef81ec2380b190cca16b9bf8060ea7b88f5f2fe29d03a80c6c2f",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-08-07T06:31:32.850113+00:00"
   },
   {
    "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
