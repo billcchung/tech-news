@@ -1,7 +1,476 @@
 {
  "month": "2026-08",
- "updated": "2026-08-07T06:31:32.850113+00:00",
+ "updated": "2026-08-08T06:21:26.380970+00:00",
  "items": [
+  {
+   "title": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents",
+   "link": "https://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has introduced Cloudflare Computer, a new open-source runtime designed to give AI agents something closer to a real \"computer\" instead of just ephemeral containers. It leverages Cloudflare isolates for fast serverless execution, making agents cheaper, faster, and more scalable, according to the company. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-07T21:00:00+00:00",
+   "id": "d81b82c7d7cb639cb335066472ca7e6154fe86ea44f6bba713ed4501260db0f6",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud-native",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Microsoft’s New Testing Agent Tackles the Trust Gap in AI-Generated Code",
+   "link": "https://devops.com/microsofts-new-testing-agent-tackles-the-trust-gap-in-ai-generated-code/",
+   "summary": "AI coding assistants write code fast. Whether that code can be trusted is a separate question, and it’s becoming a more urgent one. Surveys this year put average developer trust in AI-generated output at just above the midpoint of a five-point scale, and more than half of developers admit they ship AI code without testing […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-07T19:26:16+00:00",
+   "id": "a8ad498457b29ba498bfae7a6e4d018249997130011e6e9cd552c19339f90ff6",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Navigating the Pivot From Tech Expert to Organizational Leader",
+   "link": "https://spectrum.ieee.org/navigating-pivot-tech-expert-leader",
+   "summary": "The transition from a purely technical expert or individual contributor position to a broader leadership role is one of the most challenging phases in a STEM career. It requires moving away from relying solely on technical excellence toward mastering systems thinking, adaptive leadership, and team alignment. To help mid-career professionals navigate the shift, the inaugural IEEE International Lead",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-07T18:00:01+00:00",
+   "id": "f5a63672f84affb0e314124d1790abef3f8ccd46691760a9e2abb861aac681c6",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+   "link": "https://huggingface.co/blog/allenai/tutormoments",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-08-07T17:53:32+00:00",
+   "id": "624979042481ff504b8cdd9f4fefd24e5c9226e8b96822c1d4945a834a37fbab",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "‘Flooding Dropper’ Is Hitting npm With a Tidal Wave of Malicious Packages",
+   "link": "https://devops.com/flooding-dropper-is-hitting-npm-with-a-tidal-wave-of-malicious-packages/",
+   "summary": "Threat researchers at Sonatype are warning developers of an expanding campaign that is generating a wide range of npm accounts and dropping small numbers of malicious packages from each one, essentially flooding the zone with a broadly distributed and automated campaign to make it difficult for defenders to keep up. So far, the campaign – […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-07T17:02:31+00:00",
+   "id": "3301bfccf9c2375dd665a664d56a1964b6ee1ad4cc3fd0855fc4a3b0ee2231df",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Zero-code, low-cost data ingestion: New BigQuery DTS capabilities",
+   "link": "https://cloud.google.com/blog/products/data-analytics/new-bigquery-data-transfer-service-capabilities/",
+   "summary": "In a fast-paced digital economy, data is your most critical engine. Yet, many enterprises find themselves trapped in a costly paradox, spending over 100 hours a week building and fixing fragile, in-house ETL pipelines or wrestling with unpredictable third-party tools. Trusted by thousands of customers every single day , BigQuery Data Transfer Service (DTS) eliminates this engineering burden. As a ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-07T17:00:00+00:00",
+   "id": "3ae6380914c49074af5a8560b75706b7606be9784f2655db9a74d3380de343ae",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
+   "link": "https://netflixtechblog.com/how-and-why-netflix-built-a-real-time-distributed-graph-part-3-querying-the-graph-with-grpc-0f3468349607?source=rss----2615bd06b42e---4",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "category": "Software Engineering",
+   "published": "2026-08-07T16:01:02+00:00",
+   "id": "c9a84293696c51a4bd2f8806b8beb6501c821007bebd23e44b7face36442da0d",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "What’s new with Google Cloud",
+   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 3 - Aug 7 Navigate",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-07T16:00:00+00:00",
+   "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-07-12T10:59:18.257168+00:00"
+  },
+  {
+   "title": "How Google Cloud detects, contains, and protects against emerging threats",
+   "link": "https://cloud.google.com/blog/products/identity-security/how-google-cloud-detects-contains-and-protects-against-emerging-threats/",
+   "summary": "At Google Cloud, securing your data and business systems is our foundational commitment. We empower our customers with the tools, governance, and infrastructure needed to securely deploy workloads and maintain long-term trust. We approach security from a shared fate model , and we continuously work to proactively identify and mitigate potential threats before they can compromise your data and misu",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-07T16:00:00+00:00",
+   "id": "d033a3c383ac3442b7f2d126ad8e51606f862b92dbeb5e29efd8b6594548d0f2",
+   "tags": [
+    "cloud",
+    "security"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Unifying Structured and Unstructured Data Insights with BQ Search Innovations",
+   "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data/",
+   "summary": "Modern enterprises possess a vast amount of unstructured data, yet they frequently encounter significant challenges in managing and extracting value from it. Historically, unlocking the insights hidden within PDFs, audio files, images, and unstructured text required a fragmented architecture: moving data out of your warehouse, stitching together complex LLM pipelines, and managing disparate search",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-07T16:00:00+00:00",
+   "id": "bbead1f4f3d9ddbbec8f5506595bdc52675e375989414334c1b2a151ba144a58",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "GOL! How TelevisaUnivision streamed the FIFA World Cup to millions with Google Cloud",
+   "link": "https://cloud.google.com/blog/products/networking/streaming-the-fifa-world-cup-with-televisaunivision/",
+   "summary": "Live sports broadcasting represents the ultimate stress test for digital media infrastructure, where operational success or failure is measured in milliseconds and observed live by millions of viewers simultaneously. During the 2026 FIFA World Cup, the stakes reached a high for TelevisaUnivision, the leading Spanish-language media conglomerate. With Mexico serving as both a primary host nation and",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-07T16:00:00+00:00",
+   "id": "6b92e3006d9c7343c5418d46fbb73482674d4ae3eb4c065d5f34c0467fcf49e6",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "HackerOne Extends Platform Reach to Remediate Source Code Vulnerabilities",
+   "link": "https://devops.com/hackerone-extends-platform-reach-to-remediate-source-code-vulnerabilities/",
+   "summary": "HackerOne has added a remediation capability to its H1 Platform that reduces the amount of time required to remediate validated vulnerabilities and other weaknesses affecting specific lines of source code. Nidhi Aggarwal, chief product officer for HackerOne, said H1 Remediation combines artificial intelligence (AI) and crowdsourced research to identify the root cause of issues that […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-07T15:39:55+00:00",
+   "id": "43704c34be76c38d0b0b497c64c72b533f04db0bda4e4ff57fc5bb0b81310d49",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Responding to the next frontier of critical cyber capabilities",
+   "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+   "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-07T15:20:00+00:00",
+   "id": "e66cc71d0943fe40ad6453dad08e9df8e67072ce6e9fa35d606a5faf12a1f86c",
+   "tags": [
+    "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
+   "link": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Instacart introduced Blueberry, an AI-assisted incident response system that helps on-call engineers investigate production issues faster. It combines AI agents, operational data, and historical incident knowledge to generate grounded root cause hypotheses in Slack. It uses parallel subagents, MCP integrations, and incident history to reduce investigation time while keeping engineers in control. B",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-07T14:34:00+00:00",
+   "id": "810f997bf8ef81e3d32059b228b9dfa906d92cb377e94821380382b26164711d",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "The Download: a censorship conspiracy theory and the first virus created by AI",
+   "link": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How ideas of a vast censorship network moved from the online fringe to Trump policy For years, narratives about a “censorship-industrial complex” spread in right-wing circles. The theory claimed that, under…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-07T14:20:00+00:00",
+   "id": "d66aca2589b41217dd6029a09d50d044cf5f46c5288935892f01ec31997a12aa",
+   "tags": [
+    "ai",
+    "networking",
+    "research"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
+   "link": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
+   "summary": "This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading. For months, Elon Musk’s Department of Government Efficiency had been cutting a wide swath through…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-07T14:00:00+00:00",
+   "id": "40bf836f19ab11259518b41073689e3ac7ca5efc74c985c91dbc5a4b5e9c1eb6",
+   "tags": [
+    "networking",
+    "research"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Unveiling good and bad behaviors on the Agentic Internet",
+   "link": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
+   "summary": "Cloudflare is shifting bot mitigation from point-in-time Risk assessment to continuous Trust evaluation. Learn how new good and bad behaviors from bots and agents are assessed by our systems, including BotBase and Precursor — and try out our Precursor Trace simulation to see how your own cursor movements would be assessed as human or bot.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-07T13:01:00+00:00",
+   "id": "c5e9cce14dec4950e61bddd9e818c3eebfbd473578bbe76d004aef55ed95e330",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Cars Communicating Badly Is an Already-Solved Problem",
+   "link": "https://spectrum.ieee.org/v2x-technology-5g-open-ran",
+   "summary": "The history of networking is full of tools that repurposed solutions to very different kinds of problems first. Wi-Fi’s origins trace back , in part, to a team of Australian radio astronomers trying to detect signals from evaporating black holes. But the data-processing tools they’d developed also proved capable at extracting clean messages from any chaotic, echoing signal environment . Echoes are",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-07T13:00:01+00:00",
+   "id": "f178390f22b737644199a05274e4c4eca4e819cb0893d3775ef6f07db3b12fc5",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Introducing Radar Researcher: An AI tool for exploring Internet data in plain language",
+   "link": "https://blog.cloudflare.com/introducing-radar-researcher/",
+   "summary": "Cloudflare Radar Researcher is a new AI-powered tool that lets you explore global Internet trends and traffic data using plain language. Built entirely on Cloudflare's Developer Platform, it turns natural language queries into real, interactive charts.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-07T13:00:00+00:00",
+   "id": "3f09e82414601139235f75e54f58b8fd8c7aec85fd5e5e5e4df9892b506b2f43",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Announcing Cloudflare Ambassadors, Community Engineers, and another $1M in open-source funding",
+   "link": "https://blog.cloudflare.com/community-program-refresh/",
+   "summary": "We are launching updated community programs, including Cloudflare Ambassadors and Community Engineers, backed by $1M in open-source funding. Learn how we are supporting maintainers and scaling our developer community.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-07T13:00:00+00:00",
+   "id": "d88819ef7cbd577e61cc9a67e93bd6f06436aca2a109a2bde13aadeb584221c7",
+   "tags": [
+    "cloud",
+    "networking",
+    "open-source",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
+   "link": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
+   "summary": "Cloudflare is unifying AI Gateway and Workers AI into a single control plane, giving developers observability, billing, and dynamic routing across both managed GPUs and external providers. Learn how unified bindings and model-first routing simplify building resilient AI applications.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-07T13:00:00+00:00",
+   "id": "d5e7959aa0306d0c634336a232c3e487f9c032605321ff3fa07415f03b65952f",
+   "tags": [
+    "ai",
+    "cloud",
+    "hardware",
+    "networking",
+    "observability",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "AI Is Transforming Incident Response - but the Hardest Problems May Still Belong to Humans",
+   "link": "https://www.infoq.com/news/2026/08/ai-incident-response/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Artificial intelligence is rapidly changing how engineering teams respond to production incidents, offering the ability to summarize incident channels, analyze unfamiliar code, suggest remediation steps, generate pull requests, and increasingly assist with diagnosis. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-07T12:00:00+00:00",
+   "id": "782bc188bfc84ba23660ca942ae2594108400f5b589a6123fbacfd7e1a428c7b",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Does Kubernetes DRA Replace HAMi?",
+   "link": "https://www.cncf.io/blog/2026/08/07/does-kubernetes-dra-replace-hami/",
+   "summary": "Projects that want to share a GPU on Kubernetes have to work around an API instead of with it. The device plugin interface could count devices, and that was the whole vocabulary: nvidia.com/gpu: 1. It meant one...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-07T11:30:00+00:00",
+   "id": "60225a8b305cc001bf42a8208e2931245c60063143ff0e66a270af5e14c17520",
+   "tags": [
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Shadow AI in CI/CD: Threat-modeling the path from developer laptop to Kubernetes",
+   "link": "https://www.cncf.io/blog/2026/08/07/shadow-ai-in-ci-cd-threat-modeling-the-path-from-developer-laptop-to-kubernetes/",
+   "summary": "Artificial intelligence is becoming part of daily software delivery, often before it becomes part of the security architecture. That gap has a name: Shadow AI. It is any AI tool, model, agent, extension, or integration used...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-07T11:00:00+00:00",
+   "id": "269651cfde5242ad03d1b09a372f3c1233e8f609b59a4f24f949543720dff32f",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud-native",
+    "dev-tools",
+    "kubernetes",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Presentation: Rewriting All of Spotify's Code Base, All the Time",
+   "link": "https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Jo Kelly-Fenton and Aleksandar Mitic explain how Spotify created \"Honk,\" an AI coding agent, to handle complex fleet-wide codebase migrations. They share key architectural insights on decoupling CI verification runtimes from AI agents, dealing with automated pull request bottlenecks, and driving aggressive standardization across thousands of engineering repositories. By Jo Kelly-Fenton, Aleksandar",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-07T11:00:00+00:00",
+   "id": "eebc2db7d133eefccf5ecd0d04f9791604844004e8787fd79dc371af1e9bace7",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+   "link": "https://openai.com/index/hsp-gruppe",
+   "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-07T09:00:00+00:00",
+   "id": "7347f06e7c916544f6e962de36961dbcdf8c00a50f21f56435f6b7de8971923e",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Article: InfoQ Culture and Methods Trends Report - 2026",
+   "link": "https://www.infoq.com/articles/culture-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This report summarizes how the InfoQ Culture and Methods editorial team sees the ongoing and emergent trends in the culture and methods space in 2026. By Shane Hastie, Ben Linders, Vanessa Formicola, Shawna Martell, Rafiq Gemmail, Craig Smith, Phillip Mortimer, Yinka Omole",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-07T09:00:00+00:00",
+   "id": "f1f51d9e35435b0338a7989656c0f870604611e859a35065cdbf7b7b86aa3f5d",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Podcast: Culture & Methods Trends 2026: The Human Side of AI Engineering",
+   "link": "https://www.infoq.com/podcasts/infoq-culture-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This is the Engineering Culture Trends Report for 2026. Featuring a panel of QCon speakers and InfoQ contributors, they discussed AI adoption maturity and risk, the transformation of engineering team structures and roles, and the human dimensions of software development that must not be lost in 2026. By Ben Linders, Rafiq Gemmail, Craig Smith, Vanessa Formicola, Shawna Martell, Phillip Mortimer, Y",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-07T09:00:00+00:00",
+   "id": "50cecf0137b9a884f902c25eb38a234cb330e68fe1818829a5719772f0d25006",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Uno Platform 6.6 Adds Native AOT, Vulkan Rendering, and Broader Accessibility Support",
+   "link": "https://www.infoq.com/news/2026/08/uno-platform-6-6/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Uno Platform 6.6 introduces Native AOT publishing across five target platforms, an optional Vulkan rendering backend, and automatic registration for the framework’s Model Context Protocol servers. The release also reduces XAML boilerplate, expands cross-platform WinUI API coverage, and improves accessibility and multilingual text handling. By Edin Kapić",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-07T08:00:00+00:00",
+   "id": "b1e34ad78013f4793ec0520b7c6a4109e32121c0fc4aea60f68f296f8ac9994b",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Rootly Drops Small PR Rule as Agentic AI Changes Code Review Economics",
+   "link": "https://www.infoq.com/news/2026/08/rootly-small-pr-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Incident management platform provider Rootly has published an account of its decision to drop its long-standing small pull request rule, arguing that the practice no longer serves its purpose now that AI agents generate most of its code. The company describes a shift from measuring PR size to assessing blast radius, with feature flags and rollback capability taking precedence over line counts. By ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-07T08:00:00+00:00",
+   "id": "20a6fd4b59e4ec2fd1c4779a79190ee0aa95c6f5fb07de6996c203a395d7242b",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
+  {
+   "title": "Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools",
+   "link": "https://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Microsoft released a dedicated AI Gateway tier of Azure API Management in public preview, with a control plane built around models, MCP servers and tools rather than APIs. It fronts Foundry, Bedrock, Vertex AI and OpenAI behind one endpoint, with policy cards instead of XML. Architects welcomed the consolidation while questioning where the governance boundary sits. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-07T06:35:00+00:00",
+   "id": "8937bc9716f7b878e1edb3b3208b9b0e755d21751802f97f9e5b25ceeee4114f",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-08-08T06:21:26.380970+00:00"
+  },
   {
    "title": "npm Staged Publishing Available, Adding a Human Approval Step Before Packages Go Live",
    "link": "https://www.infoq.com/news/2026/08/npm-stage-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
