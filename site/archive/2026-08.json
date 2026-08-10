@@ -1,7 +1,53 @@
 {
  "month": "2026-08",
- "updated": "2026-08-09T06:21:48.413743+00:00",
+ "updated": "2026-08-10T06:38:35.165903+00:00",
  "items": [
+  {
+   "title": "Google Releases Angular v22 with Stable Signal Forms, OnPush by Default and Experimental WebMCP",
+   "link": "https://www.infoq.com/news/2026/08/angular-v22-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Angular v22, Google's TypeScript-first framework, has introduced API stabilizations, ergonomic templates, and tooling enhancements for AI integration. Key developments include the stabilization of Signal Forms, improved change detection strategies, and a new @Service() decorator for dependency injection. The release supports TypeScript 6 and removes deprecated features. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-10T06:12:00+00:00",
+   "id": "0bc60ec26b0544d6dc6bb276673449bf0edfddb155314d61d38c2f5f6700c4ce",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-10T06:38:35.165903+00:00"
+  },
+  {
+   "title": "Beyond Consensus: The Fragmentation of AI Policy Across the Linux Ecosystem",
+   "link": "https://www.infoq.com/news/2026/08/linux-ai-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The AI policies across the Linux ecosystem are very heterogeneous, ranging from the GCC’s restrictiveness, the Linux kernel’s pragmatism, to the more open disclosure-based utility model of Kubernetes' landscape. From core infrastructure to high-level orchestration, these distinct approaches highlight a shared commitment: ensuring the human maintainer remains the indispensable guardian of the code.",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-10T04:04:00+00:00",
+   "id": "5f0f66ce1db77fa544bd3c4c1bf906144cd2b25ac004c568c48f8b79f2edfffc",
+   "tags": [
+    "ai",
+    "architecture",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-08-10T06:38:35.165903+00:00"
+  },
+  {
+   "title": "Stripe Uses Graph Search and State Machines to Automate Database Remediation",
+   "link": "https://www.infoq.com/news/2026/08/database-remediation-graph/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The engineering team at Stripe recently described how they automated database incident recovery by modeling their global infrastructure as a graph. Using graph search algorithms together with state machines, the team computes and executes remediation plans automatically. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-09T06:55:00+00:00",
+   "id": "bd0b9da0e44f2475ad2e8a751e9ecbef135126b2c5255526a4dabec904bd4086",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-08-10T06:38:35.165903+00:00"
+  },
   {
    "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
    "link": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -19,7 +65,7 @@
    "first_seen": "2026-08-09T06:21:48.413743+00:00"
   },
   {
-   "title": "Cloudflare's Precursor Detects Bots and AI Agents Through Continuous Behavioral Analysis",
+   "title": "Cloudflare's Precursor Detects Bots and AI Agents through Continuous Behavioral Analysis",
    "link": "https://www.infoq.com/news/2026/08/cloudflare-precursor-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Cloudflare recently introduced Precursor, a client-side behavioral analysis engine that continuously evaluates session interactions, such as mouse movements and keyboard timing, to improve detection of sophisticated bots and AI agents without relying solely on one-time challenges like CAPTCHAs. By Renato Losio",
    "source": "InfoQ",
@@ -49,7 +95,7 @@
    "first_seen": "2026-08-09T06:21:48.413743+00:00"
   },
   {
-   "title": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents",
+   "title": "Cloudflare Launches Persistent, Stateful, Computer-Like Environments for Agents",
    "link": "https://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Cloudflare has introduced Cloudflare Computer, a new open-source runtime designed to give AI agents something closer to a real \"computer\" instead of just ephemeral containers. It leverages Cloudflare isolates for fast serverless execution, making agents cheaper, faster, and more scalable, according to the company. By Sergio De Simone",
    "source": "InfoQ",
@@ -365,7 +411,7 @@
    "first_seen": "2026-08-08T06:21:26.380970+00:00"
   },
   {
-   "title": "AI Is Transforming Incident Response - but the Hardest Problems May Still Belong to Humans",
+   "title": "AI Is Transforming Incident Response - But the Hardest Problems May Still Belong to Humans",
    "link": "https://www.infoq.com/news/2026/08/ai-incident-response/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Artificial intelligence is rapidly changing how engineering teams respond to production incidents, offering the ability to summarize incident channels, analyze unfamiliar code, suggest remediation steps, generate pull requests, and increasingly assist with diagnosis. By Craig Risi",
    "source": "InfoQ",
