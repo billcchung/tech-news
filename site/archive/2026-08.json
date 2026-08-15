@@ -1,7 +1,353 @@
 {
  "month": "2026-08",
- "updated": "2026-08-14T06:37:12.908570+00:00",
+ "updated": "2026-08-15T06:11:51.467510+00:00",
  "items": [
+  {
+   "title": "Treat Business Workflow Changes Like Deployments",
+   "link": "https://devops.com/treat-business-workflow-changes-like-deployments/",
+   "summary": "Business automation often reaches production without the release discipline applied to application code. A routing rule changes, an approval threshold moves, or an integration starts writing to a new system. The edit may happen in a visual builder instead of a repository, but its blast radius is still real: orders can duplicate, customers can receive […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-14T20:40:04+00:00",
+   "id": "8336ab1649d191d1edf0625c427b1eca84595c6d508a8b49b894af2f8f5f46c2",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
+   "link": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+   "summary": "Screen-sharing bug lets remote hackers log in without a password.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-08-14T18:32:14+00:00",
+   "id": "13b542b44616f7d505916afd0aec14cb9769136d3ee85fdc39399d3c5758b2e3",
+   "tags": [
+    "security"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Digital Signal Processing Pioneer Bede Liu Dies At 91",
+   "link": "https://spectrum.ieee.org/digital-signal-processing",
+   "summary": "Bede Liu, a digital signal processing pioneer, died on 7 May. He was 91. Liu was widely regarded as one of the founders of modern digital signal processing, a field that applies mathematical algorithms to analyze, modify, and transmit signals including sound, images, and video. The IEEE Life Fellow taught electrical engineering at Princeton for more than 50 years. From 1994 to 1997, he chaired the",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-14T18:00:02+00:00",
+   "id": "2874ba2d68546c0ed37284d08861705e9e2cf4eca7d3409d9c294ed24c12c317",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Microsoft Decouples AI Agents From the VS Code Editor in Latest Release",
+   "link": "https://devops.com/microsoft-decouples-ai-agents-from-the-vs-code-editor-in-latest-release/",
+   "summary": "Microsoft has shipped Visual Studio Code 1.133, and the headline change is architectural rather than cosmetic: AI agent sessions now run in a dedicated background process rather than within the editor’s extension host. The release, which rolled out August 12, moves agent execution into what Microsoft calls the Agent Host, a standalone process built on […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-14T17:19:22+00:00",
+   "id": "ab34b2aeb89977e4f09bb6baa557a8187f6c76bdf780c6961b9c5cb8375203f8",
+   "tags": [
+    "ai",
+    "architecture",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "PBS station fears losing 50TB of data after being ghosted by cloud storage provider",
+   "link": "https://arstechnica.com/information-technology/2026/08/pbs-station-fears-losing-50tb-of-data-after-being-ghosted-by-cloud-storage-provider/",
+   "summary": "\"We don't have access to the data on the hardware/servers,\" Iron Mountain told Ars.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-08-14T17:03:54+00:00",
+   "id": "87cd3c568a382b22d561b20c8f361785aa856a8ed8655a4edf0c11809bfb886a",
+   "tags": [],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "What’s new with Google Cloud",
+   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 10 - Aug 14 Diagno",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-14T16:00:00+00:00",
+   "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-07-12T10:59:18.257168+00:00"
+  },
+  {
+   "title": "Cloudflare Migrates JavaScript CDN Serving 9B Requests a Day to Its Developer Platform",
+   "link": "https://www.infoq.com/news/2026/08/cloudflare-cdnjs-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has migrated cdnjs, its open source CDN for JavaScript and CSS libraries, to its Developer Platform. The new architecture uses Workers, R2, KV, Workflows, Queues, Durable Objects and Containers, consolidating publishing and delivery infrastructure while preserving package contents, URLs and SRI hashes at a scale of 9 billion requests per day. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-14T14:42:00+00:00",
+   "id": "faf80a8a23773aa04a76fde875cfc5beb01ee1ee2856fea11dc2404b9ff0f795",
+   "tags": [
+    "architecture",
+    "cloud-native",
+    "networking",
+    "open-source",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+   "link": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+   "summary": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-08-14T14:27:14+00:00",
+   "id": "4bc8b89183018b7cdf4a05b0d6b2f237e6aa2ce80cecd9b96256bc03c3cf6dea",
+   "tags": [
+    "ai"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "How Cloudflare detects MCP traffic and helps secure it",
+   "link": "https://blog.cloudflare.com/mcp-security-updates/",
+   "summary": "Cloudflare Gateway identifies MCP requests using protocol-level heuristics. Security teams can use that signal to find shadow MCP traffic, enforce Portal-only access for approved servers, and block direct connections on managed network paths.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-14T13:12:12+00:00",
+   "id": "25f97e26ea36c89ebde63f1a37cecb281092a9a0921b2a06fa8a45cb9a09acfe",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Secure all your internal vibe-coded applications — in one click",
+   "link": "https://blog.cloudflare.com/workers-protected-by-access/",
+   "summary": "Introducing Cloudflare Access for Workers. Attach an Access policy directly to a Worker and it applies everywhere that Worker runs — routes, custom domains, workers.dev, and previews — automatically.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-14T13:00:00+00:00",
+   "id": "7d16f6d18397197e4155a015dd4b858738d9eb98f485053e5d87c26d02e09b8d",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "The Download: Flock’s new rules, cloning’s future, and children’s cells",
+   "link": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Flock is tightening its rules in response to a growing surveillance backlash The police-tech giant Flock is changing officers’ access to its nationwide network of license plate readers. The move comes…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-14T12:17:21+00:00",
+   "id": "3ae0ef8ea391a860f24f69938cb96e5cd50964a928f3cb5c149b56db38b70feb",
+   "tags": [
+    "networking",
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Developer Resistance to AI Isn’t Fear – It is Identity",
+   "link": "https://devops.com/developer-resistance-to-ai-isnt-fear-it-is-identity/",
+   "summary": "Developer resistance to AI is less about job loss than a deeper shift from hands-on coding to supervising, validating and orchestrating AI-generated work.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-14T12:11:01+00:00",
+   "id": "7322111ea059a78445d0573bad1aae03ff3bbc7d88a3054f1e066508df47d1d8",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "More Incidents Don't Necessarily Mean Less Reliability",
+   "link": "https://www.infoq.com/news/2026/08/incidents-reliability-metrics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "One of the most common assumptions in engineering leadership is that a rising number of reported incidents signals declining system reliability. However, a recent article from Great Circle argues that the opposite is often true: an increase in incident counts may actually indicate that an organization's incident management culture is improving. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-14T12:00:00+00:00",
+   "id": "dbe367441db5a907aec441024bcca9db341b6c9243f712a637db1930d0bed2dc",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Who’s Tracking You? Use This New Service to Find Out",
+   "link": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+   "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and c",
+   "source": "KrebsOnSecurity",
+   "category": "Security & Privacy",
+   "published": "2026-08-14T11:24:35+00:00",
+   "id": "ce056786a8e95421efad37609951835de9b71a2b69388fe510f4aae5a0d18ab3",
+   "tags": [
+    "privacy",
+    "security"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Eleven minutes, zero humans: Building a self-healing Kubernetes upgrade pipeline on Kairos",
+   "link": "https://www.cncf.io/blog/2026/08/14/eleven-minutes-zero-humans-building-a-self-healing-kubernetes-upgrade-pipeline-on-kairos/",
+   "summary": "Once upon a time, upgrading a Kubernetes control plane meant staying awake for it. SSH into every node. Run the upgrade by hand. Watch etcd health the whole time, hoping quorum holds through every reboot. This...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-14T11:14:00+00:00",
+   "id": "1a3a5bcfec921709dc140c4cad66d2ff78c82c0de2ca1eff519751472066bb29",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Presentation: The Right 300 Tokens Beat 100k Noisy Ones: The Architecture of Context Engineering",
+   "link": "https://www.infoq.com/presentations/architecture-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Baruch Sadogursky and Patrick Debois discuss why coding agents fail due to bloated context windows and stuffed prompts. They explain practical context engineering fixes, including lazy-loaded skills, versioned context artifacts, externalized memory banks, and LLM-as-a-judge evals. Software architects & engineering leaders will learn how to turn raw markdown files into reliable agentic workflows. B",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-14T11:00:00+00:00",
+   "id": "20286a754ab4077c03db76e93d591fe4669501c46ab2b5112c3b3849461e5f14",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "LLM-Generated GraphQL Mocks Arrive at Airbnb and Expedia, While the Spec Lags Behind",
+   "link": "https://www.infoq.com/news/2026/08/graphql-llm-mocking-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Expedia Group has open-sourced mockql-rs, a Rust CLI that fills @mock-annotated GraphQL fields with LLM-generated data at request time. It follows Airbnb's @generateMock in April and a GraphQL Foundation RFC opened in February. All three solve the same problem with different architectures, and two use the same directive name with incompatible semantics. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-14T10:01:00+00:00",
+   "id": "e15b51a703f687e05b998ebcb16097b0bca3fda52472b40fd56f3ba56cfc45a7",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Podcast: Founders, Friction, and Focus: Building Engineering Teams at Early-Stage Startups",
+   "link": "https://www.infoq.com/podcasts/building-engineering-teams-early-stage-startups/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to David Gudeman about the unique culture of early-stage startup engineering, how founder personality quirks and premature process impositions can derail teams, and how engineers can build influence and make deliberate career choices without formal power. By David Gudeman",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-14T09:00:00+00:00",
+   "id": "94d284d02d975baf3fb50b87c2dbaf0001340285f20753e7311482fbfdfcf277",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "This scientist is helping build a missing map of childhood",
+   "link": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
+   "summary": "In 2017, Deanne Taylor attended a presentation at the University of Pennsylvania, just a short walk from her office. A researcher was there to unveil the Human Cell Atlas, an ambitious project that aimed to map every cell in the human body. Taylor was floored, and then concerned. As details emerged, she discovered that the…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-14T09:00:00+00:00",
+   "id": "490681f01f1db9d0486e7dd2e520366e96006a5ccdee124757d2e10b9d0fbb5f",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Job titles of the future: Space travel agent",
+   "link": "https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/",
+   "summary": "Roman Chiporukha has long turned wild travel dreams into reality. Over two decades as co-owner of the luxury lifestyle firm Roman & Erica, he has orchestrated everything from the construction of a client’s superyacht to vacations in the Bahamas at a location so private that guests must sign an NDA. The experiences earned him “the…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-14T09:00:00+00:00",
+   "id": "146390eae0cdaf206ffef029c67dc2284493f2629fc7cec35b077c1ca503ad19",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Cloning could be used to save species—or make human “organ sacks”",
+   "link": "https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/",
+   "summary": "This week I spoke to scientists who have found a way to turn male mouse embryos female. They’ve developed a CRISPR-based approach to essentially cut out the Y chromosome. It allowed them to create female clones of male mice. That’s right: female animals that are genetically identical to males, except for the missing Y chromosome.…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-14T09:00:00+00:00",
+   "id": "1a73011308f0c6a347f430131af56844cae27eb06c599100523294ca700fdd4f",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Rx.NET 7.0 Reduces Deployment Size by Splitting Windows UI Support",
+   "link": "https://www.infoq.com/news/2026/08/rx-net-7/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Rx.NET 7.0 has been released with a narrowly focused change aimed at reducing deployment size for Windows applications. The new version separates WPF, Windows Forms, UWP, and Windows Runtime integration from the main System.Reactive package, avoiding cases where self-contained applications could acquire tens of megabytes of unused framework dependencies. By Edin Kapić",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-14T08:00:00+00:00",
+   "id": "539f9491baf32fbc558a6e155da43e3fe324c692792122b27bea34eed2a9caf7",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "Kubeflow Expands AI Capabilities as CNCF Graduation Nears",
+   "link": "https://www.infoq.com/news/2026/08/kubeflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The Kubeflow project has unveiled several technical updates to enhance distributed AI and high-performance computing on Kubernetes. These advancements include Kale 2.0, a modernised SDK with native Spark support, and expanded capabilities for the Kubeflow Trainer. The developments arrive as the project moves towards graduation from the Cloud Native Computing Foundation. By Matt Saunders",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-14T08:00:00+00:00",
+   "id": "e0a13f2e1cf4f9b28e36483fab858c9da814c4e751c2bf0f1372d50bb884d376",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud-native",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
+  {
+   "title": "npm 12 Released: Install Scripts Off by Default as Registry Moves to Explicit Trust",
+   "link": "https://www.infoq.com/news/2026/08/npm-12-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "npm 12 introduces significant security-related changes, making certain installation behaviors opt-in. Notably, script allowances are now off by default, which requires explicit approval for running scripts, including implicit builds. The update also restricts non-registry sources and addresses community concerns about security risks from automatic script execution. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-14T06:39:00+00:00",
+   "id": "99d5ac65175cd8d52fc39955dcc7c582cfbb5e0813c6bcb41b6580bc87b7a381",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
+  },
   {
    "title": "Meta Open-Sources Muse Glimmer: A 30B Local Agentic Model Optimised for On-Device Execution",
    "link": "https://www.infoq.com/news/2026/08/meta-muse-glimmer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -18,6 +364,20 @@
     "research"
    ],
    "first_seen": "2026-08-14T06:37:12.908570+00:00"
+  },
+  {
+   "title": "State of Open Models: Summer 2026 Observations",
+   "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-08-14T00:00:00+00:00",
+   "id": "bc290ba394fd0d9149bf5cc4c18c982babca081925fc413d9da2b9ba7a12002f",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-08-15T06:11:51.467510+00:00"
   },
   {
    "title": "Roundtables: Inside the “Censorship-Industrial Complex” Idea Shaping US Policy",
@@ -1985,19 +2345,6 @@
     "programming"
    ],
    "first_seen": "2026-08-08T06:21:26.380970+00:00"
-  },
-  {
-   "title": "What’s new with Google Cloud",
-   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 3 - Aug 7 Navigate",
-   "source": "Google Cloud Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-08-07T16:00:00+00:00",
-   "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
-   "tags": [
-    "cloud"
-   ],
-   "first_seen": "2026-07-12T10:59:18.257168+00:00"
   },
   {
    "title": "How Google Cloud detects, contains, and protects against emerging threats",
