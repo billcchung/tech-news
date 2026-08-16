@@ -1,7 +1,69 @@
 {
  "month": "2026-08",
- "updated": "2026-08-15T06:11:51.467510+00:00",
+ "updated": "2026-08-16T06:12:43.824775+00:00",
  "items": [
+  {
+   "title": "How PGSimCity Turns PostgreSQL Complexity Into a Virtual City 3D Simulation",
+   "link": "https://www.infoq.com/news/2026/08/pgsimcity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Nikolay Samokhvalov has developed PGSimCity, an open-source educational tool that visualises PostgreSQL mechanics as a 3D spatial simulation in the browser. It assists backend developers and site reliability engineers in understanding SQL and the dynamics of kernel execution. The project is available on GitHub and aims to enhance understanding of database architecture through interactive elements.",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-16T05:05:00+00:00",
+   "id": "bf4c5968381ed4a4a776278f9fb0abba14bf7ec182be086663bc7da42ee75b1a",
+   "tags": [
+    "architecture",
+    "databases",
+    "dev-tools",
+    "open-source",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-08-16T06:12:43.824775+00:00"
+  },
+  {
+   "title": "Presentation: From Models to Agents: Building Context-Aware Consumer AI at Scale at DoorDash",
+   "link": "https://www.infoq.com/presentations/ai-agentic-recommendations-semantic-ids/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Sudeep Das shares how DoorDash shifts from legacy one-shot predictions to an agentic recommendation platform. He discusses leveraging language-native consumer memory, RQ-VAE semantic IDs for catalog representation, and grounded search to dramatically boost relevance and conversion metrics. By Sudeep Das",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-15T11:00:00+00:00",
+   "id": "91824ab5ca845f1839b479eb1b848567300530278a9e73c704a93e8198cfefdb",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-16T06:12:43.824775+00:00"
+  },
+  {
+   "title": "Cloudflare Adds Agent Tracing, with Truncation Limits and Uneven Payload Defaults",
+   "link": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare launched agent tracing, adding spans for agent invocations, model calls, tool runs, and approvals to existing Workers traces. Sessions replay turn by turn, though the docs warn traces are not lossless and payloads may be truncated. Payload recording defaults differ by framework, and from October 1, 2026 every span counts as a billable event. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-15T10:46:00+00:00",
+   "id": "98731eca2a9b89da337fafa90c6f657889dddb6266c37ca6cf924dc424e127a2",
+   "tags": [
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-08-16T06:12:43.824775+00:00"
+  },
+  {
+   "title": "Cloudflare Introduces Cache Response Rules for Post-Origin Cache Control",
+   "link": "https://www.infoq.com/news/2026/08/cloudflare-cache-rules/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare recently introduced Cache Response Rules, a rules engine that operates after an origin server responds but before content is written to Cloudflare's cache. Previously, Cache Rules operated only on request attributes. Cache Response Rules add a response phase that evaluates origin responses before they are cached. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-15T06:28:00+00:00",
+   "id": "3ba71d63af17ba2781f5453c3bc6538ea82aa11372742ed0efd3c37f787a6396",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-16T06:12:43.824775+00:00"
+  },
   {
    "title": "Treat Business Workflow Changes Like Deployments",
    "link": "https://devops.com/treat-business-workflow-changes-like-deployments/",
