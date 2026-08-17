@@ -1,9 +1,68 @@
 {
  "month": "2026-08",
- "updated": "2026-08-16T06:12:43.824775+00:00",
+ "updated": "2026-08-17T06:18:13.255946+00:00",
  "items": [
   {
-   "title": "How PGSimCity Turns PostgreSQL Complexity Into a Virtual City 3D Simulation",
+   "title": "GitHub Copilot’s Latest Update Bets on Model Choice, Not Model Loyalty",
+   "link": "https://devops.com/github-copilots-latest-update-bets-on-model-choice-not-model-loyalty/",
+   "summary": "GitHub’s latest Copilot updates add Kimi K3, MAI-Code-1.1-Flash, Agent Plugins 1.0, model switching, CLI improvements, and local Ollama support.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-17T06:00:05+00:00",
+   "id": "11c9f98eb037c49ff878d845397ff3535d9caf2be52d5527af871d929aad748a",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-17T06:18:13.255946+00:00"
+  },
+  {
+   "title": "Java News Roundup: Simple JSON API, GlassFish, Jakarta EE, JNoSQL, Open Liberty, LangChain4j",
+   "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug10-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This week's Java roundup for August 10th, 2026, features news highlighting: Simple JSON API proposed to target for JDK 28; an update on Jakarta EE 12; the August 2026 edition of Open Liberty; a point release of LangChain4j; maintenance releases of Eclipse JNoSQL and GraalVM Native Build tools; the third milestone release of GlassFish 9.0; and the second beta release of Groovy 6.0. By Michael Redli",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-17T02:30:00+00:00",
+   "id": "cc8563e1a845ebaa2ef7145f4a0f595fa8d2d92330f094971c6cea05a4ed7312",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-17T06:18:13.255946+00:00"
+  },
+  {
+   "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
+   "link": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has open-sourced Dogwood, a policy language extending Cedar with temporal conditions so rules can reason about an agent's prior tool calls rather than one request in isolation. It covers approvals, rate limits and running totals, ships under Apache 2.0, and is supported in AgentCore Policy, though the reference interpreter is not production-ready. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-16T07:26:00+00:00",
+   "id": "a1ae8d6ff99dc0278f6864875d4f1b8190e42a8ad2a644fb58b798e676ec176d",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-08-17T06:18:13.255946+00:00"
+  },
+  {
+   "title": "AWS Introduces Native Vector Search for DynamoDB",
+   "link": "https://www.infoq.com/news/2026/08/aws-dynamodb-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Amazon DynamoDB recently introduced native vector search, allowing developers to store embeddings alongside application data and run approximate nearest-neighbor queries directly from DynamoDB without using a separate vector database. The feature supports filtered similarity searches and configurable vector indexes for semantic search workloads. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-16T07:21:00+00:00",
+   "id": "e114fd8bd2821e2656b7fe9e44751a087d60d48848810b6ebae6f4de7ecd87d6",
+   "tags": [
+    "architecture",
+    "cloud",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-08-17T06:18:13.255946+00:00"
+  },
+  {
+   "title": "How PGSimCity Turns PostgreSQL Complexity into a Virtual City 3D Simulation",
    "link": "https://www.infoq.com/news/2026/08/pgsimcity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Nikolay Samokhvalov has developed PGSimCity, an open-source educational tool that visualises PostgreSQL mechanics as a 3D spatial simulation in the browser. It assists backend developers and site reliability engineers in understanding SQL and the dynamics of kernel execution. The project is available on GitHub and aims to enhance understanding of database architecture through interactive elements.",
    "source": "InfoQ",
@@ -297,7 +356,7 @@
    "first_seen": "2026-08-15T06:11:51.467510+00:00"
   },
   {
-   "title": "LLM-Generated GraphQL Mocks Arrive at Airbnb and Expedia, While the Spec Lags Behind",
+   "title": "LLM-Generated GraphQL Mocks Arrive at Airbnb and Expedia, While the Spec Lags behind",
    "link": "https://www.infoq.com/news/2026/08/graphql-llm-mocking-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Expedia Group has open-sourced mockql-rs, a Rust CLI that fills @mock-annotated GraphQL fields with LLM-generated data at request time. It follows Airbnb's @generateMock in April and a GraphQL Foundation RFC opened in February. All three solve the same problem with different architectures, and two use the same directive name with incompatible semantics. By Steef-Jan Wiggers",
    "source": "InfoQ",
