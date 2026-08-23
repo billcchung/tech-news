@@ -1,7 +1,103 @@
 {
  "month": "2026-08",
- "updated": "2026-08-22T06:12:39.518863+00:00",
+ "updated": "2026-08-23T06:13:31.751321+00:00",
  "items": [
+  {
+   "title": "DRAM Controller Register Manipulation Breaks CPU Memory Isolation",
+   "link": "https://www.infoq.com/news/2026/08/amd-memory-exploit/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Security researcher Christopher Domas developed skitter-creek-bath-salts, an open-source hardware security tool that disrupts CPU privilege boundaries by manipulating memory controller translation registers. This allows unprivileged software to access protected memory regions, revealing a vulnerability in modern processor architectures that could affect cloud and confidential computing security. B",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-23T04:04:00+00:00",
+   "id": "1c6c4214e92a89f5c2684cd75515c9bda8d881c4726180f403eb90aa86cf6380",
+   "tags": [
+    "architecture",
+    "hardware",
+    "open-source",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-08-23T06:13:31.751321+00:00"
+  },
+  {
+   "title": "Cloudflare Announces Kitesurf, a Browser Engine for Agents",
+   "link": "https://www.infoq.com/news/2026/08/cloudflare-kitesurf-browser/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare recently introduced Kitesurf, a lightweight browser built for automated workloads. Kitesurf runs browser components in isolated WebAssembly/Rust environments on Cloudflare Workers and supports the Chrome DevTools Protocol, allowing tools such as Playwright and Puppeteer to drive it with lower resource overhead than a full Chromium browser. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-22T15:01:00+00:00",
+   "id": "4362cef7b48143a19b1b69c83e4a49b2d4d578ccb399595f52dbef9a4ed116cb",
+   "tags": [
+    "architecture",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-08-23T06:13:31.751321+00:00"
+  },
+  {
+   "title": "Presentation: SafeChat: Building AI-Powered Safety Systems at Scale in a Real-Time Marketplace",
+   "link": "https://www.infoq.com/presentations/doordash-llm-ai-moderation-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Bruna Pereira explains how DoorDash built a content-agnostic AI moderation platform. She covers replacing costly LLM-only pipelines with a hybrid pattern: using fast internal models to filter obvious cases, LLM multi-axis scoring for nuanced decisions, and no-code workflows with backtesting. Discover how this architectural pattern cut safety incidents while scaling to millions of daily messages. B",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-22T11:00:00+00:00",
+   "id": "c252463b3baf3a480ac9e6dcdb206075c159926e29e694af3ad67a3b9e632a3b",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-23T06:13:31.751321+00:00"
+  },
+  {
+   "title": "AI Code Review at Scale: LinkedIn's Multi-Agent Approach",
+   "link": "https://www.infoq.com/news/2026/08/linkedin-ai-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "At LinkedIn's scale, relying solely on human reviewers or simply putting an off-the-shelf AI reviewer in front of GitHub is not an effective way to manage PRs. To address this, LinkedIn engineers built a multi-agent AI code review platform that understands the organizationâ€™s coding context, treats code review as production infrastructure, and minimizes hallucinations and low-signal feedback. By ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-22T09:00:00+00:00",
+   "id": "c5204ae06bccdaaf5827a2a18e5a0587775bcd43c8a10b48bdad73f3daec4ea8",
+   "tags": [
+    "ai",
+    "architecture",
+    "dev-tools",
+    "programming"
+   ],
+   "first_seen": "2026-08-23T06:13:31.751321+00:00"
+  },
+  {
+   "title": "AWS Releases Aws-Bench to Evaluate Agents on Cloud Tasks",
+   "link": "https://www.infoq.com/news/2026/08/aws-bench-agent-evaluation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has released aws-bench, an open-source benchmark for evaluating AI agents on real AWS tasks such as misconfigurations and infrastructure provisioning. Unlike traditional benchmarks, it uses real resources in disposable AWS accounts, scoring agent performance through automated verifiers. By Gianmarco Nalin",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-22T08:00:00+00:00",
+   "id": "b1c31da1d25d333b8f6780d6746613fe42af8c765ad540a93d347e209a732cb4",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "open-source",
+    "programming",
+    "research"
+   ],
+   "first_seen": "2026-08-23T06:13:31.751321+00:00"
+  },
+  {
+   "title": "VoidZero Releases Vite+ Beta: A Unified Web Toolchain Behind a Single Command",
+   "link": "https://www.infoq.com/news/2026/08/vite-plus-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "VoidZero has launched the beta of Vite+, a unified web development toolchain. It combines runtime, package management, and essential frontend tools under a single command. Vite+ supports various projects and is open source. The platform enhances workflow through features such as hot-reloading, format checking, and testing. The team emphasizes community feedback for future updates. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-22T06:32:00+00:00",
+   "id": "b2d5347dc72c69821ea4e766dcc8dbbea0615132d5b211ca75f2071b6dabf0ea",
+   "tags": [
+    "architecture",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-08-23T06:13:31.751321+00:00"
+  },
   {
    "title": "Say it once: introducing Bot Preference Sync",
    "link": "https://blog.cloudflare.com/bot-preference-sync/",
@@ -52,7 +148,7 @@
   {
    "title": "AWS Glue 6.0 now available with 30% lower price and full Apache Iceberg v3 support",
    "link": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/",
-   "summary": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.12, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
+   "summary": "AWS Glue 6.0 is built on a fully modernized runtime, Apache Spark 4.1, Python 3.13, and Scala 2.13, delivering 30% lower pricing than previous AWS Glue versions.",
    "source": "AWS Blog",
    "category": "Cloud & Infrastructure",
    "published": "2026-08-21T18:53:26+00:00",
