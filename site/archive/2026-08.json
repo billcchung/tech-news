@@ -1,7 +1,72 @@
 {
  "month": "2026-08",
- "updated": "2026-08-23T06:13:31.751321+00:00",
+ "updated": "2026-08-24T06:21:30.732780+00:00",
  "items": [
+  {
+   "title": "JDK 27 and JDK 28: What We Know So Far",
+   "link": "https://www.infoq.com/news/2026/08/java-27-so-far/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "JDK 27, the second non-LTS release since JDK 25, has reached its first release candidate phase featuring a final set of nine new features, in the form of JEPs, that can be separated into four categories: Core Java Library, HotSpot, Security Library and Java Language Specification. We examine JDK 27 and predict what features have, or could be, targeted for JDK 28. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-24T02:30:00+00:00",
+   "id": "a8db6c44ee8b3d0f612b5d615195d1d3e4018369601a7d0ca7bb3cd3007d9965",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-08-24T06:21:30.732780+00:00"
+  },
+  {
+   "title": "Cloudflare OS: Cloudflare's Open-Source Corporate AI Platform Built on a Capability-Based Model",
+   "link": "https://www.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare recently open-sourced Cloudflare OS. It allows enterprise teams to output work artifacts grounded in enterprise knowledge, know-how, and provisioned connectors, automate repetitive workflows with optimized token cost (with AI assistance only where needed), and build personal, shareable, customizable work software that caters to specific, complex use cases within a secure sandboxed model",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-23T22:50:00+00:00",
+   "id": "53079923e7824e807446eef6af8632d29f17f6406f9525df9240eca13ca5ae13",
+   "tags": [
+    "ai",
+    "architecture",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-08-24T06:21:30.732780+00:00"
+  },
+  {
+   "title": "Google's HEIR Aims to Make Homomorphic-Encrypted Inference a One-Click Capability",
+   "link": "https://www.infoq.com/news/2026/08/google-heir-homomorphic-llm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google is introducing HEIR (Homomorphic Encryption Intermediate Representation), an open-source compiler and development toolchain designed to make encrypted computation easier to deploy. In particular, HEIR can compile pre-trained AI models built for conventional, unencrypted inputs so they can instead operate on encrypted data. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-23T18:00:00+00:00",
+   "id": "830711aca517bbb0172a98beedeec5b70a785b9c57afaabf041abb1ae172ff20",
+   "tags": [
+    "ai",
+    "architecture",
+    "dev-tools",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-08-24T06:21:30.732780+00:00"
+  },
+  {
+   "title": "OVHcloud Raises Prices as AI Memory Demand Reprices Non-AI Infrastructure",
+   "link": "https://www.infoq.com/news/2026/08/ovhcloud-memory-price-rise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "OVHcloud will raise prices from September, with 2026-edition gaming servers up 87 percent and other recent servers 40 to 59 percent. Founder Octave Klaba says memory cost six times more in June than a year earlier, as RAM suppliers shifted capacity toward high-bandwidth memory for AI. AWS, buying years ahead, has repriced one reserved GPU product. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-23T08:43:00+00:00",
+   "id": "416c0c38cbc7fc9919c4ae80a01622bbae2d8cf707aca429549110e38dc2b0d3",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "hardware",
+    "programming"
+   ],
+   "first_seen": "2026-08-24T06:21:30.732780+00:00"
+  },
   {
    "title": "DRAM Controller Register Manipulation Breaks CPU Memory Isolation",
    "link": "https://www.infoq.com/news/2026/08/amd-memory-exploit/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -52,7 +117,7 @@
   {
    "title": "AI Code Review at Scale: LinkedIn's Multi-Agent Approach",
    "link": "https://www.infoq.com/news/2026/08/linkedin-ai-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "At LinkedIn's scale, relying solely on human reviewers or simply putting an off-the-shelf AI reviewer in front of GitHub is not an effective way to manage PRs. To address this, LinkedIn engineers built a multi-agent AI code review platform that understands the organizationâ€™s coding context, treats code review as production infrastructure, and minimizes hallucinations and low-signal feedback. By ",
+   "summary": "At LinkedIn's scale, relying solely on human reviewers or simply putting an off-the-shelf AI reviewer in front of GitHub is not an effective way to manage PRs. To address this, LinkedIn engineers built a multi-agent AI code review platform that understands the organization's coding context, treats code review as production infrastructure, and minimizes hallucinations and low-signal feedback. By Se",
    "source": "InfoQ",
    "category": "Software Engineering",
    "published": "2026-08-22T09:00:00+00:00",
@@ -84,7 +149,7 @@
    "first_seen": "2026-08-23T06:13:31.751321+00:00"
   },
   {
-   "title": "VoidZero Releases Vite+ Beta: A Unified Web Toolchain Behind a Single Command",
+   "title": "VoidZero Releases Vite+ Beta: a Unified Web Toolchain behind a Single Command",
    "link": "https://www.infoq.com/news/2026/08/vite-plus-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "VoidZero has launched the beta of Vite+, a unified web development toolchain. It combines runtime, package management, and essential frontend tools under a single command. Vite+ supports various projects and is open source. The platform enhances workflow through features such as hot-reloading, format checking, and testing. The team emphasizes community feedback for future updates. By Daniel Curtis",
    "source": "InfoQ",
@@ -174,6 +239,21 @@
     "security"
    ],
    "first_seen": "2026-08-22T06:12:39.518863+00:00"
+  },
+  {
+   "title": "This IEEE Senior Member Develops AI Tools for E-Commerce Sites",
+   "link": "https://spectrum.ieee.org/ieee-senior-member-ai-ecommerce",
+   "summary": "Balaji Ingole rarely saw televisions while growing up in Udgir, India. No one in the small Maharashtra village had computers or phones. Only one household owned a television, and neighbors often gathered there to watch shows together. Ingole never even saw a computer growing up. It wasn’t until he reached middle school that he encountered a computer lab, an experience he says changed his life. Alm",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-21T18:00:01+00:00",
+   "id": "a2e425a389c71e87a3a3ecbeef7b8d0fb931fdff82249b771df35bbac66c25ff",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-08-24T06:21:30.732780+00:00"
   },
   {
    "title": "A Tale of Two Flink Autoscalers",
@@ -289,7 +369,7 @@
    "first_seen": "2026-08-22T06:12:39.518863+00:00"
   },
   {
-   "title": "Cloudflare Turns Engineering Standards Into an AI-Enforced Control System",
+   "title": "Cloudflare Turns Engineering Standards into an AI-Enforced Control System",
    "link": "https://www.infoq.com/news/2026/08/cloudflare-ai-enforcement/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Cloudflare has recently detailed how it is using AI to transform internal engineering standards from passive documentation into an actively enforced control system across the software development lifecycle. By Craig Risi",
    "source": "InfoQ",
