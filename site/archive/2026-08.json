@@ -1,7 +1,448 @@
 {
  "month": "2026-08",
- "updated": "2026-08-27T09:16:25.865777+00:00",
+ "updated": "2026-08-28T09:20:39.878801+00:00",
  "items": [
+  {
+   "title": "Article: Post-Quantum Cryptography in Spring Boot: Four Patterns You Can Ship This Sprint",
+   "link": "https://www.infoq.com/articles/pqc-in-spring-boot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "There are four patterns that bring PQC into a Spring Boot fleet: encrypting payloads between services, locking down database fields, signing documents that need to hold up for decades, and moving service tokens off RS256. Along the way, we discuss why Harvest Now, Decrypt Later is already happening, and why none of this is production-safe until KMS or Vault is in place. By Pankaj Sharma",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-28T09:00:00+00:00",
+   "id": "80198052734112115eafed744253e3cad5bc369b5c7e20679aca656eaf66096d",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "How to sign up for a virtual power plant—and decide whether you should",
+   "link": "https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/",
+   "summary": "MIT Technology Review’s How To series helps you get things done. Your thermostat may not look like a power plant. Neither does your electric vehicle, home battery, or HVAC system. But utility and energy companies increasingly want to treat them like one. A virtual power plant, or VPP, is a collection of household devices (such…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-28T09:00:00+00:00",
+   "id": "31514331b52a6164c7be37efdc7d89fa46ee628f994c0746c442d23c0d195eab",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Meta Expands Its Custom Silicon Strategy From Compute Into Networking",
+   "link": "https://www.infoq.com/news/2026/08/meta-hccl/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Meta has detailed MTIA 300, its first in-house accelerator optimized for training ranking and recommendation models. By Matt Foster",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-28T07:43:00+00:00",
+   "id": "ebeb5c2bf6e02eb28f3b6f9bd5db1e782b47f4cdd625314a85554545040ba9b0",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Audio Fingerprinting Discovered on Alibaba Websites While Debugging BLE Multipoint Disconnects",
+   "link": "https://www.infoq.com/news/2026/08/alibaba-audio-fingerprinting/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "A recent discovery revealed that AliExpress employs silent audio streams for device fingerprinting, leveraging the Web Audio API. This technique involves analyzing hardware-specific audio processing to distinguish user devices. Privacy-focused browsers have developed countermeasures, highlighting a security gap in current web standards regarding audio context initialization and user privacy. By Ol",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-28T07:07:00+00:00",
+   "id": "39d6b997313383f003d05bd1d701f6299a8b1dacebfd97e177c3233e4e187e7e",
+   "tags": [
+    "architecture",
+    "privacy",
+    "programming",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "A startup claims it’s found a drug to make your blood young",
+   "link": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
+   "summary": "I knew I’d officially become a ‘longevity influencer’ this month when a company called Generation Lab reached out to offer me the chance to write about—and even receive—their new rejuvenation treatment, an injectable combination of two existing drugs which they call 1 Generation. This wasn’t just any antiaging treatment, either. A company fact sheet says that…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-27T19:48:13+00:00",
+   "id": "c412d77dc95fb43e28791425300749a644b8493d996122d625f275b7a8194ffb",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Sonar AI Agent Discovers Vulnerabilities Hidden in Business Logic Workflows",
+   "link": "https://devops.com/sonar-ai-agent-discovers-vulnerabilities-hidden-in-business-logic-workflows/",
+   "summary": "Sonar today made available an artificial intelligence (AI) agent designed to discover vulnerabilities and business logic flaws that pose the greatest risk to an organization should they be exploited. The SonarQube Hunter Agent first analyzes an entire codebase to find three categories of flaws: broken access control, business-logic vulnerabilities, and authentication or session-management issues. ",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-27T19:42:49+00:00",
+   "id": "a897da915505b9dae1bfb8c4a48a3b13e6601eb9a4d29c68c7b24627406112a2",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Metrics API graduates to stable",
+   "link": "https://kubernetes.io/blog/2026/08/27/kubernetes-v1-37-metrics-api-ga/",
+   "summary": "Kubernetes v1.37 promotes the metrics.k8s.io API to stable ( v1 ). This API provides CPU and memory usage for nodes and Pods, and is the API behind commands such as kubectl top and resource-metrics-based autoscaling. For cluster operators and application developers, this graduation means that the API now has the stability guarantees associated with a Kubernetes stable API. The v1 API has the same ",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-27T18:30:00+00:00",
+   "id": "3b5080acff0154853d9d0a88a850d37ca8500854ed165bba9cfe92e2c90dd8a4",
+   "tags": [
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "When AI Coding Agents Become Malware Delivery Systems",
+   "link": "https://devops.com/when-ai-coding-agents-become-malware-delivery-systems/",
+   "summary": "AI coding agents are becoming part of everyday development work. Developers use them to find libraries, configure projects, troubleshoot installation problems, and set up new tools. An agent can search GitHub, read project documentation, and run commands without the developer having to work through every step manually. That convenience is creating another security concern for […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-27T17:56:37+00:00",
+   "id": "a1e93fc2bff89e900add0054947229acd3348fcde365abf9fc5b1403894749ca",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+   "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+   "summary": "Five Rust-level memory optimizations to the DNS cache layout of Big Pineapple cut per-entry memory by 56%, freeing approximately 100 TB of memory across Cloudflare's fleet.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-27T17:02:35+00:00",
+   "id": "bd14a38b7d5acb6b899422abb9d39c952bfeb751ad8f96fd7b9d4653cf125b3e",
+   "tags": [
+    "cloud",
+    "networking",
+    "programming",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs",
+   "link": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
+   "summary": "Compare managed PostgreSQL vs. self-hosted PostgreSQL across cost, control, security, resilience, scalability, and operational effort. The post Managed PostgreSQL vs. self-hosted PostgreSQL: Key benefits and trade-offs appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-27T17:00:00+00:00",
+   "id": "91248a1fbfc946c12a0d8daa6df76a71a67ef9b0e3fa377acb32c5e23e010f2d",
+   "tags": [
+    "cloud",
+    "databases",
+    "security"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Harness Unfurls Source Code Repository Alternative to GitHub",
+   "link": "https://devops.com/harness-unfurls-source-code-repository-alternative-to-github/",
+   "summary": "Harness today launched a code repository service that is specifically designed for DevOps teams that are relying on artificial intelligence (AI) agents to generate code. Martin Reynolds, Field CTO for Harness, said the Agent-Ready Harness Code Repository and AI Code Review service provides an alternative to existing GitHub source code repositories that were not designed […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-27T16:12:02+00:00",
+   "id": "9bd900e396244ae88ff8c4da00f03cf681d97fbdd34254aad81ded58033dda51",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Gemini Omni 1.1 Flash lets you build with more control",
+   "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-08-27T16:11:32+00:00",
+   "id": "90ba20dc32b53edf52ab24a1495bdf5c2efdd55baaf375e673bcc92bdc711912",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Reimagining work: How Pythian’s internal AI playbook delivers customer ROI",
+   "link": "https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi/",
+   "summary": "When Pythian rolled out Google Cloud’s Gemini Enterprise across our 500-person company in 27 countries, the goal was simple: use our own company as a proving ground to discover how enterprise AI actually delivers ROI. What we found changed our strategy entirely. Since the rollout of Gemini Enterprise and our previous enterprise AI deployments, Pythian observed firsthand why so many enterprise AI i",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-27T16:00:00+00:00",
+   "id": "2638174d5806171e9ae83c1397b37de8f7fb7c00a9c39b0071c49237eb29766f",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Deploy personal AI agents with Cloud Run instances",
+   "link": "https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances/",
+   "summary": "Need a low-cost, high-performance way to run long-lived, stateful workloads such as AI agents? Today, we introduced Cloud Run instances, which let you do just that. Consider AI agents such as OpenClaw or Hermes , which are intended for individual developers or personal use. Because these agents often work continuously and tend to serve only one user at a time, their infrastructure requirements loo",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-27T16:00:00+00:00",
+   "id": "c5c55e89eae81ad91ccf64207f26ae883bef0ca2bfbb90320a74fb8b568ac569",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Stream HCP Vault Dedicated audit logs to Microsoft Sentinel",
+   "link": "https://www.hashicorp.com/blog/hcp-vault-dedicated-audit-logs-microsoft-sentinel",
+   "summary": "HCP Vault Dedicated has no native Microsoft Sentinel connector. Deploy a Terraform-managed pipeline that streams audit logs into Azure Log Analytics and Microsoft Sentinel.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-27T16:00:00+00:00",
+   "id": "8be00a540daeccb89396cf57cbb7cc2d5af265ac0b22afceb5ae56163af63745",
+   "tags": [
+    "cloud",
+    "dev-tools"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Spring News Roundup: First Milestone Releases for Boot, Framework, Data, Security, Modulith, Batch",
+   "link": "https://www.infoq.com/news/2026/08/spring-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "After a 10-week hiatus since the last batch of Spring ecosystem releases, there was a flurry of activity during the week of August 17th, 2026, highlighting first milestone releases of: Spring Boot, Spring Framework, Spring Data, Spring Security, Spring Integration, Spring HATEOAS, Spring Modulith, Spring Batch, Spring AMQP and Spring for Apache Kafka. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-27T15:50:00+00:00",
+   "id": "ff32f2eb7dc94646019944fa969dec1d200f01e62962ce65390e6f628147daac",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Google Cloud Launches AI-powered Agents to Simplify Database Lifecycle Management",
+   "link": "https://www.infoq.com/news/2026/08/google-database-operation-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google Cloud has introduced AI-powered Database Operations Agents, featuring an Onboarding Agent that streamlines database setup and an Observability Agent that helps automate troubleshooting, performance optimization, and tuning. Integrated with Gemini Cloud Assist, these agents support multiple database services, including AlloyDB, Bigtable, and Spanner. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-27T15:00:00+00:00",
+   "id": "2076dd7f2062a1e0528961c2090fb353e02e9b01dc2906fe16e4cf9eed027115",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "databases",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Make a Portable Wide-screen Mechanical TV",
+   "link": "https://spectrum.ieee.org/mechanical-tv-2677767814",
+   "summary": "I never intended to join the cutting edge of electromechanical television. I just wanted to make a nice clock. But sometimes you have to go where the engineering takes you, and in my case it took me to the Scanwheel, a pocket-size wide-screen electromechanical TV with a resolution of 4,096 by 20 pixels. Yup, that’s 4K by 20. The 3D-printed drum [top] is spun by a motor controlled by a driver board",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-27T14:46:56+00:00",
+   "id": "220f9e07babbaee7488ad62aaeeda5d1699090d3b217588f14539cd699252b5b",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Claude, Codex, and Hermes installed unowned code inside corporate networks",
+   "link": "https://arstechnica.com/security/2026/08/claude-codex-and-hermes-installed-unowned-code-inside-corporate-networks/",
+   "summary": "227 install commands were found in corporate docs pointing at code nobody owns.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-08-27T14:00:13+00:00",
+   "id": "dd59879d2f5f1382ef10c539db4e6e95391988801c671ff3b2a4eb26751119a1",
+   "tags": [
+    "networking"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Piloting the world's first double-blind AI evaluations",
+   "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+   "summary": "Piloting the world's first double-blind AI evaluations",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-08-27T12:59:16+00:00",
+   "id": "f0dc85dcc6d3444f6482829995f5a83e6fdb56513a353598d7cfc58189cd6756",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "How OpenAI let a mob of LLM agents game a test and ransack Hugging Face",
+   "link": "https://arstechnica.com/security/2026/08/how-openai-let-a-mob-of-llm-agents-game-a-test-and-ransack-hugging-face/",
+   "summary": "Without authorization, 1,200 OpenAI agents conspired among themselves to game a test.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-08-27T12:58:59+00:00",
+   "id": "6644f2d547fa15edf337509357be7c7cb4c15ead532e43918c987cae162922ee",
+   "tags": [
+    "ai"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Astro Introduces Sätteri: A Rust-powered Markdown And Mdx Processor With Up To 60% Faster Builds",
+   "link": "https://www.infoq.com/news/2026/08/astro-satteri-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Sätteri is a high-performance Markdown and MDX processor developed by the Astro team. Built in Rust, it enhances build speeds by up to 61% for Astro 7.0. Sätteri supports flexible JavaScript plugins and integrates various Markdown features natively. It maintains compatibility with the unified ecosystem while offering faster parsing and reduced dependencies. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-27T12:31:00+00:00",
+   "id": "e8853942e72e9baf1365709b91512ee7582e24652b87ea30595708b122b90325",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
+   "link": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The inside story on why OpenAI agents hacked Hugging Face The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-27T12:10:00+00:00",
+   "id": "a9d2c95830031e643f84cbe3dfc345c0a863ed263f6c98d8011abded0068359d",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "How to Make Testing More Sustainable",
+   "link": "https://www.infoq.com/news/2026/08/making-testing-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "By using a sustainable testing strategy, you can skip unnecessary tests, ensure failing fast and early, and only run tests affected by code changes. Tracking energy use per test and using static code analysis can help spot inefficiencies and guide optimization efforts. By Ben Linders",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-27T11:53:00+00:00",
+   "id": "ad87cb376e0cc2bc6c1661cb461aabfd34abf3d9b409f7f234457a61960d3569",
+   "tags": [
+    "architecture",
+    "privacy",
+    "programming"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "How to Build a Durable Change-Control Gate for AI Agents",
+   "link": "https://devops.com/how-to-build-a-durable-change-control-gate-for-ai-agents/",
+   "summary": "AI agents that trigger real-world changes need more than confidence scores. A durable change-control gate should recheck policy, require approval for consequential actions, enforce idempotency and verify the result before retrying.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-27T11:43:27+00:00",
+   "id": "f70adc4e63e9d8a388ffdf341d221a62a9ff1460fd25235c32233ec5a7d6f761",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Building an AI factory on Kubernetes",
+   "link": "https://www.cncf.io/blog/2026/08/27/building-an-ai-factory-on-kubernetes/",
+   "summary": "An AI factory is not just a model or a cluster. It is a pool of GPUs that many teams draw from at once: one team fine-tuning, another serving inference, a third running evaluations, all on...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-27T11:30:00+00:00",
+   "id": "72a67754d0e301c40d593bc9dc2e79903d63ff8cf4d09bbe527b779afa836746",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
+   "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+   "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a \"sophisticated",
+   "source": "KrebsOnSecurity",
+   "category": "Security & Privacy",
+   "published": "2026-08-27T11:04:15+00:00",
+   "id": "9e6ea14f195369ccd1ebd13b71ebba62925a6cd2a94657513607d1e07913a972",
+   "tags": [
+    "privacy",
+    "security"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Production Validation: The Missing Layer in Enterprise Releases",
+   "link": "https://devops.com/production-validation-the-missing-layer-in-enterprise-releases/",
+   "summary": "Production validation adds a critical business-control layer between testing and deployment, combining data checks, exception review, approvals, reconciliation and operational readiness before a release reaches production.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-27T11:03:02+00:00",
+   "id": "c0f626caafbb4c7aab940c729f6ebaf917e5b4ecda269a979d4bde6aad784984",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Is Slate Auto’s new electric truck the EV Americans need?",
+   "link": "https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/",
+   "summary": "EVs account for under 10% of total new-vehicle sales in the US, and the numbers are declining. From a climate perspective, that’s pretty dismal, especially because the transportation sector is the single biggest source of greenhouse-gas emissions in the country. One thing that could help turn that around? Slate Auto’s new truck—a vehicle that seems…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-27T10:00:00+00:00",
+   "id": "33e2748f6491afc5a34cf8c82eb2cc24dec7a299295748707caec52e312db38e",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Presentation: Python, Numba, and Algorithm Design: Building Efficient Models in Financial Services",
+   "link": "https://www.infoq.com/presentations/numba/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Chad Schuster discusses bridging Python's developer velocity with C-like performance using Numba JIT and GPUs. Drawing from large-scale actuarial modeling, he explains LLVM pipeline architecture, performance gains up to 750x, and essential trade-offs like OOP limits, type inference errors, and compile-time overhead for engineering leaders scaling compute-heavy enterprise systems. By Chad Schuster",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-27T09:23:00+00:00",
+   "id": "4f1f8fb7f33fcb8b9a96d89141547a650f090f91ebecd5b3df29b814daf95ddf",
+   "tags": [
+    "ai",
+    "architecture",
+    "hardware",
+    "programming"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
   {
    "title": "Cloudflare Wallets Arrives Late to x402, and the Spending Controls Stop at the Payment",
    "link": "https://www.infoq.com/news/2026/08/agent-payment-rails-x402/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -15,6 +456,34 @@
     "programming"
    ],
    "first_seen": "2026-08-27T09:16:25.865777+00:00"
+  },
+  {
+   "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+   "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+   "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-27T09:00:00+00:00",
+   "id": "5c8d75ef9c12c05961137bb4431a14c551ac90466a167ec85821c6aa78285922",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
+  },
+  {
+   "title": "Expanding OpenAI’s presence in Brazil",
+   "link": "https://openai.com/index/expanding-our-presence-in-brazil",
+   "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-27T03:00:00+00:00",
+   "id": "fe23f369e01db08d4a0477172cd7e0c5a8e1ac1fb959a7f41cba80240e425604",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-28T09:20:39.878801+00:00"
   },
   {
    "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
