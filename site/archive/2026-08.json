@@ -1,7 +1,242 @@
 {
  "month": "2026-08",
- "updated": "2026-08-28T09:20:39.878801+00:00",
+ "updated": "2026-08-29T06:26:41.725149+00:00",
  "items": [
+  {
+   "title": "FreeToken Unlocks Frontier MoE Inference on Consumer Hardware via Dynamic Co-Execution",
+   "link": "https://www.infoq.com/news/2026/08/freetoken-local-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Researchers from UC Berkeley and MIT have developed FreeToken, an open-source inference engine that enhances the utility of Mixture-of-Experts models on consumer hardware. By implementing a dynamic scheduling policy and optimising weight management, FreeToken improves decoding speeds and execution efficiency in edge AI applications, fostering self-hosted reasoning systems. By Olimpiu Pop",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-29T05:05:00+00:00",
+   "id": "cf15671dcb81af0c3efb4b9e723ac8fe1bf2f1af020a62c5935f19e2116373e2",
+   "tags": [
+    "ai",
+    "architecture",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "Cybersecurity Researchers Uncover Flaw in Google AI Coding Tool",
+   "link": "https://devops.com/cybersecurity-researchers-uncover-flaw-in-google-ai-coding-tool/",
+   "summary": "Cybersecurity researchers from Pillar Security this week revealed how a prompt injection inserted into a GitHub repository was used to gain Editor-level access to an internal Google Cloud project using a flaw in the command line interface (CLI) of an artificial intelligence (AI) coding tool that Google provides. Dan Lisichkin, a cybersecurity researcher for Pillar […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-28T19:41:16+00:00",
+   "id": "30d76ef8ecf8a4f4192ff098e4a1f98e8e5ef94b5cf0fe64d55546094a936a0c",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Pod Certificates and Cluster Trust Bundles",
+   "link": "https://kubernetes.io/blog/2026/08/28/kubernetes-v1-37-pod-certificates-and-cluster-trust-bundles/",
+   "summary": "Pod Certificate / Cluster Trust Bundles Blog Post Kubernetes brings a wealth of features that make it easy to run your production workloads securely and reliably. While aspects like scheduling, health checks and resource limits are probably at the front of your mind, one other important feature of Kubernetes is production identity — how your workload can authenticate to other systems in order to d",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-28T18:30:00+00:00",
+   "id": "0ff92615e16e45a0173f698dd73a3ed52fc0fa23283f8a1d8c6aac47e92ca64d",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "Certificate Renewal Is a Deployment Workflow, Not a Cron Job",
+   "link": "https://devops.com/certificate-renewal-is-a-deployment-workflow-not-a-cron-job/",
+   "summary": "Certificate renewal is often treated as a scheduled task: run an ACME client, obtain a new certificate, and move on. In practice, that view is too narrow for production systems. A certificate is not useful because it exists on disk. It is useful because the right service is presenting it to users. Between issuance and […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-28T18:00:07+00:00",
+   "id": "f403b280045178223f552fbd27ce40942d53d00212de06eef5864c3e63c8f74e",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "Oscar Winner Brings Monsters to Life With His Simulation Software",
+   "link": "https://spectrum.ieee.org/oscar-winner-jernej-barbic",
+   "summary": "While walking to school as a child, Jernej Barbič would marvel at how beautiful his home was. He was born and raised in a picturesque village in northwestern Slovenia (formerly Yugoslavia), located in the European Alps. Surrounded by alpine and beech trees, Barbic dreamed of replicating their swaying in the wind for others to enjoy. At the time, he didn’t have the tools or the knowledge to create ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-28T18:00:04+00:00",
+   "id": "9923f005c8007d0f1ff9bbb4c445b93b3c3b6a6efd8cc5790b8968898f8552fe",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
+   "link": "https://netflixtechblog.com/maps-netflixs-multimodal-asset-personalization-at-scale-32f96320785e?source=rss----2615bd06b42e---4",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "category": "Software Engineering",
+   "published": "2026-08-28T16:01:02+00:00",
+   "id": "cbf07e5e2acdb643dd3cb4b574837fe6508758c50778c84950ca1006afc72592",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "What’s new with Google Cloud",
+   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 24 - Aug 28 Grok 4",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-28T16:00:00+00:00",
+   "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-07-12T10:59:18.257168+00:00"
+  },
+  {
+   "title": "Relaunching HashiCorp Validated Designs with improved usability",
+   "link": "https://www.hashicorp.com/blog/relaunching-hashicorp-validated-designs-with-improved-usability",
+   "summary": "Learn how the refreshed HashiCorp Validated Designs help teams find field-tested guidance for deploying, operating, and using products in production.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-28T16:00:00+00:00",
+   "id": "c3293cb26fb90afe66c455009922f3ec34b45c9847c9d33994308b7d25720e37",
+   "tags": [
+    "cloud",
+    "dev-tools"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "Uber Builds GitFarm to Run Git Operations as a Service for Large-Scale Monorepos",
+   "link": "https://www.infoq.com/news/2026/08/uber-gitfarm-git-as-a-service/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Uber’s GitFarm provides Git operations as a centralized service, eliminating local repository clones across large scale monorepo workloads. The platform uses prewarmed checkouts, ephemeral sandboxes, repository synchronization, and gRPC streaming to reduce resource consumption and startup latency for automation services operating across thousands of repositories. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-28T14:30:00+00:00",
+   "id": "52777fb9a7af3ea48cbcd289e4688c1bbc85e2f669eef7b85663ec1b90731fe5",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+   "link": "https://blog.cloudflare.com/botbase-for-operators/",
+   "summary": "Bot operators now have a home in the Cloudflare dashboard to manage submissions. This update adds submission status tracking, submission editing, and a behavior model so operators can accurately declare how their bots use content.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-28T12:59:44+00:00",
+   "id": "5c826c8acd60cd10af8b5442900e335ad7af77daff06e5a62b0e4aea9b6c05b8",
+   "tags": [
+    "cloud",
+    "networking",
+    "privacy",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "The Download: a secretive antiaging drug and joining virtual power plants",
+   "link": "https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A startup claims it’s found a drug to make your blood young —Antonio Regalado I knew I’d officially become a “longevity influencer” when a company called Generation Lab offered me the…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-28T12:35:27+00:00",
+   "id": "db70bfe8fd937af2015f2b55bc77237125e3592c8a26c9f2dafd1decf8a6037d",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "AKS Looks to Make Node Disruption More Predictable with New NAP Guidance",
+   "link": "https://www.infoq.com/news/2026/08/aks-node-disruption/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Microsoft is placing greater emphasis on controlling disruption in Azure Kubernetes Service (AKS) Node Auto-Provisioning (NAP), publishing new guidance to help platform teams balance the efficiency benefits of automated node consolidation with application availability. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-28T12:00:00+00:00",
+   "id": "f596eb0960df99a546de362ff94ea7ad8ebb1e994aa61fea6d8cc0e4187d4ae0",
+   "tags": [
+    "architecture",
+    "cloud",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "Scale before the spike: Predictive autoscaling for GPU workloads on Kubernetes",
+   "link": "https://www.cncf.io/blog/2026/08/28/scale-before-the-spike-predictive-autoscaling-for-gpu-workloads-on-kubernetes/",
+   "summary": "The 3 AM Call We got paged one Tuesday morning. A critical production service had crashed under traffic—not gradually degraded, but crashed. Hundreds of pending pods. Users were seeing 15–20% error rates. The incident postmortem was...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-28T11:30:00+00:00",
+   "id": "67cbe6846d38f4b8972dd3ba85ce2c5f385a593b0f185b5dafd2bcb577e1ec7c",
+   "tags": [
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "Authorities arrest 2 alleged members of prolific hacking group TeamPCP",
+   "link": "https://arstechnica.com/security/2026/08/authorities-arrest-2-alleged-members-of-prolific-hacking-group-teampcp/",
+   "summary": "The group infected more than 1,000 organizations in a relentless supply-chain attack campaign.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-08-28T11:15:05+00:00",
+   "id": "e870838063b964e856b15316fbb3f030dedcc2cc1073dc7af749260506f7cbb4",
+   "tags": [],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "Your Kubernetes platform is ready for containers. Is it ready for AI?",
+   "link": "https://www.cncf.io/blog/2026/08/28/your-kubernetes-platform-is-ready-for-containers-is-it-ready-for-ai/",
+   "summary": "Kubernetes has given platform teams a consistent way to deploy, scale, and operate containerized applications. Now, many of those same teams are being asked to support AI. The transition is already underway. According to the CNCF...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-28T11:00:00+00:00",
+   "id": "ee7b8fe42d488e158a36a0da8d694fbf5c2b62c11c28581590e017836a321bf7",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "Presentation: From DVDs to Global Streaming: How Netflix’s Commerce Architecture Actually Evolved",
+   "link": "https://www.infoq.com/presentations/netflix-commerce-architecture-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Kasia Trapszo discusses how Netflix evolved its commerce platform from a U.S. DVD service into global infrastructure. She explains navigating international payment realities, adapting to strict regulatory mandates, decomposing monolithic architectures along domain boundaries, and re-architecting systems for massive live-event demand - proving great systems survive by continually evolving. By Kasia",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-28T11:00:00+00:00",
+   "id": "8b9e9b38a1f63d89f6f14442538ac3c1982e3871a26ef47ae07c288c9861c907",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
   {
    "title": "Article: Post-Quantum Cryptography in Spring Boot: Four Patterns You Can Ship This Sprint",
    "link": "https://www.infoq.com/articles/pqc-in-spring-boot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -62,9 +297,51 @@
    "first_seen": "2026-08-28T09:20:39.878801+00:00"
   },
   {
+   "title": "Our decision on Cursor following its acquisition by SpaceX",
+   "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+   "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-28T06:00:00+00:00",
+   "id": "b42ac281ecaf56c08abb695644df43cc6560bb332ec6641a0a17b2c01529c31f",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "Supporting Thailand’s next generation of AI startups",
+   "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+   "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-28T02:00:00+00:00",
+   "id": "cb1db0d5c74b6e9eeb890e2ee46bb06c7f0b7f7e54363ac96a62606a772bbfa5",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
+   "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+   "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-08-28T00:00:00+00:00",
+   "id": "4d3b17a749f42c957e926aa5ecda3aa5c4eeeaa5ba6fc6a0122239385ec004be",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-08-29T06:26:41.725149+00:00"
+  },
+  {
    "title": "A startup claims it’s found a drug to make your blood young",
    "link": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
-   "summary": "I knew I’d officially become a ‘longevity influencer’ this month when a company called Generation Lab reached out to offer me the chance to write about—and even receive—their new rejuvenation treatment, an injectable combination of two existing drugs which they call 1 Generation. This wasn’t just any antiaging treatment, either. A company fact sheet says that…",
+   "summary": "I knew I’d officially become a “longevity influencer” this month when a company called Generation Lab reached out to offer me the chance to write about—and even receive—their new rejuvenation treatment, an injectable combination of two existing drugs which they call 1 Generation. This wasn’t just any antiaging treatment, either. A company fact sheet says that…",
    "source": "MIT Technology Review",
    "category": "General Tech",
    "published": "2026-08-27T19:48:13+00:00",
@@ -2145,19 +2422,6 @@
     "programming"
    ],
    "first_seen": "2026-08-22T06:12:39.518863+00:00"
-  },
-  {
-   "title": "What’s new with Google Cloud",
-   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 17 - Aug 21 Webina",
-   "source": "Google Cloud Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-08-21T16:00:00+00:00",
-   "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
-   "tags": [
-    "cloud"
-   ],
-   "first_seen": "2026-07-12T10:59:18.257168+00:00"
   },
   {
    "title": "Cloud CISO Perspectives: Sticking to security fundamentals in the AI era",
