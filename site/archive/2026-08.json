@@ -1,7 +1,54 @@
 {
  "month": "2026-08",
- "updated": "2026-08-29T06:26:41.725149+00:00",
+ "updated": "2026-08-30T06:28:02.679253+00:00",
  "items": [
+  {
+   "title": "Noodling on Nuclear Engines",
+   "link": "https://spectrum.ieee.org/bimodal-nuclear-engine",
+   "summary": "One day in 1982, Joseph “Rod” Canion and two colleagues from Texas Instruments sat down at the House of Pies in Houston and used a napkin to sketch out what would become Compaq’s portable PC. In 1996, Felix Zandman, founder of Vishay Intertechnology, dined at Husker Steak House in Columbus, Neb., grabbed a napkin and drafted a design for a power metal strip resistor, which became crucial to power-",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-29T15:35:01+00:00",
+   "id": "d0ec5dfbe650298b879dba25202756aacf7ccd1385905464cc44efe7197151b1",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-08-30T06:28:02.679253+00:00"
+  },
+  {
+   "title": "Presentation: Architecting the Data Layer for AI Agents: From Transactional Systems to MCP and Semantic Models",
+   "link": "https://www.infoq.com/presentations/enterprise-data-architecture-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Fabiane Nardon shares how TOTVS prepares enterprise data for token-hungry AI agents. She discusses balancing deterministic logic and non-deterministic LLMs across precision, security, and cost. Nardon details using data mesh, low-latency database architectures, semantic ontologies, and dynamic MCP tool selection to optimize context windows and reduce token overhead in transactional systems. By Fab",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-29T11:00:00+00:00",
+   "id": "ba98fe529e312c826269015f99df6c4f2bb393122e07d39d0085824bad6beadb",
+   "tags": [
+    "ai",
+    "architecture",
+    "databases",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-08-30T06:28:02.679253+00:00"
+  },
+  {
+   "title": "Cloudflare Workers Accept Inbound TCP, with gRPC the First Protocol on Top",
+   "link": "https://www.infoq.com/news/2026/08/workers-inbound-tcp-grpc/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare Workers can now accept inbound TCP connections through a new connect(socket) handler routed via Spectrum, ending an eight-year restriction to HTTP. Containers get full-duplex gRPC in any language, while Workers get unary and server-streaming through automatic gRPC-web translation. Everything is private beta. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-29T09:55:00+00:00",
+   "id": "a8ca976f789034da1cdc85db1026a5d268442929f4337b5e08e4674ec0e653a8",
+   "tags": [
+    "architecture",
+    "cloud-native",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-08-30T06:28:02.679253+00:00"
+  },
   {
    "title": "FreeToken Unlocks Frontier MoE Inference on Consumer Hardware via Dynamic Co-Execution",
    "link": "https://www.infoq.com/news/2026/08/freetoken-local-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -590,7 +637,7 @@
    "first_seen": "2026-08-28T09:20:39.878801+00:00"
   },
   {
-   "title": "Astro Introduces Sätteri: A Rust-powered Markdown And Mdx Processor With Up To 60% Faster Builds",
+   "title": "Astro Introduces Sätteri: a Rust-Powered Markdown and Mdx Processor with up to 60% Faster Builds",
    "link": "https://www.infoq.com/news/2026/08/astro-satteri-rust/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Sätteri is a high-performance Markdown and MDX processor developed by the Astro team. Built in Rust, it enhances build speeds by up to 61% for Astro 7.0. Sätteri supports flexible JavaScript plugins and integrates various Markdown features natively. It maintains compatibility with the unified ecosystem while offering faster parsing and reduced dependencies. By Daniel Curtis",
    "source": "InfoQ",
