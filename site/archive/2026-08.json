@@ -1,7 +1,444 @@
 {
  "month": "2026-08",
- "updated": "2026-08-31T06:39:57.324355+00:00",
+ "updated": "2026-09-01T06:33:05.418266+00:00",
  "items": [
+  {
+   "title": "BigQuery Graph is now GA: the knowledge foundation for the agentic era",
+   "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-graph-connecting-data-and-ai-at-scale/",
+   "summary": "Many of the questions that matter in enterprise data aren't just about individual rows — they're about how things connect: how two accounts are linked, what path a payment took, what context grounds an AI agent's answer. That’s what a graph is built to solve. Historically, unlocking these insights meant extracting data into standalone graph databases, creating silos and operational overhead. To re",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-31T23:00:00+00:00",
+   "id": "a306ae3a48584322c7d990bd6266c180d356bedc4293bd52d63a0bafbda39dfa",
+   "tags": [
+    "ai",
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
+   "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-r9g-and-r9gd-instances-powered-by-aws-graviton5-processors-are-now-generally-available/",
+   "summary": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 are now generally available, delivering up to 25% better compute performance than R8g, ideal for databases, in-memory caches, and real-time analytics.",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-31T19:53:34+00:00",
+   "id": "26dfe2cd4839ad8484b61bb804bd8f05276c4c0872f1b078cc711e08d5bcdb6c",
+   "tags": [
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "OpenAI Cuts Off Cursor’s Model Access After SpaceX Acquisition",
+   "link": "https://devops.com/openai-cuts-off-cursors-model-access-after-spacex-acquisition/",
+   "summary": "OpenAI is ending Cursor’s direct access to its AI models after Elon Musk’s SpaceX acquired its parent company, Anysphere. This is the next move in the increasingly bitter conflict between Elon Musk and the company he helped found. Just because you’re filthy rich doesn’t mean you still can’t have petty fights. In the latest example […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-31T19:18:46+00:00",
+   "id": "d9795298ba452d1640c97d74ccf9319722024848c9baedd12d6d6c42292f8799",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Storage Version Migration Enabled by Default",
+   "link": "https://kubernetes.io/blog/2026/08/31/kubernetes-v1-37-storage-version-migration-ga/",
+   "summary": "I am excited that storage version migration (SVM) has graduated to General Availability (GA) in Kubernetes v1.37! After a number of releases of work and testing, the built-in StorageVersionMigration API ( storagemigration.k8s.io/v1 ) and control plane controller are now fully stable and enabled by default across all v1.37 Kubernetes clusters. The problem with stale storage versions In Kubernetes, ",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-31T18:30:00+00:00",
+   "id": "c27336331a48e407a92f072b8259baf298a668a1cf7172493565c57508dc8779",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "This Teen Helped Native American Students Earn Ham Radio Licenses",
+   "link": "https://spectrum.ieee.org/ruchira-shree-ham-radio",
+   "summary": "For many high school students, summer vacation is a time to unplug. For Ruchira Shree, a rising sophomore at West Windsor–Plainsboro High School South , in New Jersey, the break allows her to ramp up her extracurricular pursuits. Much of her time is spent assisting with IEEE Princeton Central Jersey Section activities. She got involved with the PCJS because of her mother, IEEE Senior Member Shubha",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-31T18:00:01+00:00",
+   "id": "6fac3b29bd2f156fe56d7f0e3f2626870daa30a238aef20f3fdc16314f3a0772",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
+   "link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in which OpenAI agents escaped their sandbox and hacked into the AI platform Hugging Face while trying to cheat on…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-08-31T18:00:00+00:00",
+   "id": "1a67cf9fc56a8187f32c22669bdafdaf8805a8b2839706292e479bac70c61165",
+   "tags": [
+    "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Think twice before installing this device promising free movies",
+   "link": "https://arstechnica.com/security/2026/08/how-some-media-streaming-devices-open-home-networks-to-a-world-of-harm/",
+   "summary": "In exchange for free stuff, devices make home connections part of a proxy network.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-08-31T16:33:38+00:00",
+   "id": "3d401c81446d44febd5c876c071473c5f589827be295adbe3b3f8f149d0e28a4",
+   "tags": [
+    "networking"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "From Operator to Agent Manager: The Real Shift in Network Engineering",
+   "link": "https://devops.com/from-operator-to-agent-manager-the-real-shift-in-network-engineering/",
+   "summary": "I’ve been saying for ten years that network automation was three years away from being the only way to do things. Every year I moved the goalposts, because the data never caught up to the rhetoric. After a decade of scripts, YAML, Ansible, Terraform, and every NetDevOps framework we could throw at the problem, roughly […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-31T16:20:06+00:00",
+   "id": "99d83f071e93d1ce914c1899008d160ee865add924c7211fd00090ba3e0bad33",
+   "tags": [
+    "dev-tools",
+    "networking",
+    "observability"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "What’s new in AI infrastructure and orchestration in August",
+   "link": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/",
+   "summary": "Welcome back to What’s new in AI infrastructure and orchestration this month , a collection of product updates, how-tos, customer stories, research and other resources about all the AI compute, networks, storage, frameworks, and orchestration software that you can find at Google Cloud. To be honest, we thought August would be a slow month, but nothing could be further from the truth. Read on and y",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-31T16:00:00+00:00",
+   "id": "72249bd53d8a5849bc6afcd896a680a611effbcc3499efd5893cf5cd2d1f990b",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "research"
+   ],
+   "first_seen": "2026-08-01T06:59:04.770090+00:00"
+  },
+  {
+   "title": "Cloud CISO Perspectives: Tips on securing the water sector in the AI era",
+   "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-tips-on-securing-water-sector-ai-era/",
+   "summary": "Welcome to the second Cloud CISO Perspectives for August 2026. Today, Chris Sistrunk and Stephanie Kiel detail the critical issues facing the water sector, and actionable steps that OT operators can take to secure their infrastructure. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to r",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-31T16:00:00+00:00",
+   "id": "7b33fa20e33356579ad01402cf527a7256cb3a0ccd66f096d63596925708033a",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "From weeks to minutes: The new agentic era of data pipelines",
+   "link": "https://cloud.google.com/blog/products/data-analytics/build-data-pipelines-in-less-time-with-data-agent-kit/",
+   "summary": "Data pipelines are the backbone of the modern enterprise, yet a barrier to entry exists for orchestrating them, making this critical capability unavailable to many data professionals. Following our announcements at Google Cloud NEXT ’26 , where we introduced the Orchestration Pipelines framework, we are fundamentally changing this dynamic. To bring this powerful framework directly to practitioners",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-31T16:00:00+00:00",
+   "id": "fbb8d7fddb58213290728bfdc57b5789efdd703dc48788fcb37b17bb17311348",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
+   "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-welcome-ducklabs-to-the-team-agentic-resource-discovery-ard-and-more-august-31-2026/",
+   "summary": "The news that interested me the most last week was the DuckLabs acquisition. AWS has signed a definitive agreement to acquire DuckLabs, the Amsterdam-based company behind DuckDB, the popular open source analytical database that runs in-process and executes SQL directly against files like Parquet, CSV, and JSON. DuckDB stays open source under its independent foundation […]",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-31T14:45:25+00:00",
+   "id": "1f4b1c3e455a31dd8fb2a21aad40797f158a21de88cbe1a4965298556f5a0284",
+   "tags": [
+    "cloud",
+    "databases",
+    "open-source"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "DoorDash’s Flux Runs 130,000 Engineering Tasks Through Cloud-Based Agents",
+   "link": "https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "DoorDash has moved engineering agent workloads from developer laptops to its Flux cloud platform. The platform automated 130,000 engineering tasks in one month and supports more than 25,000 automated code reviews weekly. Flux uses isolated Firecracker microVMs, an MCP gateway, reusable playbooks, and multiple invocation surfaces to run agent workflows with scoped access and centralized auditing. B",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-31T14:28:00+00:00",
+   "id": "6a817b65fbc3a6da9a4a3885a8066c436a9abd62324ac1ab04c67eed4039dec4",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Lunar Cyber Launches Token Exposure Monitoring as Infostealers Target Developer and AI Credentials",
+   "link": "https://devops.com/lunar-cyber-launches-token-exposure-monitoring-as-infostealers-target-developer-and-ai-credentials/",
+   "summary": "Bnei Brak, Israel, 31st August 2026, CyberNewswire",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-31T14:10:03+00:00",
+   "id": "1994e41e06c85ea0e2db6ea280c99c612358ee52977c67915c58627e3eed0482",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Ten Great DevOps Job Opportunities",
+   "link": "https://devops.com/ten-great-devops-job-opportunities-21/",
+   "summary": "DevOps.com is now providing a weekly DevOps jobs report through which opportunities for DevOps professionals will be highlighted as part of an effort to better serve our audience. Our goal in these challenging economic times is to make it just that much easier for DevOps professionals to advance their careers. Of course, the pool of […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-31T14:06:35+00:00",
+   "id": "459d5c8db915f0e7869122939ae2124e220557bb18de8015b9efecdc4766b9dd",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "The E.U.’s AI Drive Undermines Its ​Own Chip Strategy",
+   "link": "https://spectrum.ieee.org/europes-ai-drive",
+   "summary": "This story was originally published by Tech Policy Press . The European Union’s push for technological sovereignty faces an uncomfortable contradiction. As the E.U. rolls out AI factories, gigafactories, and new data centers, it is creating a surge in demand for the advanced semiconductors that underpin artificial intelligence. Yet Europe produces fewer than 10 percent of the world’s chips and rem",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-31T14:00:04+00:00",
+   "id": "cde6d80f75518b2aa5671370f484b6234a91b7a1414c0dcb3039a718e92f8978",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Broadcom Launches Trusted Artifact Service for Spring Framework",
+   "link": "https://devops.com/broadcom-launches-trusted-artifact-service-for-spring-framework/",
+   "summary": "Broadcom launches TrueSource Trusted Artifacts to provide hardened Spring dependencies, secure open source packages and automated vulnerability remediation.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-31T13:00:21+00:00",
+   "id": "18728eae547df81840ed2d020ae7824c98375ce03e76f07cf81afcf2cdfccc7a",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
+   "link": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
+   "summary": "Bot operators have historically had the economic advantage, bypassing static, deterministic detection rules with cheap proxies and retooling. Cloudflare's new Adaptive Intelligence engine flips this dynamic by autonomously learning from the meta-signals of live traffic and deploying disposable rules, making automated attacks too expensive to sustain.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-08-31T12:59:00+00:00",
+   "id": "233c41a6ac4dce634d069a01f240f9d4489cda12490818cf8437c6c23ac68d05",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "The First Battery Was Inspired By a Dead Frog",
+   "link": "https://spectrum.ieee.org/voltaic-pile-first-battery",
+   "summary": "In a display case on the lower level of the Faraday Museum at the Royal Institution in London, there’s an unassuming stack of gray metal discs and blotting paper. It’s not at all obvious that this humble object is the starting point of today’s multibillion-dollar global battery industry. The object’s invention in 1799 grew out of a disagreement that Alessandro Volta —the Italian physicist for whom",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-08-31T12:00:01+00:00",
+   "id": "b9c6e8f22b865719e72ffa92b899751e4c1c4b0d6ab20f81960b73bd6e482aa6",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "OpenTelemetry has graduated… now what?",
+   "link": "https://www.cncf.io/blog/2026/08/31/opentelemetry-has-graduated-now-what-2/",
+   "summary": "In case you missed it: OpenTelemetry (OTel) has officially achieved CNCF graduated status! It now stands proudly alongside amazing open source projects such as Kubernetes and Prometheus, to name just a few. It’s been a long...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-31T11:30:00+00:00",
+   "id": "ed33dc4570dff5b88b65947baf1017ff1c1af04c6ea43fdf77ea44caa400a4f2",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Java News Roundup: GraalVM, Jakarta Data, JNoSQL, Azul Payara, WildFly, Quarkus, Atmosphere",
+   "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug24-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This week's Java roundup for August 24th, 2026, features news highlighting: the GA release of Atmosphere 4.0; point releases of GraalVM, Azul Payara and Quarkus; a maintenance release of WildFly 41; milestone releases of Jakarta Data and Eclipse JNoSQL; a beta release of the September 2026 edition of Open Liberty; and the release of Docker images for GlassFish 8.0.4. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-31T11:30:00+00:00",
+   "id": "3536f12886068fff3aeb00b21b9a70926ee8f09334ba547a406eaf19c7c37cc8",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Article: Eliminating Long-Lived Credentials in GCP with Workload Identity Federation",
+   "link": "https://www.infoq.com/articles/gcp-wif-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Long-lived GCP service account keys are secrets that must be managed forever, are hard to rotate, and are easy to leak. Scaling Workload Identity Federation to 120+ production projects shows why it changes how machine identity is approached entirely: keys are secrets to manage, federated identities are trust relationships configured once, gated by attribute conditions. By Shijin Nair",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-31T11:00:00+00:00",
+   "id": "9c9258bd2570c06a274d70dea2d42694491b20eb7a857adf42d06b9a38d1a2d4",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Podcast: Scott Jenson on Evolving Desktop OS, Local-First, & Agentic UX",
+   "link": "https://www.infoq.com/podcasts/evolving-desktop-agentic-ux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this episode, Scott Jenson, a veteran UX designer known for his work on the Macintosh, Google Maps, and Chrome examines the long-term stagnation of desktop operating systems and the limitations of current mobile and cloud-centric models. By Scott Jenson",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-31T11:00:00+00:00",
+   "id": "ab24fbe79dd7ef3e840580d37c2243a387e282348b5886b2e7661a1233eb05e5",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser",
+   "link": "https://www.infoq.com/presentations/local-ai-browser-inference-privacy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "James Hall discusses the strategic and technical imperative of moving AI workloads from cloud providers to local edge devices. He shares practical approaches using WebGPU, Transformers.js, and DuckDB to achieve near-native performance in JavaScript. Through real-world case studies, he explains how to minimize data privacy risks, optimize browser inference, and build rigorous evaluation suites. By ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-31T11:00:00+00:00",
+   "id": "7711d11d222753b56adf48ca41f20fc43ecc104c6fba1c8dc8ab322aa30fc700",
+   "tags": [
+    "ai",
+    "architecture",
+    "privacy",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Foundry Model Router Expands from Two Regions to 28, Refreshing Its Model Pool",
+   "link": "https://www.infoq.com/news/2026/08/foundry-model-router-regions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Microsoft expanded Foundry's model router from two regions to 28 for global standard and 21 for data zone deployments, while adding Claude Opus 4.8 and GPT-5.6 and removing four deprecated models. Default deployments receive pool changes automatically; configured subsets exclude new models until added. The effective context window equals the smallest model in the pool. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-08-31T10:18:00+00:00",
+   "id": "79dcac17f8ac44517349eb619765943d0bf35fa24b3a2ec7e3a13a9d9f7bab5b",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "A Simple Website Summary Just Exposed the Limits of AI Coding Guardrails",
+   "link": "https://devops.com/a-simple-website-summary-just-exposed-the-limits-of-ai-coding-guardrails/",
+   "summary": "Claude Code’s Auto Mode was bypassed in an attack chain that turned a routine webpage summary into remote code execution, highlighting the limits of AI agent guardrails.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-31T09:43:35+00:00",
+   "id": "85d6596b058733574732b05eae72fb6322e7ff1f08c12921ec07089167dc92c0",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "GitHub Tightens Copilot’s Billing and Governance Rules Ahead of a Busy Fall",
+   "link": "https://devops.com/github-tightens-copilots-billing-and-governance-rules-ahead-of-a-busy-fall/",
+   "summary": "GitHub Copilot is tightening enterprise controls with upfront seat billing, longer chat retention and a Balanced code review default.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-08-31T09:16:20+00:00",
+   "id": "bbb6a51a9c93a2c9481247bf6e29413bf64e78605acd3b92d335a0a46ea7d857",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "OpenAI supports California’s bill to advance youth AI safety",
+   "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+   "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-31T07:00:00+00:00",
+   "id": "4862f3d2c68fb1ad680a585cc64e80bc967fc99b89a1e7fef84c985e61d958c6",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Polimill builds Japan's next-generation public AI infrastructure",
+   "link": "https://openai.com/index/polimill",
+   "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-31T07:00:00+00:00",
+   "id": "0b5a688ac44522d6851141a82925ed4d52e8227256bd0c561c149a506cd396f8",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "A milestone in expanding access to AI",
+   "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+   "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-08-31T04:00:00+00:00",
+   "id": "8a7cdd78fd48385994a8dbca98a1e32138d055e0841fbba3f4c389fe7e61c2a0",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
   {
    "title": "FlexGanttFX is Open Source",
    "link": "https://www.infoq.com/news/2026/08/flexgantfx/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -1939,7 +2376,7 @@
    "first_seen": "2026-08-25T06:15:37.367509+00:00"
   },
   {
-   "title": "The Cloudflare Blog – Brought to you by EmDash",
+   "title": "The Cloudflare Blog — brought to you by EmDash",
    "link": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
    "summary": "We migrated the Cloudflare Blog to EmDash to prove our stack at massive scale. Here is how we stress-tested performance, safely routed production traffic, and redesigned the frontend experience.",
    "source": "Cloudflare Blog",
@@ -2425,7 +2862,7 @@
    "first_seen": "2026-08-23T06:13:31.751321+00:00"
   },
   {
-   "title": "Say it once: introducing Bot Preference Sync",
+   "title": "Say it once: Introducing Bot Preference Sync",
    "link": "https://blog.cloudflare.com/bot-preference-sync/",
    "summary": "Cloudflare's new Bot Preference Sync automatically aligns your robots.txt file with your AI bot policies for Search, Agent, and Training. Easily manage which bots access your content without maintaining static files.",
    "source": "Cloudflare Blog",
