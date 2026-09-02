@@ -1,7 +1,227 @@
 {
  "month": "2026-09",
- "updated": "2026-09-01T06:33:05.418266+00:00",
+ "updated": "2026-09-02T06:36:08.341711+00:00",
  "items": [
+  {
+   "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+   "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+   "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity a",
+   "source": "KrebsOnSecurity",
+   "category": "Security & Privacy",
+   "published": "2026-09-01T22:40:28+00:00",
+   "id": "5df88e5de4fcf0233a8df873ffc0fc66eacec84e37046bfd3763c6a04874f010",
+   "tags": [
+    "privacy",
+    "security"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+   "link": "https://huggingface.co/blog/allenai/benchmirt",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-01T21:39:07+00:00",
+   "id": "ad90e6779ea3045b3b9ff330e4c9d1c6cd82a44459fb7cba10b171e8ac596ec8",
+   "tags": [
+    "ai",
+    "open-source",
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Informing Stakeholders Isn’t the Same as Aligning Them",
+   "link": "https://devops.com/informing-stakeholders-isnt-the-same-as-aligning-them/",
+   "summary": "The first sign of trouble was a screenshot. We’d just switched on the A/B test via our feature management platform. Within the hour, a senior stakeholder landed in the variant feature flag, opened the app on their own phone, and sent us an image of it. The message, more or less: “Why is there a […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-01T19:16:59+00:00",
+   "id": "d9bfb4f99cab3c36acaa698e66b126544ef81fb9ac2e66e88e6a2fae369fcbba",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "How AI plotted an interstellar journey to Alpha Centauri",
+   "link": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
+   "summary": "A nonprofit organization called the Fermi Explorer Mission announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029. It’s a hugely ambitious mission—if all goes well, the spacecraft could take up to 80,000 years to arrive at Alpha Centauri, which is 4.4 light-years away. And the…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-01T19:10:36+00:00",
+   "id": "2333b830c5032eb5ce16e46a0f8a0bdeccb420ceea6789580596163af8cf9e42",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "OpenClaw 2.0 Releases with Simplified Setup and Collaborative Agents",
+   "link": "https://www.infoq.com/news/2026/09/openclaw-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "OpenClaw has released OpenClaw 2.0, a major update to the open-source personal AI agent that changes its installation process, browser interface, memory, skills, automations, plugins, security, and collaboration features. By Daniel Dominguez",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-01T18:47:00+00:00",
+   "id": "875aa4802675c4e1eaa348fe397869c70cbcc74e91fa3fe6f67d04db4705b1e7",
+   "tags": [
+    "ai",
+    "architecture",
+    "open-source",
+    "programming",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Trusted Open Source Catalogs for AI and Developers",
+   "link": "https://devops.com/trusted-open-source-catalogs-for-ai-and-developers/",
+   "summary": "Leslie Pascual of ActiveState joins Alan Shimel to explain why trusted open source catalogs — not after-the-fact scanners — are becoming table stakes as AI agents pull components at machine speed.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-01T18:41:22+00:00",
+   "id": "17de1129be867cf13650286547343c1cf95ef1c1193cec142a190bdf0bb37370",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: etcd RangeStream Cuts Memory Use on Large List Reads",
+   "link": "https://kubernetes.io/blog/2026/09/01/kubernetes-v1-37-etcd-range-stream/",
+   "summary": "I am excited to announce that etcd RangeStream is graduating to beta in Kubernetes v1.37. Paired with etcd v3.7, it reduces the memory the API server and etcd need to read a large collection, and makes peak usage more predictable. The cost of large reads The API server serves most list and watch requests from its in-memory watch cache. Populating that cache requires reading a resource's full state",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-01T18:30:00+00:00",
+   "id": "d4361cc5b51334262577fcd478fcf0fcb41b5f55de75ac6e43dfb0e2a680136b",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "IEEE President’s Note: Technology for Social Good",
+   "link": "https://spectrum.ieee.org/president-ieee-note-september-2026",
+   "summary": "Across IEEE, our strength lies not only in the excellence of our individual communities but also in our ability to bring them together around shared problems that demand interdisciplinary solutions. Our mission as a public charity—to advance technology for the benefit of humanity—is becoming an increasingly powerful differentiator. It is more than a statement of principle; it is a strategic advant",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-01T18:00:04+00:00",
+   "id": "3c0da82342b3b706a6a9fb03fc93a9d15bc40a463ada2c34ce8a70859e8381e2",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Introducing agentic video understanding with Gemini",
+   "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-01T17:08:51+00:00",
+   "id": "6bf5b05134dd23a67198b53a5a74adf09cf948f7a401c3b4632f35e98f96ec3b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "How AI-native companies turn workflows into operating capability",
+   "link": "https://openai.com/index/ai-native-company-workflows",
+   "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-01T17:00:00+00:00",
+   "id": "b0cbef382238cdd5b88df7d9e2e972c6de79dc01f5270d52514cbb50f83a1be1",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "What Google Cloud announced in AI this month",
+   "link": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
+   "summary": "Editor’s note : Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. This month, we focused on making AI highly practical for your business, including its associated costs. This meant tailoring our models for specialized industries – starting with Financial Services and Lega",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-01T16:00:00+00:00",
+   "id": "b5df426afab2071076af1a84f375baa04035f6913e414ab7b920dd8e784169e4",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-08-04T07:01:59.311067+00:00"
+  },
+  {
+   "title": "How Blackline simplifies perimeter policy intelligence with VPC Service Controls",
+   "link": "https://cloud.google.com/blog/topics/customers/how-blackline-prevents-data-exfiltration-with-vpc-service-controls/",
+   "summary": "Establishing network-level perimeters with VPC Service Controls (VPC-SC) is a critical step that can help you protect your cloud environment against data exfiltration, compromised accounts, and insider threats. Today, Google Cloud is excited to share new policy intelligence capabilities in VPC-SC that can help drive even greater operational simplicity. With our latest release of the VPC-SC violati",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-01T16:00:00+00:00",
+   "id": "d5f91281552ef025f3cc013c63c1888eec1a1e034726048971604f6e61a45401",
+   "tags": [
+    "cloud",
+    "networking"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Introducing TabFM in BigQuery: Predictive analytics reimagined",
+   "link": "https://cloud.google.com/blog/products/data-analytics/tabfm-adds-predictive-ml-to-bigquery/",
+   "summary": "Historically, enterprise predictive analytics tasks such as predicting churn, purchase intent, or fraud scoring have meant building custom models using libraries like XGBoost, Random Forest, or Deep Neural Networks (DNNs). While effective, the traditional train-tune-deploy-retrain cycle can be complex and time-consuming. Additionally, the overhead of manual feature engineering, hyperparameter tuni",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-01T16:00:00+00:00",
+   "id": "aa315e122e954433384e4fe5c9cfca6d339c9383634c9e363731260f7c085b55",
+   "tags": [
+    "cloud",
+    "networking"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Secure mainframe access with HashiCorp Boundary",
+   "link": "https://www.hashicorp.com/blog/secure-mainframe-access-with-hashicorp-boundary",
+   "summary": "HashiCorp Boundary modernizes mainframe access with identity-based controls, JIT credentials, and central auditing via a mainframe-adjacent worker.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-01T16:00:00+00:00",
+   "id": "6566581446e08ce399dc31ebd5996a415d4ff5e35df7de0b19d5b351982739cf",
+   "tags": [
+    "cloud",
+    "dev-tools"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "HashiCorp Vault agentic IAM is now generally available",
+   "link": "https://www.hashicorp.com/blog/hashicorp-vault-agentic-iam-is-now-generally-available",
+   "summary": "HashiCorp Vault Enterprise advances AI agent security with recent enhancements now generally available.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-01T16:00:00+00:00",
+   "id": "72f4cd26f20a91558d58f74963328810df9aff122fe96cbea2a1ebf054757c49",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools",
+    "security"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
   {
    "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
    "link": "https://cloud.google.com/blog/topics/threat-intelligence/financially-motivated-threat-actor-breeze-comet-targets-brazil/",
@@ -14,6 +234,191 @@
     "cloud"
    ],
    "first_seen": "2026-09-01T06:33:05.418266+00:00"
+  },
+  {
+   "title": "Making the AI-powered case for legacy modernization",
+   "link": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
+   "summary": "For years, legacy technology has been a problem companies knew they needed to solve, but one they often struggled to tackle. The cost, complexity, and risk of replacing business-critical systems could make modernization feel like a disruption to manage instead of an opportunity to pursue. But with the rise in customer expectations and the changes…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-01T14:00:00+00:00",
+   "id": "0180f27638db0a711ddf77009d607f8c75391bd09b6377818d9885cdc128038d",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Path to Astra: critical capabilities and frontier safeguards",
+   "link": "https://openai.com/index/path-to-astra",
+   "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-01T13:00:00+00:00",
+   "id": "f2694bfa96c49e91da594bc0cb315cea9400ac30ae168e84999723429399dcd3",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "InfoQ previews the September cohorts of its online certification programs",
+   "link": "https://www.infoq.com/news/2026/09/infoq-online-cohorts-sept-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "A preview of the September cohorts of the InfoQ Online Certification Programs, and the facilitators leading them: Luca Mezzalira, Michelle Brush, Zichuan Xiong, and Premanand Chandrasekaran. By Artenisa Chatziou",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-01T13:00:00+00:00",
+   "id": "38efb52d2d7801023433d575976bfd5b07400269f0b78600df6705712167ad92",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
+   "link": "https://blog.cloudflare.com/cache-transcoding/",
+   "summary": "Could we get more cache space with the same hardware? We prototyped compression inside Cloudflare's cache to find out.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-01T12:59:00+00:00",
+   "id": "14331410fefc28af9062d7033c0678088b0723b962e00b3a9c94e57e5ce22ee5",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Presentation: Beyond Line Charts: Why Some Diversity in Telemetry Visualization Is Long Overdue",
+   "link": "https://www.infoq.com/presentations/telemetry-data/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Yao Yue discusses the fundamental limitations of standard line charts for system observability. Drawing from 15 years of operating large-scale systems, she shares how engineering leaders and software architects can transform telemetry data - moving beyond simple time-series defaults - to build visualizations that directly answer critical capacity, latency, and fleet-sizing questions. By Yao Yue",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-01T12:35:00+00:00",
+   "id": "fa8653433235df72cba68dee913300eea791a9b5e6dc080a7ab29a589058a891",
+   "tags": [
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
+   "link": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How engineered microbes could help feed the world’s crops Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions.…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-01T12:10:00+00:00",
+   "id": "0a5e2ed3c2a2ab1d02bdc40d8185f2e9a5171f0cc8fd6eb932ab5db9b80b5148",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+   "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+   "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-01T12:00:00+00:00",
+   "id": "c0364833b41073ca7c0ea92e6ee2f69465ad17ef62fa3529c77a9a8d4c268e7b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "HCP Terraform Positions Itself as the Control Plane for AI-Driven Infrastructure",
+   "link": "https://www.infoq.com/news/2026/09/hcp-terraform-ai-driven-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "HashiCorp is positioning HCP Terraform as the governance and control plane for a new generation of AI-driven infrastructure, arguing that the rapid adoption of coding agents is shifting the biggest infrastructure challenge from writing configuration to verifying and safely executing it. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-01T12:00:00+00:00",
+   "id": "61d4657c96c8fdfbafc61d97d8ca58df3775aba4a1165e56e99e41c7817f0f85",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Platform engineering maturity: From toolchain to self-service",
+   "link": "https://www.cncf.io/blog/2026/09/01/platform-engineering-maturity-from-toolchain-to-self-service/",
+   "summary": "Most platform engineering conversations tend to split into two rooms pretty quickly. The first room is full of teams who don’t have a platform yet. Scattered scripts, tribal knowledge, and every team is doing the same...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-01T11:35:00+00:00",
+   "id": "99d9c291957e8547f598eb8530908273e252517f693e242aa56d11d1861e09c5",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "How engineered microbes could help feed the world’s crops",
+   "link": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
+   "summary": "Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions. Some companies hope microbes can help. A growing body of research shows that seeding the soil around a crop’s roots with beneficial microbes can help feed the plant, providing crucial nitrogen to help…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-01T09:00:00+00:00",
+   "id": "7f4ac241b38b21bef75f901854b8bbc9bf6b9e8820f72918467b88cf063a5402",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Debian’s AI Vote Bets on Accountability Instead of a Ban",
+   "link": "https://devops.com/debians-ai-vote-bets-on-accountability-instead-of-a-ban/",
+   "summary": "Debian’s new AI contribution policy avoids bans and mandatory disclosure, instead making developers responsible for reviewing AI-generated work and protecting sensitive data.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-01T08:36:12+00:00",
+   "id": "325adb9c4cb5bad04c176a5c6b39beda2b3d1513e6ec3d0c435c8a5a18400652",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+   "link": "https://openai.com/index/gilbert-tobin",
+   "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-01T01:00:00+00:00",
+   "id": "330fba64551db8b49d6a895e947e7fef4cfddc339a90e97ae91a354a6cbe9a0b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
+  },
+  {
+   "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+   "link": "https://huggingface.co/blog/webgpu-kernels",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-01T00:00:00+00:00",
+   "id": "91dad0068ec24e5bcea7adc0e407700bb8999e1b3de1e0bfc9b0e6a4ed61b3fe",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-02T06:36:08.341711+00:00"
   }
  ]
 }
