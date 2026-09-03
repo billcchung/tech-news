@@ -1,7 +1,395 @@
 {
  "month": "2026-09",
- "updated": "2026-09-02T06:36:08.341711+00:00",
+ "updated": "2026-09-03T06:30:44.707572+00:00",
  "items": [
+  {
+   "title": "Cohere’s Parse 5 Promises Efficient Multi-Modal Information Extraction From Complex Documents",
+   "link": "https://www.infoq.com/news/2026/09/cohere-multimodal-parse/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cohere has launched Parse 5, a multimodal foundation model designed to extract structured data from complex enterprise documents. The 2.3-billion-parameter system converts visually rich PDFs into Markdown while providing bounding box coordinates for visual grounding. It has been evaluated against over 2,000 enterprise pages, achieving an average score of 79.2 in key performance areas. By Olimpiu P",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-03T06:06:00+00:00",
+   "id": "302b7ce488988a31d875bdacac7fb0b84d831e07b9d1ad1b017ed76e6793add2",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "JFrog CEO: No One Cares About Source Code Anymore",
+   "link": "https://devops.com/jfrog-ceo-no-one-cares-about-source-code-anymore/",
+   "summary": "JFrog CEO Shlomi Ben Haim told approximately 500 software engineers today that in the age of artificial intelligence (AI) no one will soon care much about source code anymore. Speaking at the company’s swampUP 2026 conference, Ben Haim said AI tools are now creating executable binaries directly without relying on source code that historically existed […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-02T21:28:30+00:00",
+   "id": "fe8aac2fdb934583727f2a20a0e8a2f0d8dfc62a0cba470154ae5f571c17482f",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "I rented a car, and within hours, my driver's license was for sale",
+   "link": "https://arstechnica.com/security/2026/09/my-drivers-license-is-one-of-153-million-for-sale-on-a-new-dark-website/",
+   "summary": "The FBI is reportedly investigating a massive data breach that is unfolding in real time.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-02T20:32:02+00:00",
+   "id": "563cfa9d420bb02c69ae461a4409a5291d1318a2016f91398a7c73b3b533cca6",
+   "tags": [],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "GitOps in 2026: Why Pull Requests Are Taking Over Cloud Operations",
+   "link": "https://devops.com/gitops-in-2026-why-pull-requests-are-taking-over-cloud-operations/",
+   "summary": "For years, cloud infrastructure changes were mostly a mystery. An engineer would log into a dashboard, tweak a setting, run a few scripts, and that was it. Nobody worried until something broke. Suddenly, everyone wanted answers. Who changed this? Was it tested? Can we fix it? How did production end up out of sync with […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-02T20:22:45+00:00",
+   "id": "38ac0cd88a726301e6c9e2bdc6c0aaca9b133c3146785bffc8656144c2c3ca95",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "CrowdStrike Moves to Secure Software Supply Chains at the Endpoint",
+   "link": "https://devops.com/crowdstrike-moves-to-secure-software-supply-chains-at-the-endpoint/",
+   "summary": "CrowdStrike today at its Fal.con 2026 conference extended its reach into the realm of software supply chain security with the addition of an offering that blocks malicious open-source packages at the endpoint before their embedded code can run. Bartley Richardson, chief AI and autonomous systems officer for CrowdStrike, said Real-Time Supply Chain Attack Protection is […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-02T19:55:29+00:00",
+   "id": "e8f188fda5bacb1232a7956d7f50a94f13d0c7ae81dfc9feb418c3e7e1b3b956",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Applying Different Forms of Mentorship",
+   "link": "https://spectrum.ieee.org/forms-of-engineering-mentorship",
+   "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! Asking someone to be your mentor is weird. Walking up to someone and asking, “Will you be my mentor?” has always seemed to me like the adult version ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-02T19:45:58+00:00",
+   "id": "0acb72dba16f716b1629faa9bddba011e277dff72b57d9c9d380ec9b6e4494fd",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Scale Workloads to Zero with HorizontalPodAutoscaler",
+   "link": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
+   "summary": "Kubernetes v1.37 includes API support for horizontal autoscaling of workloads down to zero replicas. This feature is now Beta and enabled by default. A HorizontalPodAutoscaler (HPA) that uses a suitable object metric or external metric can now scale a workload to zero replicas, then bring it back when the metric changes. Before v1.37, you needed an add-on or external component, or you had to enabl",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-02T18:30:00+00:00",
+   "id": "59d665bbb77eb2ca2a68e99b67413769c9031cc0a589d301272d993002c9c9cf",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "NASA’s Cargo-Moving Robotic Arm Named 300th IEEE Milestone",
+   "link": "https://spectrum.ieee.org/canadarm-ieee-300th-milestone",
+   "summary": "In the 1960s NASA began developing a system of reusable space shuttles to make its work more efficient and to reduce costs. The shuttles could launch like rockets, maneuver in Earth’s orbit, and land like airplanes. They also could carry large satellites to and from orbit. Like other types of transportation, machinery eventually breaks down, and parts need to be replaced or fixed. And the cargo be",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-02T18:00:03+00:00",
+   "id": "98357abb9c8fa16fb5c85cf4663900e92532460839de2787bfff4e6157910e2c",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "How we make AI coding more cost efficient without sacrificing task quality",
+   "link": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+   "summary": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
+   "source": "GitHub Engineering",
+   "category": "Software Engineering",
+   "published": "2026-09-02T18:00:00+00:00",
+   "id": "fbfd060b861c994281af0eba5bc9e52ea37bdc3627cbdda346c6be2b71bb929f",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Proactive cyber defense for governments and enterprises",
+   "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-02T16:24:24+00:00",
+   "id": "bf94848b24bf5829af64116a0a2951de10fd9b08277042a6ff433d873a03d354",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+   "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-02T16:18:31+00:00",
+   "id": "355be2cf6d2d139c093acbd48b01fbf45b0b438dc490def24a131a7b38d15515",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "JFrog Moves to Secure Agentic Engineering Workflows",
+   "link": "https://devops.com/jfrog-moves-to-secure-agentic-engineering-workflows/",
+   "summary": "JFrog today at its swampUP 2026 conference added a zero touch remediation capability that ensures the most secure version of a binary is provided even when application developers request a version that has known vulnerabilities. Additionally, JFrog is adding tools and capabilities to secure artificial intelligence (AI) agents that have been embedded within a DevOps […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-02T16:01:45+00:00",
+   "id": "dc10a1b89e3fabd9120df2e514cfde3a3fc42f987550e1d336e78a3d8bd8b26c",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Getting started with Mantis, our open-source bug finding-and-fixing harness",
+   "link": "https://cloud.google.com/blog/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs/",
+   "summary": "AI models have clearly proven their ability to discover and exploit vulnerabilities without much, if any, human assistance. To help defenders gain the advantage with AI, we built the Mantis harness to automate the discovery, triage, reproduction, and patching of software vulnerabilities. Available to all as an open-source framework, Mantis is part of Google’s internal approach to find and fix vuln",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-02T16:00:00+00:00",
+   "id": "8a8e02e5f6e7e3683d565f5c069891b2b264883c4e5f8594b5b546f1519a04f2",
+   "tags": [
+    "ai",
+    "cloud",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Simplify pipelines with new BigQuery identity columns",
+   "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-identity-columns-to-auto-generate-sequential-integers/",
+   "summary": "To further empower our customers in their data journey, we are excited to announce the launch of identity columns in BigQuery. This new feature allows users to define columns that automatically generate sequential 64-bit integer values, simplifying the way you manage unique identifiers within your tables. Data engineers are always looking for ways to make data ingestion smoother and more reliable.",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-02T16:00:00+00:00",
+   "id": "3ae10094a795f7fe682080f91cf94c2ad976c88b6522123f2292218c597da77b",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
+   "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
+   "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale. The post The Economics of Agent Optimization: Context engineering for enterprise AI agents appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-02T16:00:00+00:00",
+   "id": "045bc8f0c428897fd4c0d23eaa0c37f7b186ac78107120066d87f6bc1ac2bcf9",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Facilitating AI integration with simplicity at scale",
+   "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
+   "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make decisions with confidence. For Jabil, a global manufacturing company with more than…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-02T14:00:00+00:00",
+   "id": "5c0131de1474a9e552cacd46eef4713a0064ce297ada627e464ae4e4789e08c8",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Swiggy Uses 350+ Features and Multi-Task MLP to Predict Customer Lifetime Value",
+   "link": "https://www.infoq.com/news/2026/09/swiggy-pltv-multitask-mlp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Swiggy developed an in house predicted lifetime value model using more than 350 pre order features and a multi task MLP for Food and Instamart. Adding order count as an auxiliary task reduced model parameters by 63% while improving predictive performance. The pLTV signal is used with Google Target ROAS bidding to optimize customer acquisition. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-02T13:55:00+00:00",
+   "id": "0109d36226a5f9961d1f3fb90178f60482e72b7937f524a786a53ca8dde7fc93",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+   "link": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-02T13:49:14+00:00",
+   "id": "8c10bd00da2e478d246d8a5ed5ef6c67574eeadd8eaf7af8addbaf53aeec5060",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
+   "link": "https://spectrum.ieee.org/ai-engineer-skills",
+   "summary": "A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual st",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-02T13:00:04+00:00",
+   "id": "924d8db64ded3b7dccaf629ae7dff3033ef88aef12d55a99c18cda685515084a",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "GitHub Puts Copilot in the Approval Seat for Pull Requests",
+   "link": "https://devops.com/github-puts-copilot-in-the-approval-seat-for-pull-requests/",
+   "summary": "GitHub Copilot can now submit binding pull request approvals, moving AI code review from advisory feedback into the merge decision itself.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-02T12:33:22+00:00",
+   "id": "c1e5093991dc32956499360c6baf5ddfb55499967743a13970804e08c2282530",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "OpenAI Details GPT-Live’s Architecture for Continuous Stateful Voice Interaction",
+   "link": "https://www.infoq.com/news/2026/09/openai-gpt-live/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "OpenAI recently published an engineering account of GPT-Live. It described how they designed the system to maintain continuous voice interaction while separating latency-sensitive media processing from broader application work. The live path contains the media pipeline and inference loop, while delegation, tool use, persistence, and other application logic run behind an asynchronous RPC boundary. ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-02T12:20:00+00:00",
+   "id": "53d05591852421d76498eddc8e2f48764b00346e08889dcaee26f0760c0ebe73",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "The Download: AI puzzles and a path to our nearest star system",
+   "link": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI models flub these intelligence tests. Can you fare any better? Puzzles and games have always been central to AI development. The term “machine learning” was popularized in a 1959 article…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-02T12:10:00+00:00",
+   "id": "c8495c6f92a37d5a5b48e96d7a7d0979d2c21b80d1bcc12d40a487c680c777d5",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+   "link": "https://openai.com/index/atv-big-air-tour",
+   "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-02T12:00:00+00:00",
+   "id": "3bda12e16fd31e0e48f8154eb3f1f8588d033b9c1baf37b6558432d7c2a45b54",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Metal3 meets KubeVirtBMC: Provisioning KubeVirt VMs like bare metal",
+   "link": "https://www.cncf.io/blog/2026/09/02/metal3-meets-kubevirtbmc-provisioning-kubevirt-vms-like-bare-metal/",
+   "summary": "In the previous post , we introduced KubeVirtBMC and showed how it provides virtual BMC endpoints for KubeVirt VMs. We tested it with raw IPMI and Redfish commands. That was fun, but the real power of...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-02T11:31:00+00:00",
+   "id": "84a5909dc34e99dd94c0ee7147f5a463085b447de7ebe99403b9b51e9eb8155b",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "BGP hijack infecting networks caused by a comedy of errors that’s not funny at all",
+   "link": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
+   "summary": "What can we learn from a BGP hijacking that poisoned production software? Plenty.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-02T11:00:43+00:00",
+   "id": "f68fa453f6658063ad0efed74dc88b12f1f7cde72bc72dbfb588ebfffd9fcf94",
+   "tags": [
+    "networking"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Presentation: Beyond Prompting: Context Engineering for Production-Grade AI",
+   "link": "https://www.infoq.com/presentations/context-engineering-redis-llm-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Ricardo Ferreira discusses moving beyond simple prompt engineering to build production-grade AI applications. He shares practical architectural strategies for integrating long-term and short-term memory using Redis, managing LLM token limits via summarization, mitigating context rot with reranking and semantic caching, and controlling exponential API costs under strict latency constraints. By Rica",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-02T11:00:00+00:00",
+   "id": "177ed668e3ff3aad5a347cd40e10c48ef4066526433a952bcd7a63ff6a0c4b46",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
+  {
+   "title": "Cloudflare Adds Optional OAuth Scopes, Letting Developers Mark What Users May Decline",
+   "link": "https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has added optional OAuth scopes, letting client owners mark which permissions users may deselect at consent. The company names MCP servers as the motivating case, since agents request the union of everything they might do. Partial consent exists elsewhere, but developer control over which scopes are droppable does not. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-02T09:07:00+00:00",
+   "id": "3c6bd3d6ef9f1c027eb95d6a375e7dc3e5f7aa01144e3b8ffd94c835223a1e91",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-03T06:30:44.707572+00:00"
+  },
   {
    "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
    "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
@@ -165,7 +553,7 @@
    "first_seen": "2026-08-04T07:01:59.311067+00:00"
   },
   {
-   "title": "How Blackline simplifies perimeter policy intelligence with VPC Service Controls",
+   "title": "How BlackLine simplifies perimeter policy intelligence with VPC Service Controls",
    "link": "https://cloud.google.com/blog/topics/customers/how-blackline-prevents-data-exfiltration-with-vpc-service-controls/",
    "summary": "Establishing network-level perimeters with VPC Service Controls (VPC-SC) is a critical step that can help you protect your cloud environment against data exfiltration, compromised accounts, and insider threats. Today, Google Cloud is excited to share new policy intelligence capabilities in VPC-SC that can help drive even greater operational simplicity. With our latest release of the VPC-SC violati",
    "source": "Google Cloud Blog",
