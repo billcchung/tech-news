@@ -1,7 +1,319 @@
 {
  "month": "2026-09",
- "updated": "2026-09-04T06:30:47.825256+00:00",
+ "updated": "2026-09-05T06:27:19.828822+00:00",
  "items": [
+  {
+   "title": "Redefining GIS: Declarative Symbology and Collaborative Workflows in JupyterGIS",
+   "link": "https://www.infoq.com/news/2026/09/jupyter-gis-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "JupyterGIS is a GIS-focused extension for Jupyter notebooks. The recent 0.16 release enhances collaborative features, real-time editing, and support for large-scale data processing, including remote sensing. It introduces better visualisation tools and extends compatibility to R users. Community feedback highlights practical concerns and a desire for improved portability. By Olimpiu Pop",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-05T05:05:00+00:00",
+   "id": "6e20652eaa96350c2a97ce9d693ddbed27fc8e4de77a9084eeab4bad4b8ee86a",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+   "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+   "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-04T22:17:36+00:00",
+   "id": "abae171821916dd52ce28012f79be7005dffaec1229f5696cfb30b0e017370a2",
+   "tags": [],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Your DevOps Pipeline Is Already a Sustainability Program",
+   "link": "https://devops.com/your-devops-pipeline-is-already-a-sustainability-program/",
+   "summary": "During my doctoral research on modern engineering practices and operational efficiency, one pattern kept surfacing that I did not expect to find. The engineering teams making the most measurable progress on sustainability were not the ones that had appointed green committees. They were the ones running tight DevOps discipline: right-sized fleets, lean pipelines, tuned alerting, […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-04T19:57:31+00:00",
+   "id": "847c3fb3e047743e7c780568bf3df3cd3fa5f2cf8cbfb0cf5ae40b1a9575deb0",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "research"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Architecting memory and storage in the AI era",
+   "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+   "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-04T18:39:19+00:00",
+   "id": "2cc7290108c1119eca3e7455050fbfdb2b168d14ca209f3e8f90c0a029ea0acc",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
+   "link": "https://kubernetes.io/blog/2026/09/04/kubernetes-v1-37-rootless-beta/",
+   "summary": "Kubernetes v1.37 promotes the KubeletInUserNamespace feature gate to beta. With this feature enabled, all of the node components (kubelet, CRI and OCI runtimes, CNI plugins, and kube-proxy) can run as a non-root user on the host, using a Linux user namespace . This technique is also known as rootless mode . The work started as an experiment in 2018, and was merged into Kubernetes v1.22 (2021) as a",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-04T18:30:00+00:00",
+   "id": "e4a20210b6dd24e417308d1c8ff13f536165a9cb243845b029f3da9937363f75",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
+   "link": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
+   "summary": "Broadcom admits it put “too big a focus on VCF.”",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-04T17:35:02+00:00",
+   "id": "2815514e2f3ab03150c343d6bc1216d958846f4959a55f5d709e57095582a52f",
+   "tags": [],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+   "link": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+   "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-04T17:18:12+00:00",
+   "id": "14aac003fa5b3a91c7ffe0a38ab77f80869c18f0732be0775556beb012ad036e",
+   "tags": [
+    "ai"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "How Yahoo optimizes resources with flexible VMs in Managed Service for Apache Spark",
+   "link": "https://cloud.google.com/blog/products/data-analytics/how-yahoo-optimizes-apache-spark-with-flexible-vms/",
+   "summary": "As a global media and technology company connecting hundreds of millions of users to finance, sports, and entertainment platforms, Yahoo operates a massive data infrastructure where analytics workloads must run continuously at high speed. In deadline-driven data environments, relying on fixed virtual machine (VM) configurations creates a brittle system; if a specific machine shape faces a regional",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-04T16:00:00+00:00",
+   "id": "cb42cee60f250dfea732df14cc6ebeef9e326bc9a90d18c0063a7d61698eab5e",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Spanner migrations: Automating dual-write with Antigravity CLI for minimal disruption",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/using-antigravity-cli-to-streamline-dual-write-database-migration/",
+   "summary": "When Google's Finance Engineering team needed to modernize their legacy data layer, they chose Spanner , a globally distributed, strongly consistent, multi-model database with high availability capabilities. But migrating to Spanner without taking production services offline was a daunting engineering challenge: As the internal team responsible for the application, we needed to manually rewrite du",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-04T16:00:00+00:00",
+   "id": "afd16385c6975234903527086326f2c9e5938a257753a90cac4cdcc7e65f7f71",
+   "tags": [
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Not All LLM Workloads Are Equal: Benchmarking TPU Performance on Classification vs. Generation",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/not-all-llm-workloads-are-equal-benchmarking-tpu-performance-on-classification-vs-generation/",
+   "summary": "Moving Large Language Models (LLMs) from experimental prototypes into enterprise production exposes a critical truth: your infrastructure dictates both your performance ceilings and your unit economics. Standard hardware benchmarks often ignore a fundamental reality—not all LLM requests stress the silicon in the same way. In this post, we dive into a comprehensive benchmarking exercise comparing G",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-04T15:36:00+00:00",
+   "id": "62df18cdb5b511238782076205e94503eef5622c6a5bf402bd83443cd26c2ccd",
+   "tags": [
+    "ai",
+    "cloud",
+    "research"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Airbnb Cuts Authentication Code by 60% with Server Driven Architecture",
+   "link": "https://www.infoq.com/news/2026/09/airbnb-server-driven-login/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Airbnb redesigned its authentication architecture around server driven flows and policy based challenge selection. The new Flexible Authentication system reduced authentication related code by 60%, cut the web client bundle by 100 KB, improved successful authentication by 2.6%, reduced duplicate account creation by 27%, and lowered OTP costs by 11%. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-04T14:30:00+00:00",
+   "id": "3c708a35f64f55f111578f074e937e7bf287ce15e6fb513fbf2b51e8151dacc2",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "The Download: selling battlefield drone data and AI reshaping language",
+   "link": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a researcher at the University of Melbourne studying AI’s impact on democracy, who previously served in the…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-04T12:10:00+00:00",
+   "id": "2e092cef709b16c47b183d65cd709410aef2a76dc05f247973985077de96d4dd",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Kubernetes Promotes KYAML as a Safer, More Consistent Way to Work with Manifests",
+   "link": "https://www.infoq.com/news/2026/09/kubernetes-kyaml-manifests/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Kubernetes is encouraging developers to take a closer look at KYAML, a stricter dialect of YAML designed to make Kubernetes configuration more explicit, predictable, and less prone to common YAML errors. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-04T12:00:00+00:00",
+   "id": "765e41cd74516ac58f427e7b480eaa87294e2aac0ed7f45161cc3814bb2c7bc5",
+   "tags": [
+    "architecture",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "CPU + GPU: Why AI platform engineering is a heterogeneous infrastructure problem",
+   "link": "https://www.cncf.io/blog/2026/09/04/cpu-gpu-why-ai-platform-engineering-is-a-heterogeneous-infrastructure-problem/",
+   "summary": "AI infrastructure conversations often start with GPUs. Accelerators provide much of the compute behind model training and inference, so the focus is understandable. But a production AI workload rarely starts and ends on a GPU. Data...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-04T11:00:00+00:00",
+   "id": "16786534fd634cade7650db9ccaa455953f1c384fa04a7bb3d5ae150fe236f15",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "hardware",
+    "open-source"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Kubernetes isn’t new, but AI makes It scary again",
+   "link": "https://www.cncf.io/blog/2026/09/04/kubernetes-isnt-new-but-ai-makes-it-scary-again/",
+   "summary": "Kubernetes isn’t brand new anymore. Yet, for many teams, adopting it still feels intimidating. Even if you’ve watched Kubernetes become the default foundation for production software and AI workloads, it can still feel like a big...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-04T11:00:00+00:00",
+   "id": "08dfe2944650a7394156a99eb72b4bcb19a12dca036d42cc28e0d71f3b3fc05b",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Mini book: Next-Gen Architecture Playbook: Insights and Patterns for the AI Era",
+   "link": "https://www.infoq.com/minibooks/next-gen-architecture-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This eMag examines how architects can lead with clarity in a rapidly evolving engineering world, distilling industry insights into field-tested practices for teams. Together, these stories reveal a core theme: the technology leader’s role is expanding from building systems to guiding how tech behaves and learns, while enabling engineers and organizations to bring out their best. By InfoQ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-04T11:00:00+00:00",
+   "id": "d3afd966e2f6c1a1c0a85be6d449e3cc9580e1d789a8564d0bc5bf1f66ee1c67",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Presentation: From S3 to GPU in One Copy: Rethinking Data Loading for ML Training",
+   "link": "https://www.infoq.com/presentations/vortex-columnar-file-format-gpu-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Onur Satici explains how Vortex, an open-source columnar file format under the Linux Foundation, revolutionizes high-throughput data loading. He details how cascading lightweight encodings, layout-based segment pruning, and zero-copy memory pipelines eliminate CPU/NVMe bottlenecks to stream S3 data straight to GPUs at speeds up to 60 Gbps without requiring upfront data reprocessing. By Onur Satici",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-04T11:00:00+00:00",
+   "id": "c29da9eea5ae21bde75ab04fdf26484d43a54686d87c7ea87d8c5a793deefd97",
+   "tags": [
+    "architecture",
+    "hardware",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Copilot Code Review Reaches Azure Repos, Billed Per Review with Reporting Two Days Behind",
+   "link": "https://www.infoq.com/news/2026/09/copilot-code-review-azure-repos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Microsoft opened GitHub Copilot code review for Azure Repos to all Azure DevOps customers, after acknowledging that many are not ready to migrate to GitHub. Reviews bill per use through the linked Azure subscription and appear in Cost Management 48 hours later. Budgets notify but do not stop reviews, and concurrency caps at five per organization. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-04T10:01:00+00:00",
+   "id": "ea30e3ee2a34c1af289bd43c24512c38489e0437bc314ce3d5f9168102b9b5cf",
+   "tags": [
+    "architecture",
+    "cloud",
+    "dev-tools",
+    "programming"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+   "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+   "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight, increasingly becoming part…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-04T09:25:19+00:00",
+   "id": "d5577af928ddc861eb3cdb2f9dca5fe520e2657a9415260eb7b3b01be361b4e3",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Podcast: Personality Over Skillset: How Adam Wachtel Builds Engineering Teams",
+   "link": "https://www.infoq.com/podcasts/personality-over-skillset/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Adam Wachtel, CTO at Click Boarding, about hiring for personality and problem-solving over pure skillset, turning around a platform and team in crisis, and how AI is reshaping team size and composition without ending SAAS. By Adam Wachtel",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-04T09:00:00+00:00",
+   "id": "8ad672faca9c4defaac6bdd6adafcc17583af8e5d39811dabdee656cfe6bb324",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "Observability’s Gaslighting Problem: “Send Less Data” Isn’t a Strategy",
+   "link": "https://devops.com/observabilitys-gaslighting-problem-send-less-data-isnt-a-strategy/",
+   "summary": "A familiar pattern is emerging in observability conversations. As telemetry volumes grow and costs rise, the default recommendation is often to collect less data: Sample more, retain less, index selectively, filter earlier, and reduce cardinality until the economics become manageable. Some of this is reasonable. No system benefits from unlimited accumulation without curation. But when […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-04T07:32:16+00:00",
+   "id": "d91a74138d6dd1de1cac8aa9686d6108e0239ce506bc10ff564b8a91117d23ec",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
+  },
+  {
+   "title": "What’s new with Google Cloud",
+   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 31 - Sept 4 Automa",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-04T07:00:00+00:00",
+   "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-07-12T10:59:18.257168+00:00"
+  },
   {
    "title": "Tether: Apple Continuity Like Experience Between iOS and Linux Desktop Machines",
    "link": "https://www.infoq.com/news/2026/09/apple-continuity-linux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -317,6 +629,20 @@
     "open-source"
    ],
    "first_seen": "2026-09-04T06:30:47.825256+00:00"
+  },
+  {
+   "title": "GPT-6 Astra: A new generation of intelligence",
+   "link": "https://openai.com/index/gpt-6-astra",
+   "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-03T11:00:00+00:00",
+   "id": "039a4975e102cb538c368495a2e6d022853c448b8779c7d611c9069b00b28b50",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-05T06:27:19.828822+00:00"
   },
   {
    "title": "Agriculture relies on fossil fuels. It’s costing us.",
