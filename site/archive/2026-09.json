@@ -1,7 +1,586 @@
 {
  "month": "2026-09",
- "updated": "2026-09-08T06:30:57.047196+00:00",
+ "updated": "2026-09-09T06:31:53.161411+00:00",
  "items": [
+  {
+   "title": "vim.async's Addition Modernizes Neovim’s Async Architecture for Better Stability",
+   "link": "https://www.infoq.com/news/2026/09/async-lua-neovim/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Neovim has introduced a structured concurrency library in its Lua standard library via the vim.async namespace. This framework provides a standardized method for managing async workflows, addressing issues related to task management and error propagation. It allows for cooperative scheduling and clear task hierarchies, improving plugin development and error handling in asynchronous operations. By ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-09T06:06:00+00:00",
+   "id": "51a4fda315b1b66916d0e723805121968869d0decd9b48acf1bbf3435c8c663d",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "What OpenAI’s latest controversy tells us about the future of math",
+   "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+   "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-09T03:10:08+00:00",
+   "id": "4af43196bc6c85d3fa21d334c75bfd8d650555f24d7a831b8e21cd7b18e0938d",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+   "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+   "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and d",
+   "source": "KrebsOnSecurity",
+   "category": "Security & Privacy",
+   "published": "2026-09-08T21:44:22+00:00",
+   "id": "29a5428cb6dd6f56d9c686619da93b563095fc781916c13e08f94b269827f045",
+   "tags": [
+    "ai",
+    "privacy",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Why this month's Microsoft patch release is a doozy",
+   "link": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+   "summary": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-08T21:11:46+00:00",
+   "id": "2cf2324cd2db88adca9c1760097d2a01e5bf1033b14711376351db0f46c43a0f",
+   "tags": [
+    "ai",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "EU-Funded CodeSupply Offers Grants for Open Source Software Supply Chain R&D",
+   "link": "https://devops.com/eu-funded-codesupply-offers-grants-for-open-source-software-supply-chain-rd/",
+   "summary": "Software supply chain, security and compliance tools all depend on accurate information about the packages they analyze, but that data is often fragmented across multiple sources and can be difficult to access or use consistently. A new European Union-funded initiative called CodeSupply, coordinated by the NLnet Foundation, is making €400,000 in grants available for open […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-08T20:24:18+00:00",
+   "id": "511f9a56df6353884daf5529aaaf52d0177a3b3a937f143bc7ca59d7f4fa1c3a",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "DevOps in Financial Services: Moving Fast Without Losing Control",
+   "link": "https://devops.com/devops-in-financial-services-moving-fast-without-losing-control/",
+   "summary": "DevOps is often associated with speed: shorter release cycles, greater automation, faster feedback and increased developer autonomy. In financial services, however, speed is only one part of the equation. A platform supporting banking, payments or other regulated financial workloads also has to account for security, traceability, resilience, access control and operational risk. A deployment that [",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-08T20:09:33+00:00",
+   "id": "4138bd5a6c2d21a50b1586598476fb3aa521d626ca60af6e066e6eaeb9f1d30f",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
+   "link": "https://kubernetes.io/blog/2026/09/08/kubernetes-v1-37-advancing-workload-aware-scheduling/",
+   "summary": "AI/ML and complex batch workloads continue to push the boundaries of Kubernetes scheduling. Following the foundational workload-centric enhancements introduced in previous releases, Kubernetes v1.37 delivers the next major milestone in the Workload-Aware Scheduling (WAS) journey. In this release, the core Workload and PodGroup APIs—enabling gang scheduling—along with Workload-Aware Preemption (WAP",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-08T18:30:00+00:00",
+   "id": "ccd5eb86c6d0c95e615d0a5c2c900a43d21b554ac18cc03b2fed57dc687f18c7",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+   "link": "https://openai.com/index/codex-quantum-computing-experiments",
+   "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-08T17:00:00+00:00",
+   "id": "503e9c2326e78f3e54698b505fc7f3dd73547fa559154576a0082b0cd2cdb79c",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Power agent hubs or custom harnesses with the Antigravity SDK in one toolkit",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/power-agent-hubs-or-custom-harnesses-with-the-antigravity-sdk/",
+   "summary": "Enterprise agent adoption isn’t one-size-fits-all. While many teams will opt for managed commercial platforms, such as Gemini Enterprise Agent Platform for turnkey agent deployment and governance, developers with bespoke workflows or custom execution engines often choose to build their own lightweight agent hubs. If you are building a centralized agent hub from the ground up, you need tools that r",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-08T16:00:00+00:00",
+   "id": "72dfe79b3f8fddbedb16ba72f27593e18c882f54624db42eeb384a31fab93d8c",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Agentic analytics with the Data Agent Kit",
+   "link": "https://cloud.google.com/blog/products/data-analytics/agentic-analytics-with-the-data-agent-kit/",
+   "summary": "Imagine your director sends you a chat message Monday morning: Our average order value dropped 7% in January, but total revenue stayed flat. Why? If you’re a data practitioner, you know why these types of questions can be tough. They’re totally open ended. There’s not a single root cause dashboard you can open. Was there an error in the web logs? Was a promo code misconfigured? You won’t know unti",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-08T16:00:00+00:00",
+   "id": "0eeb76fd2df8ca674ea72c5fba39c15b86c07b7f540f4944838d5a0ea60371e5",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "How KDDI built Buffmee, a faster, reliable consumer RAG app",
+   "link": "https://cloud.google.com/blog/topics/customers/how-kddi-optimized-rag-performance-with-agent-development-kit/",
+   "summary": "When building consumer-facing generative AI applications, balancing high generation quality with fast response times across diverse media types, can be challenging. KDDI, a major telecommunications carrier in Japan, tackled this challenge head-on when they developed Buffmee, their consumer Retrieval-Augmented Generation (RAG) app. Buffmee is an interactive AI service built on the concept of 'AI th",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-08T16:00:00+00:00",
+   "id": "8a20aa410b6035c11169151b3bd8efa1e8f6ddfe8c182392a541d1f4f3b1f618",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Ten Great DevOps Job Opportunities",
+   "link": "https://devops.com/ten-great-devops-job-opportunities-22/",
+   "summary": "DevOps.com is now providing a weekly DevOps jobs report through which opportunities for DevOps professionals will be highlighted as part of an effort to better serve our audience. Our goal in these challenging economic times is to make it just that much easier for DevOps professionals to advance their careers. Of course, the pool of […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-08T14:46:16+00:00",
+   "id": "024094ae8afbf2ddc2beea6d972be224c4d9b2962cf94d77af09d283113fcac2",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+   "link": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-08T14:23:07+00:00",
+   "id": "5cbcf08e288841ac31de1b5b3153da3ea3539df7d3ee35168c9c6d5f6a1c686c",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+   "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+   "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-08T14:00:15+00:00",
+   "id": "825546b9e9e150a70467a533edaf9570d45ce6f5d4a72a0aade47ee2011a3015",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "GTIG AI Threat Tracker: From Prompting to Autonomy – The Evolution of Adversarial AI",
+   "link": "https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai/",
+   "summary": "Executive Summary Since the release of our May 2026 report detailing adversarial misuse of artificial intelligence (AI), Google Threat Intelligence Group (GTIG) has observed forward leaning adversaries transition from basic prompting to agentic AI workflows and AI-enabled automation. In these operations, human-in-the-loop latency is dramatically reduced, compressing the traditional window for defe",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-08T14:00:00+00:00",
+   "id": "672e5f1a27ac6bddcf4c7809322dffc4a77b083fa0e81e6096af8a88b43762cd",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "HashiCorp Packer 1.16 Adds Native SLSA Provenance Generation and Verification for Machine Images",
+   "link": "https://www.infoq.com/news/2026/09/hashicorp-packer-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "HashiCorp has released Packer v1.16.0, adding native support for generating, signing, and verifying SLSA provenance attestations for every image the tool builds. The release provides teams with a secure, tamper-proof record of how a machine image was made. It does this without needing extra supply-chain tools. By Claudio Masolo",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-08T14:00:00+00:00",
+   "id": "882719e6a3872155cce40d2faf671cc69120b22d69806e4ee41ffcccfe60c7e5",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Presentation: Platform Engineering in the Age of AI",
+   "link": "https://www.infoq.com/presentations/ai-platform-engineering-roundtable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The panelists explain how platform teams adapt to support AI-assisted engineering, highlighting which capabilities belong in the platform. They discuss trade-offs between standardization and developer autonomy, while sharing strategies to manage AI tooling, security guardrails, and shifting workflows. By Stéphane Di Cesare, Davide de Paolis, Stephen Cihak, Camila Macedo, Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-08T14:00:00+00:00",
+   "id": "d58a433554691e3d044eef4063e49d09e93861dcf2cb2ae6656c528e87af8859",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Apica Adds AI Agents and MCP Server to Platform for Managing Telemetry Data",
+   "link": "https://devops.com/apica-adds-ai-agents-and-mcp-server-to-platform-for-managing-telemetry-data/",
+   "summary": "Apica today added an artificial intelligence (AI) agent and Model Context Protocol (MCP) server to version 3.0 of its Ascent platform for managing telemetry data pipelines. Andi Mann, chief product and technology officer for Apica, said the AI agent, dubbed Venn, makes it possible for IT teams to use natural language rather than having to […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-08T13:45:32+00:00",
+   "id": "9d5faa070e5bc4c943655b030abe301da322955bc82a877994f17c4d62e06ec7",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+   "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+   "summary": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-08T13:10:00+00:00",
+   "id": "aab995f606f0dc7198f195fe7c7d68228da45f64feaab84d049051d203f5f16b",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Rivian’s Gambit for Full Autonomy",
+   "link": "https://spectrum.ieee.org/rivian-self-driving",
+   "summary": "I’m sitting in a Rivian R1S SUV as it drives itself down the leafy streets of Palo Alto, Calif. , through areas crowded with touchstones of tech history. We cruise near the landmark HP Garage , the one-car workshop where Hewlett-Packard, and, arguably, Silicon Valley, was founded in 1939. I skirt Stanford University, where a team led by computer science professor Sebastian Thrun won a US $2 millio",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-08T13:00:04+00:00",
+   "id": "31bb370b2d74de690ad35e5d8e2b60e83bccecaa75133a724ae3d75f566a7368",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "The Work Now Within Reach",
+   "link": "https://openai.com/index/the-work-now-within-reach",
+   "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-08T13:00:00+00:00",
+   "id": "a00fc889a2dd293b42049381f3a99cbbead2f5c6d3c52e4e209b3057ea2e2a3b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "The Growing Proof That Autonomous Cars Save Lives",
+   "link": "https://spectrum.ieee.org/are-self-driving-cars-safe",
+   "summary": "Plenty of people remain spooked by autonomous vehicles, or AVs. Some experts and policymakers have cautioned that AVs won’t necessarily make roads safer. When it comes to partial or full autonomy, the picture isn’t entirely clear, in part because there aren’t enough self-driving cars to make meaningful apples-to-apples comparisons. Yet mounting research suggests that self-driving cars crash signif",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-08T12:59:04+00:00",
+   "id": "8a013453e2c4bb4a52b92973745f1fbc1db0b4c84a3b57a4e37783020f74251c",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Reflectiz Launches Agentic Pentesting for Websites: Up to 10x Coverage vs Conventional Pentests",
+   "link": "https://devops.com/reflectiz-launches-agentic-pentesting-for-websites-up-to-10x-coverage-vs-conventional-pentests/",
+   "summary": "Boston, MA, USA, 8th September 2026, CyberNewswire",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-08T12:43:23+00:00",
+   "id": "087032e3da58ae2252247961916628906d17b53e7aa42050240d9182ec3b27b6",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "The Download: our 35 Innovators Under 35 this year",
+   "link": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing our 35 Innovators Under 35 list for 2026 What will the next generation of science and technology look like? Our latest Innovators Under 35 list offers a glimpse. Every year,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-08T12:10:00+00:00",
+   "id": "c8ab149e953c2df93a71593fdcfe3099bcb515ba6a2770fa991eb609fe44980d",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "GitLab Warns That AI Agent Sandboxes Are Only as Secure as Their Network Access",
+   "link": "https://www.infoq.com/news/2026/09/gitlab-ai-sandbox-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "GitLab warns that isolating an AI coding agent in a sandbox does not necessarily make the agent safe. In a new security analysis, the company describes an internal evaluation in which an AI agent escaped its sandbox by exploiting a vulnerable package proxy that had been explicitly placed on the sandbox's allowlist. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-08T12:00:00+00:00",
+   "id": "c73b2ad048d0b3c2272a05426d0c2db8ca23acf8f0917a589c172bc615082693",
+   "tags": [
+    "ai",
+    "architecture",
+    "dev-tools",
+    "networking",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Kubernetes access via an identity provider: Public client, not confidential",
+   "link": "https://www.cncf.io/blog/2026/09/08/kubernetes-access-via-an-identity-provider-public-client-not-confidential/",
+   "summary": "Access control belongs on the same day-zero checklist as networking and storage. On most on-prem clusters, it never makes the list. The Identity Gap Managed cloud Kubernetes ships IAM or SSO integration out of the box....",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-08T11:30:00+00:00",
+   "id": "77304e6e65d6155e581a99a27c0d5b8de3df27b9aedb89f21e8df60bab2860e9",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Introducing ChatGPT Images 2.5",
+   "link": "https://openai.com/index/introducing-chatgpt-images-2-5",
+   "summary": "ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-08T11:30:00+00:00",
+   "id": "1dcea8b0f8acab144d9449d9a882270327a9c7315cef0dad2195f7c1e05184af",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Mars Security Launches Real-Time Intel-to-Detection Engine That Turns Live Threat Intelligence Into Backtested Detections in Minutes",
+   "link": "https://devops.com/mars-security-launches-real-time-intel-to-detection-engine-that-turns-live-threat-intelligence-into-backtested-detections-in-minutes/",
+   "summary": "New York, NY, United States, 8th September 2026, CyberNewswire",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-08T11:29:44+00:00",
+   "id": "1d76b4137286464b8a6c8afe0a3fba73dab6f3e62f5d30f8f0bb78227af1dc87",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Distributed tracing for CI pipelines without touching a single workflow file",
+   "link": "https://www.cncf.io/blog/2026/09/08/distributed-tracing-for-ci-pipelines-without-touching-a-single-workflow-file/",
+   "summary": "You’ve probably felt this one: GitHub Actions usage creeps up across your org, and your actual visibility into it doesn’t keep pace. Which workflows are slow? Which are flaky? How long are jobs sitting queued for...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-08T11:00:00+00:00",
+   "id": "6777eac0d5866cebddda7996b665335a8e85721b7d012662335b10267c36e77a",
+   "tags": [
+    "cloud-native",
+    "dev-tools",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "This founder is teaching chips how to recycle (their energy)",
+   "link": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
+   "summary": "Throughout the history of the computer chip, engineers have treated waste heat as an inevitable cost of a calculation. Hannah Earley, however, thinks it’s a design choice. Earley, 31, is cofounder and chief technology officer of Vaire Computing, a startup building chips that recycle energy usually thrown away as heat—a strategy known as reversible computing.…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-08T10:36:00+00:00",
+   "id": "3d47b8361bc3e55f7f1ad537897643db5e858f4407b5bd3e722607bdc2ca1c5c",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+   "link": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+   "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-08T10:34:00+00:00",
+   "id": "7cb14dc5327b78c8c0540efba1b12b182817496dff51861f67475372612d8860",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "This founder is making cheaper, cleaner steel",
+   "link": "https://www.technologyreview.com/2026/09/08/1142094/laureen-meroueh-makes-cheaper-cleaner-steel/",
+   "summary": "The steel industry isn’t exactly known for innovation. Very little has changed about purifying iron ore since the process was invented and commercialized in the 1850s. The majority of steelmakers melt solid iron ore at dizzyingly high temperatures inside blast furnaces, where the material reacts with gases to trigger chemical reactions that remove oxygen. It…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-08T10:33:00+00:00",
+   "id": "0f96d78628a4d6676b7cecc987700e1d1e424eac9f8a548dc1acf40dab1e1c7c",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "This geneticist’s age-reversal tech could help restore sight",
+   "link": "https://www.technologyreview.com/2026/09/08/1142074/yuancheng-ryan-lu-age-reversal-tech-restores-sight/",
+   "summary": "Yuancheng (Ryan) Lu is obsessed with aging. And with eyes. As he steps outside the Whitehead Institute in Cambridge, Massachusetts, his aviator glasses darken automatically in the sun. Age-related blindness runs in his family. A great-aunt in China, the story goes, was killed crossing a road because she couldn’t see oncoming traffic. And Lu’s own…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-08T10:32:00+00:00",
+   "id": "db2ec5d1f0d4de6dc2da257243037676be016de080d614ec96f3f5ff1c046f87",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "On the Navier–Stokes Millennium Prize Problem",
+   "link": "https://openai.com/index/navier-stokes-solution",
+   "summary": "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-08T10:00:00+00:00",
+   "id": "2c827cba158d2f26e6e9908863169f3221245661ed3a7c374917498ca5d75374",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "GitHub’s New Copilot Feature Takes the Guesswork Out of Picking AI Models",
+   "link": "https://devops.com/githubs-new-copilot-feature-takes-the-guesswork-out-of-picking-ai-models/",
+   "summary": "GitHub’s Project HydraFusion brings multi-model orchestration to Copilot, automatically routing coding tasks across AI models to balance quality, cost and complexity.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-08T09:22:52+00:00",
+   "id": "9a2b2f1b06485144c528207bf7590f7e5ca5ef3e900dd97b0457838943391bfd",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Presentation: A Solopreneur's Journey: From Engineer to Puzzle Master and Storyteller",
+   "link": "https://www.infoq.com/presentations/solopreneur-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Joe Cassavaugh shares his journey from software engineer to successful solopreneur with a $2M+ indie franchise. He explains how he scaled production to 10 games in 5 years, adopted Unity to boost velocity 4-6x, optimized content pipelines, and leveraged refactoring patterns. He discusses key trade-offs between corporate engineering and solopreneurship for senior devs and leaders. By Joe Cassavaugh",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-08T09:10:00+00:00",
+   "id": "612621f065a2221334b57ef555d2aae3dc99121106b03eae873d1fd7efb99491",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Funding grants for new research into AI and teen development",
+   "link": "https://openai.com/index/teen-development-research-grants",
+   "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-08T09:00:00+00:00",
+   "id": "7948c39493cbd65ea48c44d8291ea8805b71fa184ba9ab468b25c600c015d072",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Article: Implementing Chaos Engineering in Financial Payment Systems: Lessons from Enterprise ECS Deployments",
+   "link": "https://www.infoq.com/articles/chaos-engineering-ecs-payments/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Standard chaos engineering assumes experiments stop cleanly, blast radius is knowable in advance, and production is fair game. Payment systems violate all three. Salim Adedeji describes ECS-specific failure modes from enterprise deployments: a 60-second DNS TTL that produced 93-second failover, retry logic amplifying database load 2.4x, and AZ rebalancing loops that generic tooling misses. By Sali",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-08T09:00:00+00:00",
+   "id": "fad93ce8560d76d81ca394269c75b4dcedf66ff95cd04e7fe41ae139cc0d3419",
+   "tags": [
+    "architecture",
+    "databases",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Does ICANN Open the Door on Identity Theft by Dropping 3rd Level .name Domains Registrations?",
+   "link": "https://www.infoq.com/news/2026/09/name-domain-drop/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Neil Fraser's disclosure highlights a regulatory change affecting the .name top-level domain. Following ICANN's approval, Verisign will eliminate third-level registrations due to declining usage. This affects about 22,000 registrants and raises security concerns, as released second-level domains could be exploited. Affected users are considering legal options to challenge the decision. By Olimpiu ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-08T08:08:00+00:00",
+   "id": "1c086b74c7f797c68cf5d562f76922c0c2a443bb6fe07ad898b5672af35fbc09",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Testing race conditions with memory access tracing and stack-based delay injection",
+   "link": "https://projectzero.google/2026/09/maccconc-race-condition.html",
+   "summary": "Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discovered manually or through static analysis. Regression tests: After fixing a race condition bug, there is often no good way to write a regression test that reliabl",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-09-08T07:00:00+00:00",
+   "id": "f8ca6cc85e36a639ee36a5498e597b01258adc33c0217f178511d293e75fbe6e",
+   "tags": [
+    "observability",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
   {
    "title": "Cloud Native Computing Foundation Announces Karmada Graduation",
    "link": "https://www.cncf.io/announcements/2026/09/07/cloud-native-computing-foundation-announces-karmada-graduation/",
@@ -66,6 +645,35 @@
    "first_seen": "2026-09-08T06:30:57.047196+00:00"
   },
   {
+   "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+   "link": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+   "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-08T00:00:00+00:00",
+   "id": "4a36ea7ba6bb268a569ba1bda62fe3a651ce22624e6c80e44fc2f66bda887c59",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "1Password increases engineering productivity 21% with Codex",
+   "link": "https://openai.com/index/1password",
+   "summary": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-08T00:00:00+00:00",
+   "id": "a1b72811dd254b5043b516f3ea7a8da4d179aec7a12b38de59f64e80e43d4193",
+   "tags": [
+    "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
    "title": "Workshops Educate African Researchers On How to Publish With IEEE",
    "link": "https://spectrum.ieee.org/ieee-workshop-xplore-africa",
    "summary": "Many researchers and students in Kenya, Rwanda, and Uganda struggle to access and publish scientific and technical articles because of financial barriers including publishing fees and subscriptions to research libraries. To help, IEEE has made its Xplore Digital Library more accessible by offering discounts on subscriptions and lowering fees to publish articles. But the number of papers published ",
@@ -95,7 +703,7 @@
    "first_seen": "2026-09-08T06:30:57.047196+00:00"
   },
   {
-   "title": "Netflix Moves Toward Open Source Flink Autoscaler for 30,000+ Streaming Jobs",
+   "title": "Netflix Moves toward Open Source Flink Autoscaler for 30,000+ Streaming Jobs",
    "link": "https://www.infoq.com/news/2026/09/netflix-flink-autoscaler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Netflix is moving toward the open-source Apache Flink Autoscaler for more than 30,000 streaming jobs across multiple AWS regions. The operator-level approach addresses limitations of Netflix’s cluster level autoscaler for complex, stateful pipelines. Netflix reports a 58% reduction in annualized Flink compute expenditure for one team, saving approximately $1.1 million annually. By Leela Kumili",
    "source": "InfoQ",
@@ -171,7 +779,7 @@
    "first_seen": "2026-09-08T06:30:57.047196+00:00"
   },
   {
-   "title": "CERN Renounces RHEL in Favor of Debian for Its Accelerator Controls Infrastructure",
+   "title": "CERN Renounces RHEL in Favor of Debian for its Accelerator Controls Infrastructure",
    "link": "https://www.infoq.com/news/2026/09/cern-debian-infra/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "CERN engineers announced a shift from Red Hat-based distributions to Debian for its accelerator control systems. This decision stems from Red Hat's tightening compiler mandates, which threatened legacy hardware. The transition, focused on 2,200 specialized control machines, is set for completion in late 2026, while CERN's other systems will remain with Red Hat and AlmaLinux. By Olimpiu Pop",
    "source": "InfoQ",
