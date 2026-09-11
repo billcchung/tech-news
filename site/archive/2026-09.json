@@ -1,7 +1,367 @@
 {
  "month": "2026-09",
- "updated": "2026-09-10T06:31:17.573203+00:00",
+ "updated": "2026-09-11T06:30:30.666261+00:00",
  "items": [
+  {
+   "title": "Advancing Embedded Go: Recoverable Panics, UEFI, Radio and Hardware Dev Kit",
+   "link": "https://www.infoq.com/news/2026/09/tinygo-devkit/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "TinyGo version 0.42 introduces significant updates, including recoverable panics and support for Go 1.27 and LLVM 22, improving error handling and enabling Go code to run as UEFI applications. The TinyGo Starter Kit with Seeed Studio XIAO facilitates hardware use for developers, featuring an ESP32-C3 board and modular sensors. These features enhance its functionality for embedded systems and Wasm.",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-11T05:05:00+00:00",
+   "id": "463a531bc5e032cbde1b02c2e51f627f295850b36942ef8db1b2dd961ff52567",
+   "tags": [
+    "architecture",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Why AI Agents Shouldn’t Guess at Vulnerability Exploitability",
+   "link": "https://devops.com/why-ai-agents-shouldnt-guess-at-vulnerability-exploitability/",
+   "summary": "Vulnerability prioritization is not a language problem. The safest agent architectures use models to interpret and explain, while deterministic systems traverse the evidence. Ask a security team a simple question: Of the vulnerabilities your scanner reported this morning, which ones can actually be exploited in production? The honest answer is often that nobody knows yet, […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-10T22:18:33+00:00",
+   "id": "5bf17925bc57895e1bdde969806316c92c394b905d1eca9eb50597089c2f8a18",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Codeveloper of Ethernet Predecessor Dies at 91",
+   "link": "https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies",
+   "summary": "Franklin “Frank” Kuo Codeveloper of ALOHAnet Fellow, 91; died 14 April Kuo helped develop ALOHAnet , a pioneering computer system at the University of Hawaii at Mānoa , in Honolulu. The system went online in 1971 and represented the first public demonstration of a wireless packet data network . It was an inspiration for Robert Metcalfe ’s development of Ethernet a couple of years later. In 2020 AL",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-10T20:00:04+00:00",
+   "id": "fe21ecd742cbf248aa4dd837939ad0655e6590400a8174623341a09a4e257a9f",
+   "tags": [
+    "hardware",
+    "networking",
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Introducing the Google Cloud Developer Plugin for AI Coding Agents",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents/",
+   "summary": "Agent skills fit well alongside documentation and remote MCP servers as ways of enabling the success of your AI workflows. They reduce context window usage for certain use cases, and they're straightforward to install. However, you might have noticed that managing individual skills can be unwieldy, or that some skills are most useful when they act alongside other skills or MCP servers toward the s",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-10T19:53:00+00:00",
+   "id": "322d0b843047f02e11cb629a88133360f050def30a5d610e6284fe1e538a9ee8",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
+   "link": "https://kubernetes.io/blog/2026/09/10/kubernetes-v1-37-scheduler-preemption-for-in-place-pod-resize-alpha/",
+   "summary": "In Kubernetes, resource allocation has historically been a static decision made during a Pod's initial scheduling and placement. With the graduation of the core in-Place Pod resize feature to General Availability in v1.35, application developers and cluster operators gained the powerful ability to dynamically adjust CPU and memory allocations of running containers without incurring disruptive rest",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-10T18:30:00+00:00",
+   "id": "9cc24d7b7bd3fc867e27d42be4a2577f150b0bfb20c852a5a5c62fd0c5669ea5",
+   "tags": [
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "OpenAI Releases GPT-6 Astra for Coding and Computer Use",
+   "link": "https://www.infoq.com/news/2026/09/openai-gpt6-astra/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "OpenAI has released GPT-6 Astra, a new model focused on coding, computer use, long-running agentic tasks, and cybersecurity, with availability across ChatGPT, Codex, and the OpenAI API. By Daniel Dominguez",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-10T17:49:00+00:00",
+   "id": "ed67fcae3a7e581efc0fb17a3d57aff763c8a3175dc4016fffc6230e665a9a62",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Atlassian Aims to Fill Context and Governance Gap for AI Coding Agents",
+   "link": "https://devops.com/atlassian-aims-to-fill-context-and-governance-gap-for-ai-coding-agents/",
+   "summary": "Atlassian today extended the capabilities of its portfolio to provide teams of artificial intelligence (AI) coding agents with the level of context needed to build and deploy applications in production environments at much higher levels of scale. Code Context, built on Atlassian’s Teamwork Graph, makes it possible for AI coding agents to generate more reliable […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-10T16:00:39+00:00",
+   "id": "56bce6d6eb7f1c980344b98da978efb4b1df78e9847c6a9488ac07671faf2e7d",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "What’s new with Google Cloud",
+   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Sept 7 - Sept 10 Why Y",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-10T16:00:00+00:00",
+   "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-07-12T10:59:18.257168+00:00"
+  },
+  {
+   "title": "What’s new with Google Data Cloud",
+   "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+   "summary": "September 7 - September 10 Pub/Sub SMTs can now AI Inference your Gemini Enterprise Agent Platform models! Pub/Sub AI Inference SMTs allow you to apply inference on an incoming stream of events using models hosted in Gemini Enterprise Agent Platform. The model’s prediction is appended to your event, making it available for downstream processing in your data warehouse (like BigQuery) or operational",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-10T16:00:00+00:00",
+   "id": "1fe79cef03fb98b72fb3860e4f6173dacf35e64863ea1816bd52b5719202ed38",
+   "tags": [
+    "ai",
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-09-04T06:30:47.825256+00:00"
+  },
+  {
+   "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+   "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+   "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-10T16:00:00+00:00",
+   "id": "39842fa0b34b37cbe3f74a631eb53c7b3f91d6f6e5ad7b93c66d1420605c9599",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Now everyone can put data to work",
+   "link": "https://openai.com/index/put-data-to-work",
+   "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-10T15:00:00+00:00",
+   "id": "6a886414536a09e3da65022e4b81fb0e9329e1e8f8d489895f13b523de737c68",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+   "link": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+   "summary": "1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-10T13:00:00+00:00",
+   "id": "6cf5e73795db38f088b01f873a3bb66a4ed9cb9a017e3f9cc91b43e7f5c79d50",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
+   "link": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. God told them to sell crypto. Their investors lost everything. When Eli Regalado first heard God speak to him, he wondered whether he was hallucinating. According to Eli and his wife,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-10T12:10:00+00:00",
+   "id": "274e7541782efdb093cfb43fc4011f7308c5195606ec4f6b49c74c02cd64f494",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Kubernetes disaster recovery: Guidance from three reproducible failure scenarios",
+   "link": "https://www.cncf.io/blog/2026/09/10/kubernetes-disaster-recovery-guidance-from-three-reproducible-failure-scenarios/",
+   "summary": "Scope This document describes three failure scenarios that separate having backups from being able to recover, and the guidance that follows from each. Every scenario is reproducible on a laptop from the lab repository above, and...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-10T11:37:00+00:00",
+   "id": "0accc79f586e6f08d978b61fc5126ff5f5ead107646b8fbe731afc2711e610c6",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Powering AI is an architecture problem",
+   "link": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+   "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-10T11:00:00+00:00",
+   "id": "f37aa50a575f6307e2c6afa62483f079bac648df549759d96881b347db08dcb2",
+   "tags": [
+    "ai",
+    "architecture",
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "This road map could help us decide whether to deploy solar geoengineering",
+   "link": "https://www.technologyreview.com/2026/09/10/1143804/this-road-map-could-help-us-decide-whether-to-deploy-solar-geoengineering/",
+   "summary": "A San Francisco nonprofit has published a detailed road map of the experiments, studies, and infrastructure that it says would be needed to make informed decisions about the use of solar geoengineering, MIT Technology Review can reveal. Scientists have now spent half a century exploring the possibility that we could counteract climate change by releasing…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-10T11:00:00+00:00",
+   "id": "a715a8a03215ce9c930285e5534d67245feb3c88441ae7d0b0cc1a5c242a19ee",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Beyond Autonomous Teams in Software Product Development",
+   "link": "https://www.infoq.com/news/2026/09/autonomous-software-teams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Autonomous teams are an article of faith in modern software development. The shape of our value determines what we can do; it determines our trade-offs between agency and coherence. We all have a purpose, and we all have agency to do something, hence the suggestion is moving from product focus to value center thinking. By Ben Linders",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-10T10:29:00+00:00",
+   "id": "cb82acda8ed6e49a54f5dc6ff31eb2ca58a782aea8fc19dde3e21cb401730177",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Can the US battery market untangle from China?",
+   "link": "https://www.technologyreview.com/2026/09/10/1143791/us-china-batteries/",
+   "summary": "The US is hitting records for the rapid growth of its energy storage market. That’ll go a long way to shoring up the grid, increasing reliability and also cutting emissions, since batteries can help store energy from intermittent renewables like wind and solar. Crucially, this is all happening with the help of cheap Chinese batteries,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-10T10:00:00+00:00",
+   "id": "33537a7702aaeb4ecd720af6bcc8c4763bdd43b367b3f7f68c3a9cb575fffef8",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Presentation: Accelerating Performance by Incrementally Integrating Rust Into Existing Codebase",
+   "link": "https://www.infoq.com/presentations/rust-refactoring/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Lily Mara explains how to avoid high-risk software rewrites through incremental FFI refactoring. She shares how engineering teams can replace Python bottlenecks with Rust via PyO3, demonstrating how to achieve dramatic function-level speedups, seamless integration testing, and meaningful infrastructure cost savings without microservice overhead. By Lily Mara",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-10T09:34:00+00:00",
+   "id": "67d55922bce5c0b58d6f4af8b2b7ff4a1ffa7938d9a276abee57130bb73500ff",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Article: When Spec-Driven Development Pays Off",
+   "link": "https://www.infoq.com/articles/when-spec-driven-development-pays-off/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AI coding assistants have become a core part of software development. AI-generated code has shown productivity gains, but it's also contributing to security weaknesses and familiar bug patterns. In this article, author Nitin Garg highlights the bottleneck has moved from code generation to code verification, and how to detect & mitigate it when the AI-generated behavior diverges from the intent. By",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-10T09:00:00+00:00",
+   "id": "08cfd1fa369a32f393866825915314514f3c098c4284b7dc6c4a91eeceacd488",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "God told them to sell crypto. Their investors lost everything.",
+   "link": "https://www.technologyreview.com/2026/09/10/1143588/indxcoin-god-regalados-sell-crypto-investors-lost-everything/",
+   "summary": "This article was produced in partnership with Type Investigations and with support from the Fund for Investigative Journalism. When Eli Regalado first heard God speak to him, he wondered whether he was hallucinating. Now he likens the experience to having “a thought that is not my thought.” Divine words echo in his mind like a…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-10T09:00:00+00:00",
+   "id": "08be1fb741d178ec6c89d8f849c9cab0c8cc289b418878ea17c78ba3fab0df28",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Healthcare AI’s next test is integration",
+   "link": "https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/",
+   "summary": "The entrance of major AI companies into healthcare is a meaningful and welcome development, accelerating the technical foundation available to the industry. Their models are increasingly capable of processing long clinical records, interpreting complex terminology, comparing documentation against evidence and generating coherent summaries from large volumes of information. For clinicians, operator",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-10T08:58:01+00:00",
+   "id": "19e067634ad56519ce54cff1e679b02ef5de84dd283ba2326f96b4c2bd0cede3",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Introducing ChatGPT for Financial Services",
+   "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+   "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-10T07:00:00+00:00",
+   "id": "0bb946f0c421538942e425649beb92ebcc573674a0f10cbfe699bb79671506eb",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+   "link": "https://openai.com/index/expanding-ai-access-us-government",
+   "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-10T07:00:00+00:00",
+   "id": "3802aa15c4b6ae22021ae0ee38d1b326bfae76ce787892fb81ed73e6ffa883e6",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "IETF Publishes RFC 10008, Adding the QUERY Method for Safe Requests With a Body",
+   "link": "https://www.infoq.com/news/2026/09/http-query-method/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In June 2026, the IETF published RFC 10008, introducing the QUERY method to HTTP, the first new standard HTTP verb since 2010. QUERY enables developers to send richer query filters in the request body while maintaining cacheable, safe, and idempotent semantics. This addition addresses long-standing limitations with GET and POST methods, facilitating improved API interactions. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-10T06:27:00+00:00",
+   "id": "6f938149b40fedc94689c69eb27b7f9ef177dc54b20c93ca8f0b7bfd1c84174f",
+   "tags": [
+    "architecture",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
   {
    "title": "CPython Officially Adds RISC-V Support As a Tier 3 Platform",
    "link": "https://www.infoq.com/news/2026/09/riscv-cpython/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -17,7 +377,62 @@
    "first_seen": "2026-09-10T06:31:17.573203+00:00"
   },
   {
-   "title": "4 groups caught using the same Chrome and Windows exploit kit",
+   "title": "Introducing the Agents API",
+   "link": "https://openai.com/index/introducing-the-agents-api",
+   "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-10T00:00:00+00:00",
+   "id": "b32e9b847135398762b9f07d35cf91524321a4ec5b7684b5ff2392213918b73a",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+   "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+   "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-10T00:00:00+00:00",
+   "id": "b8a75fb67d8179220690902f52a5b2dfa14a706eaeb8e0fe3d9794b58800e16b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+   "link": "https://huggingface.co/blog/gradio-workflow-1111",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-10T00:00:00+00:00",
+   "id": "075fed980e67c694db46cedaac3bb03714e2e805b3a4b8d5ecbdb92fb4704bd4",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
+   "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-across-aws-accounts/",
+   "summary": "AWS introduces Amazon EBS Volume Clones with cross-account copy, so you can create copies of your EBS volumes into other AWS accounts and optionally re-encrypt them with an AWS Key Management Service (AWS KMS) key in the target account.",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-09T22:01:47+00:00",
+   "id": "06d836261b4be60d03a300480ef9070332d3abf3ad955074c59a7e5795523817",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Four groups caught using the same Chrome and Windows exploit kit",
    "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
    "summary": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
    "source": "Ars Technica",
@@ -1700,19 +2115,6 @@
    "first_seen": "2026-09-05T06:27:19.828822+00:00"
   },
   {
-   "title": "What’s new with Google Cloud",
-   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Aug 31 - Sept 4 Automa",
-   "source": "Google Cloud Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-04T07:00:00+00:00",
-   "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
-   "tags": [
-    "cloud"
-   ],
-   "first_seen": "2026-07-12T10:59:18.257168+00:00"
-  },
-  {
    "title": "Tether: Apple Continuity Like Experience Between iOS and Linux Desktop Machines",
    "link": "https://www.infoq.com/news/2026/09/apple-continuity-linux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Zack Bartel has developed Tether, an open-source project designed to integrate Apple Continuity features with Linux workstations. Tether allows users to send iMessages, sync clipboards, and view iOS notifications directly on Linux. It uses secure local network communication and a custom Bluetooth stack to ensure reliable connectivity and robust security in cross-platform interactions. By Olimpiu P",
@@ -1856,19 +2258,6 @@
     "cloud"
    ],
    "first_seen": "2026-09-06T06:27:37.712622+00:00"
-  },
-  {
-   "title": "What’s new with Google Data Cloud",
-   "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
-   "summary": "August 31 - September 4 Stateful processing is available in BigQuery continuous queries in Preview Stateful operations significantly expand what’s possible with BigQuery continuous queries. This feature allows users to leverage functions like JOIN s, aggregations, and windowing functions directly in their streaming queries. Now you can calculate metrics over time (for example, a 30-minute average)",
-   "source": "Google Cloud Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-03T16:00:00+00:00",
-   "id": "1fe79cef03fb98b72fb3860e4f6173dacf35e64863ea1816bd52b5719202ed38",
-   "tags": [
-    "cloud"
-   ],
-   "first_seen": "2026-09-04T06:30:47.825256+00:00"
   },
   {
    "title": "The common security controls behind India's regulatory wave",
