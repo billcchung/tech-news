@@ -1,7 +1,328 @@
 {
  "month": "2026-09",
- "updated": "2026-09-11T06:30:30.666261+00:00",
+ "updated": "2026-09-12T06:27:25.821968+00:00",
  "items": [
+  {
+   "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+   "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+   "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-14T00:00:00+00:00",
+   "id": "968c32634dc2a1cb83f007064d0bd309276c504696b107928b2bc3d51ba9601b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "DevOps’ Three Ways Were Never About Tooling",
+   "link": "https://devops.com/devops-three-ways-were-never-about-tooling/",
+   "summary": "Somewhere along the way, DevOps became a tooling conversation. Ask someone how mature their DevOps practice is and the answer will often involve CI/CD pipelines, automated testing, infrastructure as code, observability, deployment frequency, or some combination of the above. All valuable tools, but that is often where the conversation ends. They compartmentalize DevOps principles to […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-11T21:25:43+00:00",
+   "id": "71008340f3cc446c270310d623da1b1542decdd6d5de1f56c4d6e155eb57a1ed",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Roundtables: AI’s apocalypse crisis",
+   "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+   "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI reporter Grace Huckins unpacking AI extinction…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-11T20:05:06+00:00",
+   "id": "172bd91cec085ff3927d1bcc282e836d563c762c269798ff05f2e4843ff7eeb5",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
+   "link": "https://kubernetes.io/blog/2026/09/11/kubernetes-v1-37-native-histograms-beta/",
+   "summary": "I'm excited to announce that native histogram support for Kubernetes metrics is graduating to Beta and is enabled by default in Kubernetes v1.37! Native histograms (previously introduced as Alpha in Kubernetes v1.36 under KEP-5808 ) bring high-resolution, low-cardinality observability to Kubernetes metrics. By adopting Prometheus Native Histograms , Kubernetes components now expose latency and dur",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-11T18:30:00+00:00",
+   "id": "3f084f3ffd4480f9aa0d323bcf18b3a6f1996519b847880c284be32773c11949",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "IEEE to Reward Sections for High Voter Turnout in Annual Election",
+   "link": "https://spectrum.ieee.org/ieee-to-reward-sections",
+   "summary": "For this year’s IEEE annual election , the IEEE Tellers Committee will recognize the Sections with the highest voter turnout (based on total eligible voters) in each Region with an incentive reward after the election results are accepted by the IEEE Board of Directors .The incentive initiative is managed by the Tellers Committee, which retains full authority over all rules, operations, and decisio",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-11T18:00:02+00:00",
+   "id": "6635544988b2e308cd590817954d27b36ca20580ddab6e00064b780c7ec2e34d",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+   "link": "https://openai.com/index/cognition-devin-testing-with-astra",
+   "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-11T16:00:00+00:00",
+   "id": "4aeb82da9975e2f5f564fba46674441b8ef455135ac302c60f8f7eb501572ba0",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "NVIDIA Personal AI Router Distributes AI Tasks across Local Compute",
+   "link": "https://www.infoq.com/news/2026/09/nvidia-pair-ai-task-router/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "NVIDIA Personal AI Router (PAIR), now available in beta, lets you combine the inference capacity of multiple computers on your local network and automatically distribute AI requests among them. It is primarily designed for local multi-agent AI workloads, where multiple independent model calls can otherwise overwhelm one GPU. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-11T15:00:00+00:00",
+   "id": "0475ff4a03ec30313a0347e45a1609701ab0d6fba53678bf73998c7964e446e7",
+   "tags": [
+    "ai",
+    "architecture",
+    "hardware",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Netflix Reworks Conductor for 420 Million Monthly Workflow Executions and 10X Larger Workflows",
+   "link": "https://www.infoq.com/news/2026/09/netflix-conductor-4-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Netflix has reworked its Conductor workflow orchestration engine to handle larger workloads, increasing supported workflow size from about 2,500 to 30,000 tasks and reducing p99 workflow evaluation latency by about 40%. Conductor 4.0 separates workflow metadata from task data, moves evaluation to asynchronous processing, and introduces dynamic worker allocation and concurrency controls. By Leela K",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-11T14:17:00+00:00",
+   "id": "d68075e2ddf6f0895d856ce652f4b8e87e77f77f625394c456d0d0ecbeff0433",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Introducing automatic remediation policies with Cloudflare CASB",
+   "link": "https://blog.cloudflare.com/casb-policies/",
+   "summary": "Cloudflare CASB policies introduce a native automation engine built directly on the Cloudflare developer platform to remediate SaaS risks automatically. Security teams can now design event-driven logic to revoke risky file shares and send webhooks without manual intervention.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-11T13:00:00+00:00",
+   "id": "e2fe6a9d8b48a8623c00787b3f860ddc16821844ba1608e4b5cb499777143743",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "The Download: biotech’s future and cheaper, cleaner steel",
+   "link": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet the under-35s shaping the future of biotech Every year, MIT Technology Review puts together our 35 Innovators Under 35, a list of some of the brightest and best young minds…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-11T12:10:00+00:00",
+   "id": "f12fa7633a3be87235863fd9db3e3925a6bf310646ec916e7d575779f0483224",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "tsgolint Reaches Stable v7, Bringing Go-Powered Type-Aware Linting to Oxlint",
+   "link": "https://www.infoq.com/news/2026/09/tsgolint-oxlint-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "tsgolint has released a stable v7, enhancing TypeScript linting with native Go speed. It offers type-aware linting, leveraging TypeScript's semantic analysis through the typescript-go compiler. Oxlint manages configurations and file discovery. The release, compatible with TypeScript 7.0.2, handles 59 of 61 type-aware rules and shows significant performance improvements over ESLint. By Daniel Curti",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-11T12:02:00+00:00",
+   "id": "55352425a51bbceab4c4883e121cc524403535913199d184eca61c20dc36cd7a",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "programming"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Terraform AWS Provider Continues Rapid Expansion as AWS Infrastructure Becomes More Complex",
+   "link": "https://www.infoq.com/news/2026/09/terraform-aws-provider-6-62/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The Terraform AWS Provider continues its rapid evolution, with v6.62.0 adding support for new AWS capabilities while improving how Terraform understands and manages existing infrastructure. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-11T12:00:00+00:00",
+   "id": "e6011a085a9b325e98dc69c5753582d916c63b5222b569e23959192c5c47c811",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "ClickFix attacks infecting PCs and Macs are going viral",
+   "link": "https://arstechnica.com/security/2026/09/clickfix-attacks-infecting-pcs-and-macs-are-going-viral/",
+   "summary": "Simplicity—combined with the difficulty of getting stuff done—makes ClickFix ideal.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-11T11:30:58+00:00",
+   "id": "0fb9d685d22d403e494414a6a9bcf8e6610818d57c577e0faa14eaefe0fb43e1",
+   "tags": [],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Building a reliable cloud native foundation for distributed AI training",
+   "link": "https://www.cncf.io/blog/2026/09/11/building-a-reliable-cloud-native-foundation-for-distributed-ai-training/",
+   "summary": "AI workloads are changing what platform teams need from infrastructure. Provisioning GPUs and standing up a cluster no longer makes a platform “AI-ready.” Once training spans more than one node, the bottlenecks show up in places...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-11T11:00:00+00:00",
+   "id": "d012d6134c4867e977939996c6339ef3021f927d88e4fce6545617651eea3aff",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "hardware",
+    "open-source"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Presentation: How To Run on Three Clouds at Once, and When Not To",
+   "link": "https://www.infoq.com/presentations/form3-multicloud-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Ross McFarlane and Kevin Holditch discuss Form3's evolution from a single-cloud setup to a triple active multi-cloud architecture. They share key engineering strategies for cross-cloud networking, distributed databases with CockroachDB and NATS, custom Kubernetes operators, and navigating distinct regional disaster recovery expectations across the UK, Europe, and US financial markets. By Ross McFa",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-11T11:00:00+00:00",
+   "id": "c7ac4ecba5ebc54f252eb72ab189145570ec61a8d4aa1dc315035f3a4309021f",
+   "tags": [
+    "architecture",
+    "databases",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+   "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+   "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-11T10:00:00+00:00",
+   "id": "46fcf5bb7b99520f1816e2b783a8be714e81f0b319fca3a31d07e256a8f0729d",
+   "tags": [
+    "ai",
+    "programming",
+    "research"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "How LinkedIn Trains AI Job Search 8x Faster with Multi-Teacher Distillation",
+   "link": "https://www.infoq.com/news/2026/09/linkedin-ai-multi-teacher/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "LinkedIn has published details of the training infrastructure behind its AI-powered job search, describing a multi-teacher distillation pipeline that compresses knowledge from large teacher models into a compact 0.6B-parameter ranking model. By Claudio Masolo",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-11T10:00:00+00:00",
+   "id": "07ab03e7abc51c99cd38483f4e5eb46ff44485ff95959d1eac469eb252bd1515",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "3 Highlights from Thomas Kurian’s Keynote at the Goldman Sachs Communicopia & Technology Conference",
+   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/highlights-from-the-goldman-sachs-communicopia-and-technology-conference/",
+   "summary": "On Tuesday, September 8, Thomas Kurian participated in the Goldman Sachs Tech Conference, providing an update on Google Cloud’s business and strategy. Here are the highlights: Full Stack Approach: Google Cloud is the only provider to offer solutions across the entire AI stack, which expands our total addressable market, differentiates our products from the point of view of performance, cost and qu",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-11T09:00:00+00:00",
+   "id": "96ac223028c0a7ad48e97414b5dffe2cbfe9aef0790de9968b7a1d8fa4e291ed",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Meet the under-35s shaping the future of biotech",
+   "link": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/",
+   "summary": "Every year, MIT Technology Review puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people whose research and technical work stands to shape the future of their fields. This year, the list includes nine people who are…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-11T09:00:00+00:00",
+   "id": "fb26ceba93fdd69fddb942da8a064928865873e780134da910d2ef84e025e809",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "GitHub’s August Outages Show Growth Is Outpacing Infrastructure",
+   "link": "https://devops.com/githubs-august-outages-show-growth-is-outpacing-infrastructure/",
+   "summary": "GitHub's August 2026 report details five outages tied to Actions and Copilot growth outpacing infrastructure. Here's what platform teams should know.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-11T08:45:57+00:00",
+   "id": "fcecc42ca5eab204df52d7eb85efa79382c1ff0499dd4d7752fd76bd400add4a",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "GitHub Widens the Door on Advanced Security Trials",
+   "link": "https://devops.com/github-widens-the-door-on-advanced-security-trials/",
+   "summary": "GitHub raised its self-serve Advanced Security trial cap from 100 to 300 licenses, letting more mid-size Enterprise Cloud orgs test for free.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-11T08:20:19+00:00",
+   "id": "45aa22d0b01054d39dc13401b822ca6236714e762a06175d76377d8b41fcba21",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
+   "title": "Session Traces and Cost Controls Help Diagnose AI Agent Failures",
+   "link": "https://www.infoq.com/news/2026/09/observability-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Session traces and cost controls are emerging as key observability techniques for diagnosing AI agent failures, helping teams spot tool-call loops and runaway spend while preserving enough execution context for post-incident debugging. By Mark Silvester",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-11T08:14:00+00:00",
+   "id": "87afd4053f40cc62d40ce2f3d3b7cd6ed9d0e67ce8aa10822cde71dc11ccd635",
+   "tags": [
+    "ai",
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
   {
    "title": "Advancing Embedded Go: Recoverable Panics, UEFI, Radio and Hardware Dev Kit",
    "link": "https://www.infoq.com/news/2026/09/tinygo-devkit/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -521,6 +842,19 @@
    "first_seen": "2026-09-10T06:31:17.573203+00:00"
   },
   {
+   "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
+   "link": "https://azure.microsoft.com/en-us/blog/two-zones-or-three-a-design-framework-for-zone-resilient-azure-workloads/",
+   "summary": "Zone resiliency isn't a single number you apply to a whole workload. The useful question isn't “how many zones?” but “how many zones does each component need to survive the loss of one?” Decide zone patterns component by component, use service-managed zone redundancy wherever it fits, and reserve three-zone designs for the components that genuinely require a third failure domain. The post Two zone",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-09T18:00:00+00:00",
+   "id": "227cd6d3626cb748344c6b3d4f01b89227b35e05f3cba7cbf524d78bf299f7ce",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
+  },
+  {
    "title": "GitHub Workflows Strain Under AI Agent Development",
    "link": "https://devops.com/github-workflows-strain-under-ai-agent-development/",
    "summary": "Coder CEO Rob Whiteley joins Mike Vizard to explain why GitHub workflows, CI/CD pipelines and developer platforms are showing strain under agentic development — and what a policy-aware redesign of the DevOps stack should look like.",
@@ -945,6 +1279,21 @@
     "security"
    ],
    "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
+   "link": "https://azure.microsoft.com/en-us/blog/beyond-the-benchmark-how-an-adaptive-approach-drives-scientific-discovery/",
+   "summary": "For research and development (R&D) organizations, the promise of agentic AI is not a better one-time answer. It is a new way to explore complex scientific and engineering problems: pursuing multiple hypotheses, validating them against evidence, learning from what does not work, and adapting their approach as new information becomes available. The post Beyond the benchmark: How an adaptive approach",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-08T20:00:00+00:00",
+   "id": "620c0bf550f9932326f9bb4c4a6d575860063d760a586c07ad0cf91215dae52b",
+   "tags": [
+    "ai",
+    "cloud",
+    "research"
+   ],
+   "first_seen": "2026-09-12T06:27:25.821968+00:00"
   },
   {
    "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
