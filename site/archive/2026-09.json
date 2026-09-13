@@ -1,6 +1,6 @@
 {
  "month": "2026-09",
- "updated": "2026-09-12T06:27:25.821968+00:00",
+ "updated": "2026-09-13T06:32:23.665165+00:00",
  "items": [
   {
    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -17,6 +17,87 @@
    "first_seen": "2026-09-12T06:27:25.821968+00:00"
   },
   {
+   "title": "GitHub Copilot's Project HydraFusion Promises Frontier Level Performance Through Multi-Model Routing",
+   "link": "https://www.infoq.com/news/2026/09/github-hydrafusion/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "GitHub's Project HydraFusion is a research preview for GitHub Copilot that enhances coding intelligence through runtime model orchestration. It dynamically assembles execution plans using models from various providers. The system employs three execution patterns based on task complexity. Evaluations indicate that it achieves high task quality while significantly reducing operational costs. By Olim",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-13T06:06:00+00:00",
+   "id": "dc813c06316ca1036f3a09701de4a025322061d318edbe5b25c12882fc9cdc16",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "programming",
+    "research"
+   ],
+   "first_seen": "2026-09-13T06:32:23.665165+00:00"
+  },
+  {
+   "title": "Open-Source Project Brings Full iOS 27 Virtualization to Apple Silicon",
+   "link": "https://www.infoq.com/news/2026/09/ios-27-virtualization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The open-Source project vphone-cli enables a full iOS 27 system to run as a virtual machine on Apple Silicon. Built on Apple's own Virtualization.framework rather than traditional emulation, the project opens up new possibilities for security research, reverse engineering, and automated iOS testing. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-12T16:00:00+00:00",
+   "id": "31bb13672cedf51e154c7a1c6650e57d92000e95df3ecfee34e4624de8fde3d2",
+   "tags": [
+    "architecture",
+    "open-source",
+    "programming",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-09-13T06:32:23.665165+00:00"
+  },
+  {
+   "title": "Presentation: From Retrieval to Reasoning: Building Production-Ready Agentic AI Systems with Knowledge Graphs",
+   "link": "https://www.infoq.com/presentations/knowledge-graphs-agentic-systems-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cassie Shum discusses why knowledge graphs serve as a critical foundation for agentic systems. Moving beyond basic RAG, she explains 4 practical architectural patterns: context bundling, decision provenance, code as truth, and agent visibility. She demonstrates an engineering harness built on a knowledge graph to streamline feedback loops, optimize token usage, and maintain system reliability. By ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-12T11:00:00+00:00",
+   "id": "e8a2e96aea49ba0ccb9da6280a054eec3ad1918fbd5e89c9ea794a9524049166",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-13T06:32:23.665165+00:00"
+  },
+  {
+   "title": "Lambda SnapStart Comes to Container Images, Ending a Packaging Tradeoff",
+   "link": "https://www.infoq.com/news/2026/09/lambda-snapstart-container-image/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has extended Lambda SnapStart to container image functions, which hold up to 10 GB against 250 MB for zip archives. Teams previously chose between dependency headroom and sub-second startup. A Reddit thread from a month earlier shows what that cost: stripping whitespace and docstrings from installed packages to stay under the limit. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-12T10:09:00+00:00",
+   "id": "2f1ff45718abe758c8d5aec6c981841a6a9e867efa1117cf6df7f58b76d4e870",
+   "tags": [
+    "architecture",
+    "cloud",
+    "cloud-native",
+    "programming"
+   ],
+   "first_seen": "2026-09-13T06:32:23.665165+00:00"
+  },
+  {
+   "title": "One Decade of Rustls: Evolution, Benchmarks, and Future Roadmap",
+   "link": "https://www.infoq.com/news/2026/09/rustls-one-decade/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Rustls, a Rust TLS library, marks its decade-long progression from a grassroots project to a funded open-source initiative. Key contributions from organisations boosted development, resulting in features like post-quantum cryptography and robust performance. The upcoming 0.24 release aims to enhance architecture and flexibility, including new input buffering and improved session handling By Olimpi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-12T07:07:00+00:00",
+   "id": "c2194e4a436669700188a5e3f98e0343432d6b7534eb7d63bc5f4ffcad92853a",
+   "tags": [
+    "architecture",
+    "networking",
+    "open-source",
+    "programming",
+    "research"
+   ],
+   "first_seen": "2026-09-13T06:32:23.665165+00:00"
+  },
+  {
    "title": "DevOps’ Three Ways Were Never About Tooling",
    "link": "https://devops.com/devops-three-ways-were-never-about-tooling/",
    "summary": "Somewhere along the way, DevOps became a tooling conversation. Ask someone how mature their DevOps practice is and the answer will often involve CI/CD pipelines, automated testing, infrastructure as code, observability, deployment frequency, or some combination of the above. All valuable tools, but that is often where the conversation ends. They compartmentalize DevOps principles to […]",
@@ -31,7 +112,7 @@
    "first_seen": "2026-09-12T06:27:25.821968+00:00"
   },
   {
-   "title": "Roundtables: AI’s apocalypse crisis",
+   "title": "Roundtables: Could AI really kill us all?",
    "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
    "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI reporter Grace Huckins unpacking AI extinction…",
    "source": "MIT Technology Review",
