@@ -1,7 +1,395 @@
 {
  "month": "2026-09",
- "updated": "2026-09-14T06:41:06.640610+00:00",
+ "updated": "2026-09-15T06:32:34.471880+00:00",
  "items": [
+  {
+   "title": "How Solaris' Turnstile Influenced the Modern System Designs of Web Browsers and Language Runtimes",
+   "link": "https://www.infoq.com/news/2026/09/turnstile-system-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Sun's Solaris influenced modern systems engineering, with key innovations like the Slab Allocator for efficient memory management, OpenZFS for advanced storage, and DTrace for observability. Its turnstile mechanism addressed issues with mutexes, promoting lean locking designs that are reflected in contemporary programming languages and web browsers, enhancing performance and memory efficiency. By ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-15T06:06:00+00:00",
+   "id": "74c1f7a5a43e5c536b0ef434f6965f8d7ac75c72cf0efd21057c5294cccee685",
+   "tags": [
+    "architecture",
+    "observability",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Amazon Linux 2027 Enters Public Preview with SELinux Enforcing by Default",
+   "link": "https://www.infoq.com/news/2026/09/amazon-linux-2027-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has released Amazon Linux 2027 in public preview, built on the AL2023 baseline with kernel 7.1 and SELinux in enforcing mode by default. Applications that pass on AL2023's permissive mode may fail under enforcing. The announcement gives no AL2023 end-of-support date, no GA date, and no in-place migration path. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-15T03:40:00+00:00",
+   "id": "59a6d632ca89e88f6f27676fff2c63c959d34f5404c9cbdcab4554f50761b9cf",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
+   "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+   "summary": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-14T21:04:32+00:00",
+   "id": "e396fb2d958f488e76454f353728008deefa68b75b928ed0e347f7e792bd6861",
+   "tags": [
+    "ai"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Java News Roundup: New OpenJDK JEPs, CDI 5.0, Spring, Open Liberty, RefactorFirst, ADK for Kotlin",
+   "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep07-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This week's Java roundup for September 7th, 2026, features news highlighting: new JEPs for ahead-of-time compilation and structured concurrency; GA releases of Jakarta CDI 5.0 and ADK for Kotlin 1.0; the September 2026 edition of Open Liberty; point releases of TornadoVM and RefactorFirst; a maintenance release of Micronaut; and first releases candidates of Groovy 6.0 and Gradle 9.8. By Michael Re",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-14T20:15:00+00:00",
+   "id": "27b2808b905d04ea2286b8010d5332696cdc0829469741295e57340023b1f100",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Hybrid Software Development: Benefits and Challenges",
+   "link": "https://devops.com/hybrid-software-development-benefits-and-challenges/",
+   "summary": "Fortunately, companies do not always have to choose between in-house vs outsourcing. Instead they can adopt a hybrid development strategy, which combines the capacities of internal and external IT teams. This approach allows companies to capitalize on the strengths of both traditional software development models, while offsetting their respective limitations, thereby streamlining project execution",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-14T19:00:42+00:00",
+   "id": "b5a8c2990195ec8f1bd9e1fcac525a7d18ab4c87853e2c4b920c627c09ac2cdd",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Kubernetes Changed Block Tracking API - Beta Differences",
+   "link": "https://kubernetes.io/blog/2026/09/14/csi-changed-block-tracking-beta/",
+   "summary": "Changed Block Tracking (CBT) support for CSI drivers shipped as Alpha in September 2025. With the March 2026 v1.0.0 release of the external-snapshot-metadata project, the feature moved to Beta . If you aren't yet familiar with changed block tracking for storage in Kubernetes, the Alpha announcement covers the motivation, the three primary components (the CSI SnapshotMetadata gRPC service, the Snap",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-14T18:30:00+00:00",
+   "id": "7193a9ff8eb6b0f956cc0898277bef75597d5eed1305bff5ad3e70049a1ef08e",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source",
+    "privacy"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Memory QoS Graduates to Beta",
+   "link": "https://kubernetes.io/blog/2026/09/14/kubernetes-v1-37-memory-qos-graduates-to-beta/",
+   "summary": "Memory QoS has graduated to Beta in Kubernetes v1.37 and is now enabled by default. On Linux nodes running cgroup v2, the feature uses the memory controller to give the kernel better guidance on how to treat container memory. It was first introduced as Alpha in v1.22, and expanded in v1.36 with tiered memory reservation. This post covers what changed in v1.37, what the Beta promotion means for clu",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-14T18:30:00+00:00",
+   "id": "f8ff73e4f9b79dc3a49e054c33920381831ba44bb70fb631679a2d152a5b25cc",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Countries Seek to Curb Social Media Addiction for Kids",
+   "link": "https://spectrum.ieee.org/countries-seek-to-curb-social-media-addiction-for-kids",
+   "summary": "Social media plays a significant, multifaceted role in adolescents’ development, influencing how they communicate, learn, socialize, and express themselves. The benefits, however, are accompanied by risks that can undermine youngsters’ character as well as their cognitive and social development. The potential problems include excessive screen time , social media addiction , cyberbullying , misinfo",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-14T18:00:04+00:00",
+   "id": "3b0cca787c8c6d1d1e4013e6892b0f0186e2f86044ed3e55f48e95f90a5bc7fd",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "The AI industry has taken a doomer turn. What now?",
+   "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+   "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pace of development of LLMs. Amodei cites the looming dangers he sees from the technology, from its…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-14T17:54:22+00:00",
+   "id": "e8e4e3637194fdb8b31340e57ea25b04a1cd35c166c8bb5f68cca5da1f8c6016",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Donated livers can be made biologically younger",
+   "link": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
+   "summary": "Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ with a preservative solution, bag it, and put it on ice—where it immediately starts to degrade. The team has a matter of hours to get it into a recipient’s body. There’s another option—one that has been growing…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-14T16:11:42+00:00",
+   "id": "11d0012913268e18e108283da8c0729cc3a6597b2b5df22e4c0bdc3934ec9622",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Agent-ready analytics: Unlocking insights with BigQuery augmented analytics",
+   "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-augmented-analytics-tvfs/",
+   "summary": "BigQuery now features a suite of augmented analytics Table-Valued Functions (TVFs) designed to automate complex data analysis at scale. Augmented analytics combines AI, ML and statistical methods to automate insight discovery and pattern explanation. These functions allow you to diagnose why metrics changed, uncover underlying trends and relationships across the data, and even isolate the true imp",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-14T16:00:00+00:00",
+   "id": "3f8bbb8c75abb419d80f50b72261b8a73d2ef39bd2881810541b43b6ff4bdcae",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Announcing Pause/Resume and NVIDIA RTX PRO 6000 Blackwell GPU support in Dataflow",
+   "link": "https://cloud.google.com/blog/products/data-analytics/new-dataflow-features-to-enable-large-scale-ai-workloads/",
+   "summary": "Overview As enterprises scale their AI and agentic workflows, they require serverless platforms that make data preparation for model training, evaluation, and inference effortless and efficient. Dataflow is a critical component of Google Cloud’s AI stack. It enables our customers to create batch and streaming pipelines that support a variety of analytics and AI use cases. Today, we’re delivering s",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-14T16:00:00+00:00",
+   "id": "54389dc731ce7100350a62f912949e7a6a983461d83ace50e54d3a75e8b57b11",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "hardware"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Google is a leader in The Forrester Wave™: Public Cloud Platforms, Q3 2026",
+   "link": "https://cloud.google.com/blog/products/compute/forrester-wave-public-cloud-platforms-q3-2026-report/",
+   "summary": "We are excited to share that Google Cloud was named a Leader and received the highest score in the ‘current offering’ category in the Forrester Wave™: Public Cloud Platforms, Q3 2026 report, which examines the 10 most significant public cloud providers across 30 comprehensive criteria, Google also received the highest possible score in 23 out of 30 evaluation criteria, including, but not limited t",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-14T16:00:00+00:00",
+   "id": "0788d022a43c2619b726f99d328043d0609b31b964c06290644400b76ad39cb4",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "AI agents blew the whistle on their cheating colleagues",
+   "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+   "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-14T16:00:00+00:00",
+   "id": "876402fef721cf37c77fe99418c9f717f4f5a7b813b1cb5645648bb02339ba87",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
+   "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-gpt-6-astra-on-amazon-bedrock-amazon-quick-desktop-ga-kiro-for-students-and-more-september-14-2026/",
+   "summary": "There’s a particular energy to mid-September in New York. Pumpkin spice lattes are flowing, temperatures are dropping, and it’s nearly sweater weather. The city is back at full speed, and so is the AWS launch calendar. This week that energy showed up in a new frontier model on Amazon Bedrock, a desktop app for Amazon […]",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-14T15:56:33+00:00",
+   "id": "8b136abb1b679db2cb39ff4370e27a7600ea1f7ff69d6fef07d44dbdbb48b53d",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Ten Great DevOps Job Opportunities",
+   "link": "https://devops.com/ten-great-devops-job-opportunities-23/",
+   "summary": "DevOps.com is now providing a weekly DevOps jobs report through which opportunities for DevOps professionals will be highlighted as part of an effort to better serve our audience. Our goal in these challenging economic times is to make it just that much easier for DevOps professionals to advance their careers. Of course, the pool of […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-14T15:39:36+00:00",
+   "id": "8a73b34f0ce80b2e9aff4c4c040e6431924e30435a5ce2b256eabe4766289e7b",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Agoda Replaces 72-Shard SQL Server Price Cache with DragonflyDB",
+   "link": "https://www.infoq.com/news/2026/09/agoda-price-cache-dragonflydb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Agoda migrated its 1.5 TB hotel Price Cache from 72 SQL Server shards to DragonflyDB to handle growing read and write volumes. The migration used staged dual reads, parity validation, gradual traffic shifting, and decentralized failover detection. Agoda reports an approximately eightfold reduction in P99 read latency, with two DragonflyDB clusters providing high availability. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-14T13:48:00+00:00",
+   "id": "2552208f709aa493fc73a19d7a7528bf62b9d13992db4c209d33622092e37b8e",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
+   "link": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Roundtables: could AI really kill us all? Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-14T12:10:00+00:00",
+   "id": "9b522d3ba211d4e6a26994a49e6967b7491e853901cb4ec8dbf72d45ae297019",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "How Fyxer built an AI executive assistant people trust",
+   "link": "https://openai.com/index/fyxer",
+   "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-14T12:00:00+00:00",
+   "id": "7f82d995c515e5ba429e7e06d184bac39c4f16f7fff73a80b082fdc2812fc58f",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Article: Implementing Durable Workflows on Postgres Without an External Orchestrator",
+   "link": "https://www.infoq.com/articles/durable-workflows-postgres/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Postgres can serve as the durable state store and coordination layer for workflows, eliminating the need for an external orchestrator. SKIP LOCKED enables concurrent work processing, primary-key checkpoints enforce idempotency, and leases support crash recovery. Workflow sleeps and human approvals can also be persisted as database state and survive restarts. By Raman Varma",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-14T11:00:00+00:00",
+   "id": "bc9b872ad074b6e55c89ad300a4c11f7d8695011b912e426f744aacc18e3cd57",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Podcast: How Will We Train Developers If AI Does the Routine Work: A Conversation with Scott Hanselman",
+   "link": "https://www.infoq.com/podcasts/train-developers-ai-routine-work/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this podcast, Michael Stiefel spoke to Scott Hanselman about developing new software engineers when artificial intelligence agents are doing most of the work on which junior developers were trained. Hanselman suggests the software industry should adopt a preceptorship model similar to the nursing profession. By Scott Hanselman",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-14T11:00:00+00:00",
+   "id": "ff1e45ee9e58a3bc3403f869c087061840be4dd66313059fe75c5f0d2b6df254",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Presentation: Decision Models in Agentic Architectures: From Production to Agent Skills",
+   "link": "https://www.infoq.com/presentations/decision-models-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Alex Porcelli discusses the critical gap in enterprise AI: non-deterministic output and lack of accountability in high-stakes decisions. He shares how integrating DMN decision models with LLMs, agent skills, and NeMo guardrails creates auditable, deterministic agentic architectures - allowing business leaders to own decision logic while engineers maintain robust architectural governance. By Alex P",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-14T11:00:00+00:00",
+   "id": "acbe0099aca7d771f92cd7d8b3bdf6845af686db531e6e5cee20689ae045836c",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Cilium 1.20: Gateway API ExternalAuth, TCPRoute/UDPRoute, ENI IPAM for IPv6, and more",
+   "link": "https://www.cncf.io/blog/2026/09/14/cilium-1-20-gateway-api-externalauth-tcproute-udproute-eni-ipam-for-ipv6-and-more/",
+   "summary": "Cilium 1.20, the second major open source Cilium release of 2026 after Cilium 1.19, is finally here. Three themes stand out in this release: Thank you to every contributor, reviewer and maintainer who made Cilium 1.20...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-14T10:45:49+00:00",
+   "id": "0810c2a564cb1bebafd88fb734da57c7f09b3c6672d0ee258773d1d96384bcea",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Independent Investigation of Hugging Face Incident Reveals How Agents Collaborated and Behaved",
+   "link": "https://www.infoq.com/news/2026/09/metr-hugging-face-hack-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "After six days of on-site investigation at OpenAI, a small team of METR and Redwood Research researchers provided an account of how OpenAI agents behaved during their hack of Hugging Face earlier this year. Roughly 700 agents that were meant to be isolated from one another found a way to communicate and coordinate to pursue goals they could have not achieved working individually. By Sergio De Simo",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-14T09:00:00+00:00",
+   "id": "f30838b2244cd7f7c5e52a4b841a1e5b22417c857b356845a43ec056e0fed676",
+   "tags": [
+    "architecture",
+    "programming",
+    "research"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "More JFrog Artifactory Bugs Are Under Attack, and All Three Have Patches",
+   "link": "https://devops.com/more-jfrog-artifactory-bugs-are-under-attack-and-all-three-have-patches/",
+   "summary": "Attackers are actively exploiting three JFrog Artifactory flaws, exposing how slow patching can turn artifact repositories into software supply chain attack paths.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-14T08:30:52+00:00",
+   "id": "7c4f1e57d3738387359eee7163c2e807aa599449517ab55f4131a4a3dad31776",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "GitLab’s Critical Patch Closes a Path Traversal Flaw Attackers Are Already Probing",
+   "link": "https://devops.com/gitlabs-critical-patch-closes-a-path-traversal-flaw-attackers-are-already-probing/",
+   "summary": "GitLab patches two critical flaws, including a CVSS 10.0 unauthenticated file-read vulnerability, putting self-managed instances under urgent pressure to upgrade.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-14T08:15:12+00:00",
+   "id": "a9659753bd101a302d19ea436d96349b8a9a2f6111218871695eb543019bd258",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
+  {
+   "title": "Jotai 3.0 Ships as a Modernized, ESM-Only Package That Drops Legacy Builds and Deprecated APIs",
+   "link": "https://www.infoq.com/news/2026/09/jotai-3-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Jotai, an atomic state management library for React, has released version 3.0.0, now exclusively using ES modules. It maintains backward compatibility but removes some deprecated APIs. Migration is straightforward for most users. This version emphasizes a leaner core with improvements while deferring significant feature changes for future updates. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-14T06:46:00+00:00",
+   "id": "7b071b5302e52d91210e20e9eedbe603f0e93f97998feb234804175242ad7e44",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
+  },
   {
    "title": "ESP32 Bit Pirate: Bridging Modern Microcontrollers and Browser-Based Hardware Debugging",
    "link": "https://www.infoq.com/news/2026/09/esp32-bitpirate-web/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -908,6 +1296,20 @@
     "open-source"
    ],
    "first_seen": "2026-09-11T06:30:30.666261+00:00"
+  },
+  {
+   "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+   "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-10T00:00:00+00:00",
+   "id": "85052f9befba2c4e17fa41a5b103c0c0ae8459b0b1c3561b24bc565188ff9e10",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-15T06:32:34.471880+00:00"
   },
   {
    "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
