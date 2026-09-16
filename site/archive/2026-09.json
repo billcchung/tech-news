@@ -1,7 +1,422 @@
 {
  "month": "2026-09",
- "updated": "2026-09-15T06:32:34.471880+00:00",
+ "updated": "2026-09-16T06:31:56.959394+00:00",
  "items": [
+  {
+   "title": "From Memory-Hungry HNSW to Quantized SPANN: The Technical Evolution of Pinterest's Manas Platform",
+   "link": "https://www.infoq.com/news/2026/09/pinterest-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Pinterest Engineering has enhanced its Manas search platform to manage vast data, improving efficiency in search and discovery functions. By applying Scalar and Product Quantization, memory usage decreased significantly while maintaining high recall rates. The platform utilizes SSDs for optimized performance, and it is transitioning to multi-vector models for refined relevance matching. By Olimpiu",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-16T06:06:00+00:00",
+   "id": "faf53ab5c519b30761225e6d9281ba9483584c8e1146f718a3a9daadf3d32a57",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Factory Raises $200M as It Builds Agents Across the Software Lifecycle",
+   "link": "https://devops.com/factory-raises-200m-as-it-builds-agents-across-the-software-lifecycle/",
+   "summary": "Enterprise coding agent startup Factory announced it has raised $200 million at a $5 billion valuation, more than tripling its valuation from its last funding round five months ago. Founded in 2023, Factory develops AI agents for software engineering teams. Its platform is designed for work across the full software development lifecycle, including building, testing […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-15T22:35:59+00:00",
+   "id": "a0369d2724334753209e2606389925f3ae3670500ae196c9eb9498750989588c",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "LocalStack Acquires WonderTwin AI to Gain SaaS App Emulation Platform",
+   "link": "https://devops.com/localstack-acquires-wondertwin-ai-to-gain-saas-app-emulation-platform/",
+   "summary": "LocalStack this week revealed it has acquired WonderTwin AI, a provider of an emulator of software-as-a-service (SaaS) applications that is used to build custom applications for those platforms. Colin Neagle, vice president of marketing for LocalStack, said the emulators WonderTwin AI has developed will be integrated into the company’s namesake emulation platform that application development […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-15T21:11:25+00:00",
+   "id": "40c8d3025de1fb59890ee190cb0be7147b9f5155c35ab1f1fbbb2ea6ddbdf881",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
+   "link": "https://kubernetes.io/blog/2026/09/15/kubernetes-v1-37-pod-level-resource-managers-beta/",
+   "summary": "With the release of Kubernetes v1.37, the Pod-Level Resource Managers feature has graduated to Beta status (disabled by default)! First introduced as an Alpha feature in Kubernetes v1.36 , this enhancement builds on Pod-Level Resources by equipping Kubelet's Topology Manager, CPU Manager, and Memory Manager to use Pod-level resource declarations ( .spec.resources ) directly when making hardware pl",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-15T18:30:00+00:00",
+   "id": "5309177f19f859cab89d6cd940ab38fcfee3f4cae9bb83095476382f0cac2ca1",
+   "tags": [
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Roundtables: Could AI really kill us all?",
+   "link": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
+   "summary": "Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-15T17:47:51+00:00",
+   "id": "0fa1b8daf138ee7e1be3962e033d54076837c1d4e41e5dbdf1f24b540ed60c69",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Introducing new session management tools with native, granular controls",
+   "link": "https://cloud.google.com/blog/products/identity-security/introducing-new-session-management-tools-with-native-granular-controls/",
+   "summary": "Google Cloud session management provides flexible options for setting up session controls based on your organization’s security policy needs. To help you improve your security posture and mitigate credential theft and account takeover (ATO) risks, we have rolled out a 16-hour default session length for Google Cloud customers. We’ve now completed extending this security standard to all customers wh",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-15T17:30:00+00:00",
+   "id": "69e6fef8de6ee85c7a9304dc5a3cb8b41627f90e2c5a376b75c9ccb116f20125",
+   "tags": [
+    "cloud",
+    "security"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+   "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-15T17:05:57+00:00",
+   "id": "6aae488b1bb65e59bc913efd95de31ac9e1f04a87d1118ebcd77ee6cbdba90f6",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "AI-Assisted Discovery Helps Microsoft Patch More Than 1,000 Vulnerabilities in a Month",
+   "link": "https://www.infoq.com/news/2026/09/microsoft-ai-security-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "With its latest September 2026 Patch, which addresses more than 950 vulnerabilities, Microsoft has patched about 2,750 vulnerabilities so far this year. While many attribute this surge to AI-assisted security research, organizations may struggle to keep pace and fully benefit from these advances, particularly when it comes to evaluating, prioritizing, and deploying patches. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-15T17:00:00+00:00",
+   "id": "db5236f81a0f9903908d4d520d2ba3e5c3a262eb76d82ebe44416a1cb9e0a4dc",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "What I learned organizing KCD Lima 2026",
+   "link": "https://www.cncf.io/blog/2026/09/15/what-i-learned-organizing-kcd-lima-2026/",
+   "summary": "On July 18, 2026, we held the third edition of Kubernetes Community Days Lima at UTEC in Barranco. By now, we have already sent the Transparency Report to the CNCF, thanked our sponsors, and processed the...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-15T16:24:05+00:00",
+   "id": "3b05b1bd6a1ae6f8584463a76df72872f07d86b52597518f79b6f4abe4a00170",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Your Agent Aced the Task. Will It Do It Again?",
+   "link": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-15T16:00:44+00:00",
+   "id": "a1d018f16fad79f97456f75bff3df416e35d9a73410b1735dcbcc9bb4c30fb83",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Best practices for handling cloud reliability incidents",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/cloud-reliability-incident-handling-best-practices/",
+   "summary": "Cloud outages can range from global service disruptions to issues isolated to a specific region, zone, or even just your project, workload or application. If you suspect a Google Cloud Platform outage is impacting your services, we recommend you follow a structured “Verify→ Investigate→Report→Resolve→Review\" workflow to resolve it. And before that outage occurs, you should also have prepared your ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-15T16:00:00+00:00",
+   "id": "b1f25f966a4876e09c8c4c798e6215d5276d61afdabc477babd7914060a77417",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Agent Substrate brings high-density, scalable, trusted infrastructure to GKE",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/agent-substrate-available-on-gke/",
+   "summary": "Today, we are announcing the availability of Agent Substrate on Google Kubernetes Engine (GKE). Agent Substrate is an open-source, secure-by-default agent execution runtime engineered to run millions of sandboxes with 10x higher density than standard container runtimes . Purpose-built for the era of autonomous agents, Substrate delivers sub-500ms resume operations at over 500 suspend/resume activa",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-15T16:00:00+00:00",
+   "id": "1641347d34e9b405e5de80dc5ae28a302b12cf189c2fc916d9e24575a466f999",
+   "tags": [
+    "cloud",
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Scaling Telco Autonomy: Leveraging GNNs with Distributed GraphFlow",
+   "link": "https://cloud.google.com/blog/products/databases/run-gnns-at-scale-with-ease-introducing-distributed-graphflow/",
+   "summary": "The telecommunications industry is currently undergoing a paradigm shift, moving from traditional manual human-driven operations to fully Autonomous Network Operations. Modern networks have grown increasingly complex, heterogeneous, and large-scale, making handcrafted rules-based methods and traditional Machine Learning (ML) approaches alone insufficient to automate network operations. While ML me",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-15T16:00:00+00:00",
+   "id": "c2569a34912713f9204e58ffa6b2bfe0e7195099be3c7fe461dea3cb4fdb653f",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Introducing Filestore agent volumes: fully managed storage for agent workspaces",
+   "link": "https://cloud.google.com/blog/products/storage-data-transfer/filestore-agent-volumes/",
+   "summary": "From running build tools, to data analysis pipelines, to collaborative research, executing data-driven tasks is essential for any enterprise agent. Today, platform teams often stitch together custom workarounds to address agent storage requirements, which could include shuttling state back and forth between agent sandboxes and centralized storage or manually managing local disks and/or self-hosted",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-15T16:00:00+00:00",
+   "id": "922dd30ce6f4c2d4dbf3c9d55119cb6c4fb7784912af5621f832f7d7ff2b1941",
+   "tags": [
+    "cloud",
+    "research"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Simplifying Terraform for IBM Z with intent-driven workflows",
+   "link": "https://www.hashicorp.com/blog/simplifying-terraform-for-ibm-z-with-intent-driven-workflows",
+   "summary": "Learn how intent-driven workflows introduce a new interaction model for IBM Terraform for Z and LinuxONE, helping organizations modernize infrastructure operations through guided, repeatable agentic workflows.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-15T16:00:00+00:00",
+   "id": "18c7cc0dcf90b633c5c3b8766f406bf8b1d20d4849ad6600758f1bd0ad805430",
+   "tags": [
+    "cloud",
+    "dev-tools"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Java 27 Tackles Post-Quantum Security and a Faster Patch Cadence",
+   "link": "https://devops.com/java-27-tackles-post-quantum-security-and-a-faster-patch-cadence/",
+   "summary": "Java 27 strengthens enterprise security with monthly critical patch updates and post-quantum TLS 1.3 support, helping organizations prepare for AI-driven threats and future quantum risks.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-15T14:30:42+00:00",
+   "id": "d5b9a55febdcb4d26c3d529755ab69c55fd02993ab0496254c0c0f987c5de639",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "networking",
+    "observability",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "The AI Inference Revolution Is Here",
+   "link": "https://spectrum.ieee.org/inference-hardware-revolution",
+   "summary": "Since about 2020, AI has largely focused on training bigger and better models. Large language models (LLMs) ballooned from millions of parameters to trillions. This proved effective: The largest version of OpenAI’s GPT-3, released in 2020, correctly answered just 43.9 percent of questions on a popular knowledge-and-reasoning benchmark. Just four years later, GPT-4o reached a score of 88.7 percent ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-15T13:00:05+00:00",
+   "id": "9f43cb396b8141f5c1807663ac98be46cd1e5d2f56bd3aeca7c437e2bc1bc711",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Have it both ways: stay discoverable in search while disallowing AI training",
+   "link": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+   "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-15T13:00:00+00:00",
+   "id": "a5e6e7635ac0358505b64533d3a1fb0e4e9c832343529a26885990b55ed25466",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Give every teammate and agent the right level of access to your Workers",
+   "link": "https://blog.cloudflare.com/workers-granular-authorization/",
+   "summary": "You can now scope access to individual Workers and assign narrower Developer Platform roles, so teammates, CI tokens, and agents get only the access they need to debug, deploy, or monitor safely.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-15T13:00:00+00:00",
+   "id": "87791163dc7bd2b7b1aa14cde46a30154985540720ba89d7300973991504997b",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "The Mind-bending Joyrides That Gave Rise to Tesla",
+   "link": "https://spectrum.ieee.org/elon-musk-tesla",
+   "summary": "In 2003, Martin Eberhard, a cofounder of Tesla Motors , decided it was time to start wooing investors. To do that, however, he needed an electric car. So he talked to Alan Cocconi and asked if he could borrow the tZero , the revolutionary and blazingly fast electric roadster that Cocconi had built at AC Propulsion . Eberhard’s idea was to drive the tZero up and down Sand Hill Road in the heart of ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-15T12:13:58+00:00",
+   "id": "410f7d64d571e2d31db8ea7952d9497cebedbd09c3f893f326d3188e8c490446",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "The Download: AI doomers, whistleblowing agents, and de-aged livers",
+   "link": "https://www.technologyreview.com/2026/09/15/1144141/the-download-ai-extinction-whistleblowing-agents-donated-livers/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The AI industry has taken a doomer turn. What now? AI chiefs Dario Amodei, Sam Altman, Elon Musk, and Demis Hassabis are suddenly all in agreement: the latest generation of LLMs…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-15T12:10:00+00:00",
+   "id": "b3e3c9723a25bf8c7b52a84981821ab0fddfdf62415e5759e87dc69c59c17945",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Atlassian Automates Root Cause Analysis by Correlating Metrics, Logs and Traces",
+   "link": "https://www.infoq.com/news/2026/09/atlassian-automated-rca/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Atlassian has outlined a new approach to automating root cause analysis for large-scale cloud-native incidents, using correlation across metrics, logs, distributed traces, and service topology to generate ranked hypotheses about where failures originate and how they propagate. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-15T12:00:00+00:00",
+   "id": "72ca8a31f13b9ff96a68bdd2aa1f2c9673f139d2befff23849d8230718384f10",
+   "tags": [
+    "architecture",
+    "cloud-native",
+    "programming"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "AI models need more data about biology, and OpenAI is paying to create it",
+   "link": "https://www.technologyreview.com/2026/09/15/1144129/ai-models-need-more-data-about-biology-and-openai-is-paying-to-create-it/",
+   "summary": "Last year Ruxandra Teslo, a policy analyst who focuses on clinical trials, posted an idea for supercharging medical AI systems: Use data from failed biotech companies. By bidding at their bankruptcy proceedings, she proposed, it might be possible to obtain detailed regulatory filings, manufacturing strategies, and safety data—types of information usually considered trade secrets. She…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-15T12:00:00+00:00",
+   "id": "568c13fd56cd9c2da1d37943db5b9ddfecf607fb745b4465daba4659f07209e1",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Stop Chasing 100% Test Coverage: Why DevOps Teams Need to Test Smarter, Not More",
+   "link": "https://devops.com/stop-chasing-100-test-coverage-why-devops-teams-need-to-test-smarter-not-more/",
+   "summary": "Every software team eventually runs into the same question: How much testing is enough? For years, the default answer has been “more.” More automated tests. More regression suites. More environments. More devices. But as applications become more complex and release cycles continue to accelerate, testing everything simply isn’t realistic, even with the support of AI. […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-15T11:22:37+00:00",
+   "id": "19ffb9c9ee4874f35eeb1060e1ebee71487c394c2cce5b5a3caa0d125c04f984",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "What’s at stake in AI’s trillion-dollar gamble",
+   "link": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
+   "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in question: A handful of so-called…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-15T10:00:00+00:00",
+   "id": "01b0139aa611141f36376f6e8c68ebb83fa3688189952766d38d4dc12de42da0",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Presentation: Lead Without a Ladder: How I Climbed Into Engineering Leadership",
+   "link": "https://www.infoq.com/presentations/engineering-leadership/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Pauline Jepp explains how systems thinking, rock climbing, and flocking behaviors apply to engineering leadership. She shares strategies for balancing team autonomy with alignment, supporting invisible work like mentorship, and navigating transitions from hands-on engineer to engineering leader while maintaining organizational trust and psychological safety. By Pauline Jepp",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-15T09:10:00+00:00",
+   "id": "b2dff3cf0d8690cc58be1f76165e56eebce727e146b2202a632bd742dd53559f",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Grab's Agent Framework LLM-Kit Accelerates AI Agent Production Deployment",
+   "link": "https://www.infoq.com/news/2026/09/grab-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Grab has implemented LLM-Kit, a framework that standardizes over 500 internal agent services. This system enhances service integration, evaluation, and secret handling, reducing the time to deploy new AI agents from two weeks to one hour. It centralizes infrastructure management, allowing runtime tool discovery and flexible model integration, while maintaining operational control. By Hien Luu",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-15T09:00:00+00:00",
+   "id": "7f20a8c3da60e9a0e71c7daf42939b123d8e40ef7697b4e6d78a296356205f88",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
+  {
+   "title": "Microsoft Releases .NET 11 RC1 with Go-Live Support, C# 15 and F# 11 as Default Language Versions",
+   "link": "https://www.infoq.com/news/2026/09/dotnet-11-rc-1-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Last week, Microsoft has released .NET 11 Release Candidate 1, the first release candidate of the cycle, shipping with a go-live support license for production use. The release makes C# 15 and F# 11 the default language versions, extends dotnet test to mobile and desktop targets, finalizes the SignalR authentication refresh APIs, and improves Android build times in .NET MAUI. By Almir Vuk",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-15T07:11:00+00:00",
+   "id": "980df53b465eea541a050d17538d7742297e1b609348171675b2b01bc3512b9a",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
+  },
   {
    "title": "How Solaris' Turnstile Influenced the Modern System Designs of Web Browsers and Language Runtimes",
    "link": "https://www.infoq.com/news/2026/09/turnstile-system-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -3179,6 +3594,20 @@
     "cloud"
    ],
    "first_seen": "2026-09-06T06:27:37.712622+00:00"
+  },
+  {
+   "title": "Introducing HCP Terraform Metrics: operational visibility at scale",
+   "link": "https://www.hashicorp.com/blog/introducing-hcp-terraform-metrics-operational-visibility-at-scale",
+   "summary": "Gain deeper visibility into your HCP Terraform-managed estate by pulling metrics from a single Prometheus endpoint into your data visualization tools.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-03T18:00:00+00:00",
+   "id": "b5600ab8d598daf9ab2de0e10f4f507f18c0aefe72ecd2e220810a140c2ca3a2",
+   "tags": [
+    "cloud",
+    "dev-tools"
+   ],
+   "first_seen": "2026-09-16T06:31:56.959394+00:00"
   },
   {
    "title": "The common security controls behind India's regulatory wave",
