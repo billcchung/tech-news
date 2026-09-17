@@ -1,7 +1,526 @@
 {
  "month": "2026-09",
- "updated": "2026-09-16T06:31:56.959394+00:00",
+ "updated": "2026-09-17T06:32:33.322430+00:00",
  "items": [
+  {
+   "title": "TanStack Charts Introduced with a Framework Agnostic Grammar of Graphics for TypeScript",
+   "link": "https://www.infoq.com/news/2026/09/tanstack-charts-alpha-introduced/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "TanStack Charts is a new, framework-agnostic visualization library for TypeScript. It allows developers to create visualizations by composing various elements instead of using fixed chart types. Currently in Alpha, it has about 160,000 weekly downloads. The library supports multiple frameworks and is designed for a variety of environments, though it is not yet stable for production use. By Daniel ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-17T05:53:00+00:00",
+   "id": "1f341e205065d349ddc143fcfe7dbc6f958234f8f98c26a8c656fdd7729c4b27",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "GPT-6 Astra Is the First Model OpenAI Classifies as Critical for Cybersecurity",
+   "link": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "OpenAI has classified GPT-6 Astra at the Critical cybersecurity threshold under its Preparedness Framework, a first. In expert-led testing the model found previously unknown vulnerabilities in a browser and an OS kernel and built working exploits. The same system card reports a substantial decline in chain-of-thought monitorability. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-17T04:59:00+00:00",
+   "id": "873eb48edfed1c5982eaf8bb208f40048dd55483c72ead1ecf84ae72fd40a39d",
+   "tags": [
+    "architecture",
+    "programming",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "How I Consolidated Duplicate Delivery Pipelines With Parameters and Build Tags",
+   "link": "https://devops.com/how-i-consolidated-duplicate-delivery-pipelines-with-parameters-and-build-tags/",
+   "summary": "Two modules in a repository had near-identical Azure DevOps build and release definitions. A third would have required another pair. The delivery chain used five definitions: one change decider, two builds, and two releases. I consolidated it into one decider, one generic build, and one release with a deployment stage for each onboarded module. The […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-16T22:07:22+00:00",
+   "id": "fd3400e46ed445790edf78f9366199fc55b4099b9fd586ad7024b0eeaf44b782",
+   "tags": [
+    "cloud",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
+   "link": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
+   "summary": "Group plans to be largely out of commission for several weeks.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-16T21:08:14+00:00",
+   "id": "7ee265610849d9148f87106266000dbe454f5a6c71fe4ae65c6ed4ad1b5f2a59",
+   "tags": [],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Splunk Preps Second Open Source LLM for Telemetry Data",
+   "link": "https://devops.com/splunk-preps-second-open-source-llm-for-telemetry-data/",
+   "summary": "Splunk is gearing up to make an artificial intelligence (AI) model for analyzing log data available on Hugging Face under an open source license. Additionally, Splunk at its .conf26 conference this week revealed it is developing a Universal Collector, expected to be available in beta in 2027, to streamline collection of all types of telemetry […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-16T20:42:02+00:00",
+   "id": "e8876e0ddf8aa64583aec6e0da34cfa85e672edaa4614d1f3f2dd59288bae024",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+   "link": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+   "summary": "A modern storefront can look healthy while malicious JavaScript quietly siphons revenue, hijacks clicks, or rewrites analytics. See how Cloudflare's machine learning models surface evasive client-side attacks for analyst investigation.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-16T20:06:17+00:00",
+   "id": "3885c69d0e0e129d0bb5071373f4d5f817c25a064f93ebe62b302bc25828d25c",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "programming",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
+   "link": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/",
+   "summary": "Kubernetes v1.37 brings important storage security features: emptyDir permission modes and bind mount options. They help application programmers and security professionals implement rigorous security policies, for example, prohibiting deletion of files across containers or execution of arbitrary binaries from writable volumes, directly in Kubernetes without any complicated circumvention. Linux sto",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-16T18:30:00+00:00",
+   "id": "225905458a1b19f63a1753611131c00309ce1fa9b7665bfa463b2df063280de9",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+   "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+   "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement off",
+   "source": "KrebsOnSecurity",
+   "category": "Security & Privacy",
+   "published": "2026-09-16T18:14:22+00:00",
+   "id": "769f11a1197c8daac935ba4b17c7739f114c0a437be8fa178cf0cb27d6dac989",
+   "tags": [
+    "privacy",
+    "security"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Microsoft Open-Sources TauGrid to Simplify AI Workload Management on Kubernetes",
+   "link": "https://www.infoq.com/news/2026/09/microsoft-taugrid-open-source/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Microsoft has open-sourced TauGrid, a cloud-native platform designed to manage, schedule, and monitor AI workloads on GPU-enabled Kubernetes clusters. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-16T18:00:00+00:00",
+   "id": "9dd37e1c543c47e218ceb972203adafd10e92c96306b4c8bc2e736f444aced4c",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "AWS reimagines the getting started experience",
+   "link": "https://aws.amazon.com/blogs/aws/aws-reimagines-the-getting-started-experience/",
+   "summary": "AWS has reimagined the getting started experience with smart and sensible defaults to help developers get started fast so that they can focus on building. New customers can sign up and get started right away with $100 in Free Tier credits, managed project environments, and simplified team and resource permissions. If their workload evolves, customers can activate advanced features to access the fu",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-16T17:50:14+00:00",
+   "id": "15a0596aa94d5a058894179e92ef5c62fb1f62147382477b8e86d7bdbcf49e79",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Our framework for reporting model misalignment",
+   "link": "https://openai.com/index/model-misalignment-reporting-framework",
+   "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-16T17:00:00+00:00",
+   "id": "f3899afd4d6a0a2de4790fb5c615ac53b070686d5705d2fd135b1814acc6d5b3",
+   "tags": [
+    "ai",
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Rethinking Robot Safety in the Age of AI",
+   "link": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
+   "summary": "This article is brought to you by VicOne . Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed? As AI and robotics continue to advance at an unprecedented pace, modern robots perceive through multimod",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-16T16:51:02+00:00",
+   "id": "0732e90fcdeaf79729ac148b0a8a1ace3b5604b8d274e56ab6c4578de9a6c306",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Cloud CISO Perspectives: How Google monitors AI threats and advances AI defenses",
+   "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-google-monitors-ai-threats-advances-ai-defenses/",
+   "summary": "Welcome to the first Cloud CISO Perspectives for September 2026. Today, Sandra Joyce shares the latest details on Google’s visibility into how attackers are using AI, and how we’re using AI to stop them. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you ca",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-16T16:00:00+00:00",
+   "id": "8da0eaa53a1719ff95aecc13a383f07178b674f30bb616433d0503a1044a39a5",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "For SeaVerse, GKE Agent Sandbox reduces infrastructure costs by 60%",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/seaverse-chooses-gke-agent-sandbox/",
+   "summary": "Editor’s note: Today we hear from SeaVerse , a gaming startup from SeaArt that is building a platform for playable AI experiences , where users can open lightweight games, character chats, and interactive apps, or create their own experiences from a prompt. To support that creative loop, SeaVerse needed infrastructure that could run dynamic, multi-tenant sandbox workloads with strong isolation, lo",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-16T16:00:00+00:00",
+   "id": "e799e349d674dfccc0760ec52adc2016483fe6acd6580b75092d3fcb406b8c4e",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "M4N VM family, now GA: Highest per-core IOPS and throughput for I/O and memory-bound workloads",
+   "link": "https://cloud.google.com/blog/products/compute/compute-engine-m4n-vms/",
+   "summary": "As enterprise organizations scale mission-critical applications, storage I/O and memory access can become severe operational bottlenecks. Whether its Oracle databases, in-memory databases like SAP HANA, or high-throughput SQL Server clusters, EHR systems, and real-time big data analytics, memory-bound databases often force enterprises to over-provision compute cores (vCPUs) to get the RAM capacity",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-16T16:00:00+00:00",
+   "id": "9548601334bcb448c34fdd321ab2e8ef4c06e5ada2c4aaab2e949ba7f2ab184f",
+   "tags": [
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "How Orange built FinOps accountability, and why agents are next",
+   "link": "https://cloud.google.com/blog/topics/telecommunications/how-orange-uses-agents-to-make-finops-everyones-responsibility/",
+   "summary": "At Orange , the leading France-based multinational telecom provider, there are days when engineering teams set aside their delivery backlogs and spend the day cleaning up cloud spend together. There's a leaderboard. There are goodies on the line. Experienced practitioners guide the newcomers, so people learn the work while doing it. By the end of the day, sponsors can see the results. Orange calls",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-16T16:00:00+00:00",
+   "id": "a238bffb359aa80ce46daeaacbc61dc931e2d48604e5f0966569ebedb979345e",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Helping older adults use AI in everyday life",
+   "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+   "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-16T16:00:00+00:00",
+   "id": "b0366f9850a9d166d4a5ba39bed68a6273ef6289577e4ca4c3d1ff2dc628de25",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Meet a mouse whose brain cortex is made up of human cells",
+   "link": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/",
+   "summary": "Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed, leaving Pong-like traces on a monitor. The reason to watch this rodent so carefully? Nearly half its brain volume had been replaced with human cells. The effort to mix the brain tissues of distant species is…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-16T15:00:00+00:00",
+   "id": "63b5a582f771bdfb617797f3e99e404dd6969879d3fd9a081421ede28666bd24",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Dropbox Evolves Riviera Content Processing Platform to Support AI Workloads",
+   "link": "https://www.infoq.com/news/2026/09/dropbox-riviera-ai-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Dropbox has evolved Riviera from a file preview service into a universal content processing platform supporting more than 300 file formats and over 100 transformation capabilities. Processing hundreds of thousands of transformations per second, Riviera now supports Search, Replay, Sign, and Dash, while its APIs enable asynchronous content extraction for AI and RAG workflows. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-16T14:42:00+00:00",
+   "id": "844b21e5cff3023df18908b96cb432d4634ea68bbe5dccbf1a2246b4986aee78",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Reimagining advertising with AI",
+   "link": "https://openai.com/index/reimagining-advertising-with-ai",
+   "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-16T13:00:00+00:00",
+   "id": "6ac27c68838b29eeea8939f0e49b9f8d5c9f70da6aec6f577cdae354b1b5aa63",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Building the materials foundation for AI",
+   "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+   "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-16T12:47:34+00:00",
+   "id": "59f80a0835b79e2bc5e0e0b35861924c193a5ad99d7d4f074b1f8d8e49b5faf6",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Can Rust Improve Real Django API Performance? Testing Django-Bolt Beyond Synthetic Benchmarks",
+   "link": "https://devops.com/can-rust-improve-real-django-api-performance-testing-django-bolt-beyond-synthetic-benchmarks/",
+   "summary": "Django-Bolt uses Rust to accelerate Django request handling, but real-world gains depend on database work, authentication, serialization and where an API actually spends its time.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-16T12:45:19+00:00",
+   "id": "bcd562e9a46125762356fc2fee03d7a99363b5e7cbd183c14d217ac0e4dd084b",
+   "tags": [
+    "databases",
+    "dev-tools",
+    "observability",
+    "programming",
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Shopify Drops React Native for Swift and Kotlin as AI Changes Cross-Platform Development Tradeoffs",
+   "link": "https://www.infoq.com/news/2026/09/shopify-drops-react-native/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Shopify recently announced it is abandoning React Native to rewrite its flagship apps in Swift and Kotlin. With the significant jump in the quality of AI models, Head of Mobile Mustafa Ali reassessed Shopify’s commitment to React Native, estimating that the benefit/cost ratio of maintaining native codebases across mobile platforms was now above that of using an abstraction layer. By Bruno Couriol",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-16T12:45:00+00:00",
+   "id": "4930526ac494d88e495b69f6706566475582db39359d0a483d7d27154d821f90",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Why MLOps Pipelines Need Security Audits",
+   "link": "https://devops.com/why-mlops-pipelines-need-security-audits/",
+   "summary": "A practical SecMLOps experiment shows how Apache Airflow ML pipelines can adopt DevSecOps controls for secrets, validation, artifact integrity and auditable security evidence.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-16T12:27:37+00:00",
+   "id": "f0e1d90d27183aa8fbced78fa5a2c124bb118b8c9c50b0d1e5b004235d51e1bd",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
+   "link": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of Pennsylvania, wanted to assess AI’s impact on the economy over the next few years,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-16T12:10:00+00:00",
+   "id": "c609940a4b78f4cb7d186d29a5d4531431c851071100394cb745eaa42650913c",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "How to connect AI usage to business value",
+   "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+   "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-16T12:00:00+00:00",
+   "id": "4410122683c569258d5a0a362f1b6f8fd8c0f990511414b3cd22c476b31d6130",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Running OpenBao on Kubernetes with a CloudNativePG PostgreSQL backend",
+   "link": "https://www.cncf.io/blog/2026/09/16/running-openbao-on-kubernetes-with-a-cloudnativepg-postgresql-backend/",
+   "summary": "Managing infrastructure secrets on Kubernetes needs a backend that is self-healing and free of vendor lock-in, and that is exactly what OpenBao (the Linux Foundation’s open-source fork of HashiCorp Vault) and CloudNativePG give you: an entirely...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-16T11:30:00+00:00",
+   "id": "600ae68a07759c05e309fbd4690ba10960190a7324ba472729993c6dbf2743d8",
+   "tags": [
+    "cloud-native",
+    "databases",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Article: Your Next DSL Author Is a Language Model",
+   "link": "https://www.infoq.com/articles/next-dsl-author-language-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this article, the author introduces Typed Domain Grounding, an approach to reducing LLM hallucinations in domain-specific languages by embedding them in mainstream typed languages. Using kUML benchmarks and an infrastructure-as-code example, he explores how compiler validation and generate-compile-repair loops can make model-generated DSL output more reliable. By Irakli Betchvaia",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-16T11:00:00+00:00",
+   "id": "1d5f25aba066c830a882a1defabcb04d7d9f1523f5ba7714d1fac5c9156d8226",
+   "tags": [
+    "ai",
+    "architecture",
+    "dev-tools",
+    "programming",
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Lyft Moves Streaming Fleet to Apache Flink Kubernetes Operator",
+   "link": "https://www.infoq.com/news/2026/09/lyft-flink-k8s-operator/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Lyft has moved hundreds of production Flink jobs from a 2020 in-house Kubernetes operator to the Apache Flink Kubernetes Operator, unlocking last-state upgrades, in-place autoscaling and resource autotuning across the fleet. By Mark Silvester",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-16T11:00:00+00:00",
+   "id": "814237d198feb2ec1ad10a7493879529534442fc0192f47b8c41696ba044d598",
+   "tags": [
+    "architecture",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Presentation: Teaching Engineers, Trusting AI: How Education Enabled Autonomous Code Review",
+   "link": "https://www.infoq.com/presentations/duolingo-ai-literacy-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Sarah Deitke discusses how Duolingo drives cultural AI adoption beyond tooling access. She explains their internal AI literacy workshops and observability dashboards, then shares a case study on redesigning code review using an automated PR risk-assessment bot. Deitke demonstrates how pairing targeted developer education with safe AI guardrails speeds up delivery without increasing defect rates. B",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-16T11:00:00+00:00",
+   "id": "83a53f72558ecaa4e7bbf368c4304cedf901056d8b89bd8eab57a82c786e2734",
+   "tags": [
+    "ai",
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Java 27 Delivers Post-Quantum Cryptography, Future Language Innovation, Helidon 27, JavaFX 27",
+   "link": "https://www.infoq.com/news/2026/09/java27-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Oracle has released version 27 of the Java programming language and virtual machine. As the second non-LTS release since JDK 25, the final feature set includes nine JEPs, five of which are still progressing through the preview and incubator stages. This release focuses on strengthening security, future language innovation, and projects under the auspices of the Java Verified Portfolio. By Michael ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-16T10:00:00+00:00",
+   "id": "14212323419b87309b402fea43c6b4630fdc983e27b74fb9d43e30fcf2134c02",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "The Three Tiers of Agentic Incident Response: When to Trust AI Autonomy",
+   "link": "https://devops.com/the-three-tiers-of-agentic-incident-response-when-to-trust-ai-autonomy/",
+   "summary": "A three-tier model for agentic incident response balances AI automation with human oversight, matching autonomy to risk, reversibility, blast radius and diagnostic confidence.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-16T09:06:00+00:00",
+   "id": "5346a88e2c4288dd915f70c0aa5e75578020cc63c73740d7b5df66dd7a355ddd",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "How workers are unlocking new ways of working",
+   "link": "https://openai.com/index/unlocking-new-ways-of-working",
+   "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-16T09:00:00+00:00",
+   "id": "7d2872733a614740ea67cf0d6caa1be41e67dc215acdfe91a81bd31a341b0343",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "The Most Dangerous Reliability Failures Aren’t Component Failures",
+   "link": "https://devops.com/the-most-dangerous-reliability-failures-arent-component-failures/",
+   "summary": "A production provisioning failure shows why reliability problems can emerge from interactions between healthy components, and how system-level constraints and feedback can prevent them.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-16T08:53:11+00:00",
+   "id": "fbde11e3db79c007035c74141b12f0f8cec57b68c38f8cddd983b71c80b17a9e",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Dropbox Outlines How Focusing on Existing Infrastructure Efficiency Can Create Headroom for AI",
+   "link": "https://www.infoq.com/news/2026/09/dropbox-datacenter/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Dropbox has outlined how a decade of infrastructure optimization is helping it absorb growing demand from AI without treating new data-center capacity as the only answer. Its work spans forecasting, fleet utilization, storage density, hardware lifecycles, and rack-level power delivery, much of it predating the current AI boom. By Matt Foster",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-16T07:15:00+00:00",
+   "id": "cc14c92e16fcbc1f7fe49417d15b30e31e49ae686728b6d2885ffeb243e5358e",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
   {
    "title": "From Memory-Hungry HNSW to Quantized SPANN: The Technical Evolution of Pinterest's Manas Platform",
    "link": "https://www.infoq.com/news/2026/09/pinterest-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
