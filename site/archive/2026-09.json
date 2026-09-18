@@ -1,7 +1,289 @@
 {
  "month": "2026-09",
- "updated": "2026-09-17T06:32:33.322430+00:00",
+ "updated": "2026-09-18T06:31:02.214075+00:00",
  "items": [
+  {
+   "title": "OpenAI Introduces Triage Framework and Case Studies to Report Model Misalignment",
+   "link": "https://www.infoq.com/news/2026/09/openai-misalignment-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "OpenAI has released a disclosure framework for model misalignment during its lifecycle. Employees can flag potential issues, prompting technical staff to label incidents. The initial case studies outline unexpected model behaviours, providing insights into deviations from expected parameters. Community reactions show both approval and scepticism regarding transparency and corporate narratives. By ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-18T05:05:00+00:00",
+   "id": "a8ca7b64fea989e79c03268565fd8d2b8c2efa9a8e02634b9829885f2b43c902",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "Anthropic Brings Parallel Coding Workflows to Claude Projects",
+   "link": "https://devops.com/anthropic-brings-parallel-coding-workflows-to-claude-projects/",
+   "summary": "Anthropic announced it has redesigned Claude Projects to coordinate multiple coding sessions in parallel, with the new experience debuting in beta for Claude Code users. In the redesigned Projects, a coordinator can break a development goal into separate threads, assign them to individual Claude Code cloud sessions and track their progress from one shared project. […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-17T22:15:15+00:00",
+   "id": "704cacbb6869e724012c549ec2ed69bf331d9e6a7eb094f3d7838a633ef897a7",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
+   "link": "https://aws.amazon.com/blogs/aws/new-low-cost-burstable-amazon-ec2-t8i-instances-are-generally-available/",
+   "summary": "AWS introduces new low-cost burstable Amazon EC2 T8i instances powered by custom sixth generation Intel Xeon Scalable Processors (Granite Rapids), available only on AWS. T8i instances are among the lowest-cost EC2 instances and deliver up to 30% better price performance over previous generation T3 instances.",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-17T21:11:48+00:00",
+   "id": "a9da7199e55901135f727aaaa88b4bfe3427b5da3b2c71728ae02f4a2efb39d4",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "AWS Elastic Beanstalk introduces Cluster Mode",
+   "link": "https://aws.amazon.com/blogs/aws/aws-elastic-beanstalk-introduces-cluster-mode/",
+   "summary": "Run an application on AWS Elastic Beanstalk Cluster Mode without provisioning or operating the compute underneath it. You provide a container image or source code; Elastic Beanstalk with service-operated compute creates and operates the environment that runs it.",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-17T19:20:21+00:00",
+   "id": "45f59773332831939ab7b177bede84e3bcc3c071397d2dfb0ed95e23416ce35f",
+   "tags": [
+    "cloud",
+    "cloud-native"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "StackHawk Delivers Wingman to Fix Vulnerabilities as Developers Write Code",
+   "link": "https://devops.com/stackhawk-delivers-wingman-to-fix-vulnerabilities-as-developers-write-code/",
+   "summary": "StackHawk this week launched Wingman, an artificial intelligence (AI) tool that makes it possible for application developers to automatically fix vulnerability issues as code is being written. Wingman is designed to install into Claude Code, Cursor, GitHub Copilot, Codex, and Antigravity. It scans the live application, interprets findings, and fixes vulnerabilities in a way that […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-17T19:00:47+00:00",
+   "id": "cf49e392f5928eefd6ea5e5ffe48c9c280d84d36017d2c0011c3e58e6794a3f0",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
+   "link": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+   "summary": "SynthID can cause models to follow harmful instructions they would otherwise refuse.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-17T18:33:13+00:00",
+   "id": "03d1a58396c217350b5cd962b9574ba5c57411c9118a4c165befb6ca83bfda4d",
+   "tags": [
+    "ai"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "Harness Previews Revamped Platform for the Agentic Engineering Era",
+   "link": "https://devops.com/harness-previews-revamped-platform-for-the-agentic-engineering-era/",
+   "summary": "Harness today previewed a revamped user interface for its platform for managing software deployments that makes it simpler for software engineers to manage teams of artificial intelligence (AI) agents using a forthcoming Harness Software Factory platform. Speaking at an {unscripted} NYC 2026 event, Harness CEO Jyoti Bansal told conference attendees the Harness Software Factory will […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-17T17:49:02+00:00",
+   "id": "f89f0cf0e34c10b23626ba4baf931931a46f79a47b69e9770ecb882c5bd183f1",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "Google named a Leader in the External Threat Intelligence Service Forrester Wave™",
+   "link": "https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-the-external-threat-intelligence-service-forrester-wave/",
+   "summary": "At Google, we see firsthand how the speed, scale, and sophistication of cyber threats continue to challenge traditional enterprise defenses. Today’s defenders can’t rely on reactive triage or fragmented data feeds; you require high-fidelity intelligence, deep underground visibility, and actionable context to anticipate adversary moves before an attack unfolds. We are proud to announce that Forrest",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-17T17:00:00+00:00",
+   "id": "ec1672c2ba4224ddb8943793da05bccd8c84104c3da990c86b44ebb49be9eb12",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "The future of orchestration: Pine59’s journey to Airflow 3 on Google Cloud",
+   "link": "https://cloud.google.com/blog/topics/supply-chain-logistics/the-future-of-orchestration-pine59s-journey-to-airflow-3-on-google-cloud/",
+   "summary": "Operating large data pipelines requires an orchestration layer that scales smoothly as workloads expand. When your pipelines process millions of complex data points every day to feed predictive models, staying up-to-date with your technology stack is a strategic necessity. Pine59 provides location intelligence data through data pipelines that produce analytical metrics on cadences ranging from hou",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-17T17:00:00+00:00",
+   "id": "b1d5817449c8c434a9573d087c11e134f26c8458ac42ab17f3070b6683fec256",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "What’s new with Google Data Cloud",
+   "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+   "summary": "September 14 - September 17 Managed Service for Apache Kafka supports clusters with public Internet access! With Managed Kafka public clusters , you can now produce and consume messages from clients outside your VPC—including your local machine, for faster, frictionless testing. Public clusters unlock use cases like IoT devices, retail storefronts, and telco network towers. Enable public access on",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-17T16:00:00+00:00",
+   "id": "1fe79cef03fb98b72fb3860e4f6173dacf35e64863ea1816bd52b5719202ed38",
+   "tags": [
+    "cloud",
+    "networking"
+   ],
+   "first_seen": "2026-09-04T06:30:47.825256+00:00"
+  },
+  {
+   "title": "How a solo founder runs a five-continent tender platform on AlloyDB and MCP",
+   "link": "https://cloud.google.com/blog/products/databases/solo-founder-runs-a-global-tender-platform-on-alloydb-and-mcp/",
+   "summary": "Editor's note: Lucius AI, a tender-intelligence startup covering markets across five continents, runs its entire data platform on AlloyDB for PostgreSQL with a single operator. By migrating semantic search to a ScaNN index and managing database operations through Model Context Protocol (MCP), query latency dropped by 47x while automating day-to-day administrative tasks via MCP. Executive summary L",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-17T16:00:00+00:00",
+   "id": "18f5137518b5212a84fe19e9153b4689adf8c6c4e1bec403fc6be09c1ec9d32e",
+   "tags": [
+    "ai",
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "HCP Vagrant deprecation: important dates and migration guidance",
+   "link": "https://www.hashicorp.com/blog/hcp-vagrant-deprecation-important-dates-and-migration-guidance",
+   "summary": "HCP Vagrant will be deprecated in 2026. Users should begin planning migrations as box creation, support, and operations are phased out.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-17T16:00:00+00:00",
+   "id": "e0a05b2b97a4c58a6f54aa78005f4686472298e7c96be92276a49a3819c3a3c0",
+   "tags": [
+    "cloud",
+    "dev-tools"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "The Download: mice with part-human brains and climate tech innovators",
+   "link": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-17T12:10:00+00:00",
+   "id": "2f6a0637bec5f79244ca8c8223b7c41436e4785a0c3b4fd1332e587ca6a618e4",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "How Cooley is accelerating IPO work with ChatGPT",
+   "link": "https://openai.com/index/cooley-gopublic",
+   "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-17T12:00:00+00:00",
+   "id": "d22acfa5d0cc1d093c4a65f65bd5a5e37fe40593680fa261c56e48d108a9e1af",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "Building an Internal Developer Platform with Artificial Intelligence",
+   "link": "https://www.infoq.com/news/2026/09/platform-artificial-intelligence/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Agents are becoming the new developer platform, using semantic search with data from tools like Git, Slack, and Jira for context. Things to consider are setting guardrails to block or allow things, and using logs, metrics, and traces to understand agent behavior. By Ben Linders",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-17T11:11:00+00:00",
+   "id": "6c12927dd60f93c33798c0e80f0577eddde6a5c4926e2ee56ee38f048efcd34e",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "OpenTelemetry everywhere: Migrating a metrics platform at scale",
+   "link": "https://www.cncf.io/blog/2026/09/17/opentelemetry-everywhere-migrating-a-metrics-platform-at-scale/",
+   "summary": "Why we did this at all For most of the last decade our metrics pipeline ran on gostatsd, the open-source StatsD implementation we maintain. It primarily did two jobs: as sidecar on every host and the...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-17T11:00:00+00:00",
+   "id": "be4a364e3107fb668d969e731afc4fdc064827f5f3a2f790dc399fed84acaca4",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "Kubernetes Multi-Cluster Project Karmada Reaches CNCF Graduation",
+   "link": "https://www.infoq.com/news/2026/09/karmada-kubernetes-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The Cloud Native Computing Foundation (CNCF) announced on September 2026 that Karmada, a multi-cluster and multi-cloud Kubernetes orchestration project, has graduated. This multi-cluster and multi-cloud Kubernetes orchestration project reached CNCF's highest maturity tier. By Claudio Masolo",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-17T10:00:00+00:00",
+   "id": "b28ab3605e87578890b56959445db581ef8e49084cf2c60e578d2fb19664b194",
+   "tags": [
+    "architecture",
+    "cloud-native",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "Meet the innovators under 35 shaping climate tech",
+   "link": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/",
+   "summary": "Each year, the editorial team at MIT Technology Review puts together a list of 35 innovators under 35—a group of researchers, inventors, and other young minds worth following. The team worked on the newest edition of the list for months, and the final slate includes nine individuals from all over the world in the climate…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-17T10:00:00+00:00",
+   "id": "27aaebd559796b3d3218035e1129f95e5780305ccc04a5e2acfdcb3e041f4f9d",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "Presentation: When Incidents Refuse to End",
+   "link": "https://www.infoq.com/presentations/stream-incidents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Vanessa Huerta Granda explains how marathon incidents expose the gap between work as imagined and work as done. Drawing from real-world scenarios, she shares how complex outages reveal organizational fragility, human limits, and system interdependencies—and why incident response requires structured endurance, humane rotations, and holistic cross-functional coordination. By Vanessa Huerta Granda",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-17T09:30:00+00:00",
+   "id": "8b7c894e445b26f77fea00a43b6e99092519fc465d92a85fe2c4ed370c094fb3",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
+  {
+   "title": "Repeated VM Escapes By GPT-5.6-Cyber Based Agents Prove VMs and OS' Require Better Maintenance",
+   "link": "https://www.infoq.com/news/2026/09/agent-escape-vm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Traditional virtual machines are inadequate for isolating cyber-capable autonomous agents. Tests using GPT-5.6-Cyber indicated multiple escape attempts due to kernel flaws. While Firecracker provided some containment, vulnerabilities remained. The study underscores the need for minimal attack surface virtualisation technologies and rapid, proactive patching strategies to safeguard host systems. By",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-17T07:07:00+00:00",
+   "id": "e711a6ce8d4e0be322b61a2713ae743b3a55eebfafc79bd77c6bebbd864dc611",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
+  },
   {
    "title": "TanStack Charts Introduced with a Framework Agnostic Grammar of Graphics for TypeScript",
    "link": "https://www.infoq.com/news/2026/09/tanstack-charts-alpha-introduced/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -31,6 +313,20 @@
     "web"
    ],
    "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Introducing Astra for Law",
+   "link": "https://openai.com/index/astra-for-law",
+   "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-17T00:00:00+00:00",
+   "id": "192794312f979cbd50ee7eab3653eaf23d7dcaf9f5076493368af8f38e17a29e",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
   },
   {
    "title": "How I Consolidated Duplicate Delivery Pipelines With Parameters and Build Tags",
@@ -251,6 +547,20 @@
     "research"
    ],
    "first_seen": "2026-09-17T06:32:33.322430+00:00"
+  },
+  {
+   "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
+   "link": "https://azure.microsoft.com/en-us/blog/microsoft-recognized-as-a-leader-in-the-2026-gartner-magic-quadrant-for-distributed-hybrid-infrastructure/",
+   "summary": "Gartner highlighted Microsoft’s unified single-product architecture, flexibility across hyperconverged and disaggregated architectures, and more. The post Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-16T16:00:00+00:00",
+   "id": "e94ea969523ad35b8f8abcc529243d7b7f3bc65dd5b3d6aa9ff23f252de90630",
+   "tags": [
+    "architecture",
+    "cloud"
+   ],
+   "first_seen": "2026-09-18T06:31:02.214075+00:00"
   },
   {
    "title": "Meet a mouse whose brain cortex is made up of human cells",
@@ -1919,21 +2229,6 @@
     "cloud"
    ],
    "first_seen": "2026-07-12T10:59:18.257168+00:00"
-  },
-  {
-   "title": "What’s new with Google Data Cloud",
-   "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
-   "summary": "September 7 - September 10 Pub/Sub SMTs can now AI Inference your Gemini Enterprise Agent Platform models! Pub/Sub AI Inference SMTs allow you to apply inference on an incoming stream of events using models hosted in Gemini Enterprise Agent Platform. The model’s prediction is appended to your event, making it available for downstream processing in your data warehouse (like BigQuery) or operational",
-   "source": "Google Cloud Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-10T16:00:00+00:00",
-   "id": "1fe79cef03fb98b72fb3860e4f6173dacf35e64863ea1816bd52b5719202ed38",
-   "tags": [
-    "ai",
-    "cloud",
-    "databases"
-   ],
-   "first_seen": "2026-09-04T06:30:47.825256+00:00"
   },
   {
    "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
