@@ -1,7 +1,98 @@
 {
  "month": "2026-09",
- "updated": "2026-09-20T06:28:12.159967+00:00",
+ "updated": "2026-09-21T06:41:42.722068+00:00",
  "items": [
+  {
+   "title": "Kubernetes 1.37 Released: Stable Metrics API and Rootless Kubelet in Beta",
+   "link": "https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The Cloud Native Computing Foundation (CNCF) announced the release of Kubernetes 1.37, named \"Garhwal\", emphasizing its focus on stability, security, and AI/ML workload optimization. By Mostafa Radwan",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-21T01:00:00+00:00",
+   "id": "95812e439c88e44bfc3e0007eb6b948b18f5b37c77a2591f385846c472d3d08f",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud-native",
+    "kubernetes",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-21T06:41:42.722068+00:00"
+  },
+  {
+   "title": "Bun Rewrites 535K Lines of Zig into Rust in Four Months, Eliminates Numerous Memory Leaks",
+   "link": "https://www.infoq.com/news/2026/09/bun-AI-rewrite-zig-rust-4-months/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Bun creator Jarred Sumner recently announced that Bun, the JavaScript/TypeScript runtime, bundler and package manager has been rewritten from Zig to Rust. The rewrite seeks to eliminate recurrent memory safety vulnerabilities via Rust’s borrow checker. The AI-assisted rewrite was released after 4 months of work instead of the estimated one year. By Bruno Couriol",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-20T19:51:00+00:00",
+   "id": "5680e36c98ae7862bcb55a38611fbef39dd4e21d3cedac626975038224147b13",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-21T06:41:42.722068+00:00"
+  },
+  {
+   "title": "Alibaba Open Sources OpenCodeReview for AI-Assisted Code Review",
+   "link": "https://www.infoq.com/news/2026/09/alibaba-opencodereview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Alibaba recently open-sourced OpenCodeReview, an AI-powered code review CLI that combines deterministic pipelines for file selection, bundling, and rule matching with an LLM agent for dynamic code analysis. It supports built-in checks for issues such as null-pointer exceptions, thread safety, XSS, and SQL injection. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-20T11:57:00+00:00",
+   "id": "ea310f48d338b9de73e854da9fca2266369dc0e44e36e5619f019d10e02fe678",
+   "tags": [
+    "ai",
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-09-21T06:41:42.722068+00:00"
+  },
+  {
+   "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
+   "link": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/",
+   "summary": "Google’s threat intelligence group said it had a mole inside TeamPCP's inner circle.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-20T11:07:00+00:00",
+   "id": "ee63790d295ef2bdaeab946296158f3ebb334a0c7a2647f0fd69812e7e6248a3",
+   "tags": [],
+   "first_seen": "2026-09-21T06:41:42.722068+00:00"
+  },
+  {
+   "title": "Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI",
+   "link": "https://www.infoq.com/news/2026/09/google-adk-1-0-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google has released the Agent Development Kit (ADK) for Kotlin 1.0, a production-ready framework for building AI agents across Kotlin, Android, and JVM/server applications. It brings Kotlin to feature parity with Google's ADK for Python and Java, while adding Android-specific capabilities for on-device and hybrid AI. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-20T10:00:00+00:00",
+   "id": "26e75030f02ff28500e02c119bae3e0abbdc6fd708ea511a8c080b04c727a46f",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-21T06:41:42.722068+00:00"
+  },
+  {
+   "title": "Cloudflare Measures Origin TLS Preferences, Cutting Handshake Retries from 52% to 3.7%",
+   "link": "https://www.infoq.com/news/2026/09/cloudflare-automatic-key-exchang/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has replaced its static X25519 guess for origin TLS handshakes with per-origin measurement. HelloRetryRequests on scanned origins fell from roughly 52% to 3.7%, removing over 150 ms from p90 latency. Post-quantum connections completing in one round trip rose from 0% to 99.2%, though only 12.8% of origins support it. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-20T08:15:00+00:00",
+   "id": "2a0d4b252e023caaa41d6810ac6875e52b2f7cb52c2afc59100c9832e1b91e60",
+   "tags": [
+    "architecture",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-09-21T06:41:42.722068+00:00"
+  },
   {
    "title": "Presentation: Context Engineering at LinkedIn: How We Built an Organizational Context Layer for AI Agents with MCP",
    "link": "https://www.infoq.com/presentations/linkedin-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -18,7 +109,7 @@
    "first_seen": "2026-09-20T06:28:12.159967+00:00"
   },
   {
-   "title": "AWS Lambda Pushes Serverless Toward Long-Running Workloads",
+   "title": "AWS Lambda Pushes Serverless toward Long-Running Workloads",
    "link": "https://www.infoq.com/news/2026/09/lambda-90-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "AWS Lambda now allows functions running on Lambda Managed Instances to run for up to 90 minutes, six times longer than the previous 15-minute limit, further blurring the line between a Lambda invocation and a traditional server. The limit remains unchanged for traditional synchronous requests. By Renato Losio",
    "source": "InfoQ",
