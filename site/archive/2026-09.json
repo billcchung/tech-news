@@ -1,7 +1,488 @@
 {
  "month": "2026-09",
- "updated": "2026-09-21T06:41:42.722068+00:00",
+ "updated": "2026-09-22T06:31:42.914342+00:00",
  "items": [
+  {
+   "title": "Changesets v3: Bumps Peer Dependents by Patch and Ships ESM Only with an 88% Smaller Install",
+   "link": "https://www.infoq.com/news/2026/09/changesets-v3-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Changesets v3.0, released on August 11, 2026, introduces significant updates for JavaScript monorepos. It offers leaner installations, a rebuilt CLI, and changes to peer dependency management that resolve long-standing complaints. Upgrading involves configuration updates. The tool focuses on versioning and changelogs while supporting contributors in declaring release intents. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-22T06:00:00+00:00",
+   "id": "791f78f4683275a6a27b80e836193f69a13e0fa277589a8f2faa0465902add6e",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Out-of-Order HTML Streaming Moves from JS Frameworks into the Browser",
+   "link": "https://www.infoq.com/news/2026/09/native-deferred-html-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Out-of-order HTML streaming, a user experience pattern popularized by front-end frameworks and that allows users to view and interact faster with a page before it is entirely loaded, is making its way to web browsers. The proposal has the browser patching placeholders as data arrives. Developers can use either declarative HTML or matching JavaScript APIs. Available in Chrome 151. By Bruno Couriol",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-21T23:57:00+00:00",
+   "id": "feb2b838f8c3656374ad45b1d66ed9506b810845067f3ff959eba72e86c5ec0c",
+   "tags": [
+    "architecture",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "GitLab Tightens Rate Limits as Coding Agents Drive Demand",
+   "link": "https://devops.com/gitlab-tightens-rate-limits-as-coding-agents-drive-demand/",
+   "summary": "GitLab is introducing new rate limits for its cloud-based DevOps platform as growing demand from AI agents and automated development tools increases pressure on its infrastructure. The changes, which begin October 19, will restrict the volume of requests users can send to GitLab.com based on their subscription plans. Free-tier customers and users making unauthenticated requests […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-21T22:57:02+00:00",
+   "id": "66554ad20a53a97c8c0c1801b8e30ff351b8b2aa2ff8a79e71cf116f7ab1d058",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+   "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+   "summary": "A simple ClickFix attack is only one way to completely hijack the new agent.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-21T22:24:38+00:00",
+   "id": "790cf36b99eec5abd380bb664c1d179ccdf8b75aad0f37f3e9fc9ed86bd0d812",
+   "tags": [
+    "ai"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)",
+   "link": "https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/",
+   "summary": "Kubernetes v1.37 promotes the PersistentVolumeClaimUnusedSinceTime feature gate to Beta (enabled by default). With this feature, the PersistentVolumeClaim (PVC) protection controller adds an Unused condition to each PVC, telling you whether any running pod currently references it — no custom tooling or cross-referencing required. For the API definition of PVC conditions, see the PersistentVolumeCl",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-21T18:30:00+00:00",
+   "id": "bbd2dc821f8f6ddd53d94c9bad5ec8421a9a2ac0ab6f072bf103a25fa910ad7b",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source",
+    "privacy"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Java News Roundup: JDK 27, Open J Proxy, A2A Jakarta, Azul Payara, BoxLang, Netflix ja",
+   "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This week's Java roundup for September 14th, 2026, features news highlighting: the GA release of JDK 27, LibericaJDK 27, Open J Proxy 1.0 and A2A Jakarta 1.0; point releases of Azul Payara, JHipster, JetBrains Ktor and BoxLang; and introducing Netflix ja, a modern JMS command line development experience for Java developers. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-21T17:00:00+00:00",
+   "id": "6867ad496c04daaa654495398aa337eaaa167139667da551063beb57c81745a7",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
+   "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-builder-center-mobile-apps-amazon-connect-talent-ga-amazon-corretto-27-and-more-september-14-2026/",
+   "summary": "Living in the Netherlands, I spend a fair amount of time on trains, and that is usually where I catch up on what the builder community is writing. Until now, that meant opening a laptop or squinting at a browser tab on my phone. This week I found myself scrolling through trending articles and checking […]",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-21T16:11:24+00:00",
+   "id": "886f901d62fea0dbf801e95adbe6de69cfb745c1a3f5144bfe2787ad89a29696",
+   "tags": [
+    "cloud",
+    "web"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Global AI routing with <1% overhead on multi-cluster GKE Inference Gateway",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/gpu-and-tpu-utilization-with-multi-cluster-gke-inference-gateway/",
+   "summary": "Demand for AI infrastructure is at an all-time high. Global accelerator shortages mean engineering teams can rarely get all the compute they need from just one data center — capacity comes a cluster here, a cluster there, often an ocean apart. At the same time, workloads are getting hungrier: Today’s long-running agentic workloads often have context windows of 100k to 800k+ tokens, which consume a",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-21T16:00:00+00:00",
+   "id": "37132bd586058985cf38b1e327a1232e16ef2cbe82617fb4b4b62407cd20da67",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Maximizing Apache Spark availability: Mitigating compute stockouts with flexible VMs and other best practices",
+   "link": "https://cloud.google.com/blog/products/data-analytics/maximize-apache-spark-availability-with-flexible-vms/",
+   "summary": "The surge in AI development has created unprecedented demand for compute capacity around the globe. This can have negative implications for data processing and pipelines with Apache Spark. Whether you are managing your own Spark infrastructure or using a managed service, you can face availability constraints. However, a significant advantage of using Google’s Managed Service for Apache Spark is th",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-21T16:00:00+00:00",
+   "id": "c4645e0e190aa66b9b507f6f83f914f754cf2f21bae2db40cedf13b09a89dcdd",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Scale your AI workloads faster and more efficiently with GKE Pod snapshots",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/gke-pod-snapshots/",
+   "summary": "When running modern AI workloads, there’s often a conflict between performance and cost. Workloads like large language models (LLMs) load massive files, and may serve thousands of AI agents that need to execute code instantly. If each component is starting “cold” with a full data-load process, all this provisioning takes time, often forcing organizations to overprovision their infrastructure just ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-21T16:00:00+00:00",
+   "id": "d1de36366fe1e0a33979ad6c7abd6f7549af09c9e712d6f4ed052e63624369df",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Strengthen your CI/CD pipeline with new Secure Source Manager capabilities",
+   "link": "https://cloud.google.com/blog/products/identity-security/strengthen-your-cicd-pipeline-with-new-secure-source-manager-capabilities/",
+   "summary": "A resilient software supply chain is the foundation of modern delivery, and securing your continuous integration and continuous delivery (CI/CD) pipeline is what keeps innovation moving safely. Notable supply chain attacks more than doubled in the first half of 2026 compared to the second half of 2025, according to Wiz’s recent Cloud Threat Highlights report . It’s crucial that your source code no",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-21T16:00:00+00:00",
+   "id": "fdbbb3bbbb8abbff0108232f8e7246e22ee03a72efc2ec250ddbc451f14e4c60",
+   "tags": [
+    "cloud",
+    "dev-tools"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Codex Sandbox Escapes Show Why Agent Guardrails Can’t Live Inside the Agent",
+   "link": "https://devops.com/codex-sandbox-escapes-show-why-agent-guardrails-cant-live-inside-the-agent/",
+   "summary": "Two patched OpenAI Codex vulnerabilities, Heapjack and Overpatch, exposed how coding agents can escape sandboxes and reach developer systems without approval prompts.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-21T15:29:52+00:00",
+   "id": "8830d34b48b845629d0dba2a0a6f5fdd8c4a195ff5252d886d15be6230208101",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Claude Code Adds AGENTS.md Fallback, Cutting Instruction File Sprawl",
+   "link": "https://devops.com/claude-code-adds-agents-md-fallback-cutting-instruction-file-sprawl/",
+   "summary": "Claude Code now supports AGENTS.md, giving development teams a shared instruction format across multiple AI coding agents and reducing configuration drift.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-21T15:20:11+00:00",
+   "id": "fa70ffdc74a3d1c3835221f77cf476ba2922be32be67b68768d3b2688e03e37f",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "GitHub Separates Who Writes Code From Who Runs Your CI",
+   "link": "https://devops.com/github-separates-who-writes-code-from-who-runs-your-ci/",
+   "summary": "GitHub’s new workflow execution protections let teams control who and what can trigger Actions workflows, reducing CI/CD attack paths and tightening pipeline security.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-21T15:06:34+00:00",
+   "id": "2d94d67e0b04869d1360cca476df220a03a423838cfa36a0342dab172dc77aeb",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Uber Redesigns M3DB Sharding with Subclusters to Limit Failure Impact",
+   "link": "https://www.infoq.com/news/2026/09/uber-m3db-subcluster-sharding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Uber has redesigned shard placement in M3DB with fixed size subclusters to limit the impact of node failures, maintenance, and cluster scaling. The approach bounds shard dependencies, preserves replica isolation, and uses a greedy algorithm to select shard migrations while avoiding a separate rebalancing pass and unnecessary data movement. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-21T14:37:00+00:00",
+   "id": "d9250f7529cb25edaee7a34bb18c5f4a67019a436628e3d64ab2341080c959ca",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Cloudflare Introduces the Agent Development Stack Lifecycle to Replace Traditional SDLC",
+   "link": "https://www.infoq.com/news/2026/09/cloudflare-adlc-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has introduced the Agent Development Lifecycle to enhance AI-driven engineering. The approach replaces the traditional SDLC, addressing bottlenecks in testing, deployment, and maintenance. Key components include automated software factories, dynamic orchestration, advanced observability, and a security model for autonomous agents, aiming for more efficient software management. By Olimpi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-21T14:14:00+00:00",
+   "id": "e82a7102bc36b54613f2e2effd20c0c564419763af5ab7cf964566847660e57d",
+   "tags": [
+    "ai",
+    "architecture",
+    "observability",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+   "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-21T13:44:34+00:00",
+   "id": "ae2a66f3c360fd1788ea542ecd106283297aa5851d8fa012405023e8db53a75a",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "This Digital Radio Gets Messages to the World’s Remotest Locations",
+   "link": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+   "summary": "Shortwave radios offer a way to connect one location on Earth to practically anywhere else with minimal infrastructure. But these radios come with some drawbacks—a significant one being that, unlike satellite communications, their transmission rates for digital data are typically measured in just hundreds of bits per second . Peter Bloom Peter Bloom is the founder of Rhizomatica, a nonprofit that ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-21T13:00:04+00:00",
+   "id": "73690f7cc66e716dc00d384b9c7b4f58783c6c6c3d4f1190e712e71ef597fe00",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Python Workers are now generally available",
+   "link": "https://blog.cloudflare.com/python-workers-ga/",
+   "summary": "Python Workers allow developers to run Python web frameworks and AI orchestration libraries natively in the Cloudflare Workers runtime. You can seamlessly integrate with Cloudflare's ecosystem including D1, R2, and Workers AI without writing any JavaScript glue code.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-21T13:00:00+00:00",
+   "id": "6b297dd5acbf219033be396f8d4ead512e29ff52e21ecc6b0da91a766634f0d1",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "programming",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "The Download: investigating deaths at the US border’s “virtual wall”",
+   "link": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before they die? When José Morales Bernal crossed the border into the US in April 2024, the day before…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-21T12:20:00+00:00",
+   "id": "4994bca19321436e085aea7e37b185c92f8a19df9f965332647800114c36e4cc",
+   "tags": [
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Advisory Group on Mathematics and Artificial Intelligence",
+   "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+   "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-21T12:00:00+00:00",
+   "id": "08ffdb24bebd9aa2ffda2f849b7e7af9dba92daa36ecb3bc96d64f49fd7ead95",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+   "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+   "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-21T12:00:00+00:00",
+   "id": "8fe4474fdbb9c4c46a22f878515427114b676069cfc965f6786182578d7743d9",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+   "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+   "summary": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This story is part of Dying on Camera, a collaboration between MIT Technology Review and Times of San Diego. Journalists in both newsrooms spent the past…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-21T12:00:00+00:00",
+   "id": "dadada62bfc68e6c6bca579c3c332c4201d812dad7bf3f259baec419b8ec30ac",
+   "tags": [
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+   "link": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+   "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas surveilled by advanced, AI-enabled towers and later died nearby, where their bodies remained unnoticed for…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-21T12:00:00+00:00",
+   "id": "8f796c4694e0a97c0b99b9ec9490cd9a448bffc2153b518a378be000eabd9dd0",
+   "tags": [
+    "ai",
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
+   "link": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+   "summary": "When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses. As he walked through the desert in southern New Mexico that morning, he was within range of three surveillance towers. Newly installed…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-21T12:00:00+00:00",
+   "id": "8eaa00e06d871a7a6945e9fc7f45767cbb0ae266ddb487a29776c1394734a4df",
+   "tags": [
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "She died at the San Diego border. A surveillance camera was in plain sight",
+   "link": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+   "summary": "She had only walked for a couple of hours, and already she was lost. It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern California, sending voice messages to her mother and sister as she walked. This story is part of Dying…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-21T12:00:00+00:00",
+   "id": "8889c03434f7deab9a68d2a3d578462f58c82e6b6ee1f8c4ce436c4f640dd0a6",
+   "tags": [
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Article: Beyond Relevance: A Governance-First Architecture for Enterprise Personalization",
+   "link": "https://www.infoq.com/articles/architecture-enterprise-personalization-relevance-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This article examines the limitations of conventional personalization systems and highlights the need for a governance-first architecture. It emphasizes separating relevance from governance to ensure recommendations are context-aware, auditable, and compliant. The architecture integrates stateful memory, policy-driven AI orchestration, and explainable scoring to enhance personalization systems. By",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-21T11:00:00+00:00",
+   "id": "2f06872568e3deacd25b1623636d6332c0dc4369fdca7855a03c320ae64043e9",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Podcast: Securing AI Agents: Identity, Authorization, and the DPACT Framework",
+   "link": "https://www.infoq.com/podcasts/securing-ai-agents-identity-authorization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this episode, Sahil Agarwal talks about the critical challenges of identity, authorisation, and security in the age of AI agents. Sahil introduces the DPACT framework (Delegation, Policy, Auditability, Context, and Time) as a blueprint for building responsible, guardrailed agentic systems, moving away from simple token-based access toward bounded, delegated authority. By Sahil Agarwal",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-21T11:00:00+00:00",
+   "id": "208a69d2671df88ad6c19a72d1491b3e4665c6d0cbdbbe79508eea9c3bc7db8c",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Presentation: The Agent Harness: Control Planes, Invariants, and Approval Boundaries for Production AI Agents",
+   "link": "https://www.infoq.com/presentations/ai-agent-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "OpenAI’s Vinoth Govindarajan discusses why production AI agents fail beyond model hallucination. Using real-world case studies like OpenClaw, he explains the key principles of reliable agent harnesses: establishing explicit state ownership, serializing concurrent state mutations, scoping execution authority, and validating actions at the user-visible edge. By Vinoth Govindarajan",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-21T11:00:00+00:00",
+   "id": "afb5b609f380acc9abc8dd34d161254ec1da06dd1c6f9bfbbbead0dc1e6775a7",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Building standards for the next phase of AI",
+   "link": "https://openai.com/index/building-standards-next-phase-ai",
+   "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-21T10:00:00+00:00",
+   "id": "10538c022345675d1abd4a83236ec639afd16c383bf12f43a3ea4520388033d1",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "AWS Cannot Restore Data Held Only in Damaged Middle East Availability Zones",
+   "link": "https://www.infoq.com/news/2026/09/aws-middle-east-data-loss/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has told customers it cannot restore resources and data hosted exclusively in the mec1-az2 availability zone in the UAE, or exclusively in the Bahrain region, after damage during the conflict with Iran. The company says the Bahrain damage spanned multiple availability zones and exceeded what its regional and multi-AZ services are designed to withstand. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-21T08:43:00+00:00",
+   "id": "1546493e5c4db54aa0a369e9f5e2a5e1c14af9ac1ff3fd018be12edbf72b7445",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Expanding OpenAI Academy with new learning paths",
+   "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+   "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-21T07:00:00+00:00",
+   "id": "2f8d9b98fc157bb338d3eee240b684935f4eb48a8a141e592a8d2b7cadec3422",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+   "link": "https://projectzero.google/2026/09/windows-dangling-com.html",
+   "summary": "This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}. A CO",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-09-21T07:00:00+00:00",
+   "id": "aeff1dc7e91a24bb2d1c9fc6f53938973530f954fe9e63fa18299085d4ddb58a",
+   "tags": [
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
   {
    "title": "Kubernetes 1.37 Released: Stable Metrics API and Rootless Kubelet in Beta",
    "link": "https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -19,6 +500,34 @@
     "security"
    ],
    "first_seen": "2026-09-21T06:41:42.722068+00:00"
+  },
+  {
+   "title": "How V7 gives AI agents institutional memory",
+   "link": "https://openai.com/index/v7",
+   "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-21T00:00:00+00:00",
+   "id": "d2871d486c61275aa18316221b2aa4fe0c0c7a730e7f24a395d9c1672c5c3fc3",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "tokenizers v1: encode, decode and scaling, measured",
+   "link": "https://huggingface.co/blog/tokenizers-v1",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-21T00:00:00+00:00",
+   "id": "693b3130e25cc8808f585a694f7201006d36e37cb71c7b8ae2099287d6befd80",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
   },
   {
    "title": "Bun Rewrites 535K Lines of Zig into Rust in Four Months, Eliminates Numerous Memory Leaks",
