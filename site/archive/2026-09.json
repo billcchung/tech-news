@@ -1,6 +1,6 @@
 {
  "month": "2026-09",
- "updated": "2026-09-23T06:32:46.398529+00:00",
+ "updated": "2026-09-24T06:32:14.126820+00:00",
  "items": [
   {
    "title": "Secure AI agents with HashiCorp Boundary",
@@ -18,6 +18,591 @@
    "first_seen": "2026-09-23T06:32:46.398529+00:00"
   },
   {
+   "title": "Canvas UI Ships 35 HTML-in-Canvas Components That Run WebGL and WebGPU Effects Over Live DOM",
+   "link": "https://www.infoq.com/news/2026/09/canvas-ui-webgl/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Canvas UI is an open-source component library created by David Haz, utilizing the experimental HTML-in-Canvas API. It features 35 components that render GPU effects on live page content while maintaining accessibility. The library integrates with multiple frameworks and requires specific Chrome versions for full functionality. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-24T06:02:00+00:00",
+   "id": "12a972231cb671c447f1f4a5f913fc4b00cecf8ea4140ac23a22d2cd12b9930b",
+   "tags": [
+    "architecture",
+    "hardware",
+    "open-source",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Apple Reference Image Signs Photos at the Sensor, Moving Provenance Trust Away from C2PA",
+   "link": "https://www.infoq.com/news/2026/09/apple-reference-image-provenance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Apple has published the design of Reference Image, an iPhone 18 Pro camera mode that signs pixel data at the sensor and develops it in Private Cloud Compute under an Apple signature. Developers on Hacker News and Reddit challenged what it proves, raising photographing a screen, the anonymity guarantee's dependence on Apple's cloud, and whether identity verification is the right use case. By Steef-",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-24T05:50:00+00:00",
+   "id": "39bf123a7c044546318cc41ac7efd2d324a1763addab37114bb157222516ad7f",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+   "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-23T18:41:40+00:00",
+   "id": "30aa7c0acfe7f3809f1c0c2e3d8197e23f507daa6c3cae8fb2a05da2a018d4df",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Rendering huge pull requests in the GitHub Copilot app",
+   "link": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+   "summary": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments. The post Rendering huge pull requests in the GitHub Copilot app appeared first on The GitHub Blog .",
+   "source": "GitHub Engineering",
+   "category": "Software Engineering",
+   "published": "2026-09-23T18:29:49+00:00",
+   "id": "adfc9716558ca6b5ec069670983997e3594216792ae01ceb681cf2c43a457991",
+   "tags": [
+    "dev-tools",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Why DNS Needs to Be Treated as Critical Infrastructure",
+   "link": "https://devops.com/why-dns-needs-to-be-treated-as-critical-infrastructure/",
+   "summary": "DNS is one of those infrastructure components that only gets attention when something breaks, and by then, the damage is already done. An application may appear healthy, servers may be reachable, and network connectivity may show green across the board. However, users cannot get in, and the on-call engineer is staring at logs trying to […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T18:19:21+00:00",
+   "id": "463b33d36ed643ed2dd3ee5de7d986f563b79dddaad852b63865eb8933bfa408",
+   "tags": [
+    "dev-tools",
+    "networking",
+    "observability"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Speeding Up Software Delivery Is Changing How We Debug Performance",
+   "link": "https://devops.com/speeding-up-software-delivery-is-changing-how-we-debug-performance/",
+   "summary": "Deployment frequency has become one of the clearest markers of a mature engineering organization. Teams that once shipped monthly now ship daily, and teams that shipped daily now ship several times a day. This shift has largely delivered on its promise. Smaller changes are easier to reason about, rollbacks are faster, and feedback loops are […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T18:19:20+00:00",
+   "id": "19f6cacd8b0a7330ce10aa683eaa4f577d4b9898f403b5c75fa28342f6afc08f",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "AWS Adds Harness to Open Source SDK for Building AI Agents",
+   "link": "https://devops.com/aws-adds-harness-to-open-source-sdk-for-building-ai-agents/",
+   "summary": "Amazon Web Services (AWS) this week revealed it has added a harness to the open source software development kit (SDK) it makes available for building artificial intelligence (AI) agents. First introduced last year, the Strands SDK makes it simpler for application developers to use AI models to build and deploy AI agents. The Strands harness […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T18:11:05+00:00",
+   "id": "fede124fb543e5b0693df8d037c235ee471976bc4d5a5efd47fbaba64c4ff07f",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "A congressional representative just proposed killing America’s border tower program",
+   "link": "https://www.technologyreview.com/2026/09/23/1145002/a-congressional-representative-just-proposed-killing-americas-border-tower-program/",
+   "summary": "Delia Ramirez, a Democratic US representative from Illinois, has announced a plan to introduce new legislation to terminate the surveillance tower program along the US southern border. The announcement comes just days after publication of an MIT Technology Review investigation, “Dying on Camera,” in which we looked at deaths along the border that took place…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-23T17:10:11+00:00",
+   "id": "489f7d7572bb1d850bb45c1ce40ce4b987e24fe7a9b0ede7930230bd8fe289bd",
+   "tags": [
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-23T16:00:57+00:00",
+   "id": "1043d9fe80283e6f409b90e0f5f76b98d960cc337ee42f5d79ea8cfadd9a93c0",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "A guide to speeding up your video processing with AlphaEvolve",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-speed-up-your-video-processing-with-alphaevolve/",
+   "summary": "In real-time streaming, every millisecond counts. For example, at 30 frames per second (fps), developers have a strict frame budget of just 33.3 ms (and only 16.6 ms at 60 fps) to ingest camera frames, run neural segmentation, apply shaders, and composite output. Exceeding that budget by even a fraction of a millisecond leads to dropped frames and stuttering. Manual optimization is notoriously ted",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T16:00:00+00:00",
+   "id": "a2a98730ad9720544e1d1e87ab83360d3e46eb7d2f6a2fd375d0c0f49a8e3686",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "GKE becomes more elastic: Scale to zero, save costs, and keep workloads responsive",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/gke-adds-native-scale-to-zero-capabilities/",
+   "summary": "True elasticity has long been the holy grail of cloud-native engineering. And while Kubernetes has revolutionized resource management, workloads that run sporadically (e.g., batch processors, event-driven workers, and development environments) still consume compute resources while they wait for work, driving up costs. We’re addressing this head-on in Google Kubernetes Engine (GKE) 1.37 with a nati",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T16:00:00+00:00",
+   "id": "03df4b4f5ccca70e0e98f7dba52c302df7f7e561a5b3803aa64209074216944d",
+   "tags": [
+    "cloud",
+    "cloud-native",
+    "kubernetes"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Scale your own way, using HPA with built-in support for PromQL metrics queries in GKE",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/native-support-for-prometheus-metrics-in-gke/",
+   "summary": "Earlier this year, we announced native support for Google Kubernetes Engine (GKE) custom metrics. This milestone allowed you to scrap external adapters and instead collect autoscaling metrics directly from your pods. By routing these metrics straight to the Horizontal Pod Autoscaler (HPA), we cut metrics reading latency down to 5 seconds. Today, we are excited to introduce built-in support for pro",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T16:00:00+00:00",
+   "id": "df8d27bf1438c0ab64794c81d31af34bf56b6eacc4dabcbef7acf156513df7b8",
+   "tags": [
+    "cloud",
+    "kubernetes"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Your architecture diagram is not your resilience",
+   "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
+   "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain. The post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T16:00:00+00:00",
+   "id": "842a5c608566b43ba7ed8717b6618ce01c59c61eaff64d5a272fab3c9c0d7b05",
+   "tags": [
+    "architecture",
+    "cloud"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Two years of OpenAI Academy",
+   "link": "https://openai.com/index/two-years-of-openai-academy",
+   "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T16:00:00+00:00",
+   "id": "52e46e8371e1f69996c0f8fdcd7f1aabc16e63bd6bcc1139e79b18fa15fc40d2",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "3 Skills That Will Matter More in the Age of AI",
+   "link": "https://spectrum.ieee.org/top-engineering-skills",
+   "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! If you have kids, they’re probably back in school right now after the summer break. Mine are too. My kids range from 9 to 20 years old, and lately I’",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-23T15:40:04+00:00",
+   "id": "5094206b3ca1e8f6037ad12cfd1718cc4702869006d291328713637ce56f485c",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Gemini 3.8 text-to-speech says hello",
+   "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-23T15:25:14+00:00",
+   "id": "721de6922a1a6b9fd6bd57fa34562f9aeea663205ca74e2ce3b1bd45fa3a35b7",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Designing agent-first platforms: What changes when agents do the work",
+   "link": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
+   "summary": "The organizations pulling ahead are not simply adding AI to what they already have. They are designing for a different kind of software. The post Designing agent-first platforms: What changes when agents do the work appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T15:00:00+00:00",
+   "id": "7fa3b8c6472b1c548a717212bc93b80b1b8076b0fb934a21498a4cc61642602c",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Which hat am I wearing right now?",
+   "link": "https://www.cncf.io/blog/2026/09/23/which-hat-am-i-wearing-right-now/",
+   "summary": "Neutrality is quietly the hardest part of open source. It gets tricky the moment someone pays your salary — and staying honest about it takes more effort than anyone admits. Here’s something we don’t say out...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T14:47:15+00:00",
+   "id": "5fe6595d8b378149d2ce70ca652da992c5b888fb7144629e3dfbfd8a1c56dcf7",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Graphify: Unifying Codebase Context to Streamline Agentic Software Engineering",
+   "link": "https://www.infoq.com/news/2026/09/graphify-codebase-exploration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Graphify is an open-source tool designed to convert codebases and unstructured data into queryable knowledge graphs. Launched in April 2026, it addresses challenges of multi-file reasoning for AI coding assistants. Recent updates have enhanced parser features and cross-file resolutions. Community feedback indicates a promising architecture but notes integration challenges in daily workflows. By Ol",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T14:14:00+00:00",
+   "id": "57b5dedb505d32d270ffb686607cf8331b735e92428057f9b018dca06ca6d182",
+   "tags": [
+    "ai",
+    "architecture",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Beyond Kubernetes at Modal: How to Scale 1 Million Concurrent Sandboxes in Seconds",
+   "link": "https://www.infoq.com/news/2026/09/modal-scaling-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In a recent article, Colin Weld and Connor Adams, staff engineers at Modal, describe how they rebuilt their sandbox infrastructure from the ground up to support millions of concurrent sandboxes and tens of thousands of sandbox creations per second. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T14:00:00+00:00",
+   "id": "99ae8f7d3d7739d7e677c54075a653ae6cf890a90381a57d6e6fcdd8d8afd2a1",
+   "tags": [
+    "architecture",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Avalara Ushers in New Era of Agentic Tax and Compliance with Avalara Aviator",
+   "link": "https://devops.com/avalara-ushers-in-new-era-of-agentic-tax-and-compliance-with-avalara-aviator/",
+   "summary": "Avalara’s new agent hub brings together specialized AI agents to execute complex tax and compliance workflows while keeping people in control of the decisions that matter. FORT LAUDERDALE, Fla. — September 23, 2026 — Avalara, Inc., the agentic AI leader in global tax and compliance, today unveiled Avalara Aviator at its CRUSH customer and partner […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T13:45:04+00:00",
+   "id": "488539f7a7ac9cefafde49f01fe54529b10aa91ead80c5a129b1fdf9585b5e30",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Cloudflare Cuts 100 TB of Memory from 1.1.1.1 DNS Cache",
+   "link": "https://www.infoq.com/news/2026/09/cloudflare-dns-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare redesigned the in-memory representation of its Big Pineapple DNS cache, reducing the per-entry footprint by 56% and freeing roughly 100 TB of working-set memory across its fleet. The Rust-based changes also increased cache insertion throughput by 43% and reduced lookup latency by 19%, while enabling Cloudflare to increase cache capacity without additional memory. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T13:22:00+00:00",
+   "id": "545b2e2d15f7f6e6b65b8c058812ffd3ad85c528257b5403feb84c8cf13d4db6",
+   "tags": [
+    "architecture",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Cycode Extends DevSecOps Reach to Software Packages Developers Download",
+   "link": "https://devops.com/cycode-extends-devsecops-reach-to-software-packages-developers-download/",
+   "summary": "Cycode is adding workstation-level protection to stop developers and AI coding agents from downloading malicious or insufficiently vetted software packages.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T13:00:08+00:00",
+   "id": "de09904782c3aafc64e372fd1d6130bb22171bdd2b54109c1631beffeb15ced4",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+   "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+   "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T13:00:00+00:00",
+   "id": "9328fa400dd37e6b9e773781e78a2a50934d49d24282a5ac7e2d36068da55aca",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
+   "link": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had attended, they realized a content creator wearing Meta smart glasses had…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-23T12:10:00+00:00",
+   "id": "d1dc2283bccc86ba0b0070c2c883cf189b91f882ee5f246ec5fbde05352307de",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Sam Altman’s remarks at the United Nations Security Council",
+   "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
+   "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T12:00:00+00:00",
+   "id": "347b65ce144a221e189c1995b6f8e902fff172db7617e6d8030d51c8740ce826",
+   "tags": [
+    "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+   "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+   "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T12:00:00+00:00",
+   "id": "52b80abd4e046c041ffbe2a48399ded2b227e51686189386944c8dd9b0045fd6",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+   "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+   "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T12:00:00+00:00",
+   "id": "f2ff7f76056120414cf01f1bb6ef7b8e983d9d91ccfa0c5266573b74a0f9d93f",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+   "link": "https://openai.com/index/ringg",
+   "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T12:00:00+00:00",
+   "id": "4e56c7312349a760a0edf744bd151f1352583693dfaa6156b9b09ca8e15ad634",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Your AI Coding Assistant Has the Keys to the Repo. Z.ai Just Showed Why That Matters",
+   "link": "https://devops.com/your-ai-coding-assistant-has-the-keys-to-the-repo-z-ai-just-showed-why-that-matters/",
+   "summary": "ZCode’s default-on indexing feature reportedly uploaded entire developer workspaces to cloud storage, highlighting why AI coding assistants should be treated as privileged software and closely monitored.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T11:45:46+00:00",
+   "id": "36f7ed87f149911272d80f1128f52671615a7cb2dd2014e3d3921c7605dec9c8",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Secure, intelligent experiences across every endpoint",
+   "link": "https://cloud.google.com/blog/products/chrome-enterprise/secure-intelligent-experiences-across-every-endpoint/",
+   "summary": "For years, the workday looked remarkably consistent. Employees logged into devices, opened browsers and toggled across a dozen disconnected applications. Users acted as the bridge between apps, copying from one tab and pasting into another. Now, agentic workflows that are faster and allow employees to be even more productive are on the rise. Employees take the lead in defining outcomes of workflow",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T11:00:00+00:00",
+   "id": "280289462980857d252cf5d2d193a8ca7449c66083898d89f09a03f7275a9ba9",
+   "tags": [
+    "cloud",
+    "web"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Presentation: APIs for Agents: Rethinking API Programs in the MCP Era",
+   "link": "https://www.infoq.com/presentations/mcp-calm-api-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Jim Gough and Andreea Niculcea explain how Morgan Stanley uses Architecture as Code with CALM to modernize its API program. They demonstrate integrating Model Context Protocol (MCP) and Agent-to-Agent (A2A) communications, enforcing automated governance through deployment gates, and executing zero-downtime platform upgrades to safely scale enterprise AI and agentic workflows. By Jim Gough, Andreea",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T11:00:00+00:00",
+   "id": "fe2d69efb568d9feeb7d866204a4039f5334aadb2872adef1e96fef3147408c2",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Why Shift Left is Dead",
+   "link": "https://devops.com/why-shift-left-is-dead/",
+   "summary": "AI-driven development is exposing risks before code is written, forcing security teams to move beyond shift-left and govern agents, prompts, tools and data across the entire development lifecycle.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T10:38:31+00:00",
+   "id": "775405ead6ef445c1720de9275a03b92ec00dabfac73e3e074990a6628f7c189",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Andrew Kelley Interview: Why He Built Zig, Banned AI Contributions, and Moved Zig off GitHub",
+   "link": "https://www.infoq.com/news/2026/09/andrew-kelley-zig-no-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In a JetBrains interview, Zig creator Andrew Kelley expanded on the project’s formal ban on AI contributions and the motivation behind its migration off GitHub to Codeberg: automated code submissions decrease codebase quality and weaken the social constructs between open-source participants; persistent GitHub failures and a perceived misalignment of incentives led to migrating to Codeberg. By Brun",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T10:36:00+00:00",
+   "id": "31dd1edeb87bd58d7b1eadbee0eae89e3b7175634d82f2c7a05f2b817e1c6818",
+   "tags": [
+    "ai",
+    "architecture",
+    "dev-tools",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Introducing MentalHealthBench",
+   "link": "https://openai.com/index/introducing-mentalhealthbench",
+   "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T10:00:00+00:00",
+   "id": "3d7b9aab56c8f4fe22c00cc0057db0cb0a00b0a30d0d99d476abe36917bfac64",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Google Adds Cycle-Level Kernel Profiling to XProf",
+   "link": "https://www.infoq.com/news/2026/09/google-tpu-xprof/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google has added a Kernel Profiling suite to XProf. This is its open-source profiler for TPU workloads. Now, developers can see cycle-level details in custom Pallas kernels. Before, these kernels appeared as single opaque blocks in trace captures. By Claudio Masolo",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T10:00:00+00:00",
+   "id": "1c92b8776d4e5484a45ccff046e73f2ce151a9e212f2b7eacd1a103ae79671e2",
+   "tags": [
+    "architecture",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Article: Modular Edge Computing at Multi-Tenant SaaS Scale on Cloudflare Workers",
+   "link": "https://www.infoq.com/articles/modular-edge-computing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "At multi-tenant SaaS scale, a monolithic edge worker creates deployment coupling and broad blast radius. The article presents a modular Cloudflare Workers architecture using service bindings, with image optimization as a worked example of per-tenant format negotiation and device-aware sizing. It covers multi-CDN differences, staged releases, configuration, and testing. By Chintan Tank",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T09:00:00+00:00",
+   "id": "f1b1e55b8c8bd299467ffc5745ae3e623d9e32d83bd73474ede156330f3c2706",
+   "tags": [
+    "architecture",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "The AI Hype Index: AI loves cheating",
+   "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+   "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into other companies’ systems four times already. And that’s…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-23T09:00:00+00:00",
+   "id": "427ec4f7d4281c0ca2207afb1a94572370d95349e74518470c52e3b328675628",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Smart glasses are already causing havoc in India",
+   "link": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
+   "summary": "Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest this spring against a bill that would have narrowed the legal recognition for transgender people in…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-23T09:00:00+00:00",
+   "id": "c361d1a0e3808a0d614df0fe673911800e71e4568b130b3887b641da04aeb902",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Elastic Beanstalk Adds Cluster Mode, Running Applications on Shared EKS Clusters",
+   "link": "https://www.infoq.com/news/2026/09/elastic-beanstalk-cluster-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has added Cluster Mode to Elastic Beanstalk, running applications on EKS clusters the service creates and operates. Clusters are assigned by subnet set and cannot be changed afterward, direct cluster access is service-managed, and AWS recommends separate clusters for untrusted or regulated workloads. The mode adds EKS and Auto Mode fees that EC2 discounts do not reduce. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T06:44:00+00:00",
+   "id": "3cf8cc1b3c1365250b4ad282208761ae3ff9aa8ed2e420d10e058d871f305354",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
    "title": "Terraform provider for Google Cloud 8.0 now generally available",
    "link": "https://www.hashicorp.com/blog/terraform-provider-for-google-cloud-80-now-generally-available",
    "summary": "The Terraform provider for Google Cloud 8.0 builds on expanded infrastructure discovery workflows, modernizes provider defaults, removes support for retired Google Cloud services, and improves consistency between Terraform configurations and Google Cloud APIs.",
@@ -30,6 +615,48 @@
     "dev-tools"
    ],
    "first_seen": "2026-09-23T06:32:46.398529+00:00"
+  },
+  {
+   "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+   "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+   "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T02:00:00+00:00",
+   "id": "bb71e409dd7f29f762c233b6b0e3a367ed44a43dd4b05ce6408a8edddeb7b53b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+   "link": "https://openai.com/index/airbnb-gpt-6-astra",
+   "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T01:00:00+00:00",
+   "id": "0765deb144589280c16b6c389f4ff0fb7d519b5edcb7c4cad6d5247ca7a27572",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+   "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+   "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T00:00:00+00:00",
+   "id": "5ab590850491008e2cefeb696721869fa1b9dd449fc9a908867a23da166dfb52",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
@@ -88,6 +715,20 @@
     "ai"
    ],
    "first_seen": "2026-09-23T06:32:46.398529+00:00"
+  },
+  {
+   "title": "GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry",
+   "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+   "summary": "Explore GPT-6 Astra, Sol, and GPT-6 Luna in Microsoft Foundry, with scalable model options for production AI agents, complex workflows, and high-volume tasks. The post GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-22T18:30:00+00:00",
+   "id": "9cfc67c0c62155dea1f36f191ce166f695663f7892b50a19d5502a7dc3774e98",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Spain’s First Astronaut, Pedro Duque, Named IEEE Honorary Member",

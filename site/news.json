@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23T06:32:46.398529+00:00",
+ "updated": "2026-09-24T06:32:14.126820+00:00",
  "failed_sources": [],
  "items": [
   {
@@ -15,7 +15,592 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Canvas UI Ships 35 HTML-in-Canvas Components That Run WebGL and WebGPU Effects Over Live DOM",
+   "link": "https://www.infoq.com/news/2026/09/canvas-ui-webgl/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Canvas UI is an open-source component library created by David Haz, utilizing the experimental HTML-in-Canvas API. It features 35 components that render GPU effects on live page content while maintaining accessibility. The library integrates with multiple frameworks and requires specific Chrome versions for full functionality. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-24T06:02:00+00:00",
+   "id": "12a972231cb671c447f1f4a5f913fc4b00cecf8ea4140ac23a22d2cd12b9930b",
+   "tags": [
+    "architecture",
+    "hardware",
+    "open-source",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Apple Reference Image Signs Photos at the Sensor, Moving Provenance Trust Away from C2PA",
+   "link": "https://www.infoq.com/news/2026/09/apple-reference-image-provenance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Apple has published the design of Reference Image, an iPhone 18 Pro camera mode that signs pixel data at the sensor and develops it in Private Cloud Compute under an Apple signature. Developers on Hacker News and Reddit challenged what it proves, raising photographing a screen, the anonymity guarantee's dependence on Apple's cloud, and whether identity verification is the right use case. By Steef-",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-24T05:50:00+00:00",
+   "id": "39bf123a7c044546318cc41ac7efd2d324a1763addab37114bb157222516ad7f",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+   "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-23T18:41:40+00:00",
+   "id": "30aa7c0acfe7f3809f1c0c2e3d8197e23f507daa6c3cae8fb2a05da2a018d4df",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Rendering huge pull requests in the GitHub Copilot app",
+   "link": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/",
+   "summary": "How we rebuilt the diff surface in the GitHub Copilot app to open a million-line pull request with hundreds of inline review comments. The post Rendering huge pull requests in the GitHub Copilot app appeared first on The GitHub Blog .",
+   "source": "GitHub Engineering",
+   "category": "Software Engineering",
+   "published": "2026-09-23T18:29:49+00:00",
+   "id": "adfc9716558ca6b5ec069670983997e3594216792ae01ceb681cf2c43a457991",
+   "tags": [
+    "dev-tools",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Why DNS Needs to Be Treated as Critical Infrastructure",
+   "link": "https://devops.com/why-dns-needs-to-be-treated-as-critical-infrastructure/",
+   "summary": "DNS is one of those infrastructure components that only gets attention when something breaks, and by then, the damage is already done. An application may appear healthy, servers may be reachable, and network connectivity may show green across the board. However, users cannot get in, and the on-call engineer is staring at logs trying to […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T18:19:21+00:00",
+   "id": "463b33d36ed643ed2dd3ee5de7d986f563b79dddaad852b63865eb8933bfa408",
+   "tags": [
+    "dev-tools",
+    "networking",
+    "observability"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Speeding Up Software Delivery Is Changing How We Debug Performance",
+   "link": "https://devops.com/speeding-up-software-delivery-is-changing-how-we-debug-performance/",
+   "summary": "Deployment frequency has become one of the clearest markers of a mature engineering organization. Teams that once shipped monthly now ship daily, and teams that shipped daily now ship several times a day. This shift has largely delivered on its promise. Smaller changes are easier to reason about, rollbacks are faster, and feedback loops are […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T18:19:20+00:00",
+   "id": "19f6cacd8b0a7330ce10aa683eaa4f577d4b9898f403b5c75fa28342f6afc08f",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "AWS Adds Harness to Open Source SDK for Building AI Agents",
+   "link": "https://devops.com/aws-adds-harness-to-open-source-sdk-for-building-ai-agents/",
+   "summary": "Amazon Web Services (AWS) this week revealed it has added a harness to the open source software development kit (SDK) it makes available for building artificial intelligence (AI) agents. First introduced last year, the Strands SDK makes it simpler for application developers to use AI models to build and deploy AI agents. The Strands harness […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T18:11:05+00:00",
+   "id": "fede124fb543e5b0693df8d037c235ee471976bc4d5a5efd47fbaba64c4ff07f",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "A congressional representative just proposed killing America’s border tower program",
+   "link": "https://www.technologyreview.com/2026/09/23/1145002/a-congressional-representative-just-proposed-killing-americas-border-tower-program/",
+   "summary": "Delia Ramirez, a Democratic US representative from Illinois, has announced a plan to introduce new legislation to terminate the surveillance tower program along the US southern border. The announcement comes just days after publication of an MIT Technology Review investigation, “Dying on Camera,” in which we looked at deaths along the border that took place…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-23T17:10:11+00:00",
+   "id": "489f7d7572bb1d850bb45c1ce40ce4b987e24fe7a9b0ede7930230bd8fe289bd",
+   "tags": [
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Advancing Private AI Compute with secure, server-side memory",
+   "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-23T16:00:57+00:00",
+   "id": "1043d9fe80283e6f409b90e0f5f76b98d960cc337ee42f5d79ea8cfadd9a93c0",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "A guide to speeding up your video processing with AlphaEvolve",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-speed-up-your-video-processing-with-alphaevolve/",
+   "summary": "In real-time streaming, every millisecond counts. For example, at 30 frames per second (fps), developers have a strict frame budget of just 33.3 ms (and only 16.6 ms at 60 fps) to ingest camera frames, run neural segmentation, apply shaders, and composite output. Exceeding that budget by even a fraction of a millisecond leads to dropped frames and stuttering. Manual optimization is notoriously ted",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T16:00:00+00:00",
+   "id": "a2a98730ad9720544e1d1e87ab83360d3e46eb7d2f6a2fd375d0c0f49a8e3686",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "GKE becomes more elastic: Scale to zero, save costs, and keep workloads responsive",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/gke-adds-native-scale-to-zero-capabilities/",
+   "summary": "True elasticity has long been the holy grail of cloud-native engineering. And while Kubernetes has revolutionized resource management, workloads that run sporadically (e.g., batch processors, event-driven workers, and development environments) still consume compute resources while they wait for work, driving up costs. We’re addressing this head-on in Google Kubernetes Engine (GKE) 1.37 with a nati",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T16:00:00+00:00",
+   "id": "03df4b4f5ccca70e0e98f7dba52c302df7f7e561a5b3803aa64209074216944d",
+   "tags": [
+    "cloud",
+    "cloud-native",
+    "kubernetes"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Scale your own way, using HPA with built-in support for PromQL metrics queries in GKE",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/native-support-for-prometheus-metrics-in-gke/",
+   "summary": "Earlier this year, we announced native support for Google Kubernetes Engine (GKE) custom metrics. This milestone allowed you to scrap external adapters and instead collect autoscaling metrics directly from your pods. By routing these metrics straight to the Horizontal Pod Autoscaler (HPA), we cut metrics reading latency down to 5 seconds. Today, we are excited to introduce built-in support for pro",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T16:00:00+00:00",
+   "id": "df8d27bf1438c0ab64794c81d31af34bf56b6eacc4dabcbef7acf156513df7b8",
+   "tags": [
+    "cloud",
+    "kubernetes"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Your architecture diagram is not your resilience",
+   "link": "https://azure.microsoft.com/en-us/blog/your-architecture-diagram-is-not-your-resilience/",
+   "summary": "For years, resilience was something you set up once. That kept the lights on, but it treated resilience as a project with an end date rather than a property you maintain. The post Your architecture diagram is not your resilience appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T16:00:00+00:00",
+   "id": "842a5c608566b43ba7ed8717b6618ce01c59c61eaff64d5a272fab3c9c0d7b05",
+   "tags": [
+    "architecture",
+    "cloud"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Two years of OpenAI Academy",
+   "link": "https://openai.com/index/two-years-of-openai-academy",
+   "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T16:00:00+00:00",
+   "id": "52e46e8371e1f69996c0f8fdcd7f1aabc16e63bd6bcc1139e79b18fa15fc40d2",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "3 Skills That Will Matter More in the Age of AI",
+   "link": "https://spectrum.ieee.org/top-engineering-skills",
+   "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! If you have kids, they’re probably back in school right now after the summer break. Mine are too. My kids range from 9 to 20 years old, and lately I’",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-23T15:40:04+00:00",
+   "id": "5094206b3ca1e8f6037ad12cfd1718cc4702869006d291328713637ce56f485c",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Gemini 3.8 text-to-speech says hello",
+   "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-23T15:25:14+00:00",
+   "id": "721de6922a1a6b9fd6bd57fa34562f9aeea663205ca74e2ce3b1bd45fa3a35b7",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Designing agent-first platforms: What changes when agents do the work",
+   "link": "https://azure.microsoft.com/en-us/blog/designing-agent-first-platforms-what-changes-when-agents-do-the-work/",
+   "summary": "The organizations pulling ahead are not simply adding AI to what they already have. They are designing for a different kind of software. The post Designing agent-first platforms: What changes when agents do the work appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T15:00:00+00:00",
+   "id": "7fa3b8c6472b1c548a717212bc93b80b1b8076b0fb934a21498a4cc61642602c",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Which hat am I wearing right now?",
+   "link": "https://www.cncf.io/blog/2026/09/23/which-hat-am-i-wearing-right-now/",
+   "summary": "Neutrality is quietly the hardest part of open source. It gets tricky the moment someone pays your salary — and staying honest about it takes more effort than anyone admits. Here’s something we don’t say out...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T14:47:15+00:00",
+   "id": "5fe6595d8b378149d2ce70ca652da992c5b888fb7144629e3dfbfd8a1c56dcf7",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Graphify: Unifying Codebase Context to Streamline Agentic Software Engineering",
+   "link": "https://www.infoq.com/news/2026/09/graphify-codebase-exploration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Graphify is an open-source tool designed to convert codebases and unstructured data into queryable knowledge graphs. Launched in April 2026, it addresses challenges of multi-file reasoning for AI coding assistants. Recent updates have enhanced parser features and cross-file resolutions. Community feedback indicates a promising architecture but notes integration challenges in daily workflows. By Ol",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T14:14:00+00:00",
+   "id": "57b5dedb505d32d270ffb686607cf8331b735e92428057f9b018dca06ca6d182",
+   "tags": [
+    "ai",
+    "architecture",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Beyond Kubernetes at Modal: How to Scale 1 Million Concurrent Sandboxes in Seconds",
+   "link": "https://www.infoq.com/news/2026/09/modal-scaling-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In a recent article, Colin Weld and Connor Adams, staff engineers at Modal, describe how they rebuilt their sandbox infrastructure from the ground up to support millions of concurrent sandboxes and tens of thousands of sandbox creations per second. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T14:00:00+00:00",
+   "id": "99ae8f7d3d7739d7e677c54075a653ae6cf890a90381a57d6e6fcdd8d8afd2a1",
+   "tags": [
+    "architecture",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Avalara Ushers in New Era of Agentic Tax and Compliance with Avalara Aviator",
+   "link": "https://devops.com/avalara-ushers-in-new-era-of-agentic-tax-and-compliance-with-avalara-aviator/",
+   "summary": "Avalara’s new agent hub brings together specialized AI agents to execute complex tax and compliance workflows while keeping people in control of the decisions that matter. FORT LAUDERDALE, Fla. — September 23, 2026 — Avalara, Inc., the agentic AI leader in global tax and compliance, today unveiled Avalara Aviator at its CRUSH customer and partner […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T13:45:04+00:00",
+   "id": "488539f7a7ac9cefafde49f01fe54529b10aa91ead80c5a129b1fdf9585b5e30",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Cloudflare Cuts 100 TB of Memory from 1.1.1.1 DNS Cache",
+   "link": "https://www.infoq.com/news/2026/09/cloudflare-dns-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare redesigned the in-memory representation of its Big Pineapple DNS cache, reducing the per-entry footprint by 56% and freeing roughly 100 TB of working-set memory across its fleet. The Rust-based changes also increased cache insertion throughput by 43% and reduced lookup latency by 19%, while enabling Cloudflare to increase cache capacity without additional memory. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T13:22:00+00:00",
+   "id": "545b2e2d15f7f6e6b65b8c058812ffd3ad85c528257b5403feb84c8cf13d4db6",
+   "tags": [
+    "architecture",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Cycode Extends DevSecOps Reach to Software Packages Developers Download",
+   "link": "https://devops.com/cycode-extends-devsecops-reach-to-software-packages-developers-download/",
+   "summary": "Cycode is adding workstation-level protection to stop developers and AI coding agents from downloading malicious or insufficiently vetted software packages.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T13:00:08+00:00",
+   "id": "de09904782c3aafc64e372fd1d6130bb22171bdd2b54109c1631beffeb15ced4",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+   "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+   "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T13:00:00+00:00",
+   "id": "9328fa400dd37e6b9e773781e78a2a50934d49d24282a5ac7e2d36068da55aca",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
+   "link": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had attended, they realized a content creator wearing Meta smart glasses had…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-23T12:10:00+00:00",
+   "id": "d1dc2283bccc86ba0b0070c2c883cf189b91f882ee5f246ec5fbde05352307de",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Sam Altman’s remarks at the United Nations Security Council",
+   "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
+   "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T12:00:00+00:00",
+   "id": "347b65ce144a221e189c1995b6f8e902fff172db7617e6d8030d51c8740ce826",
+   "tags": [
+    "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+   "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+   "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T12:00:00+00:00",
+   "id": "52b80abd4e046c041ffbe2a48399ded2b227e51686189386944c8dd9b0045fd6",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+   "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+   "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T12:00:00+00:00",
+   "id": "f2ff7f76056120414cf01f1bb6ef7b8e983d9d91ccfa0c5266573b74a0f9d93f",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+   "link": "https://openai.com/index/ringg",
+   "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T12:00:00+00:00",
+   "id": "4e56c7312349a760a0edf744bd151f1352583693dfaa6156b9b09ca8e15ad634",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Your AI Coding Assistant Has the Keys to the Repo. Z.ai Just Showed Why That Matters",
+   "link": "https://devops.com/your-ai-coding-assistant-has-the-keys-to-the-repo-z-ai-just-showed-why-that-matters/",
+   "summary": "ZCode’s default-on indexing feature reportedly uploaded entire developer workspaces to cloud storage, highlighting why AI coding assistants should be treated as privileged software and closely monitored.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T11:45:46+00:00",
+   "id": "36f7ed87f149911272d80f1128f52671615a7cb2dd2014e3d3921c7605dec9c8",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Secure, intelligent experiences across every endpoint",
+   "link": "https://cloud.google.com/blog/products/chrome-enterprise/secure-intelligent-experiences-across-every-endpoint/",
+   "summary": "For years, the workday looked remarkably consistent. Employees logged into devices, opened browsers and toggled across a dozen disconnected applications. Users acted as the bridge between apps, copying from one tab and pasting into another. Now, agentic workflows that are faster and allow employees to be even more productive are on the rise. Employees take the lead in defining outcomes of workflow",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-23T11:00:00+00:00",
+   "id": "280289462980857d252cf5d2d193a8ca7449c66083898d89f09a03f7275a9ba9",
+   "tags": [
+    "cloud",
+    "web"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Presentation: APIs for Agents: Rethinking API Programs in the MCP Era",
+   "link": "https://www.infoq.com/presentations/mcp-calm-api-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Jim Gough and Andreea Niculcea explain how Morgan Stanley uses Architecture as Code with CALM to modernize its API program. They demonstrate integrating Model Context Protocol (MCP) and Agent-to-Agent (A2A) communications, enforcing automated governance through deployment gates, and executing zero-downtime platform upgrades to safely scale enterprise AI and agentic workflows. By Jim Gough, Andreea",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T11:00:00+00:00",
+   "id": "fe2d69efb568d9feeb7d866204a4039f5334aadb2872adef1e96fef3147408c2",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Why Shift Left is Dead",
+   "link": "https://devops.com/why-shift-left-is-dead/",
+   "summary": "AI-driven development is exposing risks before code is written, forcing security teams to move beyond shift-left and govern agents, prompts, tools and data across the entire development lifecycle.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-23T10:38:31+00:00",
+   "id": "775405ead6ef445c1720de9275a03b92ec00dabfac73e3e074990a6628f7c189",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Andrew Kelley Interview: Why He Built Zig, Banned AI Contributions, and Moved Zig off GitHub",
+   "link": "https://www.infoq.com/news/2026/09/andrew-kelley-zig-no-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In a JetBrains interview, Zig creator Andrew Kelley expanded on the project’s formal ban on AI contributions and the motivation behind its migration off GitHub to Codeberg: automated code submissions decrease codebase quality and weaken the social constructs between open-source participants; persistent GitHub failures and a perceived misalignment of incentives led to migrating to Codeberg. By Brun",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T10:36:00+00:00",
+   "id": "31dd1edeb87bd58d7b1eadbee0eae89e3b7175634d82f2c7a05f2b817e1c6818",
+   "tags": [
+    "ai",
+    "architecture",
+    "dev-tools",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Introducing MentalHealthBench",
+   "link": "https://openai.com/index/introducing-mentalhealthbench",
+   "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T10:00:00+00:00",
+   "id": "3d7b9aab56c8f4fe22c00cc0057db0cb0a00b0a30d0d99d476abe36917bfac64",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Google Adds Cycle-Level Kernel Profiling to XProf",
+   "link": "https://www.infoq.com/news/2026/09/google-tpu-xprof/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google has added a Kernel Profiling suite to XProf. This is its open-source profiler for TPU workloads. Now, developers can see cycle-level details in custom Pallas kernels. Before, these kernels appeared as single opaque blocks in trace captures. By Claudio Masolo",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T10:00:00+00:00",
+   "id": "1c92b8776d4e5484a45ccff046e73f2ce151a9e212f2b7eacd1a103ae79671e2",
+   "tags": [
+    "architecture",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Article: Modular Edge Computing at Multi-Tenant SaaS Scale on Cloudflare Workers",
+   "link": "https://www.infoq.com/articles/modular-edge-computing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "At multi-tenant SaaS scale, a monolithic edge worker creates deployment coupling and broad blast radius. The article presents a modular Cloudflare Workers architecture using service bindings, with image optimization as a worked example of per-tenant format negotiation and device-aware sizing. It covers multi-CDN differences, staged releases, configuration, and testing. By Chintan Tank",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T09:00:00+00:00",
+   "id": "f1b1e55b8c8bd299467ffc5745ae3e623d9e32d83bd73474ede156330f3c2706",
+   "tags": [
+    "architecture",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "The AI Hype Index: AI loves cheating",
+   "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+   "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into other companies’ systems four times already. And that’s…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-23T09:00:00+00:00",
+   "id": "427ec4f7d4281c0ca2207afb1a94572370d95349e74518470c52e3b328675628",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Smart glasses are already causing havoc in India",
+   "link": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
+   "summary": "Shubnam was packing boxes for a move into a new home when their friend sent them an Instagram video. The footage had only been up for a few hours, but it was days old, recorded at a Delhi protest this spring against a bill that would have narrowed the legal recognition for transgender people in…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-23T09:00:00+00:00",
+   "id": "c361d1a0e3808a0d614df0fe673911800e71e4568b130b3887b641da04aeb902",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Elastic Beanstalk Adds Cluster Mode, Running Applications on Shared EKS Clusters",
+   "link": "https://www.infoq.com/news/2026/09/elastic-beanstalk-cluster-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has added Cluster Mode to Elastic Beanstalk, running applications on EKS clusters the service creates and operates. Clusters are assigned by subnet set and cannot be changed afterward, direct cluster access is service-managed, and AWS recommends separate clusters for untrusted or regulated workloads. The mode adds EKS and Auto Mode fees that EC2 discounts do not reduce. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-23T06:44:00+00:00",
+   "id": "3cf8cc1b3c1365250b4ad282208761ae3ff9aa8ed2e420d10e058d871f305354",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Terraform provider for Google Cloud 8.0 now generally available",
@@ -29,7 +614,49 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+   "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+   "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T02:00:00+00:00",
+   "id": "bb71e409dd7f29f762c233b6b0e3a367ed44a43dd4b05ce6408a8edddeb7b53b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+   "link": "https://openai.com/index/airbnb-gpt-6-astra",
+   "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T01:00:00+00:00",
+   "id": "0765deb144589280c16b6c389f4ff0fb7d519b5edcb7c4cad6d5247ca7a27572",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+   "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+   "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-23T00:00:00+00:00",
+   "id": "5ab590850491008e2cefeb696721869fa1b9dd449fc9a908867a23da166dfb52",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing Amazon CloudWatch Omni: collaborative AI-powered observability for your applications",
@@ -44,7 +671,7 @@
     "cloud",
     "observability"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing Amazon CloudWatch Omni: AI-powered observability for generative AI and agentic workloads",
@@ -60,7 +687,7 @@
     "dev-tools",
     "observability"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Better prompt caching for GPT-6",
@@ -74,7 +701,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
@@ -87,7 +714,21 @@
    "tags": [
     "ai"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
+  },
+  {
+   "title": "GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry",
+   "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-sol-and-luna-for-production-agents-in-microsoft-foundry/",
+   "summary": "Explore GPT-6 Astra, Sol, and GPT-6 Luna in Microsoft Foundry, with scalable model options for production AI agents, complex workflows, and high-volume tasks. The post GPT-6 Astra, Sol, and Luna: For production agents in Microsoft Foundry appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-22T18:30:00+00:00",
+   "id": "9cfc67c0c62155dea1f36f191ce166f695663f7892b50a19d5502a7dc3774e98",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Spain’s First Astronaut, Pedro Duque, Named IEEE Honorary Member",
@@ -101,7 +742,7 @@
     "hardware",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Spotlight on SIG Apps",
@@ -118,7 +759,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing GPT-6 Sol and Luna",
@@ -132,7 +773,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "IT mistake erases 11 years of viewing history for hospitals’ maternity records",
@@ -143,7 +784,7 @@
    "published": "2026-09-22T16:55:40+00:00",
    "id": "a95a243050b818d666c0b6ea51ab4a68cd14f07254a2f4b042ce1731afb71886",
    "tags": [],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "New npm Threat Bypasses Install Script Protections",
@@ -158,7 +799,7 @@
     "observability",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Ten Great DevOps Job Opportunities",
@@ -172,7 +813,7 @@
     "dev-tools",
     "observability"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Google Open-Sources AX a Kubernetes Style Orchestrator for Autonomous AI Agents",
@@ -188,7 +829,7 @@
     "kubernetes",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "We just shipped support for the ugliest part of HTTP: Vary",
@@ -204,7 +845,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Barbara Mazzolai Wants to Build a New Field of Robotics",
@@ -218,7 +859,7 @@
     "hardware",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
@@ -232,7 +873,7 @@
     "privacy",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "From attendee badge to speaker badge: My first KubeCon at KubeCon + CloudNativeCon India 2026",
@@ -246,7 +887,7 @@
     "cloud-native",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
@@ -263,7 +904,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "The Future Is Fanless: 100% Heat Capture for Liquid Cooled AI Servers",
@@ -278,7 +919,7 @@
     "hardware",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
@@ -292,21 +933,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-   "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-   "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-   "source": "OpenAI News",
-   "category": "AI & ML",
-   "published": "2026-09-22T12:00:00+00:00",
-   "id": "3fcefd9c665fb2c2484965cf43548bc94be5c40db4dc345287024e6c77f2703e",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "GitLab Duo Expands Self-Hosted AI Options Through Microsoft Foundry",
@@ -323,7 +950,7 @@
     "dev-tools",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Don’t be fooled by this summer of AI hype",
@@ -338,49 +965,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Presentation: Maximizing Success with Limited Time, Resources, and Energy: Lessons from Startup Engineering",
-   "link": "https://www.infoq.com/presentations/lessons-startup-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "David Gudeman discusses battle-tested architectural patterns for resource-constrained engineering teams. Drawing from over a decade of startup experience, he explains how pairing GCP, Firebase, and Cloud Run accelerates product-market fit. Learn how to eliminate redundant frontend state, structure event-driven backends, and maintain lean DevOps while building for long-term scalability. By David Gu",
-   "source": "InfoQ",
-   "category": "Software Engineering",
-   "published": "2026-09-22T09:04:00+00:00",
-   "id": "58d2f70376eabb1811a9377d12c6d9f4da97bd334ad3aacd5f3b37ce25c72259",
-   "tags": [
-    "architecture",
-    "programming"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Changesets v3: Bumps Peer Dependents by Patch and Ships ESM Only with an 88% Smaller Install",
-   "link": "https://www.infoq.com/news/2026/09/changesets-v3-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Changesets v3.0, released on August 11, 2026, introduces significant updates for JavaScript monorepos. It offers leaner installations, a rebuilt CLI, and changes to peer dependency management that resolve long-standing complaints. Upgrading involves configuration updates. The tool focuses on versioning and changelogs while supporting contributors in declaring release intents. By Daniel Curtis",
-   "source": "InfoQ",
-   "category": "Software Engineering",
-   "published": "2026-09-22T06:00:00+00:00",
-   "id": "791f78f4683275a6a27b80e836193f69a13e0fa277589a8f2faa0465902add6e",
-   "tags": [
-    "architecture",
-    "programming"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Priorities and principles for effective third party assessments",
-   "link": "https://openai.com/index/priorities-principles-third-party-assessments",
-   "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-   "source": "OpenAI News",
-   "category": "AI & ML",
-   "published": "2026-09-22T00:00:00+00:00",
-   "id": "60efaf744a4d6c2c20e9e8f1dc0a4ae280a89a1d1a7f55c198827b62cda36b8e",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
@@ -395,7 +980,7 @@
     "open-source",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Transformers now runs llama.cpp quants",
@@ -409,7 +994,7 @@
     "ai",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
@@ -423,22 +1008,7 @@
     "ai",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Out-of-Order HTML Streaming Moves from JS Frameworks into the Browser",
-   "link": "https://www.infoq.com/news/2026/09/native-deferred-html-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Out-of-order HTML streaming, a user experience pattern popularized by front-end frameworks and that allows users to view and interact faster with a page before it is entirely loaded, is making its way to web browsers. The proposal has the browser patching placeholders as data arrives. Developers can use either declarative HTML or matching JavaScript APIs. Available in Chrome 151. By Bruno Couriol",
-   "source": "InfoQ",
-   "category": "Software Engineering",
-   "published": "2026-09-21T23:57:00+00:00",
-   "id": "feb2b838f8c3656374ad45b1d66ed9506b810845067f3ff959eba72e86c5ec0c",
-   "tags": [
-    "architecture",
-    "programming",
-    "web"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "GitLab Tightens Rate Limits as Coding Agents Drive Demand",
@@ -453,7 +1023,7 @@
     "dev-tools",
     "observability"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
@@ -466,7 +1036,7 @@
    "tags": [
     "ai"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes v1.37: Tracking When a PersistentVolumeClaim Was Last Used (Beta)",
@@ -482,21 +1052,7 @@
     "open-source",
     "privacy"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Java News Roundup: JDK 27, Open J Proxy, A2A Jakarta, Azul Payara, BoxLang, Netflix ja",
-   "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "This week's Java roundup for September 14th, 2026, features news highlighting: the GA release of JDK 27, LibericaJDK 27, Open J Proxy 1.0 and A2A Jakarta 1.0; point releases of Azul Payara, JHipster, JetBrains Ktor and BoxLang; and introducing Netflix ja, a modern JMS command line development experience for Java developers. By Michael Redlich",
-   "source": "InfoQ",
-   "category": "Software Engineering",
-   "published": "2026-09-21T17:00:00+00:00",
-   "id": "6867ad496c04daaa654495398aa337eaaa167139667da551063beb57c81745a7",
-   "tags": [
-    "architecture",
-    "programming"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "AWS Weekly Roundup: AWS Builder Center mobile apps, Amazon Connect Talent GA, Amazon Corretto 27, and more (September 21, 2026)",
@@ -510,7 +1066,7 @@
     "cloud",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Global AI routing with <1% overhead on multi-cluster GKE Inference Gateway",
@@ -524,7 +1080,7 @@
     "ai",
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Maximizing Apache Spark availability: Mitigating compute stockouts with flexible VMs and other best practices",
@@ -538,7 +1094,7 @@
     "ai",
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Scale your AI workloads faster and more efficiently with GKE Pod snapshots",
@@ -552,7 +1108,7 @@
     "ai",
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Strengthen your CI/CD pipeline with new Secure Source Manager capabilities",
@@ -566,83 +1122,7 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Codex Sandbox Escapes Show Why Agent Guardrails Can’t Live Inside the Agent",
-   "link": "https://devops.com/codex-sandbox-escapes-show-why-agent-guardrails-cant-live-inside-the-agent/",
-   "summary": "Two patched OpenAI Codex vulnerabilities, Heapjack and Overpatch, exposed how coding agents can escape sandboxes and reach developer systems without approval prompts.",
-   "source": "DevOps.com",
-   "category": "DevOps & Reliability",
-   "published": "2026-09-21T15:29:52+00:00",
-   "id": "8830d34b48b845629d0dba2a0a6f5fdd8c4a195ff5252d886d15be6230208101",
-   "tags": [
-    "dev-tools",
-    "observability",
-    "security"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Claude Code Adds AGENTS.md Fallback, Cutting Instruction File Sprawl",
-   "link": "https://devops.com/claude-code-adds-agents-md-fallback-cutting-instruction-file-sprawl/",
-   "summary": "Claude Code now supports AGENTS.md, giving development teams a shared instruction format across multiple AI coding agents and reducing configuration drift.",
-   "source": "DevOps.com",
-   "category": "DevOps & Reliability",
-   "published": "2026-09-21T15:20:11+00:00",
-   "id": "fa70ffdc74a3d1c3835221f77cf476ba2922be32be67b68768d3b2688e03e37f",
-   "tags": [
-    "ai",
-    "dev-tools",
-    "observability"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "GitHub Separates Who Writes Code From Who Runs Your CI",
-   "link": "https://devops.com/github-separates-who-writes-code-from-who-runs-your-ci/",
-   "summary": "GitHub’s new workflow execution protections let teams control who and what can trigger Actions workflows, reducing CI/CD attack paths and tightening pipeline security.",
-   "source": "DevOps.com",
-   "category": "DevOps & Reliability",
-   "published": "2026-09-21T15:06:34+00:00",
-   "id": "2d94d67e0b04869d1360cca476df220a03a423838cfa36a0342dab172dc77aeb",
-   "tags": [
-    "dev-tools",
-    "observability",
-    "security"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Uber Redesigns M3DB Sharding with Subclusters to Limit Failure Impact",
-   "link": "https://www.infoq.com/news/2026/09/uber-m3db-subcluster-sharding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Uber has redesigned shard placement in M3DB with fixed size subclusters to limit the impact of node failures, maintenance, and cluster scaling. The approach bounds shard dependencies, preserves replica isolation, and uses a greedy algorithm to select shard migrations while avoiding a separate rebalancing pass and unnecessary data movement. By Leela Kumili",
-   "source": "InfoQ",
-   "category": "Software Engineering",
-   "published": "2026-09-21T14:37:00+00:00",
-   "id": "d9250f7529cb25edaee7a34bb18c5f4a67019a436628e3d64ab2341080c959ca",
-   "tags": [
-    "architecture",
-    "programming"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Cloudflare Introduces the Agent Development Lifecycle Stack to Replace Traditional SDLC",
-   "link": "https://www.infoq.com/news/2026/09/cloudflare-adlc-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Cloudflare has introduced the Agent Development Lifecycle to enhance AI-driven engineering. The approach replaces the traditional SDLC, addressing bottlenecks in testing, deployment, and maintenance. Key components include automated software factories, dynamic orchestration, advanced observability, and a security model for autonomous agents, aiming for more efficient software management. By Olimpi",
-   "source": "InfoQ",
-   "category": "Software Engineering",
-   "published": "2026-09-21T14:14:00+00:00",
-   "id": "e82a7102bc36b54613f2e2effd20c0c564419763af5ab7cf964566847660e57d",
-   "tags": [
-    "ai",
-    "architecture",
-    "observability",
-    "programming",
-    "security"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
@@ -656,7 +1136,7 @@
     "ai",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "This Digital Radio Gets Messages to the World’s Remotest Locations",
@@ -670,7 +1150,7 @@
     "hardware",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Python Workers are now generally available",
@@ -688,7 +1168,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "The Download: investigating deaths at the US border’s “virtual wall”",
@@ -702,35 +1182,7 @@
     "privacy",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-   "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-   "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-   "source": "OpenAI News",
-   "category": "AI & ML",
-   "published": "2026-09-21T12:00:00+00:00",
-   "id": "8fe4474fdbb9c4c46a22f878515427114b676069cfc965f6786182578d7743d9",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Advisory Group on Mathematics and Artificial Intelligence",
-   "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-   "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-   "source": "OpenAI News",
-   "category": "AI & ML",
-   "published": "2026-09-21T12:00:00+00:00",
-   "id": "08ffdb24bebd9aa2ffda2f849b7e7af9dba92daa36ecb3bc96d64f49fd7ead95",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
@@ -744,7 +1196,7 @@
     "privacy",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
@@ -759,124 +1211,7 @@
     "privacy",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
-   "link": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
-   "summary": "When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses. As he walked through the desert in southern New Mexico that morning, he was within range of three surveillance towers. Newly installed…",
-   "source": "MIT Technology Review",
-   "category": "General Tech",
-   "published": "2026-09-21T12:00:00+00:00",
-   "id": "8eaa00e06d871a7a6945e9fc7f45767cbb0ae266ddb487a29776c1394734a4df",
-   "tags": [
-    "privacy",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "She died at the San Diego border. A surveillance camera was in plain sight",
-   "link": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
-   "summary": "She had only walked for a couple of hours, and already she was lost. It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern California, sending voice messages to her mother and sister as she walked. This story is part of Dying…",
-   "source": "MIT Technology Review",
-   "category": "General Tech",
-   "published": "2026-09-21T12:00:00+00:00",
-   "id": "8889c03434f7deab9a68d2a3d578462f58c82e6b6ee1f8c4ce436c4f640dd0a6",
-   "tags": [
-    "privacy",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Article: Beyond Relevance: A Governance-First Architecture for Enterprise Personalization",
-   "link": "https://www.infoq.com/articles/architecture-enterprise-personalization-relevance-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "This article examines the limitations of conventional personalization systems and highlights the need for a governance-first architecture. It emphasizes separating relevance from governance to ensure recommendations are context-aware, auditable, and compliant. The architecture integrates stateful memory, policy-driven AI orchestration, and explainable scoring to enhance personalization systems. By",
-   "source": "InfoQ",
-   "category": "Software Engineering",
-   "published": "2026-09-21T11:00:00+00:00",
-   "id": "2f06872568e3deacd25b1623636d6332c0dc4369fdca7855a03c320ae64043e9",
-   "tags": [
-    "ai",
-    "architecture",
-    "programming"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Podcast: Securing AI Agents: Identity, Authorization, and the DPACT Framework",
-   "link": "https://www.infoq.com/podcasts/securing-ai-agents-identity-authorization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "In this episode, Sahil Agarwal talks about the critical challenges of identity, authorisation, and security in the age of AI agents. Sahil introduces the DPACT framework (Delegation, Policy, Auditability, Context, and Time) as a blueprint for building responsible, guardrailed agentic systems, moving away from simple token-based access toward bounded, delegated authority. By Sahil Agarwal",
-   "source": "InfoQ",
-   "category": "Software Engineering",
-   "published": "2026-09-21T11:00:00+00:00",
-   "id": "208a69d2671df88ad6c19a72d1491b3e4665c6d0cbdbbe79508eea9c3bc7db8c",
-   "tags": [
-    "ai",
-    "architecture",
-    "programming",
-    "security"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Presentation: The Agent Harness: Control Planes, Invariants, and Approval Boundaries for Production AI Agents",
-   "link": "https://www.infoq.com/presentations/ai-agent-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "OpenAI’s Vinoth Govindarajan discusses why production AI agents fail beyond model hallucination. Using real-world case studies like OpenClaw, he explains the key principles of reliable agent harnesses: establishing explicit state ownership, serializing concurrent state mutations, scoping execution authority, and validating actions at the user-visible edge. By Vinoth Govindarajan",
-   "source": "InfoQ",
-   "category": "Software Engineering",
-   "published": "2026-09-21T11:00:00+00:00",
-   "id": "afb5b609f380acc9abc8dd34d161254ec1da06dd1c6f9bfbbbead0dc1e6775a7",
-   "tags": [
-    "ai",
-    "architecture",
-    "programming"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Building standards for the next phase of AI",
-   "link": "https://openai.com/index/building-standards-next-phase-ai",
-   "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-   "source": "OpenAI News",
-   "category": "AI & ML",
-   "published": "2026-09-21T10:00:00+00:00",
-   "id": "10538c022345675d1abd4a83236ec639afd16c383bf12f43a3ea4520388033d1",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "AWS Cannot Restore Data Held Only in Damaged Middle East Availability Zones",
-   "link": "https://www.infoq.com/news/2026/09/aws-middle-east-data-loss/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "AWS has told customers it cannot restore resources and data hosted exclusively in the mec1-az2 availability zone in the UAE, or exclusively in the Bahrain region, after damage during the conflict with Iran. The company says the Bahrain damage spanned multiple availability zones and exceeded what its regional and multi-AZ services are designed to withstand. By Steef-Jan Wiggers",
-   "source": "InfoQ",
-   "category": "Software Engineering",
-   "published": "2026-09-21T08:43:00+00:00",
-   "id": "1546493e5c4db54aa0a369e9f5e2a5e1c14af9ac1ff3fd018be12edbf72b7445",
-   "tags": [
-    "architecture",
-    "cloud",
-    "programming"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Expanding OpenAI Academy with new learning paths",
-   "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-   "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-   "source": "OpenAI News",
-   "category": "AI & ML",
-   "published": "2026-09-21T07:00:00+00:00",
-   "id": "2f8d9b98fc157bb338d3eee240b684935f4eb48a8a141e592a8d2b7cadec3422",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
@@ -890,21 +1225,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "How V7 gives AI agents institutional memory",
-   "link": "https://openai.com/index/v7",
-   "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-   "source": "OpenAI News",
-   "category": "AI & ML",
-   "published": "2026-09-21T00:00:00+00:00",
-   "id": "d2871d486c61275aa18316221b2aa4fe0c0c7a730e7f24a395d9c1672c5c3fc3",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "tokenizers v1: encode, decode and scaling, measured",
@@ -918,7 +1239,7 @@
     "ai",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "An undercover Google analyst infiltrated a notorious supply-chain hacking gang",
@@ -929,23 +1250,7 @@
    "published": "2026-09-20T11:07:00+00:00",
    "id": "ee63790d295ef2bdaeab946296158f3ebb334a0c7a2647f0fd69812e7e6248a3",
    "tags": [],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "US District Court Decision in AI’s Favor Worries Open-Source Developers",
-   "link": "https://devops.com/us-district-court-decision-in-ais-favor-worries-open-source-developers/",
-   "summary": "A federal appeals court handed GitHub, Microsoft, and OpenAI an important win in the first major appellate ruling over how AI coding tools can use open-source code. As we all know, all the AI code-generating programs learned their lessons largely from open-source code. So a group of anonymous open-source plaintiffs argued that GitHub Copilot and […]",
-   "source": "DevOps.com",
-   "category": "DevOps & Reliability",
-   "published": "2026-09-18T19:52:52+00:00",
-   "id": "b441126a85bfef8fe9f8cbf87529e290ec83c28ab45a84bbc878a05107c8c756",
-   "tags": [
-    "ai",
-    "dev-tools",
-    "observability",
-    "open-source"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Turning Tech Talent Into Leadership Legacy",
@@ -959,7 +1264,7 @@
     "hardware",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Saving another 100TB of RAM with math (and Rust)",
@@ -976,7 +1281,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Announcing Native BM25 Ranking in AlloyDB and Cloud SQL",
@@ -991,7 +1296,7 @@
     "cloud",
     "databases"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Leave the Class Path in the Rearview Mirror",
@@ -1006,7 +1311,7 @@
     "databases",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Reimagining service delivery in the agentic era with Google Public Sector",
@@ -1019,7 +1324,7 @@
    "tags": [
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "The DevFest Community Workshop Experience: Building Real Agents Together",
@@ -1032,7 +1337,7 @@
    "tags": [
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "What’s new with Google Cloud",
@@ -1045,137 +1350,7 @@
    "tags": [
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Accelerating the borderless Lakehouse: Announcing preview of cross-cloud caching",
-   "link": "https://cloud.google.com/blog/products/data-analytics/borderless-lakehouse-cross-cloud-caching-and-connections/",
-   "summary": "Today, we are excited to announce enhancements to the borderless Lakehouse , our answer to how data engineers, data scientists, and increasingly, AI agents, can query governed data directly where it lives. To reason accurately and automate complex enterprise workflows, agents and data consumers of all types need fast, unified access to an organization's complete data estate, joining customer recor",
-   "source": "Google Cloud Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-18T16:00:00+00:00",
-   "id": "1abf0b4edfd9f530a480a37a7ec62c7dfb12a943a423be65a528f9521cf8d29c",
-   "tags": [
-    "ai",
-    "cloud"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Changing the game: Using agentic AI to secure infrastructure code",
-   "link": "https://cloud.google.com/blog/topics/systems/using-ai-agents-to-secure-google-infrastructure/",
-   "summary": "AI is accelerating software development at an unprecedented pace. But as code generation scales, so do the challenges of securing the code, especially emerging AI-based vulnerability exploitations. To meet these challenges, the Google AI and Infrastructure team is transforming how we approach security. In this article, we discuss new AI-native agentic methods that we’ve developed that systematical",
-   "source": "Google Cloud Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-18T16:00:00+00:00",
-   "id": "d6928df4cd298cfe60c25445174b55f7dc79c017f3042453c995aff90af4e782",
-   "tags": [
-    "ai",
-    "cloud",
-    "security"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "How to upskill enterprise AI builders by using daily micro habits",
-   "link": "https://cloud.google.com/blog/topics/consulting/upskill-your-ai-using-daily-micro-habits/",
-   "summary": "As enterprises invest in generative AI, tech leaders keep seeing the same pattern: Developers test AI tools for a week, hit setup problems, and then drift back to the backlog. Nothing ships. The real gap is enablement. In this landmark Harvard Business Review article , Josh Bersin and Marc Zao-Sanders noted that knowledge workers carve out just five minutes a day for formal learning. Most enterpri",
-   "source": "Google Cloud Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-18T16:00:00+00:00",
-   "id": "2bf4314b6896486af30f0433fa3b46166ac9015e63c50c56b4e60065473f5370",
-   "tags": [
-    "ai",
-    "cloud"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "The Download: AI’s extinction risk and bioweapons threat",
-   "link": "https://www.technologyreview.com/2026/09/18/1142577/the-download-ai-extinction-threat-bioweapons/",
-   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Could AI really kill us all? Your questions, answered On Wednesday, MIT Technology Review hosted a live Roundtables event that asked the question many seem to be asking right now: could…",
-   "source": "MIT Technology Review",
-   "category": "General Tech",
-   "published": "2026-09-18T12:10:00+00:00",
-   "id": "458bc3de2feee6d0d0c3044761c72ddc85bef8f64d33cb8fc897e89fe60e0b34",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Introducing the Australian Youth Safety Blueprint",
-   "link": "https://openai.com/index/australian-youth-safety-blueprint",
-   "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-   "source": "OpenAI News",
-   "category": "AI & ML",
-   "published": "2026-09-18T12:00:00+00:00",
-   "id": "a00923bf4ddda715364788a2da3f2ff96c940524eada89a0c5609e53d1b669fd",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Could AI really kill us all? Your questions, answered.",
-   "link": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
-   "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session. So we asked our senior AI editor Will Douglas Heaven and…",
-   "source": "MIT Technology Review",
-   "category": "General Tech",
-   "published": "2026-09-18T11:29:22+00:00",
-   "id": "fc4c7ba9411e02e660c59eb9461dfeb382985a57d25e9cbfa5a6a818f87bab83",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Splunk Open Sources Token Meter Tool for Application Developers",
-   "link": "https://devops.com/splunk-open-sources-token-meter-tool-for-application-developers/",
-   "summary": "Splunk’s open-source Token Meter gives developers real-time visibility into AI coding agent activity, token consumption and estimated costs across tools including Claude Code, Codex and Cursor.",
-   "source": "DevOps.com",
-   "category": "DevOps & Reliability",
-   "published": "2026-09-18T10:36:31+00:00",
-   "id": "09debf26047525baebeb7e5e24906c598d1bad881e20a87385310c529958d7f2",
-   "tags": [
-    "ai",
-    "dev-tools",
-    "observability",
-    "open-source"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "IT Outsourcing Versus In-House Development",
-   "link": "https://devops.com/it-outsourcing-versus-in-house-development/",
-   "summary": "The debate isn’t new — but the stakes are. In 2026, the gap between companies that get this decision right and those that don’t is measured in product cycles, burn rate, and competitive ground lost to faster-moving teams. Most engineering leaders frame the question as a cost problem. It isn’t. It’s a capability and velocity […]",
-   "source": "DevOps.com",
-   "category": "DevOps & Reliability",
-   "published": "2026-09-18T09:59:22+00:00",
-   "id": "d63b3d831c05c9e082b9ebde2a22c9f83fc3dca170d0ec19dd5778ad3fa50693",
-   "tags": [
-    "dev-tools",
-    "observability"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Why Your CI/CD Pipeline Is Your Most Unprotected Attack Surface",
-   "link": "https://devops.com/why-your-ci-cd-pipeline-is-your-most-unprotected-attack-surface/",
-   "summary": "CI/CD pipelines often hold privileged credentials, execute third-party code and connect directly to production, making pipeline security one of the most overlooked risks in modern DevOps.",
-   "source": "DevOps.com",
-   "category": "DevOps & Reliability",
-   "published": "2026-09-18T09:34:54+00:00",
-   "id": "0495bc6824931a502c7162cfb0569b8899930d9d886635c8c90dbf3393803963",
-   "tags": [
-    "dev-tools",
-    "observability",
-    "security"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "New low-cost burstable Amazon EC2 T8i instances are generally available",
@@ -1188,7 +1363,7 @@
    "tags": [
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "AWS Elastic Beanstalk introduces Cluster Mode",
@@ -1202,7 +1377,7 @@
     "cloud",
     "cloud-native"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "LLMs respond differently to harmful prompts when AI watermarking is used",
@@ -1215,20 +1390,7 @@
    "tags": [
     "ai"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Google named a Leader in the External Threat Intelligence Service Forrester Wave™",
-   "link": "https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-the-external-threat-intelligence-service-forrester-wave/",
-   "summary": "At Google, we see firsthand how the speed, scale, and sophistication of cyber threats continue to challenge traditional enterprise defenses. Today’s defenders can’t rely on reactive triage or fragmented data feeds; you require high-fidelity intelligence, deep underground visibility, and actionable context to anticipate adversary moves before an attack unfolds. We are proud to announce that Forrest",
-   "source": "Google Cloud Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-17T17:00:00+00:00",
-   "id": "ec1672c2ba4224ddb8943793da05bccd8c84104c3da990c86b44ebb49be9eb12",
-   "tags": [
-    "cloud"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Simplify compliance with the native pre-written policy experience in HCP Terraform",
@@ -1242,7 +1404,7 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "HCP Vagrant deprecation: important dates and migration guidance",
@@ -1256,21 +1418,7 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "How Cooley is accelerating IPO work with ChatGPT",
-   "link": "https://openai.com/index/cooley-gopublic",
-   "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
-   "source": "OpenAI News",
-   "category": "AI & ML",
-   "published": "2026-09-17T12:00:00+00:00",
-   "id": "d22acfa5d0cc1d093c4a65f65bd5a5e37fe40593680fa261c56e48d108a9e1af",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "OpenTelemetry everywhere: Migrating a metrics platform at scale",
@@ -1284,21 +1432,7 @@
     "cloud-native",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Introducing Astra for Law",
-   "link": "https://openai.com/index/astra-for-law",
-   "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-   "source": "OpenAI News",
-   "category": "AI & ML",
-   "published": "2026-09-17T00:00:00+00:00",
-   "id": "192794312f979cbd50ee7eab3653eaf23d7dcaf9f5076493368af8f38e17a29e",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
@@ -1309,7 +1443,7 @@
    "published": "2026-09-16T21:08:14+00:00",
    "id": "7ee265610849d9148f87106266000dbe454f5a6c71fe4ae65c6ed4ad1b5f2a59",
    "tags": [],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
@@ -1327,7 +1461,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
@@ -1343,7 +1477,7 @@
     "open-source",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Data Broker Radaris Loses Domains in Privacy Fight",
@@ -1357,7 +1491,7 @@
     "privacy",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "AWS reimagines the getting started experience",
@@ -1370,7 +1504,7 @@
    "tags": [
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Rethinking Robot Safety in the Age of AI",
@@ -1385,7 +1519,7 @@
     "hardware",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
@@ -1399,7 +1533,7 @@
     "architecture",
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Running OpenBao on Kubernetes with a CloudNativePG PostgreSQL backend",
@@ -1415,7 +1549,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes v1.37: Pod-Level Resource Managers graduated to Beta",
@@ -1431,7 +1565,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
@@ -1445,7 +1579,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "What I learned organizing KCD Lima 2026",
@@ -1460,7 +1594,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Your Agent Aced the Task. Will It Do It Again?",
@@ -1474,7 +1608,7 @@
     "ai",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Simplifying Terraform for IBM Z with intent-driven workflows",
@@ -1488,7 +1622,7 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "The AI Inference Revolution Is Here",
@@ -1503,7 +1637,7 @@
     "hardware",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Have it both ways: stay discoverable in search while disallowing AI training",
@@ -1520,7 +1654,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Give every teammate and agent the right level of access to your Workers",
@@ -1536,7 +1670,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "The Mind-bending Joyrides That Gave Rise to Tesla",
@@ -1550,7 +1684,7 @@
     "hardware",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "AI bots \"Timmy,\" \"Ren,\" and \"Jackie\" are flooding social media with slop",
@@ -1563,7 +1697,7 @@
    "tags": [
     "ai"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes Changed Block Tracking API - Beta Differences",
@@ -1579,7 +1713,7 @@
     "open-source",
     "privacy"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes v1.37: Memory QoS Graduates to Beta",
@@ -1594,7 +1728,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Countries Seek to Curb Social Media Addiction for Kids",
@@ -1608,7 +1742,7 @@
     "hardware",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "AWS Weekly Roundup: OpenAI GPT-6 Astra on Amazon Bedrock, Amazon Quick desktop GA, Kiro for students, and more (September 14, 2026)",
@@ -1621,7 +1755,7 @@
    "tags": [
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Cilium 1.20: Gateway API ExternalAuth, TCPRoute/UDPRoute, ENI IPAM for IPv6, and more",
@@ -1635,7 +1769,7 @@
     "cloud-native",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes v1.37: Native Histograms Graduates to Beta",
@@ -1651,7 +1785,7 @@
     "observability",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "IEEE to Reward Sections for High Voter Turnout in Annual Election",
@@ -1665,7 +1799,7 @@
     "hardware",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing automatic remediation policies with Cloudflare CASB",
@@ -1681,7 +1815,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "KubeCon + CloudNativeCon North America 2026: Your Week in Salt Lake City",
@@ -1695,7 +1829,7 @@
     "cloud-native",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "ClickFix attacks infecting PCs and Macs are going viral",
@@ -1706,7 +1840,7 @@
    "published": "2026-09-11T11:30:58+00:00",
    "id": "0fb9d685d22d403e494414a6a9bcf8e6610818d57c577e0faa14eaefe0fb43e1",
    "tags": [],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Building a reliable cloud native foundation for distributed AI training",
@@ -1722,7 +1856,7 @@
     "hardware",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management",
@@ -1737,7 +1871,7 @@
     "cloud",
     "cloud-native"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Codeveloper of Ethernet Predecessor Dies at 91",
@@ -1752,7 +1886,7 @@
     "networking",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes v1.37: Scheduler Preemption for In-Place Pod Resize (Alpha)",
@@ -1768,7 +1902,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "The Economics of Agent Optimization: How AI agent governance controls cost and proves ROI",
@@ -1782,7 +1916,7 @@
     "ai",
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "The future of infrastructure resiliency starts with modernization",
@@ -1795,7 +1929,7 @@
    "tags": [
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
@@ -1811,7 +1945,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes disaster recovery: Guidance from three reproducible failure scenarios",
@@ -1826,7 +1960,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
@@ -1840,7 +1974,7 @@
     "ai",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
@@ -1854,7 +1988,7 @@
     "ai",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing Amazon EBS Volume Clones across AWS accounts",
@@ -1867,7 +2001,7 @@
    "tags": [
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Four groups caught using the same Chrome and Windows exploit kit",
@@ -1881,7 +2015,7 @@
     "ai",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
@@ -1896,7 +2030,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Two zones or three? A design framework for zone-resilient Azure workloads",
@@ -1909,21 +2043,7 @@
    "tags": [
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "An Engineer’s Guide to Surviving a Layoff",
-   "link": "https://spectrum.ieee.org/how-to-survive-a-layoff",
-   "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! I lost a cushy engineering management position at the same time I purchased a business, with a mortgage, three kids, and every other financial obliga",
-   "source": "IEEE Spectrum",
-   "category": "Hardware & Emerging Tech",
-   "published": "2026-09-09T15:03:38+00:00",
-   "id": "ba200c2e0e13649bb860ef50d4131172b45b88123b4ee52ccbc2fb70699424cf",
-   "tags": [
-    "hardware",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
@@ -1939,7 +2059,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Whose GPUs are these, anyway? Secure, self-service metrics for multi-tenant Kubernetes",
@@ -1955,22 +2075,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "How cloud native goes AI native",
-   "link": "https://www.cncf.io/blog/2026/09/09/how-cloud-native-goes-ai-native/",
-   "summary": "“A sales guy writing code” used to be the lead-up to a joke. But now no one’s laughing. Designers used to sit meekly waiting for the high priests of code to make their designs real. Now...",
-   "source": "CNCF",
-   "category": "DevOps & Reliability",
-   "published": "2026-09-09T08:13:23+00:00",
-   "id": "3993c56ae793d4f40aa1931442bf02abab72788c8e45dae84f762672a97524bc",
-   "tags": [
-    "ai",
-    "cloud-native",
-    "open-source"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Microsoft Plugs Nearly 1,000 Security Holes",
@@ -1985,7 +2090,7 @@
     "privacy",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Why this month's Microsoft patch release is a doozy",
@@ -1999,7 +2104,7 @@
     "ai",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Beyond the benchmark: How an adaptive approach drives scientific discovery",
@@ -2014,7 +2119,7 @@
     "cloud",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes v1.37: Advancing Workload-Aware Scheduling",
@@ -2030,7 +2135,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
@@ -2044,7 +2149,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
@@ -2060,7 +2165,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Testing race conditions with memory access tracing and stack-based delay injection",
@@ -2075,7 +2180,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "AWS Weekly Roundup: Claude Fable 5.1 on AWS, Amazon Linux 2027 preview, AWS Certified AI Business Strategist, and more (September 7, 2026)",
@@ -2090,7 +2195,7 @@
     "cloud",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
@@ -2101,7 +2206,7 @@
    "published": "2026-09-04T22:17:36+00:00",
    "id": "abae171821916dd52ce28012f79be7005dffaec1229f5696cfb30b0e017370a2",
    "tags": [],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes v1.37: KubeletInUserNamespace (aka Rootless mode) Graduates to Beta",
@@ -2116,7 +2221,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
@@ -2127,7 +2232,7 @@
    "published": "2026-09-04T17:35:02+00:00",
    "id": "2815514e2f3ab03150c343d6bc1216d958846f4959a55f5d709e57095582a52f",
    "tags": [],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
@@ -2143,22 +2248,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment",
-   "link": "https://azure.microsoft.com/en-us/blog/enterprise-ai-transformation-relies-on-the-end-to-end-platform-azure-was-built-for-this-moment/",
-   "summary": "The recognition for Microsoft over the past couple of weeks comes down to models, infrastructure, data, applications, and developer tools working as one system when AI moves into production. The post Enterprise AI transformation relies on the end-to-end platform: Azure was built for this moment appeared first on Microsoft Azure Blog .",
-   "source": "Azure Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-03T19:00:00+00:00",
-   "id": "01e51b44a0bcd3e95370a8b9b97413607e2a1cf73f4ea375d01a58a7d138e994",
-   "tags": [
-    "ai",
-    "cloud",
-    "dev-tools"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Kubernetes v1.37: DRA Updates",
@@ -2173,20 +2263,7 @@
     "kubernetes",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry",
-   "link": "https://azure.microsoft.com/en-us/blog/gpt-6-astra-frontier-intelligence-for-work-now-generally-available-in-microsoft-foundry/",
-   "summary": "GPT-6 Astra, OpenAI's newest frontier model, begins rolling out today through the Microsoft Foundry Limited Access Program, with availability expanding to participating customers over the coming days. The post GPT-6 Astra: Frontier intelligence for work, now generally available in Microsoft Foundry appeared first on Microsoft Azure Blog .",
-   "source": "Azure Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-03T18:15:00+00:00",
-   "id": "ee4d2399225c23b04d39b197d1d5b14f5d23226890ee94db59a00f9370dcee61",
-   "tags": [
-    "cloud"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing HCP Terraform Metrics: operational visibility at scale",
@@ -2200,7 +2277,7 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "The common security controls behind India's regulatory wave",
@@ -2215,7 +2292,7 @@
     "dev-tools",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
@@ -2229,21 +2306,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop",
-   "link": "https://azure.microsoft.com/en-us/blog/how-microsofts-physical-security-engineering-team-scaled-hybrid-operations-with-azure-arc-and-azure-virtual-desktop/",
-   "summary": "Learn how Microsoft used Azure Arc and Azure Virtual Desktop to simplify hybrid security operations, improve visibility, and scale globally. The post How Microsoft’s Physical Security Engineering Team scaled hybrid operations with Azure Arc and Azure Virtual Desktop appeared first on Microsoft Azure Blog .",
-   "source": "Azure Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-03T15:00:00+00:00",
-   "id": "393c8b4823f1a418ba8c6b5c609778800325639d4dea92498c5c5c740cd9d04c",
-   "tags": [
-    "cloud",
-    "security"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
@@ -2257,7 +2320,7 @@
     "ai",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
@@ -2271,7 +2334,7 @@
     "ai",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Give Your Coding Agents a Memory You Own",
@@ -2285,21 +2348,7 @@
     "ai",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-   "link": "https://huggingface.co/blog/train-to-paint-with-code",
-   "summary": "",
-   "source": "Hugging Face Blog",
-   "category": "AI & ML",
-   "published": "2026-09-03T00:00:00+00:00",
-   "id": "b5500bc6503561c622e234c790899474b8b24e1670dad4cceb0dbc466610f3db",
-   "tags": [
-    "ai",
-    "open-source"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "How we make AI coding more cost efficient without sacrificing task quality",
@@ -2315,7 +2364,7 @@
     "open-source",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Proactive cyber defense for governments and enterprises",
@@ -2329,7 +2378,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
@@ -2343,21 +2392,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "The Economics of Agent Optimization: Context engineering for enterprise AI agents",
-   "link": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-context-engineering-for-enterprise-ai-agents/",
-   "summary": "AI cost optimization goes beyond model selection. Discover how context engineering in Microsoft Foundry helps lower AI costs by improving knowledge retrieval, tool selection, memory, and agent performance at scale. The post The Economics of Agent Optimization: Context engineering for enterprise AI agents appeared first on Microsoft Azure Blog .",
-   "source": "Azure Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-02T16:00:00+00:00",
-   "id": "045bc8f0c428897fd4c0d23eaa0c37f7b186ac78107120066d87f6bc1ac2bcf9",
-   "tags": [
-    "ai",
-    "cloud"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
@@ -2371,7 +2406,7 @@
     "privacy",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Introducing agentic video understanding with Gemini",
@@ -2385,7 +2420,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Secure mainframe access with HashiCorp Boundary",
@@ -2399,7 +2434,7 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "HashiCorp Vault agentic IAM is now generally available",
@@ -2415,7 +2450,7 @@
     "dev-tools",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Amazon EC2 R9g and R9gd instances powered by AWS Graviton5 processors are now generally available",
@@ -2429,7 +2464,7 @@
     "cloud",
     "databases"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "AWS Weekly Roundup: Welcome DuckLabs to the team, Agentic Resource Discovery (ARD), and more (August 31, 2026)",
@@ -2444,7 +2479,7 @@
     "databases",
     "open-source"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "MAPS: Netflix’s Multimodal Asset Personalization at Scale",
@@ -2459,7 +2494,7 @@
     "databases",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Relaunching HashiCorp Validated Designs with improved usability",
@@ -2473,7 +2508,7 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Gemini Omni 1.1 Flash lets you build with more control",
@@ -2487,7 +2522,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Stream HCP Vault Dedicated audit logs to Microsoft Sentinel",
@@ -2501,7 +2536,7 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Piloting the world's first double-blind AI evaluations",
@@ -2515,7 +2550,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
@@ -2529,7 +2564,7 @@
     "privacy",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Intelligent transcription with Gemini 3.5 Transcribe",
@@ -2543,7 +2578,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Streamline identity lifecycle management on HCP with SCIM provisioning",
@@ -2557,7 +2592,7 @@
     "cloud",
     "dev-tools"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Happy 20th Birthday, Amazon EC2",
@@ -2571,7 +2606,7 @@
     "ai",
     "cloud"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Your alt text passes automated checks. That doesn’t mean it’s any good.",
@@ -2586,7 +2621,7 @@
     "open-source",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Intent to Ship: JPEG XL",
@@ -2601,7 +2636,7 @@
     "programming",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "A Tale of Two Flink Autoscalers",
@@ -2616,7 +2651,7 @@
     "databases",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
@@ -2630,7 +2665,7 @@
     "ai",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Who’s Tracking You? Use This New Service to Find Out",
@@ -2644,35 +2679,7 @@
     "privacy",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Introducing Gemini 3.7 Flash",
-   "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-   "summary": "",
-   "source": "Google DeepMind",
-   "category": "AI & ML",
-   "published": "2026-08-13T17:04:18+00:00",
-   "id": "d8531b3bebbaf6641750e3efb410170dc9d4eacb196bd3e1d8ae895c0bc27335",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "Putting sign language AI into users’ hands",
-   "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-   "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-   "source": "Google DeepMind",
-   "category": "AI & ML",
-   "published": "2026-08-12T14:01:59+00:00",
-   "id": "c26c8d5a4e90c67829e9c660ce4116c2b017553675393f87c94877de7e77f6bb",
-   "tags": [
-    "ai",
-    "research"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Microsoft Plugs Nearly 400 Security Holes",
@@ -2686,7 +2693,7 @@
     "privacy",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Using the GitHub Copilot SDK for Java",
@@ -2701,7 +2708,7 @@
     "open-source",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "How and Why Netflix Built a Real-Time Distributed Graph: Part 3 — Querying the graph with gRPC…",
@@ -2716,7 +2723,7 @@
     "databases",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
@@ -2730,7 +2737,7 @@
     "privacy",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Turn one giant AI-generated pull request to a reviewable stack",
@@ -2746,7 +2753,7 @@
     "open-source",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Modeling Device Capabilities for Analytics",
@@ -2761,7 +2768,7 @@
     "databases",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Don’t stop early: Case-folding source code at memory speed",
@@ -2776,7 +2783,7 @@
     "open-source",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
@@ -2792,7 +2799,7 @@
     "databases",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Read This Before You Buy That TV Streaming Stick",
@@ -2807,7 +2814,7 @@
     "privacy",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
@@ -2823,7 +2830,7 @@
     "programming",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "LG to Ban Residential Proxies from Smart TV Apps",
@@ -2837,7 +2844,7 @@
     "privacy",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "In-House LLM Serving at Netflix",
@@ -2853,7 +2860,7 @@
     "databases",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "The cost of saying yes has changed",
@@ -2869,7 +2876,7 @@
     "open-source",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Microsoft Patches a Record 570 Security Flaws",
@@ -2884,7 +2891,7 @@
     "privacy",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Building Service Topology at Scale: Architecture, Challenges, and Lessons Learned",
@@ -2899,7 +2906,7 @@
     "databases",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Better tools made Copilot code review worse. Here’s how we actually improved it.",
@@ -2914,7 +2921,7 @@
     "open-source",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Automating cross-repo documentation with GitHub Agentic Workflows",
@@ -2929,7 +2936,7 @@
     "open-source",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "GenPage: Towards End-to-End Generative Homepage Construction at Netflix",
@@ -2944,7 +2951,7 @@
     "databases",
     "programming"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "PACT: Anonymous Credentials for the Web",
@@ -2960,7 +2967,7 @@
     "programming",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Toward More Controllable AI Video Editing: An Early Research Exploration at Netflix",
@@ -2977,7 +2984,7 @@
     "programming",
     "research"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Announcing Web Serial Support in Firefox",
@@ -2992,22 +2999,7 @@
     "programming",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
-   "title": "From latency to instant: Modernizing GitHub Issues navigation performance",
-   "link": "https://github.blog/engineering/architecture-optimization/from-latency-to-instant-modernizing-github-issues-navigation-performance/",
-   "summary": "How the GitHub Issues team used client-side caching, smart prefetching, and service workers to make navigation feel instant. The post From latency to instant: Modernizing GitHub Issues navigation performance appeared first on The GitHub Blog .",
-   "source": "GitHub Engineering",
-   "category": "Software Engineering",
-   "published": "2026-05-14T16:00:00+00:00",
-   "id": "750c8f81201a857eabcf1419123bfa812fc79bc69fe83339ed6d1b2ec86d37bf",
-   "tags": [
-    "dev-tools",
-    "open-source",
-    "programming"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
@@ -3021,7 +3013,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
@@ -3038,7 +3030,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Trustworthy JavaScript for the Open Web",
@@ -3053,7 +3045,7 @@
     "programming",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Firefox Developer Edition and Beta: Try out Mozilla’s .rpm package!",
@@ -3068,7 +3060,7 @@
     "programming",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "On the Effectiveness of Mutational Grammar Fuzzing",
@@ -3082,7 +3074,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Why is WebAssembly a second-class language on the web?",
@@ -3097,7 +3089,7 @@
     "programming",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
@@ -3111,7 +3103,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Goodbye innerHTML, Hello setHTML: Stronger XSS Protection in Firefox 148",
@@ -3127,7 +3119,7 @@
     "security",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Launching Interop 2026",
@@ -3142,7 +3134,7 @@
     "programming",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Bypassing Administrator Protection by Abusing UI Access",
@@ -3156,7 +3148,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
@@ -3170,7 +3162,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Bypassing Windows Administrator Protection",
@@ -3184,7 +3176,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
@@ -3198,7 +3190,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
@@ -3212,7 +3204,7 @@
     "research",
     "security"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "CRLite: Fast, private, and comprehensive certificate revocation checking in Firefox",
@@ -3228,7 +3220,7 @@
     "programming",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Improving Firefox Stability in the Enterprise by Reducing DLL Injection",
@@ -3243,7 +3235,7 @@
     "programming",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   },
   {
    "title": "Launching Interop 2025",
@@ -3258,7 +3250,7 @@
     "programming",
     "web"
    ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+   "first_seen": "2026-09-24T06:32:14.126820+00:00"
   }
  ]
 }
