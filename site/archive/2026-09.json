@@ -1,6 +1,6 @@
 {
  "month": "2026-09",
- "updated": "2026-09-24T06:32:14.126820+00:00",
+ "updated": "2026-09-25T06:32:26.919562+00:00",
  "items": [
   {
    "title": "Secure AI agents with HashiCorp Boundary",
@@ -16,6 +16,515 @@
     "dev-tools"
    ],
    "first_seen": "2026-09-23T06:32:46.398529+00:00"
+  },
+  {
+   "title": "DevSecOps Teams as Partners in Secure Software Delivery",
+   "link": "https://devops.com/devsecops-teams-as-partners-in-secure-software-delivery/",
+   "summary": "DevSecOps teams can reduce last-minute release delays by shifting security decisions earlier, improving guardrails, clarifying ownership and making findings actionable.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-25T06:29:02+00:00",
+   "id": "3186f2836046e04db26d606814b26631bfdd25fdedb10d14ceb933f89d9c4776",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Vercel Labs Ships scriptc, a TypeScript-to-Native Compiler That Leaves the JavaScript Engine Behind",
+   "link": "https://www.infoq.com/news/2026/09/vercel-scriptc-node/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Vercel Labs has introduced scriptc, an experimental compiler that converts TypeScript into small native executables without relying on Node, V8, or a JavaScript engine. It uses the TypeScript compiler for type checking and can output C or WebAssembly code. Initial benchmarks show faster startup times and lower memory usage than Node, though it experiences slower execution speeds. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-25T05:49:00+00:00",
+   "id": "9f81c05a1cc4a7d8bdb6972bd8c998ce589512831d9ad8fbb17df7d87a6062d2",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "programming",
+    "research",
+    "web"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Agent Factory recap: Agent harnesses, shifting left, and autonomous coding",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-agent-harnesses-shifting-left-and-autonomous-coding/",
+   "summary": "In this episode of The Agent Factory , we explore the reality of building with autonomous agents alongside Ryan Lopopolo, a software engineer at Google Cloud and the person who coined the term agent harness . From throwing out manual code editors to treating team collaboration like leveling up RPG stats, Ryan breaks down how grounding models in rich context and shifting interventions left unlocks ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T23:00:00+00:00",
+   "id": "10caca39dcfb8117cd72cefcc3f7a07aaebd709d08bdcd5aa3532816692fad1c",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Why Plan Review Stopped Working",
+   "link": "https://devops.com/why-plan-review-stopped-working/",
+   "summary": "The control that held your infrastructure together was plan review, meaning a person reading a diff and deciding whether to approve it. Not the policy document and not the pipeline configuration. It worked because change arrived at human speed. That condition no longer holds. An agent opens 40 pull requests before lunch. Reviewers approve them […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-24T21:42:02+00:00",
+   "id": "eeeaecc992d62b0c161e13e8607f229e4eb069dc423797e5dc1ce01c3ef283db",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Introducing enhanced custom event buses in Amazon EventBridge for enterprise-scale event-driven applications",
+   "link": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/",
+   "summary": "Amazon EventBridge announces an enhanced custom event bus for organizations scaling event-driven applications across teams and accounts. Deploy a single event bus shared across all AWS accounts in your organization, with ordering guarantees, a simplified Subscriber resource, and improved economics at scale.",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T20:58:46+00:00",
+   "id": "e579ae6b6f9d1be0cff6269848a1eebc09764d9d4a4b50123d95f99972ab0384",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Smoothing the Never-Ending Road to Modernization",
+   "link": "https://devops.com/smoothing-the-never-ending-road-to-modernization/",
+   "summary": "In IT, it can sometimes feel like the finish line keeps getting farther away, no matter how fast we run. Cloud migration reshaped how organizations think about infrastructure, offering new scalability and agility, while creating years of intensive migration work that continues to this day. Then, application modernization shifted the conversation from where workloads run […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-24T19:04:31+00:00",
+   "id": "1bcf4b7e867123c479b97ff22903813074b9ce19bc40499d8118c8c872fee1f6",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Google is a Leader in the 2026 Gartner Magic Quadrant for Container Management",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/2026-gartner-magic-quadrant-for-container-management/",
+   "summary": "We’re excited and proud to share that Gartner has recognized Google as a Leader for the fourth year in a row in the 2026 Gartner® Magic Quadrant™ for Container Management , based on its Completeness of Vision and Ability to Execute. Google was positioned highest in Ability to Execute of all vendors evaluated and we believe this validates the success of our mission to deliver a container platform t",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T19:00:00+00:00",
+   "id": "395a0dcb46c29e4b43d2cbdefc699520e9f38b3c1fe1aab5f1ad62d74d393ce5",
+   "tags": [
+    "cloud",
+    "cloud-native"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "What iOS Developers Need to Change in their Apps to prepare for the iPhone Duo",
+   "link": "https://www.infoq.com/news/2026/09/apple-iphone-duo-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "With the upcoming introduction of the foldable iPhone Duo, iOS developers will need to adapt their apps to ensure they work correctly across the new device's outer display, larger inner display, and partially folded states. Developers will also need to account changes to navigation and toolbars, camera behavior, and new reserved regions. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-24T19:00:00+00:00",
+   "id": "1017f9b6d8b58d70d425fa68a1fe9a2b1f808b0757fcd3760a316232047ee456",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Talentica Software Unfurls Managed AI Service to Optimize Software Delivery",
+   "link": "https://devops.com/talentica-software-unfurls-managed-ai-service-to-optimize-software-delivery/",
+   "summary": "Talentica Software this week launched a managed software delivery service that leverages artificial intelligence (AI) to enable DevOps teams to deploy applications developed using AI coding tools at scale. Company CTO Manjusha Madabushi said the DevX AI Pods service makes use of a set of AI agents that Talentica has trained to provide the context […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-24T18:22:18+00:00",
+   "id": "c20e9260535a5ceadaeba12dce7a026d59b59f6570fe502d6919dbca009e8d09",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Mexican EPICS in IEEE Team Builds Portable Educational Platform",
+   "link": "https://spectrum.ieee.org/epics-in-ieee-portable-educational",
+   "summary": "In Guadalajara, Mexico, many high schools have motivated teachers and talented students with an interest in science, technology, engineering, and mathematics, but they lack access to advanced tools such as robotics laboratories. The resources shortfall limits the students’ opportunities for hands-on learning on cutting-edge applications. A team from ITESO, Universidad Jesuita de Guadalajara , is w",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-24T18:00:04+00:00",
+   "id": "3bc6e144c4e139e02c76a5052f03461c32624970fb0c3edadf0032cf6700a75b",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Introducing GKE agentic migration for AI-assisted EKS-to-GKE migrations with built-in governance",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/gke-agentic-migration/",
+   "summary": "Enterprises are increasingly standardizing on Google Kubernetes Engine (GKE) to run their most critical and AI-driven workloads. From Cloud Storage FUSE for high-throughput data access to custom compute classes (CCC) and advanced GPU slicing, GKE provides the scale and efficiency required for modern applications. However, migrating complex Kubernetes environments from AWS EKS to GKE has traditiona",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T16:00:00+00:00",
+   "id": "ba5a58e9c2c651640a8316b30c71b840fd192a890bcdc3d75bec1a43747a2558",
+   "tags": [
+    "ai",
+    "cloud",
+    "hardware",
+    "kubernetes"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Scribd, Inc. classifies more than 400 million documents with Gemini batch inference on Gemini Enterprise",
+   "link": "https://cloud.google.com/blog/topics/customers/scribd-inc-classifies-millions-of-documents-on-gemini-enterprise/",
+   "summary": "Scribd, Inc . is home to one of the world's largest collections of human-created content. Scribd’s products leverage one of the world's largest collections of human-created content and intelligent tools to help people move from information access to real understanding and application. This past year, Scribd used Gemini's native PDF understanding and Gemini Enterprise batch prediction to run trust ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T16:00:00+00:00",
+   "id": "525897b0029190a42ffdfe4241566d89aa9402ccce3cd59065506ba3256c2803",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Why Software Supply Chain Security Is Moving to the Gate",
+   "link": "https://devops.com/why-software-supply-chain-security-is-moving-to-the-gate/",
+   "summary": "March 2026: malicious versions of axios get published directly to npm. May 2026: attackers forge valid provenance for 42 TanStack packages on npm, with 84 malicious versions shipped before detection. August 2026: a worm uses one maintainer’s stolen credentials to self-propagate through keyv and its dependent packages. Builds pull in thousands of open source packages […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-24T15:38:11+00:00",
+   "id": "d3d33d84313f66ec4d61498d820ff30125ecb21a29fc6bf074ab5be4f6c14b5f",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Power your agents: Gemini 3.8 Live with Live Avatar is now generally available",
+   "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available/",
+   "summary": "Following our announcement of Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking last week, we are thrilled to share that Gemini 3.8 Live with Live Avatar is now generally available in Gemini Enterprise . First previewed at Google Cloud Next 2026 , the technology is now officially ready for enterprise production. As enterprise voice AI evolves beyond basic speed and cost metrics, our priority h",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T15:00:00+00:00",
+   "id": "321a943a4dd13ce058257b50cda1ce29e6cfe9b9030f0eb0dc68af5742540f90",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+   "link": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+   "summary": "External security researchers at Accomplish identified a vulnerability in Cloudflare Containers that could expose residual disk data from previous workloads. We explain how the issue worked, how we investigated it, and the steps we took to remediate it.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T15:00:00+00:00",
+   "id": "c657a4eeb7c1b1a54b97551f58ea622cd24586c24a98f3aea70950db1c2d44a2",
+   "tags": [
+    "cloud",
+    "cloud-native",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "InfoQ Launches High-Performing Teams Certification Program",
+   "link": "https://www.infoq.com/news/2026/09/high-performing-teams-program/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "InfoQ has opened enrollment for a new five-week certification program covering engineering team design, delivery flow, AI-enabled work, and metrics, facilitated by InfoQ editor and podcast co-host Olimpiu Pop. By Artenisa Chatziou",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-24T15:00:00+00:00",
+   "id": "dcb28b809d55a352c491f4a83ea1a150390c3eabccfd333a01f51706cce1198f",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "A new, no-compromises database architecture for the agentic era",
+   "link": "https://cloud.google.com/blog/products/databases/alloydbs-agentic-database-architecture/",
+   "summary": "Entire database engineering careers have been spent on a single question: How do you scale an OLTP workload without compromising the system of record that owns the data? Exadata answered the question by offloading queries into a scale-out storage tier beneath the database, removing the network as the bottleneck. Azure SQL Hyperscale did it with shared block servers, scaling out to tens of read rep",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T14:30:00+00:00",
+   "id": "e8888b44b9eccb317dd6d6d3e2d4677c1e850dbeebc0104d3f533d3e0960e754",
+   "tags": [
+    "architecture",
+    "cloud",
+    "databases",
+    "networking"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "How growing Latin American midsize businesses are building in the AI era",
+   "link": "https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai/",
+   "summary": "Latin America’s small and medium-sized businesses are the heartbeat of the region's economy — accounting for more than 60% of total employment in the region, according to United Nations estimates. And just like their enterprise peers, everywhere you look, ambitious teams are moving fast to embrace AI. Many have already transitioned from experimenting with generative tools and agentic workflows to ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T14:30:00+00:00",
+   "id": "0dbf101739ebf97f8099f78604d2b5d4ee2701abb5b15c30e729ba525eadaf98",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "AlloyDB delivers PostgreSQL for agents: Real-time data at agent scale, with full workload isolation",
+   "link": "https://cloud.google.com/blog/products/databases/announcing-postgresql-for-agents-in-alloydb/",
+   "summary": "Enterprises rely on mission-critical operational databases where performance slowdowns simply aren’t an option. Yet when even a few agents execute dense reasoning loops, the unpredictable surge in queries can easily overwhelm traditional architectures. Today, we’re announcing that AlloyDB delivers PostgreSQL for agents (in preview), enabling real-time data access without compromising your mission-",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T14:30:00+00:00",
+   "id": "d45b7494905ab202964ee053113022ee3dd4e37493bfb976c615c0b92206f20a",
+   "tags": [
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Un-Mused: How a Single Debug Setting Bypassed macOS Security in Meta’s AI Client",
+   "link": "https://www.infoq.com/news/2026/09/meta-muse-zeroday/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Security researcher Patrick Wardle revealed an unpatched zero-day vulnerability in Meta's Muse desktop client for macOS. This flaw lets unprivileged software manipulate the assistant's extensive permissions, compromising input confidentiality and account security. Despite a hotfix from Meta, the vulnerability raises significant concerns about platform trust and security boundaries. By Olimpiu Pop",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-24T14:14:00+00:00",
+   "id": "493e3375b47a5230809b1ae69aec1d4a57288645479df213e86b9542cd09df54",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+   "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-24T14:08:57+00:00",
+   "id": "280bf64dcca75cee1131d5bb93c25f96667780da531e337a02f3b047e97fb8cc",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Proactive Defense: Hardening Code Pipelines and CI/CD Infrastructure",
+   "link": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure/",
+   "summary": "Introduction The landscape of software supply chain security has undergone a significant shift. Recent campaigns demonstrate that sophisticated threat actors are systematically targeting the engineering lifecycle by compromising trusted security and programming tools. These intrusions reveal three key tactics: Attackers target trusted security scanners, utility libraries, and AI developer tools to",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T14:00:00+00:00",
+   "id": "ff6ba9fbf51e7285734b41e1c72faecce6a3dd8fe13f6764df5c0ca39a4e61ba",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools",
+    "security"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Measure Distant Asteroids With a DIY Rig",
+   "link": "https://spectrum.ieee.org/asteroid-shadow",
+   "summary": "I’ve seen two total solar eclipses and have been duly impressed by what happens as the moon casts its shadow on Earth. But recently I’ve become even more intrigued by a similar phenomenon that doesn’t involve the sun or the moon—something called an asteroid occultation. That’s what happens when an asteroid orbits around the solar system and blocks the light of a distant star you’re viewing from Ea",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-24T13:00:04+00:00",
+   "id": "5d9174a2a14138556c3729be96be38b4c2e6320e5e55f53a9222fb75167d48fd",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "The three things today's hottest startups are looking for in their AI stack",
+   "link": "https://cloud.google.com/blog/topics/startups/the-three-things-todays-hottest-startups-are-looking-for-in-their-ai-stack/",
+   "summary": "Google Cloud has become the platform of choice for startups building AI. Our uniquely complete stack — including a choice of first- and third-party compute and models ; our platform for building and managing agents; and our products for securing AI workloads — has emerged as the single most important driver of this growth and it is powering AI development for many of the most exciting and innovati",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T13:00:00+00:00",
+   "id": "f350b627c34efa5e2b5f250e4b4ded0a7e07bc8749bc79482362c526ed80acb8",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "How Google Cloud Networking Supports Your Fluid Compute Choices for AI Workloads",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/how-google-cloud-networking-supports-your-fluid-compute-choices-for-ai-workloads/",
+   "summary": "The availability of resources for AI workloads can be challenging across the industry, especially accelerators. This can slow your AI workload deployment if it’s built around a specific type of accelerator. The concept of fluid compute allows you to design your AI deployment with several options based on available resources that can fit your use case. In this blog, we will explore how Google Cloud",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-24T13:00:00+00:00",
+   "id": "b5ca51345718728b5e1eaa6b4f14fc01a71ed1367591608299b9d1292e255865",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Observability Day: Where the community comes together at KubeCon + CloudNativeCon North America 2026",
+   "link": "https://www.cncf.io/blog/2026/09/24/observability-day-where-the-community-comes-together-at-kubecon-cloudnativecon-north-america-2026/",
+   "summary": "Observability Day returns to KubeCon + CloudNativeCon North America on November 9, 2026, in Salt Lake City, Utah, bringing together maintainers, operators, and end users from across the CNCF observability community. Observability has reached an important...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-24T12:22:50+00:00",
+   "id": "7a0f24d693bceeb5328bc818a2f1625fbae933621e0c6c10246879cdbd538967",
+   "tags": [
+    "cloud-native",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
+   "link": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A congressional representative just proposed killing America’s border tower program Delia Ramirez, a Democratic US representative from Illinois, has announced plans to introduce legislation to terminate the surveillance tower program along…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-24T12:10:00+00:00",
+   "id": "ae9de6fba1fc8e2a750f6b5175d0586c5544ab6fa1ac14b99b559c266227d5f7",
+   "tags": [
+    "ai",
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "What I Learned Building Cloud-Portable Services Across Multiple Providers",
+   "link": "https://devops.com/what-i-learned-building-cloud-portable-services-across-multiple-providers/",
+   "summary": "Multi-cloud strategies often stumble over provider-specific behavior. A layered abstraction built on official SDKs can normalize differences while preserving access to valuable native capabilities.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-24T11:55:07+00:00",
+   "id": "bf5d05952e81cab68f30c39ced25db70e5024a0215eff2d773187a9f0c6a763c",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "The Observability Tax: When Monitoring Costs Exceed Downtime Costs",
+   "link": "https://devops.com/the-observability-tax-when-monitoring-costs-exceed-downtime-costs/",
+   "summary": "Observability costs can spiral when teams collect more telemetry than they actually use. A more mature approach prioritizes the data that directly improves incident detection, diagnosis and recovery.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-24T11:41:23+00:00",
+   "id": "f384132bfca44b5cb89c557eaf75d093f348c8fa74510dd7fe8e34cf1628343a",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "There's a new way to break RSA that's faster than anything we've seen before",
+   "link": "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/",
+   "summary": "Until now, cryptographers thought factoring was the only way to break RSA. Not anymore.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-24T11:15:44+00:00",
+   "id": "9be68271b4f4619d14a0433a23244bf8df7db100b3fc83d6f7674147f2d493f7",
+   "tags": [],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Building a Collaborative Platform Culture in a Bank",
+   "link": "https://www.infoq.com/news/2026/09/collaborative-platform-culture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "A platform is a collaboration system, not infrastructure. Culture follows structure: platform teams can build open support sessions, create super user awards for contributing developers, and establish shared open standards to grow an engineering mindset. Developers and product teams depend on a platform team, which in turn depends on application teams; to go forward, they need shared standards. By",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-24T11:09:00+00:00",
+   "id": "bdf8a110e3d7eae5f4b5459b77b2a5c017f77e8148d3342b9d567214ce56dd50",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "AI is dominating the conversation at Climate Week",
+   "link": "https://www.technologyreview.com/2026/09/24/1145048/ai-climate-week/",
+   "summary": "This week, world leaders descended on Manhattan for the UN General Assembly. It’s also New York Climate Week—investors, policymakers, advocates, and journalists are colliding at panels, talks, and fancy dinners. With so many climate voices in one place, the discourse can feel a little louder than usual. This year, the unavoidable topic is artificial intelligence.…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-24T10:00:00+00:00",
+   "id": "7e8515e04538b03851e0992bbacc94525282cc511590f8b0ec6d268fee91efa1",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "Presentation: Designing Fast, Delightful UX With LLMs for Mobile Frontends",
+   "link": "https://www.infoq.com/presentations/llm-mobile-frontend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Balakrishnan Ramdoss discusses how to architect production-grade, AI-powered conversational apps at scale. He explains how to overcome model latency, leverage server-driven UI and Backend-for-Frontend patterns to dynamically render multi-modal interfaces, optimize prompts for UI selection, and integrate low-latency, privacy-first on-device AI for mobile applications. By Balakrishnan Ramdoss",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-24T09:24:00+00:00",
+   "id": "801233c950cba0ead46ffcc68a803fef1685a15327ab91fe6409041afd3161ab",
+   "tags": [
+    "ai",
+    "architecture",
+    "privacy",
+    "programming"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "GitHub Gives Enterprises a Full Count of Who Holds the Keys",
+   "link": "https://devops.com/github-gives-enterprises-a-full-count-of-who-holds-the-keys/",
+   "summary": "GitHub Enterprise Cloud now lets organizations export a full inventory of credentials, helping security teams identify stale, overprivileged and forgotten access across users, apps and automation.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-24T07:37:04+00:00",
+   "id": "a047dd70a43782de77c1b9f36adc1f56942480171ea10348d5942ed1b777838f",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
+  },
+  {
+   "title": "TeamPCP Supply Chain Attack Leads to CrowdSec Source Code Being Stolen",
+   "link": "https://devops.com/teampcp-supply-chain-attack-leads-to-crowdsec-source-code-being-stolen/",
+   "summary": "CrowdSec says attackers stole source code from about 170 private GitHub repositories after a TanStack npm supply chain attack exposed an OAuth token tied to a former employee.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-24T07:16:00+00:00",
+   "id": "254bc6dcf0e459e5988fa03ccb3007564d48ab3e4df309f518e2b7f2cc6e367a",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-25T06:32:26.919562+00:00"
   },
   {
    "title": "Canvas UI Ships 35 HTML-in-Canvas Components That Run WebGL and WebGPU Effects Over Live DOM",
