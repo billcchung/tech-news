@@ -1,6 +1,6 @@
 {
  "month": "2026-09",
- "updated": "2026-09-27T06:30:51.883064+00:00",
+ "updated": "2026-09-28T06:45:16.821423+00:00",
  "items": [
   {
    "title": "Secure AI agents with HashiCorp Boundary",
@@ -18,7 +18,131 @@
    "first_seen": "2026-09-23T06:32:46.398529+00:00"
   },
   {
-   "title": "Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction Across Laptop and Cloud",
+   "title": "Linear Completes 1,000-PR Migration From styled-components to Meta's StyleX",
+   "link": "https://www.infoq.com/news/2026/09/linear-stylex-meta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Linear completed the transition of its React applications from styled-components to StyleX, Meta's CSS-in-JS library, involving over 1,000 pull requests. This migration aimed to enhance performance and enforce stricter component boundaries. The shift resulted in reduced main-thread work and improved navigation speeds, despite some criticism over StyleX's restrictive guidelines. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-28T06:26:00+00:00",
+   "id": "0d279571678b0ee95e2733e7413298311042ce0c54927a957c8976184d885883",
+   "tags": [
+    "architecture",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-09-28T06:45:16.821423+00:00"
+  },
+  {
+   "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
+   "link": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS recently announced that Aurora DSQL now supports foreign key constraints, allowing applications to enforce referential integrity directly in the database, including CASCADE, SET NULL, and other referential actions. The addition addresses a long-standing gap that users had explicitly called out as an adoption blocker. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-28T04:54:00+00:00",
+   "id": "18b7fe91fb7d9c0579b22b173b6e7fe67c6895f217b563da033c41a4181b4733",
+   "tags": [
+    "architecture",
+    "cloud",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-09-28T06:45:16.821423+00:00"
+  },
+  {
+   "title": "Java News Roundup: TornadoVM 7.0, Groovy 6.0, GraalVM, Hibernate, Quarkus, Gradle, Maven",
+   "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This week's Java roundup for September 21st, 2026, features news highlighting: GA releases of TornadoVM 7.0 and Groovy 6.0; point releases of GraalVM and Gradle; maintenance releases of Quarkus and GDK for Micronaut; the seventh release candidate of Maven 4.0; milestone releases of Micrometer Metrics and Tracing; and beta releases of Open Liberty and Hibernate ORM. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-28T02:30:00+00:00",
+   "id": "e4e5d3f8bb99a8e598de04a385e0eba767862a747c04682f6a3876ea2493fea8",
+   "tags": [
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-09-28T06:45:16.821423+00:00"
+  },
+  {
+   "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+   "link": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+   "summary": "The Internet is changing more today than at any point since Cloudflare launched back on September 27, 2010. As automated traffic surpasses human activity, we reflect on the rise of AI agents, new creators, and how we can help build a fair, sustainable future for the web.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-27T17:00:00+00:00",
+   "id": "dee29e2f8c415b8b3330a66626097490efb2e7df67d4c9fc848d77f75f039608",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-28T06:45:16.821423+00:00"
+  },
+  {
+   "title": "Google Rewrites Critical C Dependencies to Rust Using AI and Differential Fuzzing",
+   "link": "https://www.infoq.com/news/2026/09/c-rust-rewrite/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google's security team developed a method to replace legacy C code in the giflib image-processing library with Rust, targeting inherent memory vulnerabilities. They utilised an automated migration process, ensuring compatibility and zero-day vulnerability mitigation. The project successfully maintained runtime performance while demonstrating that AI translations require ongoing human oversight. By",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-27T14:14:00+00:00",
+   "id": "3e28270f95820ced88592b966b17c6b855d2cdc32c0a1d3bff166d7bab5f5b06",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-28T06:45:16.821423+00:00"
+  },
+  {
+   "title": "Swift 6.4 Brings Subprocess 1.0, Improved Interoperability, Faster Wasm, and More",
+   "link": "https://www.infoq.com/news/2026/09/swift-6-4-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The latest release of Swift, Swift 6.4, introduces a range of language and tooling improvements, including better performance through expanded support for non-copyable values, up to 40 times faster Wasm generated code, improved interoperability with C++20 and Java, and a new Subprocess library that provides a cross-platform API for launching and interacting with external processes. By Sergio De Si",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-27T14:00:00+00:00",
+   "id": "878902ac0d141c808cc0e658d03baf73d3495129e7adf3627290d4da0d6fb3a5",
+   "tags": [
+    "architecture",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-09-28T06:45:16.821423+00:00"
+  },
+  {
+   "title": "Poetry for Engineers: The UI Designer’s Dream",
+   "link": "https://spectrum.ieee.org/poetry-user-interface-design",
+   "summary": "My job is to translate dry and unrelenting code into a user interface of surpassing beauty. With my mouse, I roll one pixel after another up the vast anthill of the internet. My dream is to translate the visions of the holy ones into a communication protocol of universal wonderment. I want to launch shreds of light into the air to fall like a layer of diamonds on the endless mountains of the Web. ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-27T13:00:03+00:00",
+   "id": "de7d02883a483d1e7afdb0752a2d1cd10b423722e864944c384fd808c81cbec1",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-28T06:45:16.821423+00:00"
+  },
+  {
+   "title": "GKE Pod Snapshots Cut Model Load Times, and Move the Work to Snapshot Lifecycle Management",
+   "link": "https://www.infoq.com/news/2026/09/gke-pod-snapshots-benchmarks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google has published benchmarks for GKE Pod snapshots, reporting up to 89% lower startup latency and a 70B model loading in 37 seconds. The feature checkpoints CPU and GPU memory through gVisor into Cloud Storage. Practitioners have asked whether invalidation is the harder problem, since snapshots match on a spec hash, machine series, and kernel and driver versions. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-27T06:46:00+00:00",
+   "id": "deffd6ec4248fdabf3c1e6c01f5e273a4afe74e1712b6f93e24fe752fba95a1d",
+   "tags": [
+    "architecture",
+    "hardware",
+    "programming",
+    "research"
+   ],
+   "first_seen": "2026-09-28T06:45:16.821423+00:00"
+  },
+  {
+   "title": "Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction across Laptop and Cloud",
    "link": "https://www.infoq.com/news/2026/09/docker-cloud-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Docker Cloud Sandboxes provide secure, hosted execution environments for running AI coding agents on Docker-managed infrastructure. Built on hardware-enforced microVM isolation, the platform provides a consistent execution environment and unified CLI workflows for seamlessly moving workloads from local machines to the cloud. By Sergio De Simone",
    "source": "InfoQ",
@@ -308,7 +432,7 @@
    "first_seen": "2026-09-26T06:29:14.457015+00:00"
   },
   {
-   "title": "Grafana Turns Cypress Test Results Into Persistent Observability Data",
+   "title": "Grafana Turns Cypress Test Results into Persistent Observability Data",
    "link": "https://www.infoq.com/news/2026/09/grafana-cypress-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Grafana Labs has published a practical approach for monitoring Cypress test suites by converting test results into Prometheus metrics and sending them to Grafana Cloud. By Craig Risi",
    "source": "InfoQ",
@@ -612,6 +736,20 @@
     "cloud"
    ],
    "first_seen": "2026-09-27T06:30:51.883064+00:00"
+  },
+  {
+   "title": "Introducing Gemini 3.8 Live with Live Avatar",
+   "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-24T16:20:39+00:00",
+   "id": "6add3dd62456569f19427e4518304eb7a3c8cee0553623d704af2a296d149679",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-28T06:45:16.821423+00:00"
   },
   {
    "title": "Introducing GKE agentic migration for AI-assisted EKS-to-GKE migrations with built-in governance",
