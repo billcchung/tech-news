@@ -1,7 +1,506 @@
 {
  "month": "2026-09",
- "updated": "2026-09-29T06:33:20.423526+00:00",
+ "updated": "2026-09-30T06:33:49.534600+00:00",
  "items": [
+  {
+   "title": "Agents Refactor 300K Lines in Three Weeks, and Practitioners Ask What It Proves",
+   "link": "https://www.infoq.com/news/2026/09/agentic-refactoring-case-study/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "CodeScene has published a case study in which coding agents refactored 300,000 lines of C over three weeks for roughly $4,000 in tokens, verified by a frame-by-frame replay harness. The agents built a playbook of codebase-specific recipes along the way. Practitioners have questioned the scope, the metric, and how much of the result depends on the harness. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-30T06:16:00+00:00",
+   "id": "5a1757b04ad762721afa037531019872944b27e55c7f126463be187c5dadf96e",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "SvelteKit 3 Reaches Release Candidate, Moving Config to Vite and Retiring the $lib Alias",
+   "link": "https://www.infoq.com/news/2026/09/sveltekit-3-vite/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The Svelte team has entered the release candidate phase for SvelteKit 3, which focuses on code refinement and prepares for future updates. Notable changes include moving configuration to vite.config.ts, replacing the $lib alias with #lib for improved compatibility. SvelteKit 3 requires Vite 8 and Svelte 5, enhancing error handling and build efficiency, while retaining some experimental features. B",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-30T05:58:00+00:00",
+   "id": "709c4267bbc2d9279265454ea819dfb050cb231779e6517bf5761f9f52411406",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Amazon CloudWatch Omni Extends CloudWatch into the Agent Era",
+   "link": "https://www.infoq.com/news/2026/09/aws-cloudwatchomni-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Recently launched, Amazon CloudWatch Omni is an AI-first observability platform designed to monitor, evaluate, and troubleshoot applications and autonomous AI agents in a unified environment. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-29T19:00:00+00:00",
+   "id": "6ec4428cbc5ac415f940cc66c47746fe86d48751bbbe70c6117673e7eafdd79d",
+   "tags": [
+    "ai",
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Accelerating agentic RL and evaluation research velocity with 45x faster GKE Agent Sandbox",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/accelerate-agentic-rl-with-gke-agent-sandbox/",
+   "summary": "When scaling up agentic reinforcement learning (RL) and evaluation across massive parallel rollouts, frontier AI labs inevitably hit a bottleneck: Expensive GPU clusters sit idle, waiting minutes for CPU sandbox cold-starts, plus thousands of multi-gigabyte SWE-bench -style image pulls and scheduling backlogs. It’s a sandbox infrastructure problem that silently slows down your research and burns y",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T17:00:00+00:00",
+   "id": "87631c566b1533e93b2628a2e67b47bfec5e406c988db499fa1b21e86ad10453",
+   "tags": [
+    "ai",
+    "cloud",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Graph Workflows in ADK: Everything You Need to Know",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/graph-workflows-in-adk-everything-you-need-to-know/",
+   "summary": "Graph engineering is the design work: breaking a task into nodes, connecting them with edges, and deciding where code, models, or people control the next step. The Agent Development Kit (ADK) 's Workflow turns that design into an executable process, with functions and agents doing the work. Through a refund example, this post shows how to run steps in parallel, route decisions, pause for human rev",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T16:00:00+00:00",
+   "id": "766604bf3ddab157993cacd0015da4c05c5546d0d367a8e07b84768c745f3b58",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Google Cloud partners deliver new security agents and AI defenses with Gemini Enterprise",
+   "link": "https://cloud.google.com/blog/products/identity-security/google-cloud-partners-deliver-new-security-agents-and-ai-defenses-with-gemini-enterprise/",
+   "summary": "As threat actors increasingly use AI to accelerate and develop cyberattacks, enterprise defenders need to rely on both AI and a critical defender’s advantage: Business context that only you possess. Enterprise cyber defense spans identity, network, endpoint, data, cloud, and application layers, often split across a dozen or more products, each with its own context. At Google Cloud Next, we brought",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T16:00:00+00:00",
+   "id": "f56efcfa09bb23be3a0f9f2f53413618acba11cf5819ee8d36b6b05ddb36ec80",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+   "link": "https://huggingface.co/blog/nvidia/kumo-tabular",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-29T15:30:38+00:00",
+   "id": "dc53fce90c6f36f5c727235e1a467f2d849dcd49be3c83b393c97ef4331e392f",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Cloudflare Adds Configurable HTTP Vary Header Support to Prevent Cache Thrashing",
+   "link": "https://www.infoq.com/news/2026/09/cloudflare-http-vary/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has implemented native support for the HTTP Vary header across its edge network, enhancing cache management for all customer plans. This feature allows for better negotiation of content representations while minimizing cache fragmentation. Operators can define specific behaviors for request headers, enabling greater control over caching efficiency and reducing server load. By Olimpiu Po",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-29T14:14:00+00:00",
+   "id": "9db876c864d3ad7920184e55b6fe8ae05aba40afdd2c2445710a141e7262046d",
+   "tags": [
+    "architecture",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
+   "link": "https://devops.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
+   "summary": "San Francisco, USA, 29th September 2026, CyberNewswire",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-29T14:00:22+00:00",
+   "id": "04a8bc2d48772d22058fde01deef983f1ecff2e146875d6e739e4117a73c1022",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Defending at machine speed: Securing the public sector in the agentic era",
+   "link": "https://cloud.google.com/blog/topics/public-sector/defending-at-machine-speed-securing-the-public-sector-in-the-agentic-era/",
+   "summary": "Over the last three decades in cybersecurity, I’ve witnessed major paradigm shifts — yet none match the velocity and complexity of today’s landscape. Attackers are now using AI to move at machine speed: accelerating intrusions, exploiting zero-day vulnerabilities, and rendering legacy defenses obsolete. Reactive, manual security reviews can no longer keep pace with sophisticated and increasingly a",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T14:00:00+00:00",
+   "id": "a637d4595d5663d2a13dec957396275e7a7dd3f2f519727c203d77a02f49e7a5",
+   "tags": [
+    "ai",
+    "cloud",
+    "security"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Defending Against Active Exploitation of Citrix NetScaler ADC and Gateway Appliances",
+   "link": "https://cloud.google.com/blog/topics/threat-intelligence/defending-against-active-exploitation-of-citrix-netscaler-adc-and-gateway-appliances/",
+   "summary": "Introduction In late September 2026, Mandiant Consulting and Google Threat Intelligence Group (GTIG) identified active, in-the-wild exploitation of a zero-day vulnerability (CVE-2026-88772) affecting Citrix NetScaler ADC and NetScaler Gateway appliances. We have observed evidence that organizations in North America and Europe in the government, financial services, technology, education, and legal ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T14:00:00+00:00",
+   "id": "c11dff5acfb62515b839ee7c7665b246eb9a270c618150609d174a728c4d1eba",
+   "tags": [
+    "cloud",
+    "security"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+   "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-29T13:07:00+00:00",
+   "id": "afa8c33f8eb7996a39419deadd5b14c638139f7bae71a907c422a5531afc3651",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not",
+   "link": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+   "summary": "Seventeen years ago, cell biologist Donald Ingber and his colleagues at Harvard University’s Wyss Institute for Biologically Inspired Engineering submitted a paper to the journal Science describing their model human lung. It was smaller than a USB stick and made of a clear polymer slab containing narrow channels, which were lined with the type of cells that line a lung’s air sacs and blood vessels",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-29T13:00:02+00:00",
+   "id": "a8e036c9038bdc443b6a7e4ac42891adc924dd75e72f7b45e28a2a9849d64a3c",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Using AI to chart a course for our post-quantum migration",
+   "link": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+   "summary": "We’re building CryptoLabe, an internal AI-powered tool that discovers cryptography across our codebase, surfaces dependencies, and helps us progress toward a full post-quantum migration by 2029. Here’s what we’ve learned so far.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T13:00:00+00:00",
+   "id": "bbc02058f544d672ad52ad4a7298dd3a2a98be681d531c3e8e9b5424601dd452",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Building a certificate authority for the whole Internet",
+   "link": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+   "summary": "Twelve years after launching Universal SSL, Cloudflare is applying to become a certificate authority. By combining an established root, an ACME-first approach, and Merkle Tree Certificates, we are building a post-quantum CA for the open web.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T13:00:00+00:00",
+   "id": "830de58cacf62ad1b88c42f5df5e89cecc5c78c048126c41e5a3d08a4601353b",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+   "link": "https://blog.cloudflare.com/ai-era-framework/",
+   "summary": "Cloudflare introduces an adaptive security framework connecting risk discovery, agent governance, runtime protection, and AI-powered response in a continuous learning loop.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T13:00:00+00:00",
+   "id": "eb3a720d45b0bcf90df72b81f7e62df38069b9fff80f825b28139bcc02fb9648",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+   "link": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
+   "summary": "As post-quantum signatures threaten to inflate TLS handshakes and certificate transparency logs, Merkle Tree Certificates offer a path to compact, auditable authentication. Cloudflare’s new certificate authority will support MTC issuance at scale.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T13:00:00+00:00",
+   "id": "953953d4e2bca5be497abea60d789eb118e7f10a0f3e7e74447605815050cee2",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "We tested our own WAF with frontier AI models. Here’s what we found",
+   "link": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
+   "summary": "We built a WAF tester that adapted each request based on what the WAF blocked or passed. This helped us explore variations that a fixed test might miss. We ran it across six attack categories on an authorized staging environment and discovered detection gaps worth fixing. Here’s how the loop worked, what got through, and what we did about it.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T13:00:00+00:00",
+   "id": "3ec68f877978c141cc7b2a23e494fe39541b42965e946a4b53a2f3e5f2061a11",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
+   "link": "https://blog.cloudflare.com/threat-signals/",
+   "summary": "We are expanding access to Cloudforce One's Threat Events Platform to every Cloudflare account and introducing Threat Signals. Threat Signals automatically parses open-source threat reporting, extracts structured indicators, and connects threat context directly to your WAF rules.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T13:00:00+00:00",
+   "id": "916a57cd427a61e5e2204a46c1d33ba6d321faf8c02b2c095b8f394ea38242b0",
+   "tags": [
+    "cloud",
+    "networking",
+    "open-source",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
+   "link": "https://blog.cloudflare.com/post-quantum-visibility/",
+   "summary": "Cloudflare has added visibility into post-quantum (PQ) encryption in TLS 1.3 directly into HTTP Analytics, Log Explorer, and Logpush. Learn how to make sure your domain is protected with PQ encryption.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T13:00:00+00:00",
+   "id": "cfaa4d8a048fd8380fd54e68c746f65a697d9903930a0d7b1f54d0cbdbf8c327",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Enforce positive security with Cloudflare Application Profiles",
+   "link": "https://blog.cloudflare.com/application-profiles/",
+   "summary": "Cloudflare learns the structure of your HTTP requests and identifies deviations. You can add a positive security layer that helps reduce attack surface as AI makes it easier for attackers to generate and vary payloads.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T13:00:00+00:00",
+   "id": "d22c51a4118b1413cbbb2619db8ba1fd2131bd299d2d0f9b6c64d864f31da033",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Preventing quantum downgrade attacks against IPsec",
+   "link": "https://blog.cloudflare.com/ipsec-downgrade-protection/",
+   "summary": "A sophisticated attacker with a quantum computer can exploit a protocol design flaw to downgrade post-quantum IPsec tunnels to classical crypto. We helped the IETF develop a transcript authentication extension to prevent these attacks.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T13:00:00+00:00",
+   "id": "d2a5d7492f3245fed0e2bbb1021cba7488842cd5346f69de3b19ddce9e085351",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "The Download: climate tech companies to watch and AI’s discovery problem",
+   "link": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies being unraveled, and Big Tech backpedaling on its climate ambitions,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-29T12:10:00+00:00",
+   "id": "aec824572f20e5f6de8822de3dbdc56649d05e3e6d9bb74b5d6f5428f2160964",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "env zero Previews Control Plane for Agentic DevOps Workflows",
+   "link": "https://devops.com/env-zero-previews-control-plane-for-agentic-devops-workflows/",
+   "summary": "env zero’s EZ Control introduces an agentic DevOps control plane that detects infrastructure drift, applies policy-driven remediation and keeps automated changes attributable, reversible and auditable.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-29T12:00:44+00:00",
+   "id": "c4187d1be7551a4032325c8e4dfe7c9d1861d7604b6bddc147f89e5631d10495",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Kubernetes Teams Get a Safer Way to See Their Own GPU Metrics",
+   "link": "https://www.infoq.com/news/2026/09/kubernetes-gpu-metrics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Adobe engineers have described an open-source approach for giving teams self-service access to their own Prometheus metrics in multi-tenant Kubernetes environments, without exposing the shared metrics of other teams. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-29T12:00:00+00:00",
+   "id": "3f984576d9314ce90956d11eec7a367676e945a2b30ecbbf5b03cb2bec11059c",
+   "tags": [
+    "architecture",
+    "hardware",
+    "kubernetes",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration",
+   "link": "https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "There was a flurry of activity during the week of September 21st, 2026, highlighting: second milestone releases of: Spring Boot, Spring Batch, Spring Security, Spring AMQP, Spring Integration, Spring Data, Spring Framework, Spring for GraphQL and Spring for Apache Kafka. There were also first milestone releases of Spring AI, Spring Cloud, Spring Web Services and Spring LDAP. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-29T12:00:00+00:00",
+   "id": "e06cc821e2084f306547349e6f68d3213957a3f91d088cb7f0cf4c4b4bf12d7f",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
+   "link": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+   "summary": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting country, its leader continues to deny climate…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-29T11:00:00+00:00",
+   "id": "d566cdeb8d19594010998937d9643516e199a97a780cfa6a5fbb15a8b9940f9d",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Making AI an asset, not an expense",
+   "link": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+   "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to production, model choice is only…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-29T10:43:45+00:00",
+   "id": "965caa0f424658d1014ade8d7353fd8f666c867d0b6f1b98c241ad1b13a113b1",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Introducing GPT-6.1 Sol",
+   "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-29T10:00:00+00:00",
+   "id": "d6b9f5e651b1891e950e0096b862ca9527c5eacf458b2804fa20b6d4b208ad61",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "DevDay 2026 Recap",
+   "link": "https://openai.com/index/devday-2026-recap",
+   "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-29T10:00:00+00:00",
+   "id": "6071f63e21f6425413eb63722b1604896ffdb702f04f5beb8c9ad701e7ae765e",
+   "tags": [
+    "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Presentation: From Staff Platform Engineer to a 16z Founder: What I Wish I'd Known",
+   "link": "https://www.infoq.com/presentations/staff-founder-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Gonzalo Maldonado explains how technical leaders can translate engineering skills into startup success using his \"VC Abstraction Layer Knowledge\" (VALK). He shares hard-won lessons on finding product-market fit, structuring pitches like technical docs, avoiding co-founder drama, and evaluating internal platforms as commercial ventures in a post-ZIRP environment. By Gonzalo Maldonado",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-29T09:14:00+00:00",
+   "id": "1f52dc0b9c04e7b558b284a70c3292cc507d4ab1d4b6f6687d012757741e5b6a",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Atlassian Rebuilds Metrics Pipeline Around OpenTelemetry at Massive Scale",
+   "link": "https://www.infoq.com/news/2026/09/atlassian-opentelemetry/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Software company Atlassian has published an account of its migration from gostatsd to OpenTelemetry, replacing the internal workings of a metrics platform that receives data from about 100,000 hosts across 14 regions. The existing service had a 99.95% SLO, so the team had to change the platform without disrupting the metrics used by production alerts. By Matt Saunders",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-29T09:00:00+00:00",
+   "id": "02d35147def6048b545b202b9333eff672c3b3484629b13a2f38953758ff55ff",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Cloudflare Worker Previews: Per-Branch Environments for Workers",
+   "link": "https://www.infoq.com/news/2026/09/cloudflare-worker-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has introduced Worker Previews. This feature allows each Git branch to have its own isolated, production-like environment for a Worker. Each environment has a stable URL. It also has its own configuration and unique state for each branch. Plus, there’s scoped observability. By Claudio Masolo",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-29T09:00:00+00:00",
+   "id": "2ff57c7005703a4a87224e699702f93fca279edb8f30ed9d173250fd92a9ea93",
+   "tags": [
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
   {
    "title": "Secure AI agents with HashiCorp Boundary",
    "link": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
@@ -16,6 +515,34 @@
     "dev-tools"
    ],
    "first_seen": "2026-09-23T06:32:46.398529+00:00"
+  },
+  {
+   "title": "Python Workers Reach GA on Cloudflare, with Questions About Cold Starts and Upstream Maintenance",
+   "link": "https://www.infoq.com/news/2026/09/cloudflare-python-workers-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has made Python Workers generally available, built on PEP 783 and on socket syscalls implemented over the Workers connect API. The announcement carries no performance figures. A urllib3 maintainer questioned who supports the upstream work afterwards, and Wasmer's founder asked for cold-start numbers, citing about 1.027 seconds from Cloudflare's own earlier post. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-29T06:33:00+00:00",
+   "id": "bfae1c02675ffbd884d22a0a4f8318f6e696d12f0a55e8b956cbe8caa842eb61",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Introducing dots",
+   "link": "https://openai.com/index/introducing-dots",
+   "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-29T00:00:00+00:00",
+   "id": "dec620cb7225d2434a9b02e6e0197b1952a6412dcad780af2099d9910f2c9ee8",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
   },
   {
    "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
@@ -122,6 +649,20 @@
    "first_seen": "2026-09-29T06:33:20.423526+00:00"
   },
   {
+   "title": "Towards safety cases for frontier AI training",
+   "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-28T19:00:00+00:00",
+   "id": "2fc54b690d7b20a2e14328388fc3694e3eecf9d62246b7618620635188f7c454",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
    "title": "A New IEEE STEM Book Series for Tweens from TryEngineering",
    "link": "https://spectrum.ieee.org/ieee-stem-books-tweens-tryengineering",
    "summary": "IEEE TryEngineering is dedicated to inspiring intellectual curiosity in children. The technologies shaping our world, including in the realms of artificial intelligence, electric vehicles, and ocean exploration, are evolving rapidly. Helping young learners understand the concepts is essential to preparing the next generation of problem-solvers, creators, and engineers. TryEngineering has introduce",
@@ -206,6 +747,23 @@
    "first_seen": "2026-09-29T06:33:20.423526+00:00"
   },
   {
+   "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+   "link": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+   "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-28T15:50:00+00:00",
+   "id": "d8139ee5b66b8461667b31cc147a0d3aea4238e9a04ce46539c7dd4ef022eb5c",
+   "tags": [
+    "cloud",
+    "networking",
+    "programming",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-09-29T06:33:20.423526+00:00"
+  },
+  {
    "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
    "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
    "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their attacks, stealing highly sensitive data from the FBI and extorting the Russian ransomware group Cl0p.",
@@ -244,23 +802,6 @@
     "ai",
     "cloud",
     "networking",
-    "security",
-    "web"
-   ],
-   "first_seen": "2026-09-29T06:33:20.423526+00:00"
-  },
-  {
-   "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
-   "link": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
-   "summary": "We are releasing cf, our new command-line tool that mirrors the entire Cloudflare API and supports programmatic TypeScript configuration. We are also open-sourcing Forge, our internal SDK generator.",
-   "source": "Cloudflare Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-09-28T14:50:37+00:00",
-   "id": "d8139ee5b66b8461667b31cc147a0d3aea4238e9a04ce46539c7dd4ef022eb5c",
-   "tags": [
-    "cloud",
-    "networking",
-    "programming",
     "security",
     "web"
    ],
@@ -3236,20 +3777,6 @@
    "first_seen": "2026-09-22T06:31:42.914342+00:00"
   },
   {
-   "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
-   "link": "https://projectzero.google/2026/09/windows-dangling-com.html",
-   "summary": "This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}. A CO",
-   "source": "Google Project Zero",
-   "category": "Security & Privacy",
-   "published": "2026-09-21T07:00:00+00:00",
-   "id": "aeff1dc7e91a24bb2d1c9fc6f53938973530f954fe9e63fa18299085d4ddb58a",
-   "tags": [
-    "research",
-    "security"
-   ],
-   "first_seen": "2026-09-22T06:31:42.914342+00:00"
-  },
-  {
    "title": "Kubernetes 1.37 Released: Stable Metrics API and Rootless Kubelet in Beta",
    "link": "https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "The Cloud Native Computing Foundation (CNCF) announced the release of Kubernetes 1.37, named \"Garhwal\", emphasizing its focus on stability, security, and AI/ML workload optimization. By Mostafa Radwan",
@@ -3292,6 +3819,20 @@
    "tags": [
     "ai",
     "open-source"
+   ],
+   "first_seen": "2026-09-22T06:31:42.914342+00:00"
+  },
+  {
+   "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
+   "link": "https://projectzero.google/2026/09/windows-dangling-com.html",
+   "summary": "This short blog post is about abusing a privilege escalation bug that Microsoft recently fixed in Windows, CVE-2026-66804, that I and 14 others reported. This issue is an incomplete fix for CVE-2026-50343, a bug dubbed “Dark Elevator” by Calif. The root cause of the bug was a dangling COM object registration for the CrossDevice COM object with the CLSID {E9F83CF2-E0C0-4CA7-AF01-E90C70BEF496}. A CO",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-09-20T22:00:00+00:00",
+   "id": "aeff1dc7e91a24bb2d1c9fc6f53938973530f954fe9e63fa18299085d4ddb58a",
+   "tags": [
+    "research",
+    "security"
    ],
    "first_seen": "2026-09-22T06:31:42.914342+00:00"
   },
@@ -7383,21 +7924,6 @@
    "first_seen": "2026-09-09T06:31:53.161411+00:00"
   },
   {
-   "title": "Testing race conditions with memory access tracing and stack-based delay injection",
-   "link": "https://projectzero.google/2026/09/maccconc-race-condition.html",
-   "summary": "Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discovered manually or through static analysis. Regression tests: After fixing a race condition bug, there is often no good way to write a regression test that reliabl",
-   "source": "Google Project Zero",
-   "category": "Security & Privacy",
-   "published": "2026-09-08T07:00:00+00:00",
-   "id": "f8ca6cc85e36a639ee36a5498e597b01258adc33c0217f178511d293e75fbe6e",
-   "tags": [
-    "observability",
-    "research",
-    "security"
-   ],
-   "first_seen": "2026-09-09T06:31:53.161411+00:00"
-  },
-  {
    "title": "Cloud Native Computing Foundation Announces Karmada Graduation",
    "link": "https://www.cncf.io/announcements/2026/09/07/cloud-native-computing-foundation-announces-karmada-graduation/",
    "summary": "Multi-cluster, multi-cloud Kubernetes orchestration project reaches production maturity as global enterprises scale AI training and inference across hybrid infrastructure Key Highlights SHANGHAI, China – KubeCon + CloudNativeCon + OpenInfra Summit + PyTorch Conference China 2026 –...",
@@ -7484,6 +8010,21 @@
    "id": "a1b72811dd254b5043b516f3ea7a8da4d179aec7a12b38de59f64e80e43d4193",
    "tags": [
     "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-09-09T06:31:53.161411+00:00"
+  },
+  {
+   "title": "Testing race conditions with memory access tracing and stack-based delay injection",
+   "link": "https://projectzero.google/2026/09/maccconc-race-condition.html",
+   "summary": "Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discovered manually or through static analysis. Regression tests: After fixing a race condition bug, there is often no good way to write a regression test that reliabl",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-09-07T22:00:00+00:00",
+   "id": "f8ca6cc85e36a639ee36a5498e597b01258adc33c0217f178511d293e75fbe6e",
+   "tags": [
+    "observability",
     "research",
     "security"
    ],
