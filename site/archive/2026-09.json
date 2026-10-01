@@ -1,7 +1,618 @@
 {
  "month": "2026-09",
- "updated": "2026-09-30T06:33:49.534600+00:00",
+ "updated": "2026-10-01T06:34:08.239758+00:00",
  "items": [
+  {
+   "title": "Amazon S3 Tables now support all Apache Iceberg V3 data types",
+   "link": "https://aws.amazon.com/blogs/aws/amazon-s3-tables-now-support-all-apache-iceberg-v3-data-types/",
+   "summary": "Amazon S3 Tables now support all data types in the Apache Iceberg V3 spec, along with column default values, deletion vectors, and row lineage. Upgrade existing V2 tables or create new V3 tables with built-in compaction, maintenance, and engine compatibility.",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T22:10:00+00:00",
+   "id": "43a154c2e8928af0a49df2c137ec2125fd6d4bcc26b31658ee191c0c7f001772",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Survey Surfaces Sharp Increase in Amount of Code Written by AI",
+   "link": "https://devops.com/survey-surfaces-sharp-increase-in-amount-of-code-written-by-ai/",
+   "summary": "A global survey of 705 developers and IT leaders finds 42% of respondents reporting that artificial intelligence (AI) now writes at least half their code, with only 21% of developers now spending more than half their week writing new code from scratch. Conducted by BairesDev, a provider of software development services, the survey also finds […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-30T20:54:48+00:00",
+   "id": "6a4387f885c66162a435d8e5cb0706107a09ca34498b4cb2cfc1166dff38fb94",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Attackers have been exploiting critical Zimbra flaw to steal emails",
+   "link": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+   "summary": "A simple email gives the attackers the ability to remotely inject OS commands.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-30T20:44:48+00:00",
+   "id": "4b5832547292d5169bf55b03d8548ef8b3cf7d85571631d236e0d5e706d19c6c",
+   "tags": [],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Amazon S3 Vectors now supports metadata pre-filtering for higher recall on filtered searches",
+   "link": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/",
+   "summary": "Amazon S3 Vectors now supports metadata pre filtering, delivering up to 5x higher recall on filtered searches. Filters evaluate before similarity search so scoped queries return more relevant results. Ideal for RAG, agentic apps, and document search.",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T20:03:34+00:00",
+   "id": "602c8542c9b7b2070c58d9c1436413ab8d2010fc2ba0311e78fe657d32fdaba7",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Gemini 4 Argon: our next era of frontier intelligence",
+   "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-30T20:01:45+00:00",
+   "id": "b49099cde7e97e60f531fdab0739ace017515f672d5de4fd5e17e7dadf65f19d",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "A Semicolon in a Branch Name Was All It Took to Steal an AI Agent’s GitHub Token",
+   "link": "https://devops.com/a-semicolon-in-a-branch-name-was-all-it-took-to-steal-an-ai-agents-github-token/",
+   "summary": "AI coding agents don’t just suggest code anymore. Tools like OpenAI’s Codex spin up a real container, clone a real repository, and authenticate with a real GitHub credential to get the job done — which means every agent your team wires up is also a new privileged identity, holding real access, running with comparatively little […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-30T19:35:46+00:00",
+   "id": "bac82387f4b66a0abb3cdcf39ebf9e2a076744c20d3cf5d8342c3afa137cfd09",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Perforce Applies Machine Learning to Generate Synthetic Data for App Testing",
+   "link": "https://devops.com/perforce-applies-machine-learning-to-generating-synthetic-data-for-app-testing/",
+   "summary": "Perforce Software has added a tool that leverages artificial intelligence (AI) to make it simpler for application development teams to generate synthetic data for application testing purposes. Mayank Ahluwalia, a senior product manager for Perforce Delphix, said Delphix Synthetic Data makes use of machine learning algorithms to generate synthetic data for specific use cases. It […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-30T18:10:13+00:00",
+   "id": "bd24049b6e70cfcaa9339a724d5ff79d24f638e3c8f81a4d70e868ca06ad6bc3",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "IEEE Celebrates Innovators Shaping the Future",
+   "link": "https://spectrum.ieee.org/ieee-technical-field-awards-2027",
+   "summary": "Every year, IEEE recognizes individual researchers, innovators, and collaborative teams whose technical achievements and leadership have made a lasting impact on technology, engineering, and society worldwide with its Technical Field Awards . The honorees are selected by the IEEE Awards Board based on their extraordinary technical achievements, societal impact, and leadership in specialized engine",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-30T18:00:02+00:00",
+   "id": "5891bface3a0f2017d875a59017bc907f4355f1174eccf8b68f953ff718984f9",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "AWS Benchmark Aims to Reduce Number of False Positives Found by AI Vulnerability Scanners",
+   "link": "https://devops.com/aws-benchmark-aims-to-reduce-number-of-false-positives-found-by-ai-vulnerability-scanners/",
+   "summary": "Amazon Web Services (AWS) has developed a benchmark that can be used to test whether a model can distinguish real vulnerabilities from code that looks risky but is actually safe. The Deception Benchmark was created following an evaluation of the capabilities of 12 models from five different providers. In all, the benchmark includes 14,822 samples […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-30T17:43:41+00:00",
+   "id": "4300badc8b7a2b9dcc6700f84e1de80d4ab9037b350849db2b8e96e994173b84",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools",
+    "observability",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Amazon Aurora PostgreSQL now supports direct querying of Apache Iceberg and Parquet data in your data lake",
+   "link": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/",
+   "summary": "Amazon Aurora PostgreSQL now lets you directly query Apache Iceberg and Parquet data stored in your data lake alongside live operational data—no ETL pipelines required. Powered by DuckDB embedded within Aurora, this capability enables single queries that join transactional and historical data using familiar PostgreSQL syntax. It supports AWS Glue Data Catalog, S3, and S3 Tables, with optimizations",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T17:22:31+00:00",
+   "id": "c6dfcab64da70bccdeafe260008ace004bb2f2b1c0508ff1190eb86709c8c5f6",
+   "tags": [
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Celebrating Our Newest AWS Heroes – September 2026",
+   "link": "https://aws.amazon.com/blogs/aws/celebrating-our-newest-aws-heroes-september-2026/",
+   "summary": "Today, we’re excited to introduce the newest members of the AWS Heroes program. AWS Heroes are a vibrant, worldwide group of AWS experts who go above and beyond to share knowledge, mentor others, and build thriving communities. These individuals make a real difference in helping developers and organizations succeed with AWS. This month, we welcome […]",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T17:04:05+00:00",
+   "id": "483de5d0ffd4b8dd4ee20be43749b9db615664ef198fe3e483a764ebe82ec8d4",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "InfoQ Online Cohorts Address AI Security and Coding Agent Verification",
+   "link": "https://www.infoq.com/news/2026/09/onlinecohorts-ai-certifications/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "A look at two InfoQ online certification cohorts covering security and privacy decisions in production AI systems and the verification needed when coding agents work in existing codebases. By Artenisa Chatziou",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-30T17:00:00+00:00",
+   "id": "a501a7cd250f3c76a32dabf047f5935aaf312a2d31817b0c4a36af1115ed72ce",
+   "tags": [
+    "ai",
+    "architecture",
+    "privacy",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "What’s new in AI infrastructure and orchestration in September",
+   "link": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/",
+   "summary": "We hereby declare September to be scalability month! As the world prepares for a surge of agentic fleets, we are shoring up our AI infrastructure and orchestration offerings to gracefully — and quickly — respond to that demand, all while maintaining workload isolation and security, and keeping costs in check. Read on to learn how these enhancements manifest across Google Cloud’s compute, network, ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T16:00:00+00:00",
+   "id": "72249bd53d8a5849bc6afcd896a680a611effbcc3499efd5893cf5cd2d1f990b",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security"
+   ],
+   "first_seen": "2026-08-01T06:59:04.770090+00:00"
+  },
+  {
+   "title": "Cloud CISO Perspectives: How cybersecurity startups can win CISOs",
+   "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-cybersecurity-startups-can-win-cisos/",
+   "summary": "Welcome to the second Cloud CISO Perspectives for September 2026. Today, Alicja Cade and Nick Godfrey, senior directors, Office of the CISO, share their guidance for cybersecurity startups on how to win over the CISOs who will become crucial business partners and customers. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T16:00:00+00:00",
+   "id": "22102b5a95a3b5fce585d14fac1da925494f4aae159b028f11bd37fb3e02e771",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Empower your agents with the Google Cloud CLI remote MCP server",
+   "link": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/",
+   "summary": "Today, we’re expanding our ecosystem of managed remote MCP servers by introducing the Google Cloud CLI remote MCP server in preview. Powered by the popular gcloud and bq (BigQuery) command-line tools, this new server gives AI agents immediate, broad access to command-line operations for managing Google Cloud infrastructure and working with advanced BigQuery workflows securely and seamlessly. Why C",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T16:00:00+00:00",
+   "id": "826485d50653229cdf72ce9c750003521124fda40cde4fa82937cb2635a8994c",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Spanner Omni, now GA: A distributed, multi-model database that you can deploy anywhere",
+   "link": "https://cloud.google.com/blog/products/databases/spanner-omni-deploy-anywhere-version-of-spanner-is-now-ga/",
+   "summary": "Spanner Omni , the deploy-anywhere version of Spanner, is now generally available, ready to power your most demanding production workloads in your on-premises data center or on other clouds. With Spanner, Google pioneered the distributed SQL market over a decade ago, combining the horizontal scalability of NoSQL with the ACID compliance and strong consistency of a traditional relational database. ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T16:00:00+00:00",
+   "id": "9c847205f5584d7f6dbfed685e71624ca950e8c3c01c224a3684a822b0c078a5",
+   "tags": [
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "ArgoCon North America 2026: What to expect as the Argo community looks toward CD 4.0",
+   "link": "https://www.cncf.io/blog/2026/09/30/argocon-north-america-2026-what-to-expect-as-the-argo-community-looks-toward-cd-4-0/",
+   "summary": "Work across the Argo Project is accelerating, with growing adoption, new use cases, and more maintainers contributing across the community. The community is also beginning the visioning process for Argo CD 4.0, making ArgoCon an opportunity...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-30T15:24:47+00:00",
+   "id": "9188dd0479384bb81abe319257193d72a1c86024fd18722684974a7db657f877",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Introducing SynthID Bio",
+   "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+   "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-09-30T15:03:07+00:00",
+   "id": "08aa8115cb5d9c8920990d12b97d16085506bd37a1c5f14f480292bcdf0b5484",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware",
+   "link": "https://azure.microsoft.com/en-us/blog/responsible-infrastructure-at-hyperscale-managing-the-full-lifecycle-of-azure-hardware/",
+   "summary": "Microsoft is advancing Azure cloud infrastructure with more efficient systems and Circular Centers that extend the useful life of datacenter hardware. The post Responsible infrastructure at hyperscale: Managing the full lifecycle of Azure hardware appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T15:00:00+00:00",
+   "id": "67fa326b32ee27f5290d98336df2306ef18c60399ce4ca36409f388db0977b15",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Legit Security launches agentic remediation for open-source dependency vulnerabilities",
+   "link": "https://devops.com/legit-security-launches-agentic-remediation-for-open-source-dependency-vulnerabilities/",
+   "summary": "Tel Aviv, Israel, 30th September 2026, CyberNewswire",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-30T14:44:23+00:00",
+   "id": "b946329aa2caabafb01d15883c007330f6baa2f36c2d9c39763d11b5b701802c",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
+   "link": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
+   "summary": "Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We found that AI is measurably changing not just the pace of vulnerability discovery and exploitation, but also the types and ty",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T14:00:00+00:00",
+   "id": "9ac3cb15835cf7adb9fe4d8228fe1bc13c62394addd21f3d9d27270d688e457c",
+   "tags": [
+    "ai",
+    "cloud",
+    "security"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Cursor Uses S3 WAL to Scale Git Storage to More than 300 Pushes per Second",
+   "link": "https://www.infoq.com/news/2026/09/cursor-continuity-git-storage/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cursor has introduced Continuity, a Git storage architecture that uses an S3 backed write ahead log as the source of truth. The design turns local NVMe repositories into warm caches and separates replica coordination from consistency. Cursor reports linear read scaling with up to 100 replicas and more than 300 pushes per second with S3 Express One Zone in synthetic tests. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-30T13:47:00+00:00",
+   "id": "b251f567b5cef0130e351ff9c1eaf690db76cb7848d8efab7d84fe535dd0e6d9",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Cloudflare Impact reaches $100 million in donations",
+   "link": "https://blog.cloudflare.com/100-million-donations/",
+   "summary": "This week, Cloudflare's Impact programs will reach $100 million in donated services. This milestone means that thousands of entities including journalists, civil society, state and local governments, election management bodies, and public schools are being protected from cyberattacks.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T13:01:55+00:00",
+   "id": "4c2a4a97054a4c8850b3b24b906692fde013fc834c062d69fc06035ad0d38980",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "A Brief History of the Bloomberg Terminal",
+   "link": "https://spectrum.ieee.org/bloomberg-terminal",
+   "summary": "Financial markets have always relied on timely information, and the drive for timeliness has always adapted to the latest technology. From clipper ships transiting the oceans to telegraph wires connecting cities to fiber-optic cables conducting trades in microseconds , traders have embraced any advantage to get the most up-to-date information. Indeed, the history of finance is really a story about",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-09-30T13:00:02+00:00",
+   "id": "757dc7ec93bdca9a55c265265e55c2e232ed60c8a604b4b2c21faef7407b79c8",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Data Agent Kit is now GA: Bring Google Data Cloud to any coding agent",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent/",
+   "summary": "Today, Google Cloud Data Agent Kit is generally available. Data Agent Kit is a free set of Model Context Protocol (MCP) tools and agent skills that lets the coding agent you already use work directly with your Google Cloud data products, whether you're using Antigravity, Claude Code, Codex, or other popular tools. With GA, we are adding support for BigQuery Graph , Bigtable , and Managed Service f",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T13:00:00+00:00",
+   "id": "294333117691a99b75cd179c752f0650b8bbf9694c7724d19aeeda0f828b2be2",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Cut your AI spend with AI Gateway's Auto Router",
+   "link": "https://blog.cloudflare.com/auto-router/",
+   "summary": "Cloudflare AI Gateway now features a model router that evaluates request complexity using an edge-deployed classifier to select the optimal model. By balancing expected output quality against token costs, organizations can dramatically cut AI spend while maintaining performance.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T13:00:00+00:00",
+   "id": "70949d72fd156a220e441afcf09512250054e357b42e7470f4b83f83dfebd2ef",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Detect and send production issues straight to your agent",
+   "link": "https://blog.cloudflare.com/real-time-issue-detection/",
+   "summary": "You can now use built-in error monitoring in Cloudflare Workers to group production failures and send stack traces, logs, traces, and application context directly to a coding agent to investigate further and open a pull request.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T13:00:00+00:00",
+   "id": "63a829e6e03ea0e86593ecd25a46c6b6281b1d5c636ae88a5fe208f88004e952",
+   "tags": [
+    "cloud",
+    "networking",
+    "observability",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Simplifying domains for people and agents",
+   "link": "https://blog.cloudflare.com/simplifying-domains/",
+   "summary": "Cloudflare Registrar’s new search delivers fast, transparent results across 420+ extensions using Workers, Durable Objects, and WebSockets. Its expanded API and cf CLI also let agents search, register, and transfer domains.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T13:00:00+00:00",
+   "id": "94a7808d7ab73a9ea7b0490e46813cd7942b6f7f1c8098e23072e5f553ed2f7a",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Monetization Gateway beta: charge AI agents for consumption with HTTP 402",
+   "link": "https://blog.cloudflare.com/monetization-gateway-beta/",
+   "summary": "Cloudflare’s AI Gateway, Ceramic.ai, Stocktwits, and more are using the Cloudflare Monetization Gateway today to charge agents for access to tokens, APIs, and MCP tools. U.S.-based sellers can now apply for access to the closed beta.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T13:00:00+00:00",
+   "id": "4ea66f66a5e53840f20b82beef03c6cb4f79b71e44ae57b36d84f4e2412182ed",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Pay Per Use: when AI uses your work, you should get paid",
+   "link": "https://blog.cloudflare.com/pay-per-use/",
+   "summary": "Pay Per Use is now in beta. AI companies report when they use publishers’ content, and Cloudflare handles billing, payouts, and reporting, so our customers are paid according to use.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T13:00:00+00:00",
+   "id": "587a2204b20d3b09dbed52950cb98bd9f7cbb38d286b2e9a18569f48541960dc",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Identify AI model overuse with User Insights",
+   "link": "https://blog.cloudflare.com/ai-model-overuse-user-insights/",
+   "summary": "AI Gateway User Insights now adds task, model, turn, and user categories to help teams understand AI adoption and make better model decisions. This is available free to AI Gateway users.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T13:00:00+00:00",
+   "id": "d7f07ccfa723e359f49e9ae13763dd850d34b706d4a85e772cafe8cac1427711",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Cloudflare Containers, rebuilt to scale agent sandboxes",
+   "link": "https://blog.cloudflare.com/faster-agent-sandboxes/",
+   "summary": "Cloudflare Containers now start 6x faster, let your agent choose each sandbox's image and instance type at runtime, and support filesystem snapshots in public beta, all controlled from a Durable Object.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T12:58:00+00:00",
+   "id": "c34102ced00c0ae46b1f62155d85a453feda79cf2640cf16621047c1054d3374",
+   "tags": [
+    "cloud",
+    "cloud-native",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "The Internet has a second audience",
+   "link": "https://blog.cloudflare.com/agentic-web/",
+   "summary": "More than half the traffic reaching sites on Cloudflare is now automated, and AI agents are the fastest-growing part of it. We're giving site owners the tools to see who's visiting, decide who gets in, and charge for access.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-30T12:58:00+00:00",
+   "id": "d4646695a3c226f577168be7b6341eb2b268dbeea888fe4613d20319ffd28153",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "The Download: OpenAI’s chief research officer explains its hacking response",
+   "link": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into the computers of AI company Hugging Face,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-30T12:10:00+00:00",
+   "id": "9df99e8e8cbee1a5fc7e1d0be78467f30a2e8c1cdc5690e0e3f8634a0e9e175e",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Cloudflare plans to issue quantum-safe TLS certificates",
+   "link": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/",
+   "summary": "The move will be part of a major overhaul of the ecosystem for website authentication.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-09-30T11:15:14+00:00",
+   "id": "4d01deb89caa27750449560cb95954514885a1e9de801c04cbdbb26e6305658f",
+   "tags": [
+    "networking"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "From 40 seconds to under 10: rebuilding incident detection on OpenTelemetry, Apache Kafka, and Apache Flink on Kubernetes",
+   "link": "https://www.cncf.io/blog/2026/09/30/from-40-seconds-to-under-10-rebuilding-incident-detection-on-opentelemetry-apache-kafka-and-apache-flink-on-kubernetes/",
+   "summary": "Every SaaS company has the same uncomfortable question after a major incident: who noticed first, the monitoring or the customers? For a long time our honest answer was “it depends”. This post describes how a small...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-30T11:00:00+00:00",
+   "id": "7a5d8bd3a7cd48b88992466e641f70d49e1d6103a3f4abc6e8702073d5cbf181",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Presentation: Context Is the New Code",
+   "link": "https://www.infoq.com/presentations/context-as-code-devops-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Patrick Debois discusses how to manage, evaluate, distribute, and observe context using proven software engineering practices. He shares how treating context like code - complete with testing, CI/CD, package managers, and security scanning - enables engineering leaders to reliably scale AI coding agents, maintain control over non-deterministic outputs, and build long-term organizational knowledge.",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-09-30T11:00:00+00:00",
+   "id": "38f3b27251f27a34d2fd7329175ff9799b4e859b18f5934d5c013dd8275bfb1c",
+   "tags": [
+    "ai",
+    "architecture",
+    "dev-tools",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+   "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+   "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-09-30T10:40:30+00:00",
+   "id": "306f7562e59a464cba357b21955614255b28de91b450edc0cf27d3f5d0717d7f",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Disrupting a coordinated model-distillation campaign",
+   "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-30T10:30:00+00:00",
+   "id": "90249c2a3882c6d31b88e7cea8a85045e4eeb6a0a24ec30e6774300a2c2f9921",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Helping small businesses put AI to work",
+   "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+   "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-09-30T10:00:00+00:00",
+   "id": "061338e668ed697490e5190ccd3e1fba28ac269698517daa2fcec5875990601f",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
+  {
+   "title": "Git 2.56 Takes Aim at Messy Merges, Slow Diffs and Branch Sprawl",
+   "link": "https://devops.com/git-2-56-takes-aim-at-messy-merges-slow-diffs-and-branch-sprawl/",
+   "summary": "Git 2.56 improves merge safety, speeds up large-repository operations and adds cleanup tools that could prove especially useful for AI coding agents and busy DevOps teams.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-30T07:53:51+00:00",
+   "id": "77703fd396487ce78b948f1cba5528502100e81a85f858962714884752a1bad1",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
+  },
   {
    "title": "Agents Refactor 300K Lines in Three Weeks, and Practitioners Ask What It Proves",
    "link": "https://www.infoq.com/news/2026/09/agentic-refactoring-case-study/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -29,6 +640,20 @@
     "programming"
    ],
    "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+   "link": "https://huggingface.co/blog/open-tts-leaderboard",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-09-30T00:00:00+00:00",
+   "id": "74c2ff7e2707d1f61043b51abcb8a4e28720706a6f4caf05256394e578267110",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
   },
   {
    "title": "Amazon CloudWatch Omni Extends CloudWatch into the Agent Era",
@@ -459,9 +1084,9 @@
    "first_seen": "2026-09-30T06:33:49.534600+00:00"
   },
   {
-   "title": "Presentation: From Staff Platform Engineer to a 16z Founder: What I Wish I'd Known",
+   "title": "Presentation: From Staff Platform Engineer to a16z Founder: What I Wish I'd Known",
    "link": "https://www.infoq.com/presentations/staff-founder-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Gonzalo Maldonado explains how technical leaders can translate engineering skills into startup success using his \"VC Abstraction Layer Knowledge\" (VALK). He shares hard-won lessons on finding product-market fit, structuring pitches like technical docs, avoiding co-founder drama, and evaluating internal platforms as commercial ventures in a post-ZIRP environment. By Gonzalo Maldonado",
+   "summary": "Gonzalo Maldonado explains how technical leaders can translate engineering skills into startup success using their \"VC Abstraction Layer Knowledge\" (VALK). They share hard-won lessons on finding product-market fit, structuring pitches like technical docs, avoiding co-founder drama, and evaluating internal platforms as commercial ventures in a post-ZIRP environment. By Gonzalo Maldonado",
    "source": "InfoQ",
    "category": "Software Engineering",
    "published": "2026-09-29T09:14:00+00:00",
@@ -502,21 +1127,6 @@
    "first_seen": "2026-09-30T06:33:49.534600+00:00"
   },
   {
-   "title": "Secure AI agents with HashiCorp Boundary",
-   "link": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
-   "summary": "Enable AI agents to securely access your resources while operating within enterprise identity, access, and audit controls.",
-   "source": "HashiCorp Blog",
-   "category": "DevOps & Reliability",
-   "published": "2026-09-29T07:00:00+00:00",
-   "id": "d8013761780e650b7b730d182ef0901f321d2c936750131b954aea8c5c30a780",
-   "tags": [
-    "ai",
-    "cloud",
-    "dev-tools"
-   ],
-   "first_seen": "2026-09-23T06:32:46.398529+00:00"
-  },
-  {
    "title": "Python Workers Reach GA on Cloudflare, with Questions About Cold Starts and Upstream Maintenance",
    "link": "https://www.infoq.com/news/2026/09/cloudflare-python-workers-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Cloudflare has made Python Workers generally available, built on PEP 783 and on socket syscalls implemented over the Workers connect API. The announcement carries no performance figures. A urllib3 maintainer questioned who supports the upstream work afterwards, and Wasmer's founder asked for cold-start numbers, citing about 1.027 seconds from Cloudflare's own earlier post. By Steef-Jan Wiggers",
@@ -529,6 +1139,21 @@
     "programming"
    ],
    "first_seen": "2026-09-30T06:33:49.534600+00:00"
+  },
+  {
+   "title": "FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents",
+   "link": "https://azure.microsoft.com/en-us/blog/fabcon-and-sqlcon-2026-in-barcelona-building-the-data-foundation-for-microsoft-copilot-and-agents/",
+   "summary": "Microsoft Fabric and SQL innovations announced at FabCon and SQLCon Barcelona 2026 help organizations build trusted data foundations for AI. The post FabCon and SQLCon 2026 in Barcelona: Building the data foundation for Microsoft Copilot and agents appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-09-29T06:30:00+00:00",
+   "id": "bc3833189a0e686f0cac9cd1fc72ddfb46e7d1bd903179490028d51f45d910c7",
+   "tags": [
+    "ai",
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
   },
   {
    "title": "Introducing dots",
@@ -1145,6 +1770,20 @@
     "research"
    ],
    "first_seen": "2026-09-29T06:33:20.423526+00:00"
+  },
+  {
+   "title": "Terraform 1.16 completes Actions lifecycles and brings imports into child modules",
+   "link": "https://www.hashicorp.com/blog/terraform-116-completes-actions-lifecycles-and-brings-imports-into-child-modules",
+   "summary": "Terraform 1.16 adds destroy-time Actions and reusable imports in child modules, keeping more infrastructure lifecycle operations in Terraform.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-28T07:00:00+00:00",
+   "id": "e9858f0599b3d2a2f24ef16aa5a0a5c8c33d02b71451108c9017d26f68010e4f",
+   "tags": [
+    "cloud",
+    "dev-tools"
+   ],
+   "first_seen": "2026-10-01T06:34:08.239758+00:00"
   },
   {
    "title": "Linear Completes 1,000-PR Migration From styled-components to Meta's StyleX",
@@ -3249,6 +3888,21 @@
    "tags": [
     "architecture",
     "programming"
+   ],
+   "first_seen": "2026-09-23T06:32:46.398529+00:00"
+  },
+  {
+   "title": "Secure AI agents with HashiCorp Boundary",
+   "link": "https://www.hashicorp.com/blog/secure-ai-agents-with-hashicorp-boundary",
+   "summary": "Enable AI agents to securely access your resources while operating within enterprise identity, access, and audit controls.",
+   "source": "HashiCorp Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-09-22T07:00:00+00:00",
+   "id": "d8013761780e650b7b730d182ef0901f321d2c936750131b954aea8c5c30a780",
+   "tags": [
+    "ai",
+    "cloud",
+    "dev-tools"
    ],
    "first_seen": "2026-09-23T06:32:46.398529+00:00"
   },
