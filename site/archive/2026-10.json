@@ -1,11 +1,401 @@
 {
  "month": "2026-10",
- "updated": "2026-10-05T06:47:39.933482+00:00",
+ "updated": "2026-10-06T06:33:04.472067+00:00",
  "items": [
+  {
+   "title": "Flagged by the Machine: How Google Ads Suspended an Open-Source macOS Term as Malicious",
+   "link": "https://www.infoq.com/news/2026/10/google-wrong-flagging/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Przemyslaw Alexander Kaminski created RACE, a Rust terminal multiplexer on an infinite canvas that detaches child shells into background processes. When he launched an ad campaign, automated scanners suspended his account for malware despite clean notarization and Safe Browsing checks. The flag illustrates operational deadlocks when ad heuristics evaluate POSIX process architectures. By Olimpiu Po",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-06T05:05:00+00:00",
+   "id": "04dc008d8923da26a2f12398e373e3255e2197249f1667a5248ac7499bfa7785",
+   "tags": [
+    "architecture",
+    "open-source",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Cloudflare Introduces CLI for AI Agents, Sunsetting Wrangler",
+   "link": "https://www.infoq.com/news/2026/10/cloudflare-cf-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare recently launched the open beta of cf, a new open-source, agent-focused command-line interface for interacting with Cloudflare services through a unified CLI. Written in TypeScript, it provides structured output and command discovery to make Cloudflare’s APIs easier for both developers and AI agents. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-06T04:59:00+00:00",
+   "id": "bf61005b8921798c0e836423fbfee34fb6079109fdfcd8af8c638e0ade5dc042",
+   "tags": [
+    "ai",
+    "architecture",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+   "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+   "summary": "Trust gaps in the new protocol spread malicious prompts from one agent to another.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-10-05T22:26:35+00:00",
+   "id": "38a23f681b4cd66dc332136ad1951f1b2bf293cdb5c7311cfe3f5a9cb27e2e20",
+   "tags": [],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Kubelet watches inodes. Just not until it’s an emergency.",
+   "link": "https://www.cncf.io/blog/2026/10/05/kubelet-watches-inodes-just-not-until-its-an-emergency/",
+   "summary": "A worker node pages with NodeFilesystemFilesFillingUp. It’s on course to run out of inodes. You check the disk first, because that’s what everyone checks first, and it reads 83% used: 103G used, 22G available. Then you...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-05T21:27:03+00:00",
+   "id": "2b36c34962cbb2f2b66b11f7e1c0ceb8bd5d755fb12e83bb4e8d8beb636470be",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "6 Guidelines for Governing AI",
+   "link": "https://spectrum.ieee.org/6-guidelines-governing-ai",
+   "summary": "For the first 10 years of my career, I worked in product management and data analytics by myself. I wrote database queries that pulled numbers out of corporate systems, built statistical models to predict what customers would buy, and shipped data pipelines that moved information between business systems. I built and scaled analytics teams at Best Buy and Target , studying how customers shop and w",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-05T18:00:02+00:00",
+   "id": "2fa8331ea98a8cc8e96f14a2d0dcac9305bf499d39036458740c3cc5e1a404a4",
+   "tags": [
+    "ai",
+    "databases",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Scaling Kubernetes Workloads with Node Swap",
+   "link": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/",
+   "summary": "Memory is often the first hard limit a Kubernetes cluster hits. Nodes run out of RAM long before they run out of CPU, and the new wave of agentic AI workloads makes this worse. These workloads demand large memory footprints to start up and run untrusted code, then sit idle waiting for the next prompt. That idle but resident memory is expensive, and it caps how many pods a node can hold. This is wh",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-05T18:00:00+00:00",
+   "id": "50f31b94c19898a3b6f1ac5cd3bb0d2788b222dae330c85b980e0e3f1a6964eb",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "GitHub Slams the Brakes on Private Vulnerability Reports",
+   "link": "https://devops.com/github-slams-the-brakes-on-private-vulnerability-reports/",
+   "summary": "Drowning in AI-generated bug reports? GitHub has a radical answer: Stop accounts from reporting them. GitHub’s new limits on bug reports aren’t a solution to the AI bug-report flood. Anything but! They’re an admission that the traditional security-disclosure workflow, with human maintainers in the loop, simply doesn’t scale. The scarce resource is no longer discovering […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-05T17:51:35+00:00",
+   "id": "a5f70e3b42e4544f3ea487a42152a2a6e1d5834f86f570a29fbf92130380cfa9",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Java News Roundup: JobRunr 9, OpenXava 8, Quarkus, LangChain4j, JNoSQL, Introducing Lathe",
+   "link": "https://www.infoq.com/news/2026/10/java-news-roundup-sep28-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This week's Java roundup for September 28th, 2026, features news highlighting: the GA releases of JobRunr 9.0 and OpenXava 8.0; point releases for Quarkus, Micronaut, LangChain4j, Eclipse JNoSQL; ADK for Java and ADK for Kotlin; and introducing Lathe, a new Java language server. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-05T17:00:00+00:00",
+   "id": "a197652437ad4ed1da2d9faca411f0f8f85659a623a3909753de4a7c57d72d52",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Introducing Google Cloud Modernize, transforming for (and with) AI",
+   "link": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/",
+   "summary": "Today, we’re announcing Google Cloud Modernize , an end-to-end transformation portfolio to help enterprises collapse multi-year roadmaps with the power of AI. Google Cloud Modernize brings together Google Cloud’s proven migration and modernization tools, including Migration Center, Google Cloud VMware Engine, Google Cloud Mainframe Modernization and our new EKS-to-GKE Migration Agent , into a sing",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-05T16:00:00+00:00",
+   "id": "73aa706342e6e53b068e1464c0ebce4e73d43f24527ea6974f16a3ab9fca8e1f",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Connecting AI agents to enterprise knowledge",
+   "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+   "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-05T15:47:52+00:00",
+   "id": "84a288d265bc75f786909b8032ac586395296ee1b7a8d00907ea8dcb8e0af21f",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "AWS Weekly Roundup: Amazon Bedrock Managed Agents powered by OpenAI, Q3 service availability updates, Kiro workflows, and more (October 5, 2026)",
+   "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026/",
+   "summary": "Last week, we announced a public preview of Amazon Bedrock Managed Agents powered by OpenAI, built on a customized version of OpenAI’s Agents API engineered to be AWS-native and integrated with AWS resources. You can now build agents optimized for OpenAI models that run entirely inside AWS with the identities, permissions, and governance controls you […]",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-05T15:41:19+00:00",
+   "id": "aaca363ea3f5ab9e41abfb788096779f2ffdca824413328c4193f5433f222f4d",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Our approach to EU text provenance rules",
+   "link": "https://openai.com/index/eu-text-provenance",
+   "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-05T15:00:00+00:00",
+   "id": "d2b5b29b4c815525619915dcf133df4d932068a91ccef332cbfb8777febef4ef",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Akka Tests Spec-Driven AI Delivery Across 65 Open Source Projects",
+   "link": "https://www.infoq.com/news/2026/10/ai-spec-driven-delivery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Akka used 65 open-source projects to examine how specification structure, context, model selection, automated validation, and delivery guardrails affect AI assisted software porting. The experiment measured time, token use, code size, test parity, and performance, finding substantial variation across models, effort levels, and project types. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-05T13:58:00+00:00",
+   "id": "c099dd9fba43cce31c7f95c61f6c162a757e28141fe21d8be6419a0114b303f8",
+   "tags": [
+    "ai",
+    "architecture",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Ten Great DevOps Job Opportunities",
+   "link": "https://devops.com/ten-great-devops-job-opportunities-26/",
+   "summary": "DevOps.com is now providing a weekly DevOps jobs report through which opportunities for DevOps professionals will be highlighted as part of an effort to better serve our audience. Our goal in these challenging economic times is to make it just that much easier for DevOps professionals to advance their careers. Of course, the pool of […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-05T13:45:19+00:00",
+   "id": "00cd65f85757d1fdb5a0224a663d3a921d0d8cab717c231a169b47ad5bc47f83",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Bringing predictive analytics to the agentic AI era",
+   "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+   "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-05T13:29:32+00:00",
+   "id": "3a952689e15a707ea1119468b33e0e1ffd71e4836d8aade5d757cd1b874af0d2",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Everything we launched during Birthday Week 2026",
+   "link": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
+   "summary": "We celebrated our 16th birthday with 46 announcements across open source, post-quantum security, AI agents, and developer platform upgrades. Here’s a day-by-day roundup of everything we shipped.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-05T13:00:00+00:00",
+   "id": "b898bf00014d48c5dcea3fb9e3986d975c1cbd0c76f3738fb327c3304ca3b6eb",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "open-source",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "One year later: the power of 1.1.1.1 interns",
+   "link": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+   "summary": "A year after announcing our goal to hire 1,111 interns, more than 750 early-career builders have shipped real products across 48 teams at Cloudflare. From Birthday Week launches to post-quantum security, our interns prove that AI amplifies human potential instead of replacing it.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-05T13:00:00+00:00",
+   "id": "7b0db41b4332c86eaae0aa36d1840cfd97274ecce03be52d963cb4b7d920f691",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "The Download: AI’s popularity paradox and EmTech Future 2026",
+   "link": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. People really hate AI, so why can’t they get enough? —Will Douglas Heaven Over the summer I talked to the CEO of Springboards, a startup building an LLM designed to come…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-05T12:10:00+00:00",
+   "id": "c194adef85c8fa56bf5b564d82f90f0ef88a6be69446f7eb779d00b09a535b9c",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Presentation: Building Reusable Evaluation Frameworks for Agentic AI Products",
+   "link": "https://www.infoq.com/presentations/elastic-ai-agent-evaluations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Susan Chang explains how Elastic transitioned from siloed, ad-hoc AI agent evaluations to a unified, production-grade framework. She discusses balancing LLM-as-a-judge with deterministic rules, bridging Python data science evals with TypeScript production code, and implementing deep tracing to catch regressions across complex RAG and cybersecurity workloads while preserving domain context. By Susa",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-05T11:19:00+00:00",
+   "id": "cb3bcf27006a5f073dbe338f9bfc621ca3a57b70e511341e6cc32ed807aed3a1",
+   "tags": [
+    "ai",
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Article: The Platform Engineering Playbook for Production LLMs",
+   "link": "https://www.infoq.com/articles/platform-engineering-playbook-production-llms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this article, author discusses his experience with AI agent hallucinations in an inventory recommendation system and how this problem was solved by treating the LLM stack as a platform infrastructure concern instead of as an application one. He makes a case for a shared LLM platform with common services like prompt registry & versioning, schema enforcement and token cost attribution by request.",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-05T11:00:00+00:00",
+   "id": "6bb5ce07efdd0f63a97c1a14d9ec6476327334e75d64ca2fd6fe968f7d28bc6b",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Podcast: Future Cybersecurity: Hardware Memory Safety, Automated Governance and Post-Quantum Cryptography",
+   "link": "https://www.infoq.com/podcasts/future-cybersecurity-hardware-memory-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this episode, Chris Swan, engineer at Atsign and security track host at QCon London, reflects on the ideas shared during QCon London 2026 and teases topics of the future edition. The discussion explores how security engineering is shifting from relying on human vigilance toward automated, system-level defences across the entire application stack. By Chris Swan",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-05T11:00:00+00:00",
+   "id": "61b14d44176bc180e70ccd3d5aa82b52364928090bffaed0f8244e7c4cc71fba",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Building advertising for the way people use AI",
+   "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+   "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-05T10:00:00+00:00",
+   "id": "2d8e70fb45cef7470a5baf361c95df26b5ff7249933c340d169f562e1258ded9",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Aspire 13.6 Adds Persistent Dashboard Telemetry and First-Party Java and Rust Hosting",
+   "link": "https://www.infoq.com/news/2026/10/dotnet-aspire-13-6-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Microsoft has released Aspire 13.6. The dashboard now stores telemetry in SQLite and keeps up to ten completed runs per application. The release adds prerelease hosting packages for Java and Rust, portable volume paths, and new CLI options. Breaking changes include automatic TLS for local MongoDB resources and a new default Cosmos DB emulator image. By Almir Vuk",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-05T09:39:00+00:00",
+   "id": "4b167e95716bfa2e45bda628f4eb3543227671e0bb9cab860345dbf4e1fdcc15",
+   "tags": [
+    "architecture",
+    "networking",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Cloudflare Fixes Cross-Tenant Data Exposure in Containers",
+   "link": "https://www.infoq.com/news/2026/10/cloudflare-cross-tenant-exposure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has disclosed a cross-tenant data exposure vulnerability in Containers and Sandboxes, caused by thin-provisioned storage pools configured to skip zeroing reused blocks. Researchers recovered directory structures, database pages and complete SQLite databases across four continents. Cloudflare remediated it and found no evidence of exploitation. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-05T08:48:00+00:00",
+   "id": "9d1331e8401bcc1590ff0ee0e9c2175f8d37ed45b1e63cc84bf86023ae9a26bf",
+   "tags": [
+    "architecture",
+    "cloud-native",
+    "databases",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "Open Source Mod Brings Rate Limits, Costs and CI Status Into View for Claude Code Users",
+   "link": "https://devops.com/open-source-mod-brings-rate-limits-costs-and-ci-status-into-view-for-claude-code-users/",
+   "summary": "Claude Statuspane gives developers real-time visibility into Claude Code context use, rate limits, costs and CI status, highlighting a growing need for agent observability.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-05T08:14:44+00:00",
+   "id": "d77def904f5bbe9ecfee4976c80928ad3a1986d469f3fafcbd95b30883f7cd37",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
+   "title": "People really hate AI, so why can’t they get enough?",
+   "link": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+   "summary": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-05T08:00:00+00:00",
+   "id": "13a36d318b9d9c72695f5474610cc977c2aeef3160fc8ca08e77a004b802262c",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
   {
    "title": "Cloudflare Plans Public Certificate Authority to Issue Quantum-Safe TLS Certificates",
    "link": "https://www.infoq.com/news/2026/10/postquatam-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-   "summary": "Error generating summary: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } } By Olimpiu Pop",
+   "summary": "Cloudflare will operate a free public Certificate Authority to issue quantum-safe Transport Layer Security certificates. This initiative addresses challenges in migrating from classical public key cryptography to post-quantum methods. It utilizes Merkle Tree Certificates to reduce data payloads and maintain system efficiency, while also enhancing certificate transparency and revocation processes. ",
    "source": "InfoQ",
    "category": "Software Engineering",
    "published": "2026-10-05T05:05:00+00:00",
@@ -13,7 +403,8 @@
    "tags": [
     "architecture",
     "networking",
-    "programming"
+    "programming",
+    "security"
    ],
    "first_seen": "2026-10-05T06:47:39.933482+00:00"
   },
@@ -201,6 +592,20 @@
    "first_seen": "2026-10-03T06:31:58.009017+00:00"
   },
   {
+   "title": "Smart Car Researcher Wants to Eliminate Stoplights",
+   "link": "https://spectrum.ieee.org/smart-car-researcher-eliminate-stoplights",
+   "summary": "Christos Cassandras has spent more than 40 years studying how computers and machines make decisions. Lately, his work has focused on a problem nearly every driver knows well: sitting at a red light with no cross traffic in sight, wondering why it takes so long for the light to turn green. Cassandras, an IEEE Life Fellow, is a professor at Boston University , where he headed its systems engineering",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-02T18:00:02+00:00",
+   "id": "e9396e7977a4259409ef0efb85068cf0426be72fbe658e56beed0aaec1ed476f",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-06T06:33:04.472067+00:00"
+  },
+  {
    "title": "8 major updates to Cloudflare Observability",
    "link": "https://blog.cloudflare.com/one-observability-platform/",
    "summary": "Cloudflare is launching eight major updates that bring logs, traces, analytics, alerts, dashboards, querying, and telemetry export into one observability platform, with simpler and more predictable pricing.",
@@ -265,7 +670,7 @@
   {
    "title": "What’s new with Google Cloud",
    "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Sept 28 - Oct 2 Master",
+   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Sept 28 - Oct 2 Claude",
    "source": "Google Cloud Blog",
    "category": "Cloud & Infrastructure",
    "published": "2026-10-02T16:00:00+00:00",
