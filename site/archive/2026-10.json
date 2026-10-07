@@ -1,7 +1,580 @@
 {
  "month": "2026-10",
- "updated": "2026-10-06T06:33:04.472067+00:00",
+ "updated": "2026-10-07T06:32:36.762266+00:00",
  "items": [
+  {
+   "title": "Spanner Omni Reaches GA, Replacing Google's Atomic Clocks and File System with Software",
+   "link": "https://www.infoq.com/news/2026/10/spanner-omni-deploy-anywhere-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google has made Spanner Omni generally available, running its distributed SQL database on-premises, across clouds or on a laptop. Doing so meant replacing Colossus with a Colossus-like abstraction layer and TrueTime with software-based time synchronization. There is no availability SLA, and practitioners are pricing the move in tail latency and operational toil. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-07T04:43:00+00:00",
+   "id": "5efd38da97909c70519d2525e7a06e2d582e014484d75c67a6da72a7a0834af6",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Building Git infrastructure for agent-scale development",
+   "link": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/",
+   "summary": "We're rebuilding GitHub's Git infrastructure while GitHub keeps running, creating a foundation for agent-scale software development. The post Building Git infrastructure for agent-scale development appeared first on The GitHub Blog .",
+   "source": "GitHub Engineering",
+   "category": "Software Engineering",
+   "published": "2026-10-06T20:57:56+00:00",
+   "id": "b4388effe8232b37dff1dd10e253a2dfd6f86e72033ba1e011abd99d8eae512d",
+   "tags": [
+    "dev-tools",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Getting to Reliable AI-Driven Development",
+   "link": "https://devops.com/getting-to-reliable-ai-driven-development/",
+   "summary": "To truly transform software delivery with AI, organizations must embrace a spec-driven approach. By grounding AI in clear specifications, this approach prevents AI from generating hallucinations while optimizing token costs by 8X–12%. The use of AI in software development is now practically universal. According to the 2026 Software Lifecycle Engineering Decision Maker Survey from Futurum, […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-06T20:48:33+00:00",
+   "id": "9ba56dba2aff69c28e3d96a640e8ee50ee8e027f2e3f347c527d13db6d22a996",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+   "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-10-06T19:57:04+00:00",
+   "id": "2ee55c894d54d6ef378cd7d1845a6619020ac025413730085d4544511aa3cd8a",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Hackers obtain counterfeit TLS certificates for Google and other large services",
+   "link": "https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/",
+   "summary": "Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-10-06T19:21:14+00:00",
+   "id": "c8c4649f074ad75f012803aab64ff093b27ef49d89ab8a3543d0fe7003d28ee5",
+   "tags": [
+    "networking"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Announcing MCP Toolbox Java SDK v1.0: Agentic data access for the enterprise",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-mcp-toolbox-java-sdk-v10-agentic-data-access-for-the-enterprise/",
+   "summary": "Co-authors: Stenal Jolly , Strategic Cloud Engineer, Google Anubhav Dhawan , Software Engineer, Google Following the landmark announcement of MCP Toolbox v1.0, we're thrilled to announce that the MCP Toolbox Java SDK has officially reached version 1.0. This release brings first-class, type-safe agent orchestration to one of the world's most widely adopted enterprise ecosystems. Java's mature archi",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-06T19:00:00+00:00",
+   "id": "b6158a7625215fb58bfbe865469643149f06ab6580d1cbd02ee76847ac662abe",
+   "tags": [
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "The Shift to cgroup v2 in Kubernetes: What You Need to Know",
+   "link": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/",
+   "summary": "In Linux, cgroups (control groups) are a kernel feature used for managing system resources. Kubernetes uses cgroups to allocate resources like CPU and memory to containers, ensuring that applications run smoothly without interfering with each other. With the release of Kubernetes v1.31, support for v1 cgroup management moved into maintenance mode . Support for v2 cgroup management has been stable ",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-06T18:00:00+00:00",
+   "id": "e41aa02a68e1ba26f548b20965e5ccb30ac03bced4989b883cdb3849ef461a17",
+   "tags": [
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "The keys to the Internet change on October 11. Are you ready?",
+   "link": "https://blog.cloudflare.com/root-ksk-2024-rollover/",
+   "summary": "On October 11, 2026, the DNS root switches to a new key-signing key (KSK-2024). Learn what this means for you, and how RFC 8509 trust anchor sentinels allow you to test whether your DNS resolver is ready for the rollover.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-06T17:50:11+00:00",
+   "id": "7d1f26adcec2d6657c42f7869253bb21da3f1161a974d18e2b07c2ffeb26af59",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Weight-loss drugs show signs of slowing biological aging, say drugmakers",
+   "link": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
+   "summary": "Popular weight-loss drugs may do more than help people shed pounds. They might also melt away the years. Drug giants Eli Lilly and Novo Nordisk say patients taking their drugs age less quickly, according to readouts from molecular “aging clocks.” Such clocks assess a person’s biological age by looking at changes to DNA that accumulate…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-06T16:40:36+00:00",
+   "id": "154ce2d7796952b9c5e6d59f7066092d89126cfeb202151949fb23fc6521056e",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "All the numbers: Amazon Prime Day 2026 powered by AWS",
+   "link": "https://aws.amazon.com/blogs/aws/all-the-numbers-amazon-prime-day-2026-powered-by-aws/",
+   "summary": "Amazon Prime Day 2026 was exclusively for Prime members and ran June 23–26, 2026 with millions of deals across more than 35 categories. As part of our annual tradition of sharing how AWS powered Prime Day (2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, and 2025), I want to share the services and chart-topping metrics […]",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-06T16:09:36+00:00",
+   "id": "a3daf9270fddda7aaf788e694d0667ebe3b5bccd98e5de700b52176d66392b76",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Managed Apache Iceberg at scale: How Spanner powers Lakehouse runtime catalog",
+   "link": "https://cloud.google.com/blog/products/data-analytics/lakehouse-runtime-catalog-powered-by-spanner/",
+   "summary": "As customers modernize to lakehouse architectures, they are standardizing on open formats such as Apache Iceberg to create a shared data estate across compatible engines. This enables you to build AI-native lakehouses that turn data to semantic knowledge, enable proactive action, and operate at an agentic scale. One of the key components of a lakehouse is the catalog, and in the Apache Iceberg env",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-06T16:00:00+00:00",
+   "id": "4ea0d9bcd2441252c494200c78d233c4ed0080bd9fe143be992f198228820e4b",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+   "link": "https://openai.com/index/atlassian-partnership",
+   "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-06T16:00:00+00:00",
+   "id": "2896758265cec81d95898858cf3558ac9cdd51e4e22038c8fc6ca0aa5193f521",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+   "link": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+   "summary": "The reports of OpenAI agents harming third-party sites keep coming.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-10-06T12:21:53+00:00",
+   "id": "53954eed1507c6603ca8f675683cb0177189af03445f760bad4d1c77aeee1865",
+   "tags": [],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "The Download: 10 climate tech companies to watch",
+   "link": "https://www.technologyreview.com/2026/10/06/1145796/the-download-10-climate-tech-companies-to-watch/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. 10 climate tech companies to watch Each year, MIT Technology Review puts together a list of the most promising climate tech companies in the world. This year, the stakes feel higher…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-06T12:10:00+00:00",
+   "id": "37caa199ac3d4158f23c38a07f21c1fbb8297ec5748bbf6fe6f95b919e7e564f",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Licensing costs driving 90 percent of VMware users to explore options: Survey",
+   "link": "https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/",
+   "summary": "Users want to \"reduce risk and avoid unnecessary disruption\" while making changes.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-10-06T12:00:31+00:00",
+   "id": "2ea8e36291c5a55d68dbfd0f456ad4b86f3c8bf5bc5f838aaacb8613aef82169",
+   "tags": [],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Networking for AI inference model serving - GKE only and for all other backends",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/networking-for-ai-inference-model-serving-gke-only-and-for-all-other-backends/",
+   "summary": "Enterprises and individual developers frequently run multiple AI inference models. The right architecture can simplify how the models are called while also providing centralized governance. In this post, we'll look at two reference architectures focused on networking AI inference model serving: one for Google Kubernetes Engine (GKE) and one all other backend types. First, we'll explore the commona",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-06T12:00:00+00:00",
+   "id": "fadfc7555c0487186e5cdc794d7a9be270aded91a1c63ae782c7be60c8953d17",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "kubernetes"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "How Jump Trading is scaling quant research with ChatGPT",
+   "link": "https://openai.com/index/jump-trading",
+   "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-06T12:00:00+00:00",
+   "id": "ebb413cc5359756bf9234b81256f87104efa96c0b88df88826702769f053f0a0",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Sharing AI progress in mathematics",
+   "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+   "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-06T12:00:00+00:00",
+   "id": "00427e47df5ef3064509e152a77372922244883355c7072ea1ab24de41848a25",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "OpenTelemetry Makes Kubernetes Attributes Processor Stable as Observability Schema Matures",
+   "link": "https://www.infoq.com/news/2026/10/opentelemetry-kubernetes-observ/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "OpenTelemetry has promoted its Kubernetes Attributes Processor to v1.0.0, marking a significant step in making Kubernetes telemetry more predictable and stable across observability pipelines. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-06T12:00:00+00:00",
+   "id": "9e07b7c1674ee604d5dd6f9781ccfcb8167aa1893a6740570b3e14c555bd3ba5",
+   "tags": [
+    "architecture",
+    "kubernetes",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "The 2026-2028 CNCF ambassador cohort",
+   "link": "https://www.cncf.io/blog/2026/10/06/2026-2028-cncf-ambassador-cohort/",
+   "summary": "This year we accepted 58 new ambassadors and said goodbye to 48. All ambassadors have given their spare time to the ecosystem in one way or another, whether they are contributing to a CNCF project, preparing...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-06T11:33:00+00:00",
+   "id": "b8d90e70a0e9c35d585d97f3159e04b1afb9ef8d9a132606f93d84ce776a02f3",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "2026 Climate Tech Companies to Watch",
+   "link": "https://www.technologyreview.com/2026/10/06/1143800/2026-climate-tech-companies-to-watch/",
+   "summary": "",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-06T10:35:00+00:00",
+   "id": "ad0ddc99994ef7d45021c8321152105d03ea3a26d07fb4cbbcc9397ea486e29b",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Here’s how our climate team picked 10 promising companies to watch",
+   "link": "https://www.technologyreview.com/2026/10/06/1144978/2026-climate-tech-companies-to-watch-how-we-chose/",
+   "summary": "As the team at MIT Technology Review set out to choose companies for this year’s edition of our annual list of Climate Tech Companies to Watch, the challenge felt more daunting than any year since we started compiling the list in 2023. This year is shaping up to be one of the hottest ever recorded.…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-06T10:35:00+00:00",
+   "id": "d1a3e9cc77b527d5be882dfb052c0e7126cd6185fa9cd65015f4333fe60cc8c6",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "WeLion New Energy and its semi-solid-state batteries",
+   "link": "https://www.technologyreview.com/2026/10/06/1144987/2026-climate-tech-companies-to-watch-welion-semi-solid-state-batteries/",
+   "summary": "WeLion New Energy is on a quest to make safer, better batteries. The company’s semi-solid-state cells could improve safety and offer greater energy density than lithium-ion batteries to power electric cars, boats, and drones. From the EVs that carry commuters home to the ships that transport goods across countries, more and more vehicles around us…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-06T10:35:00+00:00",
+   "id": "dcf40201303bc447e40143d6379b42fffb1e6f49ad31e56799291e8dab892e77",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Form Energy and its iron batteries",
+   "link": "https://www.technologyreview.com/2026/10/06/1145020/2026-climate-tech-companies-to-watch-form-energy-iron-batteries/",
+   "summary": "Form Energy is building iron-based batteries that can store energy for multiple days. The company is ramping up supply at its factory and signing deals for commercial projects. New solar and wind installations produce electricity more affordably than fossil fuels in most places, but their output varies based on season, time of day, and weather.…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-06T10:35:00+00:00",
+   "id": "f61dc8a5ddce1e026a9bccec9555f3a946069e02cae6f6a039d4bfb21e06e3fc",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "X-energy and its helium-cooled nuclear reactors",
+   "link": "https://www.technologyreview.com/2026/10/06/1145025/2026-climate-tech-companies-to-watch-x-energy-helium-cooled-nuclear-reactors/",
+   "summary": "X-energy is developing small modular reactors to satisfy some of the planet’s most power-hungry users: industrial manufacturers that need high temperatures to produce billions of tons of concrete, plastics, fibers, and chemicals. Solar panels and wind turbines are great at producing electricity but what heavy industry also needs is raw heat—and lots of it. The manufacture…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-06T10:35:00+00:00",
+   "id": "4e06394f25aa0fdf86063f481e92f9b4409e4220caf31dd2d4aede2db704901c",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Energy Dome and its carbon dioxide batteries",
+   "link": "https://www.technologyreview.com/2026/10/06/1145032/2026-climate-tech-companies-to-watch-energy-dome-carbon-dioxide-batteries/",
+   "summary": "There’s a growing need for long-duration storage to meet energy demand and balance out renewables on the grid. Energy Dome uses compressed carbon dioxide gas in its massive grid batteries, which can deliver power for up to 24 hours. As the world races to meet growing electricity demand, solar and onshore wind power have become…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-06T10:35:00+00:00",
+   "id": "a72e0c3f848e0f33d5fc6f55eff726b74f1720a94b97d7b95211d524f602096d",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Brimstone and its one-stop process for making cleaner cement and critical minerals",
+   "link": "https://www.technologyreview.com/2026/10/06/1145172/2026-climate-tech-companies-to-watch-brimstone-one-stop-process-making-cleaner-cement-critical-minerals/",
+   "summary": "Brimstone is making strides on two industrial problems, reducing the emissions from cement and providing a way to produce more critical minerals within the US. If the company can do both, with the same rocks in the same plant, it would unlock a cleaner and more efficient process for manufacturing building materials, aluminum, steel, and…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-06T10:35:00+00:00",
+   "id": "97dceb236e5c2f725e7155a6123c1cb40cc8da81efa53e54d0a84f09a5f5aa0f",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "WaveSave and its portable rubber dam",
+   "link": "https://www.technologyreview.com/2026/10/06/1145208/2026-climate-tech-companies-to-watch-wavesave-portable-rubber-dam/",
+   "summary": "As sea levels rise and flood risks worsen due to global warming, WaveSave’s easy-to-erect portable dam offers a quick-response tool. People can use the dam to protect themselves and their property, and it can also store freshwater for later use. Communities in Europe, Africa, and Southeast Asia have deployed it successfully. Now, the company is…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-06T10:35:00+00:00",
+   "id": "fc7d7552bc2ac6c2993df8aa119429c077b7c29ff28061534b75fb9cf5d51250",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Advancing computer use with Ironclad",
+   "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-06T10:00:00+00:00",
+   "id": "f57eff9c23a4454b476bbb268bd95c2d23fd7e230b5d7db7db7e5bb00c25353b",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "QCon London 2027 Announces 15 Tracks on Production AI, Architecture, and Engineering at Scale",
+   "link": "https://www.infoq.com/news/2026/10/qconlondon-2027-track/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "A preview of the 15-track QCon London 2027 program, covering agent evaluation and guardrails, AI-era architecture, distributed-system debugging, modern data platforms, high-performance engineering, and Staff+ leadership. By Artenisa Chatziou",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-06T10:00:00+00:00",
+   "id": "03c1e97be22059b57c7065567d9d1aebe78316fc5e77c270844e11c8c2f62ec0",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Presentation: Building Resilient Platforms: Insights from 20+ Years in Mission-Critical Infrastructure",
+   "link": "https://www.infoq.com/presentations/infrastructure-financial-services-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Matthew Liste explains the 12 core principles of building scalable, reliable platforms for enterprise tech teams. From avoiding technical debt and managing deprecation to building a strong engineering culture, Liste discusses how to design infrastructure platforms that reduce complexity, streamline developer workflows, and deliver long-term value for senior architects and engineering leaders. By M",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-06T09:59:00+00:00",
+   "id": "3a7d7fc335ec75690d695264f3c4d09b3ca75fe1918423e6c500087835da49aa",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Security Teams Are Fixing Vulnerabilities Faster Than Ever. So Why Is Software Getting Riskier?",
+   "link": "https://devops.com/security-teams-are-fixing-vulnerabilities-faster-than-ever-so-why-is-software-getting-riskier/",
+   "summary": "AI is speeding up dependency decisions, making point-of-selection security essential for reducing vulnerable components, downstream tickets and avoidable rework.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-06T09:54:13+00:00",
+   "id": "4e8052446a014e56fc42335965e9859612f3a10ea9e2c926d1971e7e853d7dc4",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Availability Should Follow the Workload, Not the Infrastructure",
+   "link": "https://devops.com/availability-should-follow-the-workload-not-the-infrastructure/",
+   "summary": "Platform engineering has automated deployment but not recovery. The next maturity curve is intelligent operations that automate routine production decisions and resilience.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-06T09:33:41+00:00",
+   "id": "a560d0fb06ccfbe5fb994ae60216b48810e53f14583a3e1443ed8e77821cbfb4",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Taste, Discernment, and Judgment Have Become Must-Have Engineering Skills",
+   "link": "https://devops.com/taste-discernment-and-judgment-have-become-must-have-engineering-skills/",
+   "summary": "AI coding agents make code generation cheap, shifting engineering value toward standards, deterministic quality gates, contextual review and human judgment about what should ship.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-06T09:27:08+00:00",
+   "id": "6d8c8daf22c3a4f55a5e4c987898e743f149295c53d543c0b7116b8490af922f",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Happy IEEE Day!",
+   "link": "https://spectrum.ieee.org/ieee-day",
+   "summary": "Happy IEEE Day 2026! IEEE Day is an annual event that celebrates the first time in history when engineers worldwide gathered to share their technical ideas in 1884. One of the IEEE Day’s objectives is to show the ways IEEE members, in local communities, join together to collaborate on ideas that leverage technology for a better tomorrow. IEEE Day 2026 - October 6, 2026. Stay tuned as we continue t",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-06T09:21:18+00:00",
+   "id": "44461961c0378f49c96dfddc60f90e25f5e9a9c744463d04dcb1b8e341b32b32",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "QA Automation Frameworks for Enterprise Applications",
+   "link": "https://devops.com/qa-automation-frameworks-for-enterprise-applications/",
+   "summary": "Modern enterprise applications demand testing strategies that can keep pace with continuous delivery, distributed architectures, and increasingly complex deployment pipelines. Traditional manual testing approaches often become a bottleneck as engineering teams scale their applications and release software more frequently. This article explores the essential building blocks of an enterprise-grade Q",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-06T09:17:15+00:00",
+   "id": "b9e1cd9491be50c0f096dfbc512e46a685281956691b2607ca396220dbb8e274",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "AI Is Breaking Developers’ Traditional Game Testing Playbook",
+   "link": "https://devops.com/ai-is-breaking-developers-traditional-game-testing-playbook/",
+   "summary": "Game testing has always been an unpredictability problem for developers. Players move in the wrong direction, trigger events out of order, or combine mechanics no designer anticipated. Even so, developers could usually define the rules governing the world and check whether the game followed them. AI is making that harder. NPCs now react to changing […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-06T08:37:16+00:00",
+   "id": "797ce05607764be155649c6ec8f45572686be39cecc224b76e7d0e28be963cd0",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Where mission meets moonshot: Join us at the Google Public Sector Summit 2026",
+   "link": "https://cloud.google.com/blog/topics/public-sector/where-mission-meets-moonshot-join-us-at-the-google-public-sector-summit-2026/",
+   "summary": "Across the public sector, the question has shifted from “what’s possible?” to “how can we drive mission impact?” We’ll be answering this question at the Google Public Sector Summit on October 20th at the Ronald Reagan Building in Washington, D.C. This year’s summit brings together public sector leaders, creators, and builders to architect what’s next and bridge the gap between ambitious innovation",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-06T07:00:00+00:00",
+   "id": "99b8f94e1a09b405e44d9fa9b56a3ea7ebd3d00451ea6bf665d8ee9fc9919fd8",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "AlloyDB: A unified database engine for hybrid search",
+   "link": "https://cloud.google.com/blog/products/databases/simplify-ai-search-with-alloydb-hybrid-search-and-rrf/",
+   "summary": "For modern AI and RAG applications, achieving high search relevance requires that you combine at least two techniques: vector search for semantic context, and full-text search (FTS) for keyword precision. While AlloyDB for PostgreSQL supports both of these capabilities, managing them has traditionally required a more hands-on operational approach to ensure peak performance. The challenge is not ex",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-06T07:00:00+00:00",
+   "id": "f910fbb367d67fbac60c5fe3c93b68b0657b35d64f7834c44fcf47ecac466e86",
+   "tags": [
+    "ai",
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "How to fix a bug in a fix",
+   "link": "https://projectzero.google/2026/10/emergency-patching.html",
+   "summary": "Project Zero often works with software vendors to remediate the vulnerabilities we report and provide broader guidance on making software more secure. Some vendors express concern about potential scenarios in which they are unable to fix vulnerabilities that are causing immediate user harm, due to limitations in their patch delivery systems. Since Project Zero encounters a wide array of systems de",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-10-06T07:00:00+00:00",
+   "id": "df64f3cce767030eecb893b9b7ce5982fe766acff25b388043fe37108a85b023",
+   "tags": [
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
+  {
+   "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+   "link": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-10-06T06:44:39+00:00",
+   "id": "fe424883c3cacf664f5b2b38c48ff03e276a793b02e58aafe0d44ea5db932443",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-10-07T06:32:36.762266+00:00"
+  },
   {
    "title": "Flagged by the Machine: How Google Ads Suspended an Open-Source macOS Term as Malicious",
    "link": "https://www.infoq.com/news/2026/10/google-wrong-flagging/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -178,7 +751,7 @@
    "first_seen": "2026-10-06T06:33:04.472067+00:00"
   },
   {
-   "title": "Akka Tests Spec-Driven AI Delivery Across 65 Open Source Projects",
+   "title": "Akka Tests Spec-Driven AI Delivery across 65 Open Source Projects",
    "link": "https://www.infoq.com/news/2026/10/ai-spec-driven-delivery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Akka used 65 open-source projects to examine how specification structure, context, model selection, automated validation, and delivery guardrails affect AI assisted software porting. The experiment measured time, token use, code size, test parity, and performance, finding substantial variation across models, effort levels, and project types. By Leela Kumili",
    "source": "InfoQ",
