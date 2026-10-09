@@ -1,7 +1,415 @@
 {
  "month": "2026-10",
- "updated": "2026-10-08T06:34:38.919122+00:00",
+ "updated": "2026-10-09T06:33:41.315090+00:00",
  "items": [
+  {
+   "title": "Cloudflare K2 Builds Event Streams on R2 Object Storage, at a Second of Produce Latency",
+   "link": "https://www.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has launched K2 in public beta, a serverless event streaming service implementing a durable log on R2 object storage. Cloudflare states produce latency of about one second at p99; a tester reported end-to-end p99 of 7.5 seconds, which a commenter answering for the team said was higher than expected. Consume charges match produce charges per GB. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-09T05:06:00+00:00",
+   "id": "696a6dbcba86f9cb9ac458259f83f28fca8c40d83eee0c37eb79e614934ce082",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+   "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+   "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-09T00:08:24+00:00",
+   "id": "4b1ee3039cb69fe00e2590fda0223946af9d8db9a41523cc32d6f6e70101b630",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Don’t give AI agents root. Make them propose the next system state.",
+   "link": "https://www.cncf.io/blog/2026/10/08/dont-give-ai-agents-root-make-them-propose-the-next-system-state/",
+   "summary": "The uncomfortable question In the past few months, I’ve been hearing different versions of the same question: under what conditions can we safely allow an autonomous system to operate a machine? It comes up when my...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-08T22:21:41+00:00",
+   "id": "ce21230fcdf67cf76d20720c95b4d204a69dc83664728a78976a799002544f36",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "IBM and Red Hat Disclose Discovery of More Than 400 Java Vulnerabilities",
+   "link": "https://devops.com/ibm-and-red-hat-disclose-discovery-of-more-than-400-java-vulnerabilities/",
+   "summary": "IBM and Red Hat this week reported they have identified and remediated more than 400 previously unknown vulnerabilities in Java libraries since launching a Lightwell initiative earlier this year. Additionally, Lightwell Clearinghouse, a program that enables IT organizations to submit specific open source software dependencies for priority review and remediation, is now generally available. Ben […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-08T20:20:04+00:00",
+   "id": "b60c4275d40d5d14cc6328e301de28f9aca7d419dce8c6f936bbaaffac1d82a7",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "open-source",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Attaching Evidence to Alerts: an Enrichment Sidecar for Alertmanager",
+   "link": "https://devops.com/attaching-evidence-to-alerts-an-enrichment-sidecar-for-alertmanager/",
+   "summary": "Every on-call engineer knows the ritual. A page lands in Slack: the 5xx rate on a service is above the threshold. The message tells you that something is wrong and nothing about what. So you open Kibana or Loki in another tab, set the time window to the last few minutes, filter by the service, […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-08T18:09:43+00:00",
+   "id": "d43e787c98a5bccb56d6cbb2011f0c9df56171fc9cd2ee0973646d6e3dff87fa",
+   "tags": [
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "New Relic Debuts Command-Line Observability Tool for Developers and AI Agents",
+   "link": "https://devops.com/new-relic-debuts-command-line-observability-tool-for-developers-and-ai-agents/",
+   "summary": "New Relic has unveiled Ground Truth CLI, a command-line tool that enables software developers and AI agents to analyze system performance and verify whether technical issues have been resolved without needing to use dashboards. The release reflects a big shift in enterprise IT as AI agents take on more advanced troubleshooting tasks. Traditional observability dashboards […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-08T17:06:30+00:00",
+   "id": "03f40606c5b93854e0cdc3bfbaa6d1f7f266accddd0b879360f82445062c28c0",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+   "link": "https://openai.com/index/oracle",
+   "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-08T16:00:00+00:00",
+   "id": "db7b9e6fe248e3146f87743abb423de6e3dc46759771b422f1331a63b0725822",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Docsy for AI Agents, Oh, and People Too",
+   "link": "https://devops.com/docsy-for-ai-agents-oh-and-people-too/",
+   "summary": "Google’s Docsy is joining the Linux Foundation as AI agents become documentation readers. Prague — When I grew up in programming, if you didn’t understand something in the code or operating system, you were told to Read The Fine (Ah, yeah, fine) Manual (RTFM). Of course, back then we actually had manuals and documentation. Since […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-08T15:37:08+00:00",
+   "id": "d6b6ae2e4ca9d2ac61d78351207de2e8b9786174b2eb71287562670adec84017",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Harness Acquires Augment Code Assets to Expand Reach into AI Coding",
+   "link": "https://devops.com/harness-acquires-augment-code-assets-to-expand-reach-into-ai-coding/",
+   "summary": "Harness today added an artificial intelligence (AI) coding offering to its portfolio after revealing it acquired select assets from Augment Code. The Harness Cosmos Software Factory is based on Cosmos, a set of AI coding agents, an Auggie command line interface (CLI), a Code Context Engine and other related technologies originally developed by Augment Code. […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-08T15:00:38+00:00",
+   "id": "5ec36caa98a20cda308738e7209e44f8caea00d6e29fdb2bc4a43c196522164b",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Quality Debt Is the New Technical Debt",
+   "link": "https://devops.com/quality-debt-is-the-new-technical-debt/",
+   "summary": "For years, we talked about technical debt as something that quietly piles up while teams ship fast and skip cleanup. You take a shortcut now, but you pay for it later, usually at the worst possible time. A newer version of that problem is showing up in software delivery, driven by AI coding agents and […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-08T14:35:14+00:00",
+   "id": "53cfd447721a49a8720e2f7079e17260346c66f932da836dbd1939af6857436e",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+   "link": "https://blog.cloudflare.com/radar-redesign/",
+   "summary": "We redesigned Cloudflare Radar to make real-time global traffic and outage data accessible to a wider audience — including journalists, less technical researchers, and everyday users. By introducing an interactive map and standardized components, we simplified navigation while preserving technical depth.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-08T13:00:00+00:00",
+   "id": "3b06ad8d34be813a4e105543e51837596c9ba1d2d2f2a3bea3fa12600f17c58d",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Secrets Sprawl and Rotation: A Practical Vault Management Playbook",
+   "link": "https://devops.com/secrets-sprawl-and-rotation-a-practical-vault-management-playbook/",
+   "summary": "In 2025 alone, security firm GitGuardian detected 28.65 million new hardcoded secrets exposed in public GitHub commits — a 34% increase year over year and the largest single-year jump the company has recorded in five years of publishing its annual State of Secrets Sprawl report. Since 2021, that number has grown 152%, far outpacing the […]",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-08T12:39:52+00:00",
+   "id": "f200ec996eededdf089dcb55c1ef6c974b8f0605b41d85c1c40b97192866283e",
+   "tags": [
+    "dev-tools",
+    "observability",
+    "security"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+   "link": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the same AI…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-08T12:10:00+00:00",
+   "id": "66f33d3c297836e0e0d8e52ff84c20374b065b40107d7ee04e68e69d57916c1d",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Innovation in Ireland: How Irish brands scale with Gemini Enterprise",
+   "link": "https://cloud.google.com/blog/topics/customers/ireland-innovation-companies-startups-governments-scale-with-gemini/",
+   "summary": "In recent decades, Ireland has grown into a vibrant hub for global technology. As modernization accelerates, Irish organizations — spanning government agencies, established enterprise brands, and growing startups in AI and other areas — are all advancing their technical foundations. Today, leaders across the country are injecting agentic AI into every layer of their business and operational workfl",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-08T12:00:00+00:00",
+   "id": "7253e1f5d3184d305c304d61db15c9636b03d223812ad34c321e2030a537c827",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Google Public Sector and SUNY launch AI-enabled platform to accelerate university research",
+   "link": "https://cloud.google.com/blog/topics/public-sector/gps-suny-launch-ai-enabled-platform-to-accelerate-university-research/",
+   "summary": "Public research universities solve some of society’s most urgent challenges, but turning ideas into breakthroughs requires fast, secure access to cutting edge technology. In the agentic AI era institutions have an unprecedented opportunity to harness intelligent systems that can process massive datasets, run complex workflows, and dramatically accelerate the pace of scientific discovery. Today at ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-08T12:00:00+00:00",
+   "id": "8feb36c793c89deb1bd3d943c44069141f3168ba61693536a6b15fda2f541fbc",
+   "tags": [
+    "ai",
+    "cloud",
+    "research"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Empowering SMBs to do more with Gemini",
+   "link": "https://cloud.google.com/blog/topics/startups/how-to-grow-your-small-business-using-google-gemini/",
+   "summary": "Today, we announced the new Gemini agent, your single, universal agent for work. For small and midsize businesses, with lean teams and margins, Gemini will be a critical tool for you to operate efficiently, deliver excellent customer experiences, and grow. Millions of small and midsize businesses, or SMBs, already trust Google AI across multiple services, like Gemini Enterprise, Google Ads, and Go",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-08T12:00:00+00:00",
+   "id": "ec5fba5271609fcc18159be59084f0fc3400f22cc19f8cb41c5f997d6c54c43d",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Welcome to Gemini at Work 2026: Introducing the Gemini agent",
+   "link": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026/",
+   "summary": "Editor’s note: This article is adapted from Thomas Kurian’s keynote address at Gemini at Work 2026. It includes a number of announcements: Gemini , a single, universal agent for work that answers your questions, handles your knowledge work, creates your images and media, and writes and runs code. Inline in Workspace , Gemini works directly inside Gmail, Drive, Docs, Slides, Sheets, Chat, and Calen",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-08T12:00:00+00:00",
+   "id": "9de6ce5d556c1433285a8dc16967a80e213ba77f4de648aa209acc260a4aae1f",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+   "link": "https://openai.com/index/pollo-ai",
+   "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-08T12:00:00+00:00",
+   "id": "855092fba1df7e8a668bec1b409ac85f8b110a1f64384b826a3381f6d67156e4",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "LegalOn halves Codex costs while maintaining development speed",
+   "link": "https://openai.com/index/legalon-halves-codex-costs",
+   "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-08T12:00:00+00:00",
+   "id": "45d6a2b79938283a07ca47b39fd2409f4bc34d8465757047a15ff56c4f0b15f8",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Presentation: Multi-Agent Patterns from Spotify’s AI Powered Advertising Platform",
+   "link": "https://www.infoq.com/presentations/spotify-multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Pratik Rasam discusses how Spotify Ads Manager runs production-grade multi-agent systems at scale using Google ADK Java. He shares key architectural patterns, domain ownership models, deterministic guardrails, and tracing-based evaluation strategies, detailing hard-learned lessons on drawing agent boundaries, optimizing tool schemas, and managing costs while avoiding monolithic agent pitfalls. By ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-08T11:00:00+00:00",
+   "id": "fac4ebfdf3ea90737b2959c294a7742ffe8c2990be22cbeb7842527a9fc97c39",
+   "tags": [
+    "ai",
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Why we’re watching these climate tech companies",
+   "link": "https://www.technologyreview.com/2026/10/08/1145920/climate-tech-companies-list/",
+   "summary": "This week, we released our 2026 version of our Climate Tech Companies to Watch list. It’s an annual project that the MIT Technology Review team puts together. Our goal is to highlight some of the promising, interesting advances and firms we think are worth paying attention to in the world of climate and energy technology. …",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-08T10:00:00+00:00",
+   "id": "edda5c68b018758e5c95e84249f5414de3ea28581642da81c7b933c8a0326dca",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "AI breakthroughs in robotics won’t change your life any time soon",
+   "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+   "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-08T09:00:00+00:00",
+   "id": "93c31b5defc3d49a908de4b2a74306d4d5d382f03908d476865bd6d8f67a7ff3",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Building a safer path to autonomous industrial AI",
+   "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+   "summary": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the digital world, industrial AI can interact directly with physical systems,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-08T08:17:32+00:00",
+   "id": "c9f8263218d16e7752e2b6e1e02bd6fd1777825f9718a20befcfc7a7104cc4c4",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Technological Sovereignty Requires Choice, Skills, and Support, Panelists Say During OSS EU",
+   "link": "https://www.infoq.com/news/2026/10/technological-sovereignity-panel/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "European organisations can enhance their technological sovereignty by developing credible alternatives and acquiring necessary skills, rather than completely avoiding global providers. A panel discussion at the OSS EU highlighted the importance of understanding dependencies in cloud and hardware, and emphasized the need for practical choices in software for effective operational sovereignty. By Ol",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-08T08:08:00+00:00",
+   "id": "e245fcade7cc243eb80530d16e1e4f1badc3e07365d22db392dccf86572ef6e3",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Coding Agents Broke Git’s Scaling Math. GitHub Is Rebuilding to Keep Up",
+   "link": "https://devops.com/coding-agents-broke-gits-scaling-math-github-is-rebuilding-to-keep-up/",
+   "summary": "GitHub is rebuilding its Git infrastructure as AI coding agents drive billions of commits, promising up to 35x faster writes while exposing new DevOps bottlenecks.",
+   "source": "DevOps.com",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-08T07:43:20+00:00",
+   "id": "3779b19f202cd135fc8c862a32f1e590dadaf768e0769dcfb3dfa6c7500b090c",
+   "tags": [
+    "ai",
+    "dev-tools",
+    "observability"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Cloudflare Open Sources Decision Models for AI Agents",
+   "link": "https://www.infoq.com/news/2026/10/clef-decision-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "During its recent “Birthday Week”, Cloudflare announced Clef, a set of open-weight AI models designed to choose between predefined options rather than generate text. Cloudflare released 9B- and 27B-parameter models, along with a platform for adapting them to specific decision-making tasks. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-08T06:54:00+00:00",
+   "id": "8a05ee50f5b63d6bf6a12d01ac9500508ead56d87d993df2fa72cc2078fa72e1",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "Disrupting AI-enabled “false front” operations",
+   "link": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+   "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-08T00:00:00+00:00",
+   "id": "d9e485b409fe8517ac6e3a5ba39a5770caf1a72ddba21f80f7ddf66c5e1760f2",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
+  {
+   "title": "The model that didn't exist, so you made it yourself",
+   "link": "https://huggingface.co/blog/building-with-ml-intern",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-10-08T00:00:00+00:00",
+   "id": "ffd2818196374b7e8d985c5ba0d85a7cf6f6fd71833912309c34424b62f62e05",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
+  },
   {
    "title": "AI Is Taking on Entry-Level Engineering Work. Who Trains the Young Engineers?",
    "link": "https://devops.com/ai-is-taking-on-entry-level-engineering-work-who-trains-the-young-engineers/",
@@ -237,6 +645,20 @@
     "security"
    ],
    "first_seen": "2026-10-08T06:34:38.919122+00:00"
+  },
+  {
+   "title": "Introducing Falcon ASR",
+   "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-10-07T13:21:03+00:00",
+   "id": "16b7810afb00bdc03cf91abd83f9b804b576e5ff42133c9ae8d1a12944f61774",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-10-09T06:33:41.315090+00:00"
   },
   {
    "title": "HackerOne Report Surfaces Massive Increase in Vulnerability Backlogs",
