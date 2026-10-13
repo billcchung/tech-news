@@ -1,7 +1,311 @@
 {
  "month": "2026-10",
- "updated": "2026-10-12T06:48:48.209023+00:00",
+ "updated": "2026-10-13T06:36:23.862956+00:00",
  "items": [
+  {
+   "title": "Announcing AWS Lambda Web Functions",
+   "link": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+   "summary": "AWS Lambda Web Functions is a serverless compute primitive that runs your HTTP framework natively, delivering fast, consistent responses through multi-concurrent execution and automated global distribution.",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-12T22:34:47+00:00",
+   "id": "68f27b3d6a21f8067c58378393fde315aba2e03159c5b024aaddbc81d561e236",
+   "tags": [
+    "architecture",
+    "cloud",
+    "networking"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+   "link": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+   "summary": "If you’ve ever wondered how Claude and similar AI agents can answer complex questions in seconds and where they get the information, you’re not alone. Gurmeet Saran works to find that answer every day as an engineer at Anthropic in San Francisco, the AI research company behind Claude. The IEEE senior member is developing an infrastructure to understand the mechanics behind the chatbot’s behavior a",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-12T18:00:02+00:00",
+   "id": "5601d824d949d0d377bb62a77ffce01bc57d2a4cadc77fbeac3a610171022b5b",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Agentic data science with the Data Agent Kit",
+   "link": "https://cloud.google.com/blog/products/data-analytics/bringing-you-the-data-agent-kit/",
+   "summary": "Imagine your compliance team notices that payments are taking longer than expected to clear. They suspect fraud, and you’re the data scientist helping figure out which transactions to investigate first. Assembling that shortlist requires ingesting and cleaning raw transaction logs, training a model on past fraud, scoring new records, and scheduling the pipeline to run daily. Here’s how you can bui",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-12T16:00:00+00:00",
+   "id": "5f67184bf0cf9fa05cdca942629de5abdcbfb785dbc7301e95779c2758c37d3e",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "10 Years of the SRE book: Announcing the second edition of \"Site Reliability Engineering”",
+   "link": "https://cloud.google.com/blog/products/devops-sre/sre-book-second-edition/",
+   "summary": "A decade ago, Google released Site Reliability Engineering: How Google Runs Production Systems with O'Reilly Media. What began as a collection of our practices for managing large-scale infrastructure became a bestselling book, and inspired many organizations to adopt the reliability practices it outlined: applying software engineering to operations to build systems that are scalable, reliable, and",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-12T16:00:00+00:00",
+   "id": "299c2df768752f3472e1325652e947d67a27cc1f9f727620f8d1c02c327c6cc7",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Trusted Data Apps for the Agentic Data Cloud, powered by Looker",
+   "link": "https://cloud.google.com/blog/products/business-intelligence/introducing-looker-data-apps/",
+   "summary": "As a business intelligence user, this probably sounds familiar: Most dashboards only provide you with a standardized canvas and a fixed library of charts, and the “analysis” consists of a CSV export that takes you to another system. Or sometimes it's designing the dashboard that’s the challenge: You can picture the executive briefing, the customer-facing portal, or the interactive explainer that y",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-12T16:00:00+00:00",
+   "id": "6f53b0f332571fe084f1938c99462cd38231c94bd8029724a52d41dc772675e0",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Introducing TimesFM 3.0 with multivariate time-series forecasting in BigQuery",
+   "link": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/",
+   "summary": "Overview Since introducing zero-shot time-series forecasting in BigQuery with AI.FORECAST — initially powered by TimesFM 2.0 and later upgraded to TimesFM 2.5 — you have been able to generate forecasts directly in SQL without training or managing custom models. However, up until TimesFM 2.5, these foundation models were limited to univariate forecasting, predicting future values from the history o",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-12T16:00:00+00:00",
+   "id": "d87ee225f1589520d4147e68c094fa73a4eec63f577bee7ce774d3b7869e259a",
+   "tags": [
+    "ai",
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Filter, reshape, and redact logs before export with Transformers",
+   "link": "https://blog.cloudflare.com/transformers-on-logpush/",
+   "summary": "Logpush now supports Transformers, allowing teams to filter, redact, and reshape log streams using SQL before export. Powered by Apache DataFusion and Apache Arrow, Transformers apply those changes directly to log data before it reaches the destination.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-12T14:44:59+00:00",
+   "id": "713dc1089bb69aefce6c0fd8abd9a69c8efbefbbf6db91b02b92252aa834f531",
+   "tags": [
+    "cloud",
+    "databases",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Spotify More Than Doubled Monthly Code Changes as AI Accelerated Development",
+   "link": "https://www.infoq.com/news/2026/10/spotify-ai-quality-controls/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Spotify reports that AI-assisted development more than doubled monthly merged changes, prompting a review of quality and reliability controls across its engineering organization. The company describes changes to testing, observability, rollback capacity, workload prioritization, and automated maintenance as it adapts to higher software change volume. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-12T13:57:00+00:00",
+   "id": "d22c53f2d673d5afc440002370664c90a960f0e1fe900de7ad983cf7321e2140",
+   "tags": [
+    "ai",
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "First Utility-Scale Enhanced Geothermal Plant Goes Live",
+   "link": "https://spectrum.ieee.org/fervo-cape-station-geothermal",
+   "summary": "This article was originally published by Canary Media . The geothermal startup Fervo Energy is now selling power to the grid from its Cape Station project in Utah — marking the first time a utility-scale, next-generation geothermal facility has achieved such a feat worldwide. The Houston-based firm turned on an initial 33-megawatt unit late last week and has been testing and ramping up output sinc",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-12T13:00:02+00:00",
+   "id": "b795e824f954fe02479fe0709d6028b77729e8c2acbcff2c2b8c1895b42a82a1",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Deep dive into Azure Maia 300 architecture",
+   "link": "https://azure.microsoft.com/en-us/blog/deep-dive-into-azure-maia-300-architecture/",
+   "summary": "Maia 300 operates as a single platform to meet the demands of cloud-scale agentic inference. The post Deep dive into Azure Maia 300 architecture appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-12T13:00:00+00:00",
+   "id": "3b2126614cdaf5c47aede8de793833b76241ff0d07ebb3d3c56b898a456754c2",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "The Download: moon city problems and drone traffic controllers",
+   "link": "https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Mars may be a hellhole, but the moon is not far behind The US and China are racing to build bases on the moon, with NASA hoping to establish a small…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-12T12:10:00+00:00",
+   "id": "8b9896f1d469636c0a171f918df990209ba443264850c92cfc2a693fdeba00f5",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "From zero to agent builder: Running kagent on your laptop",
+   "link": "https://www.cncf.io/blog/2026/10/12/from-zero-to-agent-builder-running-kagent-on-your-laptop/",
+   "summary": "If you have seen a demo of a no-code agent builder, you know the moment. Someone types one sentence, waits a minute, and there it is: a new agent, running, with tools. It is impressive. For...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-12T11:30:00+00:00",
+   "id": "f0503775e6d163201899cce24295e97616c5a4c3727fa1cf7251adf115816176",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Article: When Should You Use Liquid Clustering? Benchmarking Lakehouse Layout Strategies",
+   "link": "https://www.infoq.com/articles/liquid-clustering-lakehouse-layout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Physical data layout is one of the most consequential decisions in lakehouse engineering. The author compares Liquid Clustering, ZOrdering, and partitioning across four workload types on Delta Lake, uncovering two undocumented failure modes that likely affect production systems today and offering a decision framework for choosing the right layout strategy. By Kushal Kumar Vishwakarma",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-12T11:00:00+00:00",
+   "id": "39244f6b8f758ea4e06d37174c964beaeb9796d809c11768d93e04309302554f",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Podcast: What Does It Really Mean To Program With AI: A Conversation with Joy Ebertz",
+   "link": "https://www.infoq.com/podcasts/what-really-mean-program-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this podcast, Michael Stiefel spoke to Joy Ebertz about how the use of artificial intelligence is changing the way architects and developers do their jobs. Focusing on the long term success of the business is one of the most neglected tasks of an architect. This task becomes particularly important as the nature of artificial intelligence changes the landscape of software development. By Joy Ebe",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-12T11:00:00+00:00",
+   "id": "993bd9b774011151c0837088351b7556aa1255a8e9968c1ec571311da3710352",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Presentation: You Can't Trust Your AI Bill. And Neither Can I",
+   "link": "https://www.infoq.com/presentations/ai-cloud-cost-economics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Erik Peterson discusses why AI spend is eclipsing cloud bills, triggering a major software engineering cost crisis. He explains tokenmaxxing, unit economics, forced developer promotions, and why fully autonomous AI will write, deploy, and govern code by 2028. By Erik Peterson",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-12T11:00:00+00:00",
+   "id": "52d8f2224249dc7617f7a9c3088a102f8ecc22ea8d4aaea86ecc1be414149c29",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "React 19.3: Adds a browser() API, Giving Client-Only Rendering a First-Class Name",
+   "link": "https://www.infoq.com/news/2026/10/react-19-3-browser-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "React 19.3 was released on September 9, introducing several features including the react-dom browser() API. This API allows components to opt out of server-side rendering, addressing issues with components that rely on client-specific data. It provides a cleaner solution for managing hydration mismatches and supports conditional data fetching, enhancing flexibility for developers. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-12T10:52:00+00:00",
+   "id": "6da5de5cb91784ad47c0a0f026de2da8d586dd2d3850085f51c3943419be487a",
+   "tags": [
+    "architecture",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Java News Roundup: Grails 8, Open Liberty, GlassFish, Infinispan, LangChain4j, Spock",
+   "link": "https://www.infoq.com/news/2026/10/java-news-roundup-oct05-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This week's Java roundup for October 5th, 2026, features news highlighting: OpenJDK JEPs Proposed to Target for JDK 28; Lazy Constants elevated to Candidate status; the GA releases of Apache Grails 8.0 and Open Liberty 20.0.0.10; point releases of TornadoVM, Infinispan, LangChain4j and Spock; and a maintenance release of GlassFish. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-12T10:10:00+00:00",
+   "id": "37b604b9032b440c879a2ab2e118ac8ee8a44d355a3950d260a2b99c628a0c79",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Mars may be a hellhole, but the moon is not far behind",
+   "link": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
+   "summary": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface between America and China—alongside a host of varyingly friendly and rival nations—plus a…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-12T09:37:02+00:00",
+   "id": "558da2095f0d31fe84c6c70626b2379e0e0e21a9af5eeb7ca6259059ef408faf",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "GitLab 19.4 Adds Goal-Driven Agents and Tighter Cost Controls",
+   "link": "https://www.infoq.com/news/2026/10/gitlab-19-4-goal-driven-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "GitLab has released version 19.4 of its DevSecOps platform, adding a goal-driven mode to GitLab Duo CLI, three hosted open-weight models, a larger set of Model Context Protocol (MCP) tools, and more detailed controls for AI spending. By Matt Saunders",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-12T09:00:00+00:00",
+   "id": "22cfbab47b6ed53d135fd194e501c6206b112f8680b1c548c1536822fc2de0ab",
+   "tags": [
+    "ai",
+    "architecture",
+    "dev-tools",
+    "programming"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "Xcode 27.2 Introduces an Agent- and Merge-Friendly JSON Format for Project Configuration",
+   "link": "https://www.infoq.com/news/2026/10/xcode-json-project-format/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Apple is introducing a new JSON-based format for Xcode project configuration files, replacing the traditional property-list-based format. Available in Xcode 27.2, the new format aims to improve readability, simplify maintenance, and make project configuration easier for AI coding agents to understand and modify. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-12T09:00:00+00:00",
+   "id": "201d4b196b3218cd72bed7a3283a9c1ff4950945a765a1b94a874e69beeb45e5",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
+  {
+   "title": "The ecologist revealing the invisible networks that revive rainforests",
+   "link": "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/",
+   "summary": "In a research station in central Panama, you can walk through a century of forest time, watching scrubby plots of adolescent trees give way to cathedral-­like canopies of mature growth. Forest ecologist Daisy Dent, a senior scientist at ETH Zurich, oversees this sequence of plots across the Barro Colorado Nature Monument, some of which date…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-12T09:00:00+00:00",
+   "id": "e06f72ff2e014e2b0bd519175b9036917b3a319b8d7c4e70c0d5d7a5fd18c398",
+   "tags": [
+    "networking",
+    "research"
+   ],
+   "first_seen": "2026-10-13T06:36:23.862956+00:00"
+  },
   {
    "title": "Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs",
    "link": "https://www.infoq.com/news/2026/10/context-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
