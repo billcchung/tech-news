@@ -1,7 +1,350 @@
 {
  "month": "2026-10",
- "updated": "2026-10-13T06:36:23.862956+00:00",
+ "updated": "2026-10-14T06:30:51.107243+00:00",
  "items": [
+  {
+   "title": "Cloudflares Newly Acquired Vite+ Reaches 1.0 with GitLab CI Support, Hooks, and tsup Migration",
+   "link": "https://www.infoq.com/news/2026/10/cloudflare-viteplus-stable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "VoidZero has launched Vite+ 1.0, the first stable version of its JavaScript toolchain. It features a command line tool for managing Node.js, package management, and frontend development from a single configuration file. Enhancements include CI integration for GitLab and Docker support. Future updates are planned, focusing on stability and diagnostics. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-14T06:15:00+00:00",
+   "id": "83db82c86964648343c17cee51352fbdce12336c91e319f377359efbe3e78c40",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "programming"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+   "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+   "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-10-14T02:00:14+00:00",
+   "id": "b76b11a1199f73b7027f051c73b169df83c2a00e9a8c2e410a485803d662c4b8",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Microsoft Patches More Than 1,400 Security Flaws",
+   "link": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+   "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.",
+   "source": "KrebsOnSecurity",
+   "category": "Security & Privacy",
+   "published": "2026-10-13T23:24:53+00:00",
+   "id": "b01cba4b27718bfca2e729aa522e03fcb11d72da715a86722758bd7079868222",
+   "tags": [
+    "privacy",
+    "security"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Topgolf saved over $11.3 million after leaving VMware",
+   "link": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
+   "summary": "Topgolf and VMware \"ran deep\" before the migration.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-10-13T21:33:43+00:00",
+   "id": "55d06fe1f460609b623d1155bd576cfc901b0ce22dadd222b687e7dfb0ce735d",
+   "tags": [],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Developing Gemini 4 Argon responsibly and safely",
+   "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-10-13T19:43:07+00:00",
+   "id": "1dc99b611b2499a3b88164db8987de9abe06ce048ee9d7f334432d8aa41fb6b9",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+   "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-10-13T17:05:48+00:00",
+   "id": "53911f98c21c784fce1ad32ff03581a81f8dabebaf6d23b86827f6c51a0cda80",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Backstage 1.55 Adds Scaffolder Task Recovery and Removes Deprecated Catalog APIs",
+   "link": "https://www.infoq.com/news/2026/10/backstage-1-55-task-recovery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Backstage 1.55 adds opt-in recovery for Software Template tasks, resuming crashed or timed-out runs from the last completed step. The release also carries breaking changes to the catalog, search and TechDocs, so teams should review their configuration before upgrading to the current 1.55.3 patch. By Mark Silvester",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-13T17:00:00+00:00",
+   "id": "a391a4341ac97c08aeddf19494a5ce85e32d1d9260e8581d19aa6d4facc5072a",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
+   "link": "https://blog.cloudflare.com/d1-control-plane/",
+   "summary": "A deep dive into how D1 architected its control plane to scale and manage millions of databases, while keeping data plane query operations at the edge. We share guiding principles on how to build on the Developer Platform effectively.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-13T16:20:18+00:00",
+   "id": "d60cd04174b97d6dadac03bb3017f0ee632d7cad76849ccaccf0bd92b37dd9ab",
+   "tags": [
+    "cloud",
+    "databases",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Gemini 4 Argon for Robotics",
+   "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-10-13T16:01:58+00:00",
+   "id": "d96a2391b623b2cb26cccc9034a5b5415f5ab7d9111c82be0f5983c8615db4d0",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Gemini 4 Argon: Built to solve your hardest problems",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-10-13T16:01:52+00:00",
+   "id": "4e31b829ae6885914a657352bbac8811fbc1f8727398eacb2a4f78ce30e284bb",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Cross-cloud conversational analytics made simple with open standards",
+   "link": "https://cloud.google.com/blog/products/data-analytics/cross-cloud-conversational-analytics-with-borderless-lakehouse/",
+   "summary": "The reality for most organizations is that data lives everywhere. As engineering teams expand and adopt specialized platforms for their workloads, enterprise data naturally disperses across multiple clouds and operational systems. When analytical and AI initiatives require context from across the entire organization,these teams traditionally face a difficult trade-off: build complex extraction pip",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-13T16:00:00+00:00",
+   "id": "546bd88a2d135533a4fc349b41c810a1539872cc8ec7a6482194d2d464f2f107",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Gemini 4 Argon available on Google Cloud, built to help solve your business’ hardest problems",
+   "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud/",
+   "summary": "Last week we announced that Gemini Enterprise has evolved to make it even simpler to get work done, and introduced the Gemini agent , your new universal agent for work. It's always on and ready to answer your questions. It will write code, complete longer and more complex tasks, or perform whatever you need to get the job done, all from a single prompt box. And model intelligence underpins it all.",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-13T16:00:00+00:00",
+   "id": "d141466fb9da2b0a33495f81a196605115aedabb16e87708ed506798bb11817c",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "AWS Weekly Roundup: Prime Day 2026 by the numbers, Claude Haiku 5.5, Amazon Nova 2.5 Sonic, and more (October 13, 2026)",
+   "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-prime-day-2026-by-the-numbers-claude-haiku-5-5-amazon-nova-2-5-sonic-and-more-october-13-2026/",
+   "summary": "Some numbers are hard to picture until you sit with them for a moment. Last week we published the Prime Day 2026 metrics, and the one that stuck with me is 2.3 quadrillion: the daily requests Amazon ElastiCache peaked at during the event. Prime Day ran back in June, so this post always lands as […]",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-13T15:59:06+00:00",
+   "id": "e4a55cbd6248607b20b77531deb7dce963dd4d899da5496737473b0980363e70",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Rewinding the exponential: How we keep hardware usage down",
+   "link": "https://blog.cloudflare.com/rewinding-the-exponential/",
+   "summary": "Our strategies to optimize our data pipeline throughput without compromising data quality.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-13T15:51:41+00:00",
+   "id": "76d3f34e8ae723f9b33697ab9bbcdf562c9d6cb452153dd21452451065b783f2",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "ZCS Command Injection via SNMP Handlers Enables Unauthenticated Remote Code Execution",
+   "link": "https://www.infoq.com/news/2026/10/zimbra-command-injection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "A critical remote command execution vulnerability in the Zimbra Collaboration Suite, identified as CVE-2026-73570, poses risks by allowing unauthorized access to mailbox data and credentials. This flaw, stemming from improper input sanitization, has been actively exploited. Organizations are advised to upgrade to version 10.1.20 or disable susceptible SNMP services to mitigate risks. By Olimpiu Po",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-13T13:13:00+00:00",
+   "id": "d1578ad3d10abc289f9fa5179516c9283d4dd9c2a452a8df53871463788d9b72",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "One Agent Development Kit, five languages",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/one-agent-development-kit-five-languages/",
+   "summary": "When we talk about agents, that doesn't necessarily mean we're talking about Python. In today's modern ecosystem, an agent might run as a high-concurrency Go microservice on Cloud Run , or live inside a browser tab calling Chrome's on-device model. Yet many agent frameworks assume a Python-only stack. That assumption forces teams to either spin up a Python service just for their agent workloads, o",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-13T12:22:00+00:00",
+   "id": "f37c6be44973d3e4ad6aa4039f1eabe83f33568a8a3380d06ba228147cefe754",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Higgsfield takes AI video from 1 minute to over 10",
+   "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+   "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-13T12:00:00+00:00",
+   "id": "8d45898e533e591d4241f4c1821bbb7b4d6f05ca764b796c7fbe29eb68dd7bc4",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026",
+   "link": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and guardrails. QCon AI New York 2026 (December 15-16) has confirmed sessions from engineers sharing how they handle these constraints. By Artenisa Chatziou",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-13T12:00:00+00:00",
+   "id": "341b0dd56fd99af002abe284a02954ea8f508bca7e60037b9aa058b60d266278",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "AWS Reworks EventBridge Custom Buses for Enterprise-Scale Event-Driven Architectures",
+   "link": "https://www.infoq.com/news/2026/10/aws-eventbridge-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has introduced an enhanced Custom Event Bus for Amazon EventBridge, targeting a problem that often emerges when event-driven architectures move beyond a single team or AWS account: the event infrastructure itself becomes fragmented. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-13T12:00:00+00:00",
+   "id": "ffd85c8ad15542cecd3813d15a2c69d735d724bd6b0d5e0e0329d8b18ae01db7",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "The Download: open model trade-offs and geothermal power’s promise",
+   "link": "https://www.technologyreview.com/2026/10/13/1146382/the-download-open-models-trade-offs-geothermal-power/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Open models have real benefits. Do they outweigh the risks? Anthropic recently released a report arguing that a powerful new model released by the Chinese company Z.ai, poses a major cyberattack…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-13T12:00:00+00:00",
+   "id": "125efda44bd939ea550569264fa3c428ad52e656be4be9331a03a1cf19e0f613",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Presentation: How Eve Online Leverages Head Based Sampling to Observe \"Fun\"",
+   "link": "https://www.infoq.com/presentations/eve-observability-head-sampling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Nicholas Herring shares how EVE Online tackles distributed tracing and observability across a 20-year-old MMO architecture. He discusses leveraging head-based, dynamic exponential moving average (EMA), and deterministic sampling techniques to maintain high system fidelity, control telemetry costs, and avoid performance degradation under high-throughput real-time game simulations. By Nicholas Herri",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-13T11:00:00+00:00",
+   "id": "8a8609f365e2ab6787c2b109d1b079fcc4504011e74e4e9005123f4a4735d647",
+   "tags": [
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Open models have real benefits. Do they outweigh the risks?",
+   "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+   "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-13T10:00:00+00:00",
+   "id": "3c693ab3618439a470e87823692b7ca5f78b1e9d0ba6c0ba538040255caa7b85",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "AI labs are buying data from dead startups to train their models",
+   "link": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+   "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-13T09:00:00+00:00",
+   "id": "bf4128f6671092f16ea0146198e01efaf4663054d55b7a0dbb7821d6eafbffc1",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
+  {
+   "title": "Cloudflare’s OHTTP Gateway Refuses to Decrypt Requests That Arrive through Cloudflare",
+   "link": "https://www.infoq.com/news/2026/10/cloudflare-ohttp-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has opened a closed beta of its OHTTP Gateway, a managed endpoint that decrypts Oblivious HTTP requests for an origin. The design choice drawing attention is a refusal: the Gateway will not decrypt requests arriving from Cloudflare Workers or from hosts proxied through Cloudflare, because that would put client identifiers and request contents in the same hands. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-13T06:44:00+00:00",
+   "id": "1bf3b983b10f0a40e8f783bb641193a88dceb980cd5ee635d1c8dd00b55be828",
+   "tags": [
+    "architecture",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-10-14T06:30:51.107243+00:00"
+  },
   {
    "title": "Announcing AWS Lambda Web Functions",
    "link": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
@@ -122,7 +465,7 @@
   {
    "title": "First Utility-Scale Enhanced Geothermal Plant Goes Live",
    "link": "https://spectrum.ieee.org/fervo-cape-station-geothermal",
-   "summary": "This article was originally published by Canary Media . The geothermal startup Fervo Energy is now selling power to the grid from its Cape Station project in Utah — marking the first time a utility-scale, next-generation geothermal facility has achieved such a feat worldwide. The Houston-based firm turned on an initial 33-megawatt unit late last week and has been testing and ramping up output sinc",
+   "summary": "This article was originally published by Canary Media . The geothermal startup Fervo Energy is now selling power to the grid from its Cape Station project in Utah—marking the first time a utility-scale, next-generation geothermal facility has achieved such a feat worldwide. The Houston-based firm turned on an initial 33-megawatt unit late last week and has been testing and ramping up output since.",
    "source": "IEEE Spectrum",
    "category": "Hardware & Emerging Tech",
    "published": "2026-10-12T13:00:02+00:00",
@@ -249,7 +592,7 @@
    "first_seen": "2026-10-13T06:36:23.862956+00:00"
   },
   {
-   "title": "Mars may be a hellhole, but the moon is not far behind",
+   "title": "What it would take to build a city on the moon",
    "link": "https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/",
    "summary": "Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface between America and China—alongside a host of varyingly friendly and rival nations—plus a…",
    "source": "MIT Technology Review",
