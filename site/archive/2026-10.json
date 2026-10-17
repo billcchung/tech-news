@@ -1,7 +1,473 @@
 {
  "month": "2026-10",
- "updated": "2026-10-16T06:30:17.195653+00:00",
+ "updated": "2026-10-17T06:27:11.905647+00:00",
  "items": [
+  {
+   "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
+   "link": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development and reach of DuckDB while maintaining its open-source status. Amazon Aurora PostgreSQL gets its first DuckDB-powered feature following the acquisition. By Gianmarco Nalin",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-17T06:00:00+00:00",
+   "id": "1b771b9fc9d3e4856bb970d7fda6c8b578cd41857c726aab12be67fe5a83cb2d",
+   "tags": [
+    "architecture",
+    "cloud",
+    "databases",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "OpenAI models hacked a crypto wallet and breached more websites",
+   "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+   "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-10-16T20:59:01+00:00",
+   "id": "5b95b356b53e30b5501bac49982795662e15c275a4b35b342562adc414ddc378",
+   "tags": [],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "How Itaú is building generative AI for its entire customer base",
+   "link": "https://openai.com/index/itau-generative-ai",
+   "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-16T19:00:00+00:00",
+   "id": "9732b2763df5a67ab9455b8255aee23064fe436ed165bb52468ec0f54969accf",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Google EnvHarness Enables Self-Evolving Agents to Learn in Dynamics Environments",
+   "link": "https://www.infoq.com/news/2026/10/envharness-self-evolving-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google researchers open sourced EnvHarness, a framework that dynamically adapts agent-training environments to an agent's weaknesses without modifying the agent, environment, or evaluation system. According to the researchers, this approach can improve both learning effectiveness and efficiency while helping agents overcome their weaknesses. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T19:00:00+00:00",
+   "id": "3e8e3a571dc4628594ccb28bde3baf9a3c218a1faaf73ab4f8a3f5d5c165ca71",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "IEEE Offers More Services to Cities That Want to Be Smarter",
+   "link": "https://spectrum.ieee.org/ieee-smart-cities-new-services",
+   "summary": "More and more city governments are using advanced technologies to improve livability for their residents. Municipalities use data from smartphones and sensors for traffic enforcement, traffic control, and waste management. They also have implemented artificial intelligence and deep learning programs. Dubai , Paris , and Coral Gables , Fla., are among the cities that have invested heavily in progra",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-16T18:00:03+00:00",
+   "id": "0a2d4eaf6989f173264290a162b67ed7665d6c18694f333bc132a53a53a5acf7",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+   "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+   "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-16T18:00:00+00:00",
+   "id": "e9e1470690b03f8063d31dd757c13efb23bc987d2c154a7040322ebe12e77f25",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Day 0 support for Reflection’s Beam on Google Cloud: 5x faster perf with llm-d and NVIDIA Dynamo",
+   "link": "https://cloud.google.com/blog/topics/ai-infrastructure/day-0-support-with-5x-perf-for-reflection-beam-on-google-cloud/",
+   "summary": "Today, Reflection released Beam , its first open-weight model built to give developers, researchers, and enterprises open control and customization for frontier software engineering and long-horizon agentic tasks. Released under a permissive Apache 2.0 license with BF16 , FP8 , and NVFP4 checkpoints available at launch, Beam sets a new standard for inference efficiency in the 500B-parameter class ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-16T17:00:00+00:00",
+   "id": "70ce28ae90120955d7bcb51de275a77f853912e26f2f767c164c070abb6b5e44",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Simulation App Speeds Up Electric Truck Battery Design",
+   "link": "https://spectrum.ieee.org/electric-truck-battery-design-simulation",
+   "summary": "This article is brought to you by COMSOL . These days, no one blinks an eye at two-day, one-day, and even same-day package deliveries. Despite the plethora of localized fulfillment and distributi on centers that have cropped up to meet the demand, delivery trucks still need to make considerably long drives, often over highways. To reduce fuel and maintenance costs as well as carbon emissions, comp",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-16T16:49:18+00:00",
+   "id": "870805f422bc5e8865056ada389c27597add4e1c72878ff8ca93f102320d6cc6",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Deploying, maintaining, and migrating production n8n on EKS",
+   "link": "https://www.cncf.io/blog/2026/10/16/deploying-maintaining-and-migrating-production-n8n-on-eks/",
+   "summary": "n8n is easy to try and harder to run under production traffic. A single container with SQLite works great for a quick demo. Production is a different story entirely. You need workers, webhook processors, PostgreSQL, Redis,...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-16T16:39:04+00:00",
+   "id": "c3021d9a55f262997b560207f8c5b407f02cbb2669649ba176fa893ba6083992",
+   "tags": [
+    "cloud-native",
+    "databases",
+    "open-source"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Ontology-Driven Observability: Building an End-to-End Knowledge Graph at Netflix Scale",
+   "link": "https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf?source=rss----2615bd06b42e---4",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "category": "Software Engineering",
+   "published": "2026-10-16T16:01:02+00:00",
+   "id": "b492017fce17ef37546b174b8870bb5017814c226f6cd17715f807cbc99d39c1",
+   "tags": [
+    "architecture",
+    "databases",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "What’s new with Google Cloud",
+   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Oct 12 - Oct 16 AI tok",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-16T16:00:00+00:00",
+   "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-07-12T10:59:18.257168+00:00"
+  },
+  {
+   "title": "Architecting autonomy: A design pattern for high-compute, governed agents in biotech",
+   "link": "https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/",
+   "summary": "In production systems today, most AI agents operate as lightweight dispatchers. They parse a prompt, make an API call, retrieve a record, and hand back control. Their execution is fast, stateless and cheap. Biotechnology does not work this way. Folding a protein target, screening a 50,000 compound ligand library, or evaluating structure-activity relationships (SAR) are not quick API lookups. They ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-16T16:00:00+00:00",
+   "id": "a6beeef5ca01b5353b22fd972263c877e4678c8f336fd882425e0493e6f511d8",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Announcing Wiz Runtime Sensor add-on for GKE: Turnkey threat detection for Kubernetes",
+   "link": "https://cloud.google.com/blog/products/identity-security/wiz-sensor-for-gke-turnkey-threat-detection-for-kubernetes/",
+   "summary": "Everything is moving faster in the age of AI, and that includes security threats. What used to take attackers weeks to exploit can now happen in just a few minutes. Standard vulnerability scans that run on artifacts at rest can catch basic setup issues, but to detect an attack that's actively happening you need real-time runtime protection. Today, we’re introducing the Wiz Runtime Sensor add-on fo",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-16T16:00:00+00:00",
+   "id": "e28e3599d0a7edb9ebc406b70238c6189248ac30a966639af65f1ecf5ce3295f",
+   "tags": [
+    "ai",
+    "cloud",
+    "kubernetes",
+    "security"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Four evaluation engineering lessons learned from building agent plugins",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/",
+   "summary": "The real challenge of building an agentic system isn't the construction, it's the measurement. Evaluation engineering is a critical foundation for building reliable AI systems. Setting up systematic, repeatable tests to measure your agent’s true behavior can be the difference between shipping a tool you can trust and one that silently breaks, fails to call APIs, or makes mistakes. I’ve run evaluat",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-16T16:00:00+00:00",
+   "id": "dfd16f84248c54f50a02db60e679340215c70ffb916fb7a842c76320da416601",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "The SAVE method: Learn the fundamentals to engineer trustworthy generative media",
+   "link": "https://cloud.google.com/blog/topics/consulting/fundamentals-to-engineer-trustworthy-gen-media/",
+   "summary": "Google Cloud Consulting works with organizations every day to build generative media that’s trustworthy, brand-aligned, and stands out. Instead of relying on clever or complicated prompting, we’ve identified four recurring basics to generate consistent results, what we call the “SAVE” method. In this blog, we’ll share more about this method and how you can apply it to your own work. S - Separate t",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-16T16:00:00+00:00",
+   "id": "df061ebc09aeb11b54be6aabf70126526b84fca1d2e0acbc533d5c8350df28d4",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Zod Brings In-Process Schema Compilation and a 9x Cut in Memory Footprint",
+   "link": "https://www.infoq.com/news/2026/10/zod-schema-compliation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Zod is a TypeScript-focused schema validation library that recently released versions 4.5 and 4.6. Key updates include schema compilation for faster data parsing, significant memory usage reductions, and new validation features. The library supports efficient validation processes and remains popular in the JavaScript ecosystem, achieving millions of downloads weekly. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T15:22:00+00:00",
+   "id": "ec46427b9e83c9c0df95ecf66f96700d1371fc2df73bd96240f9cadfcbf93c65",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Uber Automates Dependency Analysis Across Its Service Mesh",
+   "link": "https://www.infoq.com/news/2026/10/uber-automated-dependency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Uber has developed an automated dependency analysis system that uses RPC middleware and production metrics to correlate caller and downstream failures. The approach classifies dependencies as fail-close, fail-open, or unknown and addresses limitations of sampled distributed tracing for rare failures across Uber’s large service mesh. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T14:39:00+00:00",
+   "id": "249bcc510f61b1751419c0eb6e42a9c0fd8ad8d84ff3a90d32a25061012945fe",
+   "tags": [
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "AI in Production: Panellists Highlight Silent Failures, Harness Engineering, and Agent Governance",
+   "link": "https://www.infoq.com/news/2026/10/ai-systems-production/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "A recent InfoQ webinar examined operational challenges in deploying agentic systems. Key points included issues like semantic and embedding drift, which can lead to significant errors. Experts discussed the need for automated code reviews, continuous evaluation of models, and enhanced privacy measures. The session emphasised a strategic approach to deployment and security management. By Olimpiu Po",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T14:14:00+00:00",
+   "id": "b127343d894e01e983f70e5e5f7397cfb5e46925ce99398b1b0b6a4ac7f7f95e",
+   "tags": [
+    "ai",
+    "architecture",
+    "privacy",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Continuous accountability for Verified bots",
+   "link": "https://blog.cloudflare.com/verified-bots-accountability/",
+   "summary": "Identity alone doesn't guarantee a bot will behave responsibly. We are introducing a system to continuously evaluate whether Verified bots honor site preferences, like robots.txt and HTTP 429s, ensuring they remain accountable over time.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-16T13:00:00+00:00",
+   "id": "3af11c035bde63da509d153dae6887f2fe26ae5e73c750fa921477e097548063",
+   "tags": [
+    "cloud",
+    "hardware",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "The Download: failed social media bans, and extending pets’ lives",
+   "link": "https://www.technologyreview.com/2026/10/16/1146864/the-download-failed-social-media-bans-and-extending-pets-lives/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Kids are outsmarting social media bans. That’s not a problem we need to solve. —Michal Luria, Aliya Bhatia, and Danah Boyd Social media bans are stacking up. In July, France joined…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-16T12:10:00+00:00",
+   "id": "aced28da349eea04cb6c9fdc9a9191112f0f20f38afc7b0ada23395c514e8a0c",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Grafana Applies SLOs and Error Budgets to AI Agent Behaviour",
+   "link": "https://www.infoq.com/news/2026/10/grafana-slo-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Grafana Labs is proposing a familiar reliability engineering approach for one of the less familiar problems in modern software: how to measure whether an AI agent is actually behaving well. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T12:00:00+00:00",
+   "id": "8b6b332cbf29be1201af3c6e80535ee06864e327acabe4800778e2e52d36a212",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Putting Nepal on the CNCF Golden Kubestronaut map",
+   "link": "https://www.cncf.io/blog/2026/10/16/putting-nepal-on-the-cncf-golden-kubestronaut-map/",
+   "summary": "In this blog, I will share my Golden Kubestronaut journey, how I became the first and youngest Golden Kubestronaut from Nepal, what motivated me to pursue this path, and what it actually takes to earn the...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-16T11:30:00+00:00",
+   "id": "f61530528887f5a8f3866bb52a6de900010147e5fb9c689b3a7ac458be58f25b",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Mini book: Evolutionary Architecture in Practice",
+   "link": "https://www.infoq.com/minibooks/evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Discover how to keep software evolvable as systems, technology, and teams shift. This edition explores agentic fitness functions for semantic drift, treating human comprehension as a core design metric, cross-cloud guardrails for regional autonomy, and aligning technical boundaries with Conway’s Law. Move beyond static diagrams to continuous feedback systems that keep change safe and intentional. ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T11:30:00+00:00",
+   "id": "b089d988f796e86f947ca9eb767c330f504e058dd3a87e885ea01a2bb4f6a863",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Helidon 27 Introduces Restructured Programming Models and New Messaging and Data Modules",
+   "link": "https://www.infoq.com/news/2026/10/helidon-27-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The release of Helidon 27 is the first release that follows the Oracle Tip & Tail Model of Library Development by which the Tip adopts the latest Java technology while the Tail provides a more stable and secure baseline. Concurrent with the release of JDK 27, new features in Helidon 27 include: an introduction to new major modules, Helidon Messaging and Helidon Data JDBC. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T11:20:00+00:00",
+   "id": "d762ead9f16b45c62b88311021747f9822e0c9eaee672a3c11b8371eb4bdd78e",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Presentation: Exploding GPUs",
+   "link": "https://www.infoq.com/presentations/ai-security-kubernetes-gpu-threats/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Andrew Martin discusses why AI security is fundamentally tied to Kubernetes security. He shares insights into the evolving AI threat landscape, covering non-deterministic agent behavior, GPU supply chain vulnerabilities, shared compute risks, and practical defense strategies - from prompt firewalling to agentic identity - to help secure cloud-native AI workloads in production environments. By Andr",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T11:00:00+00:00",
+   "id": "c9e238a44befacd2317680beb5ed26055e9cc360dab4286ac8f37c0687146491",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "AWS Introduces Strands Decider 2B and Strands Box for AI Agent Development",
+   "link": "https://www.infoq.com/news/2026/10/aws-strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has introduced two open-source projects for AI agent development: Strands Decider 2B, a small model designed to make decisions within agent workflows, and Strands Box, a sandbox for controlling agent execution. Both projects address different aspects of building agents that use tools, execute code, and interact with external systems. By Daniel Dominguez",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T10:47:00+00:00",
+   "id": "141bf467afc85d3930f761feaf5d18ddeb00a4eebf8dd720eb094ac0711f9a87",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Article: Cryptographic Foundation of Mobile ID Systems: An ISO/IEC 18013-5 Enterprise Architecture Blueprint",
+   "link": "https://www.infoq.com/articles/enterprise-mobile-id-mdl-blueprint/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This article provides a framework for asking the right architectural questions before an enterprise commits to an mDL provider or library. It shows which components can be abstracted safely, which trust boundaries must remain visible to the enterprise, what cryptographic and interoperability properties should be verified, and how requirements change across real-world use cases. By Praveen Kumar Go",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T09:00:00+00:00",
+   "id": "09bdcf21284988d2092c416e70fb31eb86aa2d7b1ae0a89d7d8e678cdf59574f",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Chainguard Launches Secure Workspaces and Checks for AI Coding Agents",
+   "link": "https://www.infoq.com/news/2026/10/chainguard-workspaces-checks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Software supply chain security company Chainguard has announced two beta products for running and testing code written by developers and AI agents. Chainguard Workspaces provides remote development environments based on hardened microVMs, while Chainguard Checks moves continuous integration into the development loop. The company announced both products at its Assemble London event. By Matt Saunder",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-16T09:00:00+00:00",
+   "id": "772d67d9031356f7da68d581f4ecc9a17d5c67fbe561ff38206d1ddc941f20ba",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "This implant can restore sight for patients with macular degeneration",
+   "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
+   "summary": "More than 5 million people around the world with age-related macular degeneration (AMD) experience atrophy in their retinas. And until now, no treatment could restore their vision. The PRIMA system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-16T09:00:00+00:00",
+   "id": "069bd151ce00870a31cff5d7e343a5abe021ef611625ef95e56d7bae41059f8d",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Love is infrastructure",
+   "link": "https://www.technologyreview.com/2026/10/16/1145845/love-is-infrastructure-fiction-charlie-jane-anders/",
+   "summary": "I. Meet cute Barnabas and Mainspring grew up near at hand, about an hour apart with good traffic, but for a long time they weren’t close. They traded glimpses and occasional hellos and then went about their business. Both of them carried on livelier conversations with farther-flung neighbors, who were richer and had more to…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-16T09:00:00+00:00",
+   "id": "64c992f7445d757ebe0ee639b58e7ddd0bef5687a94ac8ec479c36b8179b497d",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Can’t bear to say goodbye to your pet? Biotech’s got you covered.",
+   "link": "https://www.technologyreview.com/2026/10/16/1146766/pet-biotech-longevity-cloning-cryonics/",
+   "summary": "I don’t remember much about Peppy, my first and only pet cat. I can conjure the sensation of stroking her while she purred, recall how she used to get stuck in trees (just like in cartoons!), and chuckle about the time she pooed in my baby sister’s cot. That’s about it. What I do vividly…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-16T09:00:00+00:00",
+   "id": "33d875ddf91a5d7a215b5e6ea3680aadf7a5302b250797dd4fe26a4ebf08fcdd",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Kids are outsmarting social media bans. That’s not a problem we need to solve.",
+   "link": "https://www.technologyreview.com/2026/10/16/1146834/kids-are-outsmarting-social-media-bans-thats-not-a-problem-we-need-to-solve/",
+   "summary": "Social media bans are stacking up. In July, France joined Australia in restricting minors from accessing social media—barring children under 15 from major platforms, before the ban was blocked by the country’s top court on human rights grounds. The UK aims to forbid kids under 16 from accessing Facebook, TikTok, and other platforms in early…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-16T07:56:32+00:00",
+   "id": "01bb50afd169c0791c65d906d0e5fb635c56c31f655b1f12901c8d5697e589af",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
   {
    "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
    "link": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -30,6 +496,48 @@
     "open-source"
    ],
    "first_seen": "2026-10-16T06:30:17.195653+00:00"
+  },
+  {
+   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+   "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-16T00:00:00+00:00",
+   "id": "9e63539289a31c8631b61e2dab00ee4355731974576a94679adaae67ea1b4655",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Benefit Street Partners answers questions faster with Codex",
+   "link": "https://openai.com/index/benefit-street-partners",
+   "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-16T00:00:00+00:00",
+   "id": "b6756c0a180ee554226c332b456c2b3fe634b3c508ea217138686c0c0ae92870",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
+   "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+   "link": "https://huggingface.co/blog/reflection-beam",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-10-16T00:00:00+00:00",
+   "id": "c9a6184923cc1a5837b490017ed569bb9f0183f7b39ff2df0ab9b46fbcc327c4",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
   },
   {
    "title": "Carbon as a first-class signal: Bringing software carbon intensity to OpenTelemetry",
@@ -368,6 +876,23 @@
    "first_seen": "2026-10-16T06:30:17.195653+00:00"
   },
   {
+   "title": "Extending Kubernetes policy enforcement to runtime security for AI workloads",
+   "link": "https://www.cncf.io/blog/2026/10/15/extending-kubernetes-policy-enforcement-to-runtime-security-for-ai-workloads/",
+   "summary": "Nirmata created Kyverno and donated it to the CNCF in 2020. Kyverno is now a graduated CNCF project and is widely used for enforcing and automating configuration security and best practices. However, admission control answers one...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-15T11:00:00+00:00",
+   "id": "2cbaccb24ae7fc750e510a52da492a44936bbbd235bb81846bdb41d5f7758239",
+   "tags": [
+    "ai",
+    "cloud-native",
+    "kubernetes",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
+  },
+  {
    "title": "Grafana Tempo 3.1 Adds Query-Based Trace Redaction and Sampling-Aware TraceQL Metrics",
    "link": "https://www.infoq.com/news/2026/10/grafana-tempo-31/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Grafana Labs has released Tempo 3.1, the first minor update to the 3.0 architecture. It adds TLS and additional SASL mechanisms to the Kafka client, lets operators redact traces with a TraceQL query instead of a list of trace IDs, and introduces an experimental query-time hint that corrects TraceQL metrics for sampled data. By Claudio Masolo",
@@ -690,6 +1215,19 @@
     "programming"
    ],
    "first_seen": "2026-10-15T06:30:51.889303+00:00"
+  },
+  {
+   "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms",
+   "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-server-virtualization-platforms/",
+   "summary": "We're building operational consistency through Azure and Azure Arc, and infrastructure consistency through Hyper-V. The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Server Virtualization Platforms appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-14T19:00:00+00:00",
+   "id": "dc40728cd56698ad65dfafbf3255ed64b6c29ab3a0840a449dd6545b8ee72697",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-17T06:27:11.905647+00:00"
   },
   {
    "title": "Why Is My Kubernetes Job Still Pending? Tracing Kueue Admission with Headlamp",
@@ -4226,19 +4764,6 @@
     "observability"
    ],
    "first_seen": "2026-10-03T06:31:58.009017+00:00"
-  },
-  {
-   "title": "What’s new with Google Cloud",
-   "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-   "summary": "Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Sept 28 - Oct 2 Claude",
-   "source": "Google Cloud Blog",
-   "category": "Cloud & Infrastructure",
-   "published": "2026-10-02T16:00:00+00:00",
-   "id": "d38b64296c7190bdeefcd18f395a8756cf5bd678a216525d01fadbc6cb71c0b4",
-   "tags": [
-    "cloud"
-   ],
-   "first_seen": "2026-07-12T10:59:18.257168+00:00"
   },
   {
    "title": "Announcing Spanner queues: Transactional messaging for agentic workloads and beyond",
