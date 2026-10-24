@@ -1,7 +1,263 @@
 {
  "month": "2026-10",
- "updated": "2026-10-23T06:30:37.476218+00:00",
+ "updated": "2026-10-24T06:27:45.962159+00:00",
  "items": [
+  {
+   "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
+   "link": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4",
+   "summary": "",
+   "source": "Netflix TechBlog",
+   "category": "Software Engineering",
+   "published": "2026-10-23T18:32:51+00:00",
+   "id": "c8dd0970cc696d3609d4dc392d6d5d1a0307a8fc86412c770f58ff5d1bc63f08",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "Origin Range Requests: Serving large files without range-request tuning",
+   "link": "https://blog.cloudflare.com/origin-range-requests/",
+   "summary": "Naive byte-range caching can waste gigabytes of origin bandwidth on small requests. We rebuilt our cache architecture in Pingora to coordinate partial fetches automatically, cutting R2 p99 latency in half.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-23T18:22:59+00:00",
+   "id": "e7fa8884a094c2e44658c0a9442853c1512ad01b9b9d9bf8f42e9e2d70d93a8d",
+   "tags": [
+    "architecture",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "Bringing post-quantum cryptography to geographically fenced key management",
+   "link": "https://blog.cloudflare.com/post-quantum-geo-key-manager/",
+   "summary": "Cloudflare's new post-quantum GeoKey Manager protects geographically fenced decryption keys from harvest now, decrypt later attacks. Learn how we redesigned our cryptography stack to support strict data sovereignty in a post-quantum world.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-23T18:06:56+00:00",
+   "id": "aa0e139f9bffe868d42b30ac3b3230d3b8f9aec24e575938145ad5cf62fb8eb1",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "From Chip Lab to Center Stage",
+   "link": "https://spectrum.ieee.org/preethi-ashwath-chip-designer",
+   "summary": "Many engineers are more comfortable working behind the scenes developing technology than speaking to consumers about products. But Preethi Ashwath has learned to take center stage, talking about the “hearable” and wearable devices she has had a hand in developing as an analog integrated circuit designer in the consumer electronics division at Analog Devices of Wilmington, Mass. The IEEE member is ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-23T18:00:03+00:00",
+   "id": "632d0687a37b3389f77e04d7a537678640cd8bc888a7c504d0bbbef089b8ffc3",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+   "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+   "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-23T17:00:00+00:00",
+   "id": "ee4c22366ef7e7abd786b0a4bc8d65774ddf350a3208b6c38568ae822ed0b9b0",
+   "tags": [
+    "ai",
+    "cloud",
+    "research"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+   "link": "https://huggingface.co/blog/allenai/litpivot",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-10-23T16:15:50+00:00",
+   "id": "5d794c3788a3a4be0d4215599516884eae43a82888c86723f4c4d433d59805d7",
+   "tags": [
+    "ai",
+    "open-source",
+    "research"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "CSIRO Uses Serverless Architecture to Query 100x More Genomic Variants on AWS",
+   "link": "https://www.infoq.com/news/2026/10/csiro-serverless-genomic-variant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "CSIRO has developed Serverless Beacon, a serverless architecture for querying genomic variants without copying VCF files into a central database. The system combines Amazon S3, Lambda, Athena and DynamoDB, using metadata indexes and HTTP byte range requests to query compressed genomic regions. Tests reported 1.52 second average latency for 10,000 base pair queries. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-23T14:30:00+00:00",
+   "id": "7f72717ce6edefe22b62997ffa294eb84afcf06624cf63c75b82378f4345628d",
+   "tags": [
+    "architecture",
+    "cloud",
+    "databases",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "AWS Introduces Lambda Web Functions for Node.js Applications",
+   "link": "https://www.infoq.com/news/2026/10/aws-lambda-web-functions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS recently introduced Lambda Web Functions, allowing developers to run Node.js web applications using frameworks such as Express and Hono directly on Lambda, with support for concurrent requests and response streaming. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-23T12:49:00+00:00",
+   "id": "41f4f242def515976daf36c4c64c002d9bdc572d1944c1526e1bf5b5e5501762",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "The Download: testing six tech promises and biotech’s blind spots",
+   "link": "https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossible feats are too good to give up on. Decoding a pet’s yowls and yips? Absolutely. Scrubbing…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-23T12:10:00+00:00",
+   "id": "daf552559e4c1c9f2310f601c8b807a3b2bb2fbc862a0e71dddd4ef87b757db3",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "Cloudflare Brings On-Demand CPU and Memory Profiling to Production Workers",
+   "link": "https://www.infoq.com/news/2026/10/cloudflare-cpu-memory-profiling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has introduced on-demand CPU and memory profiling for Workers and Durable Objects, allowing developers to investigate performance bottlenecks in production using interactive flamegraphs. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-23T12:00:00+00:00",
+   "id": "54ab4079124911f87bf6561789b9f6a11e87f256f109b44a388d5423ad58f926",
+   "tags": [
+    "architecture",
+    "hardware",
+    "programming"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "Multi-tenant GPU Kubernetes on simulated hardware with Kamaji and HAMi",
+   "link": "https://www.cncf.io/blog/2026/10/23/multi-tenant-gpu-kubernetes-on-simulated-hardware-with-kamaji-and-hami/",
+   "summary": "GPU teams usually face a bad trade-off. Give every team its own Kubernetes cluster and you pay for a control plane per team. Put everyone in one shared cluster and you get weak isolation. Either way,...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-23T11:30:00+00:00",
+   "id": "a56c1b0f0488a5ae1a6ce053d40bb1ef530698596256b3ec89b0296f4d312608",
+   "tags": [
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "Article: Multi-Cloud FinOps: An Engineering Framework for Cross-Cloud Cost Optimization",
+   "link": "https://www.infoq.com/articles/multi-cloud-finops-cost-optimization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Multi-cloud flexibility comes with hidden egress costs driven by service placement and communication patterns. This article applies Backend FinOps to cross-cloud architecture, covering cost visibility through FOCUS, workload placement, synchronization models, and CI/CD-integrated cost governance. A controlled experiment shows architecture changes saved far more than rate negotiation alone. By Vive",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-23T11:00:00+00:00",
+   "id": "617327c4aceb3cf8deb1cf59fbf7edca66b56e460dd6f34325fd34e11f309732",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "programming"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "Presentation: Move Fast, Don’t Break Trust: Shipping Constantly with Humans and Beyond",
+   "link": "https://www.infoq.com/presentations/monzo-microservices-devex/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Suhail Patel discusses how Monzo structures its software engineering organization and technical stack to ship safely hundreds of times a day. He shares insights into opinionated microservice abstractions, tenancy-based staging, static analysis checks, continuous profiling, demonstrating how a strong internal platform enables engineers and LLMs to iterate rapidly without sacrificing reliability. By",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-23T11:00:00+00:00",
+   "id": "1c5b751dcf54788559e69b11f3a049b86482befb10df8ded3e6d15c78cecfb4c",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "Securing our frontier model training environment",
+   "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-23T10:00:00+00:00",
+   "id": "f8c156dba7886826388b35c0408d87e493aa3c6ad59ba61bfe6146ea7a6b00f6",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects",
+   "link": "https://www.infoq.com/news/2026/10/anthropic-oss-security-scanner/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AI company Anthropic has launched OSS Scanner, a free, opt-in service to find vulnerabilities in open-source projects. Enrolled maintainers receive periodic security reports generated by the company's strongest models, including Claude Mythos. The reports are sent without human review, and project maintainers can choose to validate their findings and decide which proposed fixes to accept. By Matt ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-23T09:00:00+00:00",
+   "id": "82d6126d8a31acc03c122c39e5b6d83201fd65a6c84d66cdc471d470c84efd69",
+   "tags": [
+    "ai",
+    "architecture",
+    "open-source",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "In the biotech world, you can’t see everything",
+   "link": "https://www.technologyreview.com/2026/10/23/1147610/biotech-you-can-see-everything-theranos-holmes/",
+   "summary": "Earlier this week, I attended a screening of You Can See Everything, the buzzy new documentary about the disgraced former biotech CEO Elizabeth Holmes. I went in not really knowing what to expect. I’d avoided spoilers (and won’t be giving anything away here, either!). I was wondering what new information this film could reveal, given…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-23T09:00:00+00:00",
+   "id": "f523dbd065f985343b9b4a687e5b5839711f8afb594ddc6bf36ec806b6a42ee2",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
+  {
+   "title": "NgRx 22: Resource Extensions and Dynamic Deep Signals for Angular",
+   "link": "https://www.infoq.com/news/2026/10/ngrx-22-angular/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "NgRx 22 adds experimental resource extensions that change Angular's resource behavior, so value() is retained during reloads and no longer throws on errors. It also introduces dynamic deep signals for union types, a SignalStoreFeatureType utility, and ESLint v10 support. Upgrading requires Angular 22 and TypeScript 6.0, and most breaking changes have automated migrations. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-23T08:08:00+00:00",
+   "id": "e569ce8942b0108dc51ba2d0d8f84fcae502dcb7bb3a41d7123e2ca7344e37ae",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
+  },
   {
    "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
    "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
@@ -16,6 +272,21 @@
     "security"
    ],
    "first_seen": "2026-10-23T06:30:37.476218+00:00"
+  },
+  {
+   "title": "Does Your Model Run on AWS Trainium? Look It Up",
+   "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-10-23T00:00:00+00:00",
+   "id": "2b3f616d26d343fed7789052f7d45765c10f64079fafbd4a9ee06dcaf0e956ff",
+   "tags": [
+    "ai",
+    "cloud",
+    "open-source"
+   ],
+   "first_seen": "2026-10-24T06:27:45.962159+00:00"
   },
   {
    "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
@@ -333,7 +604,7 @@
    "first_seen": "2026-10-23T06:30:37.476218+00:00"
   },
   {
-   "title": "Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded",
+   "title": "Vercel Labs Open-Sources fx: a Zig Coding Agent Designed to Be Embedded",
    "link": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questioned its model-agnostic claim and a name conflict with an existing tool. Vercel says the project is pre-1.0 and changing quickly. By Daniel Curtis",
    "source": "InfoQ",
@@ -670,7 +941,7 @@
   {
    "title": "Responding to core PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619",
    "link": "https://cloud.google.com/blog/products/identity-security/responding-to-core-php-vulnerabilities-cve-2026-109618-cve-2026-109619/",
-   "summary": "Editor's note : This blog was updated on Oct. 22, 2026 at 4:07 p.m. PDT with revised guidance for Security Command Center, and at 9:25 a.m. PDT, with revised guidance on Cloud Armor, and on Oct. 21, 2026, with additional guidance on monitoring, patching, and remediation. PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language runtime that can expose applications ",
+   "summary": "Editor's note : This blog was updated on Oct. 23, 2026 at 3:20 p.m. PDT, with additional guidance from Mandiant Consulting on monitoring, patching, and remediation. We have previously updated the blog on Oct. 22, 2026, with revised guidance for Security Command Center and Cloud Armor, and on Oct. 21, 2026 . PHP and Wiz Research disclosed today two critical vulnerabilities in the core PHP language ",
    "source": "Google Cloud Blog",
    "category": "Cloud & Infrastructure",
    "published": "2026-10-21T14:00:00+00:00",
