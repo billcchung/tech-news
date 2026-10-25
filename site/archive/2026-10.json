@@ -1,7 +1,50 @@
 {
  "month": "2026-10",
- "updated": "2026-10-24T06:27:45.962159+00:00",
+ "updated": "2026-10-25T06:27:54.420464+00:00",
  "items": [
+  {
+   "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
+   "link": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google explained how an 11-hour unattended run of Gemini 4 Argon produced two accepted optimizations for Google Agent Development Kit's codebase, reducing in-memory session-preparation overhead by about 40% in long sessions and cold package import time by 21%. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-24T16:00:00+00:00",
+   "id": "fd8ce425f57cc60fd9accd2a47a7c0e852e7d2958bdf90512a0bf3f350e110e1",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-25T06:27:54.420464+00:00"
+  },
+  {
+   "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+   "link": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and practitioners need to tell them apart: one is a skill asking the agent to stop, the other an IAM deny policy that refuses the call. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-24T08:34:00+00:00",
+   "id": "d26f3b9150349619663dadbc0d64f70654fec9ac9f3613c9c2a82ad8b1e0007e",
+   "tags": [
+    "architecture",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-10-25T06:27:54.420464+00:00"
+  },
+  {
+   "title": "Cloudflare Reclaims 100 TB of RAM by Optimizing Consistent Hashing",
+   "link": "https://www.infoq.com/news/2026/10/cloudflare-hashing-optimization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare recently documented how it reduced the memory footprint of its internal load-balancing service by more than 100 TB by optimizing the Rust implementation of consistent hashing in pingora-ketama. The changes compacted hash-ring entries and used statistical analysis of hash distribution and collision rates to reduce the number of hashes per backend by about 90%. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-24T08:10:00+00:00",
+   "id": "71ff7a2ca210328d29be84c64004fa3f6c759ce58323894edf033580037e549a",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-25T06:27:54.420464+00:00"
+  },
   {
    "title": "Beyond API Compatibility: Building a Tool to Measure the Blast Radius of Library Changes",
    "link": "https://netflixtechblog.com/beyond-api-compatibility-building-a-tool-to-measure-the-blast-radius-of-library-changes-9474f2fd4f90?source=rss----2615bd06b42e---4",
