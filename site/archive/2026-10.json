@@ -1,7 +1,85 @@
 {
  "month": "2026-10",
- "updated": "2026-10-25T06:27:54.420464+00:00",
+ "updated": "2026-10-26T06:40:51.329027+00:00",
  "items": [
+  {
+   "title": "PHP Patches Two Critical RCE Flaws That Were Already Under Attack",
+   "link": "https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attempt four days before the patches shipped, and operators spent the day working out whether they ran PHP, where to get the package, and how to tell it had landed. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-25T18:07:00+00:00",
+   "id": "9192ee78f4b5d546ef1d011df61fc875f9c44b8d8742e921648e6bddd6ae9cd1",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-26T06:40:51.329027+00:00"
+  },
+  {
+   "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
+   "link": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS released TorchNeuron for Trainium the same week, while developers questioned TPU availability and where vendor lock-in now sits. By Andrew Hoblitzell",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-25T18:00:00+00:00",
+   "id": "d9e960eea4aa207a38bc46c815d682eb5e325ebdfeffb9699ac92f19ad8bb11f",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-10-26T06:40:51.329027+00:00"
+  },
+  {
+   "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
+   "link": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardware and low-level APIs, supporting OpenGL ES, OpenCL, Metal, and WebGPU. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-25T17:00:00+00:00",
+   "id": "1038f10920774be58967294dfc5cebae60466102712701def1d2f291415e61ca",
+   "tags": [
+    "ai",
+    "architecture",
+    "hardware",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-10-26T06:40:51.329027+00:00"
+  },
+  {
+   "title": "Poetry for Engineers: Of Code and Shortleaf Pine",
+   "link": "https://spectrum.ieee.org/poetry-for-engineers-of-code-and-shortleaf-pine",
+   "summary": "I step into the warm moist air among the columns of the pines, their net of twigs and roots complex as any lines of code. The trees purify and anchor. Their branches balance my restlessness. Their calling is to be present, mine to develop apps. Our tasks verge toward a common logic: living filaments of root, of interface.",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-25T12:00:02+00:00",
+   "id": "12a6910c38bf261d823bb8eebe45c6cf4bd89f3be0ecbff3b06c58a0878cf4cc",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-26T06:40:51.329027+00:00"
+  },
+  {
+   "title": "PingCAP Breach Exposes Customer Records and Source Code",
+   "link": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data. The attacker, cyber extortion group FulcrumSec, claimed to have stolen 10.6 TB of data, including TiDB Cloud control-plane records, customer SQL statements, API keys, connection logs, billing information, internal documents, and 413 private source-code repositories. By Ren",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-25T06:27:00+00:00",
+   "id": "6b79520dc9685a97e9a96e573f86ad0f544ad67b82c6e1b57a052b350d06b3c2",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-10-26T06:40:51.329027+00:00"
+  },
   {
    "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
    "link": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
