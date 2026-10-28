@@ -1,9 +1,375 @@
 {
  "month": "2026-10",
- "updated": "2026-10-27T06:30:36.976730+00:00",
+ "updated": "2026-10-28T06:22:52.150499+00:00",
  "items": [
   {
-   "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
+   "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+   "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+   "summary": "Critical flaw in EDK2 allows attackers to execute code early in the boot process.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-10-27T20:25:55+00:00",
+   "id": "7111ef88cef63a435929f84a977a691b093e738a488b46a1c2c667c59471a49e",
+   "tags": [],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Introducing VMware solution on Google Cloud",
+   "link": "https://cloud.google.com/blog/products/infrastructure-modernization/vmware-solution-on-google-cloud/",
+   "summary": "Many organizations with workloads on VMware are looking for ways to expedite their data center exits, migrate and modernize their mission-critical workloads, or simply leverage the cloud as a secondary disaster recovery site. But they want to do so without altering existing operational playbooks. Today, we are announcing the general availability of the VMware solution on Google Cloud, part of the ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-27T20:00:00+00:00",
+   "id": "7095ca0b0a00daf7ba6bc9eebc05675a8c6e1ff69145a77f27d45737e1d576d0",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Powering the agentic enterprise with latest innovations in Oracle AI Database@Google Cloud",
+   "link": "https://cloud.google.com/blog/products/databases/oracle-ai-databasegoogle-cloud-whats-new-at-oracle-ai-world/",
+   "summary": "For decades, core enterprise operations — from global supply chains and financial ledgers to billing engines — have relied on the performance and transactional integrity of Oracle databases. Today at Oracle AI World in Las Vegas, Google Cloud and Oracle are expanding our partnership across the AI stack — spanning AI compute and infrastructure (including making Google TPUs available through Oracle ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-27T19:30:00+00:00",
+   "id": "831d749f88e7e473ab2c739ac031c78093d61cf0faf41dca539b0e59c3298d14",
+   "tags": [
+    "ai",
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Build specialized multimodal models with LFM3",
+   "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-10-27T17:16:52+00:00",
+   "id": "1c5b51464767c2ad29498f22c3230eb67bc2e05dfccf5184d942345b7a68fe50",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
+   "link": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+   "summary": "This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of those inputs is wrong, and the robot still re",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-27T16:14:39+00:00",
+   "id": "37742d3845ce7f7bb02987079e4185832a576e47184c1c20762a458570fd9310",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Can we trust LLMs to judge whether a research idea is novel?",
+   "link": "https://huggingface.co/blog/allenai/novelty-bench",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-10-27T16:12:42+00:00",
+   "id": "1d6c5c59e46e52b936cbc7b983785a69d62ade05b868a690011ee911fd57d509",
+   "tags": [
+    "ai",
+    "open-source",
+    "research"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Securely connecting Gemini Enterprise to Snowflake data",
+   "link": "https://cloud.google.com/blog/products/data-analytics/bridge-gemini-enterprise-and-snowflake-with-google-adk/",
+   "summary": "Enterprise AI needs to go beyond simple chat interfaces. To provide real value, AI agents must access your data warehouses to generate actionable insights, all while maintaining strict security and data governance. This guide explores how to build a secure bridge between Google Cloud’s Gemini Enterprise and Snowflake. By using the Model Context Protocol (MCP) and the Google Agent Development Kit (",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-27T16:00:00+00:00",
+   "id": "dc4a84f8dbf6ccb353e3991eac5e2d137315aa416dadc84ea9c330e6f9f804b9",
+   "tags": [
+    "ai",
+    "cloud",
+    "databases",
+    "security"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Scale agents securely with IAM Helper Agent Skills and MCP Tools",
+   "link": "https://cloud.google.com/blog/products/identity-security/scale-agents-securely-with-iam-helper-agent-skills-and-mcp-tools/",
+   "summary": "As organizations adopt autonomous agents to build applications, securing identities and access has become more challenging. Developers relying on agents to provision cloud resources, write Terraform, and deploy microservices at machine-speed only find their CI/CD pipelines blo cked even faster as security friction scales. To help you get ahead of agentic-era Identity and Access Management, today w",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-27T16:00:00+00:00",
+   "id": "358a2766e61652eead81eb679d8269829224beafddfcf8ea03ae790d9386bbc3",
+   "tags": [
+    "architecture",
+    "cloud",
+    "dev-tools",
+    "security"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Retell uses OpenAI models to help power 100M monthly calls",
+   "link": "https://openai.com/index/retell-ai",
+   "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-27T15:00:00+00:00",
+   "id": "1e3ebf94e41ebe19793bfa16d9a1ceac171abfb39683d16886169781f84081b8",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Bringing Google TPUs to Oracle Cloud Infrastructure",
+   "link": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure/",
+   "summary": "As AI workloads scale across every industry, organizations need compute options that optimize throughput, latency, and unit economics across the AI lifecycle. To meet this demand, Oracle and Google Cloud are partnering to bring Google Tensor Processing Units (TPUs) to Oracle Cloud Infrastructure (OCI), making OCI the first hyperscaler outside Google to offer TPUs. Together, we will deploy TPU capa",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-27T14:00:00+00:00",
+   "id": "f765831c93a44fc77cacfe4ea42a0f40816a51bc825dff7a6c01da65391ee261",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "I Used AI to Fake a Scientific Paper. Here’s What Happened",
+   "link": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+   "summary": "Science has a spam problem. And the spam filter is getting clogged up. According to all reports, academic publishing is drowning in what has come to be called AI slop: low-quality, mass-produced content generated with AI. By 2025, an estimated 57 percent of all published academic articles exhibited detectable evidence of large language model (LLM) influence, a massive jump from 12 percent in 2023.",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-27T13:00:03+00:00",
+   "id": "562ada87341186dc7d5bb788717e9ab687d6b0afa2d69dfa57486bb09e3a2f33",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud",
+   "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud/",
+   "summary": "Earlier this year, we introduced Gemini Robotics 2 — our next-generation intelligence layer enabling robots to think, act, and adapt in the physical world. At the core of this breakthrough is Gemini Robotics Embodied Reasoning 2 (ER 2) , a specialized Gemini model that serves as a robot’s high-level brain. Working across any robot embodiment — from stationary arms to full humanoids — Gemini Roboti",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-27T13:00:00+00:00",
+   "id": "8ce0d7dbd0175642b27b74baa318dfd77aa6a2e962ec7255644a24096724849d",
+   "tags": [
+    "cloud",
+    "hardware"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+   "link": "https://blog.cloudflare.com/php-ctf/",
+   "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Internet safer.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-27T13:00:00+00:00",
+   "id": "2e7d78b7cb862cf6267f8670857fe112ecfc592d68a336989c16d9bd80ddefc9",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "What took the Internet offline in Q3 2026",
+   "link": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+   "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connectivity and traffic.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-27T13:00:00+00:00",
+   "id": "5f68a9075eb78470f8b873bab3eed8a7d6e8711d77291fc74cc9887d685bfa5f",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
+   "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-27T12:10:00+00:00",
+   "id": "a5398d693fa11a69fc3e22a80621e5ce45b2bc1eeaa80e9ff4db94fc5124920c",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Uber Moves beyond CPU Cores with Performance-Aware Scheduling for Stateful Workloads",
+   "link": "https://www.infoq.com/news/2026/10/uber-cpu-stateful-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Uber has introduced Normalized Compute Units (NCUs) to make CPU allocation more consistent across its highly heterogeneous server fleet. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-27T12:00:00+00:00",
+   "id": "6ffc468f49ec102f411fdd18b7354b4b3e4d7faa8df98fba37fe5cc4686f7cd5",
+   "tags": [
+    "architecture",
+    "hardware",
+    "programming"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Over 500 Golden Kubestronauts: The evolving standard for cloud native mastery",
+   "link": "https://www.cncf.io/blog/2026/10/27/over-500-golden-kubestronauts-the-evolving-standard-for-cloud-native-mastery/",
+   "summary": "Since launching the Kubestronaut program at KubeCon Paris in 2024, the community has grown faster than expected. Today, more than 570 professionals have reached an even higher bar: Golden Kubestronaut status. Becoming a standard Kubestronaut is...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-27T11:30:00+00:00",
+   "id": "a32247c621dd97fbba252c9645f5125f1157e35dd1468587a60e4be989ff87de",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "How Anthropic Redesigned Source Control for AI-Driven Development",
+   "link": "https://www.infoq.com/news/2026/10/anthropic-source-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Anthropic recently detailed how it migrated its monorepo from Git to Scion. Scion is a source control system that moves repository operations to the server side and uses content-addressed storage and tiered caches for agent and CI workloads. The design sacrifices offline independence for less local data and shared infrastructure. By Eran Stiller",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-27T11:25:00+00:00",
+   "id": "3b33740b6662f556ad94da76554513938a9202e8b8229c9cbc1fbcc64c24cf36",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+   "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+   "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-27T11:19:18+00:00",
+   "id": "f8519fe88bfdc387df9fd84941af788cc7ed87687e306ee5c7a3624384a1efa3",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Presentation: Serving LLMs at Scale: The Hidden KV Cache Advantage",
+   "link": "https://www.infoq.com/presentations/llm-inference-kv-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Khawaja Shams shares a distributed systems perspective on scaling LLM inference stacks efficiently. He discusses practical strategies for optimizing GPU utilization, managing KV cache memory cliffs, leveraging tiered storage, reducing tail latency, and implementing disaggregated prefill and decode architectures to improve overall fleet performance, cost economics, and availability. By Khawaja Sham",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-27T11:00:00+00:00",
+   "id": "8045a1d5393eb535d4b31b9c5f4f76d614e86b6a79c438cf91c1c399d94744f9",
+   "tags": [
+    "ai",
+    "architecture",
+    "hardware",
+    "programming"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "AWS Shows Use of AI Agents to Triage Linux Kernel CVEs",
+   "link": "https://www.infoq.com/news/2026/10/aws-ai-agents-linux-kernel-cves/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Engineers from Amazon Web Services (AWS) have described how the team that maintains the Linux kernel for EC2 infrastructure handles kernel CVEs. The process combines an automated filter, an AI agent and human review. The team also argues that it needs to move to newer long-term-support (LTS) kernels, as older branches collect fixes that are never backported. By Matt Saunders",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-27T09:00:00+00:00",
+   "id": "cd80830b05ae8c85729279be3b5e86f77f1ddd16a1d302db81d610a6ca396354",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "How solid-state transformers could help power the AI boom",
+   "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+   "summary": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade. As the world races to meet rising electricity demand from…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-27T09:00:00+00:00",
+   "id": "65ea4fec5b48d42b0580a419204bfbec794c431854a659a57a6f71aa65d3f440",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust Port of TypeScript",
+   "link": "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare, VoidZero and Max Schwenk announced tsrs, an experimental Rust port of the TypeScript compiler, built with the TypeScript team's involvement. Cloudflare claims up to 8x faster checking and 70% less memory than TypeScript 7.0, though one test against 7.1 beta showed 2.7x. It lacks watch mode and a language server, and exits with code 2 on type errors. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-27T07:34:00+00:00",
+   "id": "401b79cdbfdac1c2f97b5174754dadc32e37df82fb619dbbb715869290a700c0",
+   "tags": [
+    "ai",
+    "architecture",
+    "dev-tools",
+    "programming"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+   "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+   "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-27T07:00:00+00:00",
+   "id": "c417f8e3d39d0b893c07541bfe85fce19056b39882f88193551609651d5af4ff",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
+   "link": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
+   "summary": "Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabilities than Fuzzilli (45 versus 37) with a 25% overlap in the specific bugs reported. Since this compari",
+   "source": "Google Project Zero",
+   "category": "Security & Privacy",
+   "published": "2026-10-27T07:00:00+00:00",
+   "id": "4b134cedffabe49d240ee681da3a506b8cd5c4ac96e1c0d275b5c44f280c5953",
+   "tags": [
+    "ai",
+    "programming",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Developers Reporting Double-Digit Weekly Time Savings from AI Fell from 68% to 26%",
    "link": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less friction than before AI. Engineering leaders report spending more time managing and correcting AI output than developers do. By Steef-Jan Wiggers",
    "source": "InfoQ",
@@ -16,6 +382,49 @@
     "programming"
    ],
    "first_seen": "2026-10-27T06:30:36.976730+00:00"
+  },
+  {
+   "title": "Announcing the Workload Conformance Working Group",
+   "link": "https://kubernetes.io/blog/2026/10/27/announcing-workload-conformance-wg/",
+   "summary": "We are excited to announce that the Kubernetes community now has a Workload Conformance Working Group . The working group is writing a shared standard for how workloads behave at runtime on Kubernetes. To get it right, we need input from the people who build those workloads and from the people who run the clusters they're deployed on. Why workloads need a shared standard Certified Kubernetes tests",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-27T04:30:00+00:00",
+   "id": "669a89ad8edada24bffac2699c7d45a8609885985a912b670e725687d9a0f38b",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Google Cloud and NASA: Testing robotic systems for deep space missions",
+   "link": "https://cloud.google.com/blog/topics/public-sector/google-cloud-and-nasa-testing-robotic-systems-for-deep-space-missions/",
+   "summary": "As NASA advances its Artemis program to send astronauts on increasingly difficult missions to explore more of the Moon, build a sustained human presence there with a Moon Base, and build on their foundation for the first crewed missions to Mars, crew safety and Earth-independent autonomy are paramount. An astronaut on a future deep space mission to Mars could face severe operational challenges—inc",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-27T04:00:00+00:00",
+   "id": "6f09d2eeef648323cf145f29f58bc0f197a5f7f12be0629d24ed249374f8d58a",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "How Check Point accelerates vulnerability research with Daybreak",
+   "link": "https://openai.com/index/check-point-daybreak",
+   "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-27T00:00:00+00:00",
+   "id": "c44dc9ed271ff418b14ac5c964f0f9272d3413bd0c2b38b09efd327bf214a17d",
+   "tags": [
+    "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-10-28T06:22:52.150499+00:00"
   },
   {
    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
