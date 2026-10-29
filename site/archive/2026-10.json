@@ -1,7 +1,343 @@
 {
  "month": "2026-10",
- "updated": "2026-10-28T06:22:52.150499+00:00",
+ "updated": "2026-10-29T06:23:02.531191+00:00",
  "items": [
+  {
+   "title": "Volcano v1.16 Released: NamespaceQueue, fairshare, and a broader HyperNode ecosystem",
+   "link": "https://www.cncf.io/blog/2026/10/28/volcano-v1-16-released-namespacequeue-fairshare-and-a-broader-hypernode-ecosystem/",
+   "summary": "Volcano v1.16.0 is available . v1.16.0 introduces NamespaceQueue and the fairshare plugin. Tenants can use hierarchical queues within their own namespaces to organize quotas and queue hierarchies within administrator-authorized resource pools. Fairshare brings historical resource consumption...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-10-28T20:45:08+00:00",
+   "id": "692986e049b4b1b01060430684f8ec1488c9b6b6ba322ec70e3f340bf68415dd",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Creating AI value with enterprise context",
+   "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+   "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-28T20:32:02+00:00",
+   "id": "a6bc564ba8236e2b33a339febf54a0e628ac8eb32c0405af8441738887fc8334",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Systems Thinking Is Vital in the Age of AI",
+   "link": "https://spectrum.ieee.org/systems-thinking-vital-in-ai",
+   "summary": "Modern engineering projects increasingly combine human judgment with machine capability. An engineer can define a problem, then ask an artificial intelligence tool to search relevant research and technical standards, generate design options, test them in simulation, and compare the results. The engineer can then bring the results to specialists who understand the parts AI cannot judge on its own, ",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-28T18:00:02+00:00",
+   "id": "3fb2562cb49b6ddb307479ee4f1bc9670fce8aa638333d6877ca98d2b20b8be6",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Gemini 4 Carbon: Our next frontier model",
+   "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-10-28T17:00:58+00:00",
+   "id": "3e32bae570ff21ee59e510c657138291c10e18dd5aba048c9dfb1703176c3b65",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Behind the scenes, two months later: How we ship Google Agent Skills like products",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/behind-the-scenes-two-months-later-how-we-ship-google-agent-skills-like-products/",
+   "summary": "In my previous post, I took you behind the scenes of Google Agent Skills , covering how the project started, how we maintain quality at scale, and how we handle governance. In this post, I'll share what we've built since then: the automated quality gates that every change must pass, the AI review agent that inspects skill quality, and the lessons that we learned along the way. You can adopt simila",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-28T16:00:00+00:00",
+   "id": "203c5dc82f710bd3beb0adf3b9b6440576b142e59b5fd79ebd2aa34762c54d4c",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Introducing the AlloyDB Omni web UI for easier cluster observability",
+   "link": "https://cloud.google.com/blog/products/databases/alloydb-omni-delivers-a-web-ui-for-cluster-observability/",
+   "summary": "Managing PostgreSQL databases across on-premises, edge, and multi-cloud environments often forces administrators to rely on command-line tools, making it hard to see cluster health and quickly diagnose issues. To solve this, we are announcing the General Availability (GA) of the AlloyDB Omni Web UI for Red Hat and containers . This production-ready, read-only console gives you direct visibility in",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-28T16:00:00+00:00",
+   "id": "9507ad26d58546b3809f3750941a33c3c7818862b9d4bc040e6d6459d0b33a04",
+   "tags": [
+    "cloud",
+    "cloud-native",
+    "databases",
+    "observability"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Near-zero downtime upgrades: Announcing Cloud SQL for MySQL blue-green deployments",
+   "link": "https://cloud.google.com/blog/products/databases/cloud-sql-blue-green-deployments/",
+   "summary": "Keeping production databases on supported versions shouldn’t require giving up your weekend. To stay secure, compliant, and with the best performance and newest AI capabilities, organizations need to run on the latest database engine versions. Yet for many teams, major version upgrades mean weeks of cross-team coordination, negotiating narrow maintenance windows, and hours of application downtime.",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-28T16:00:00+00:00",
+   "id": "ad48f683605c93b9a23a237e8718e9b78966992ecc95c1b86d6d51ef7c270c5d",
+   "tags": [
+    "ai",
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "How to troubleshoot GKE workloads faster with VPC Flow Logs",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/using-vpc-flow-logs-to-troubleshoot-gke-workloads/",
+   "summary": "Having visibility into your network traffic is essential to operating Kubernetes environments effectively. When a service slows down or loses connectivity, knowing who is talking to whom lets you narrow the problem down quickly. In a standard cloud network, flow logs provide that view by recording connections between IP addresses, ports, and protocols. In Kubernetes, however, pods are temporary. T",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-28T16:00:00+00:00",
+   "id": "b47a28ede5ca9e17d663970345c86dd8987c02da063931ffb4414711c9d6dfa0",
+   "tags": [
+    "cloud",
+    "kubernetes",
+    "networking"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "How GKE networking scales to support high densities of concurrent AI agents",
+   "link": "https://cloud.google.com/blog/products/networking/gke-networking-dataplane-for-large-agentic-ai-workloads/",
+   "summary": "What do you need to orchestrate high-density concurrent AI agents? As we transition from static requests toward autonomous agentic workflows, the need for secure, high-density sandboxes is pushing conventional infrastructure far beyond its architectural breaking point. This transition is driving top-tier research labs to demand infrastructure at unprecedented scale — often up to one million concur",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-28T16:00:00+00:00",
+   "id": "f72f9cdacd9aff3c9e6d0306c7a605a5efc8d1d293cdcd6022a5074d9d574358",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+   "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-10-28T14:58:17+00:00",
+   "id": "ec733f799e1aaee3d1ac15d7aac92b358c82bd195281ac7a4de4982266b1d5fd",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Step into a new dimension with XREAL AURA, the first-of-its-kind wired XR glasses",
+   "link": "https://cloud.google.com/blog/products/chrome-enterprise/step-in-to-a-new-dimension-with-xreal-aura-a-first-of-its-kind-wired-xr-glasses/",
+   "summary": "The world of work is rapidly evolving, and with it, the tools we use to stay productive and connected. As AI adoption transforms daily workflows, form factors like XR headsets and glasses offer fresh ways to reimagine how productive work happens across apps and devices. Today marks the launch of XREAL AURA , a first-of-kind set of wired XR glasses built on Android XR. XREAL AURA’s form factor brin",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-10-28T14:41:00+00:00",
+   "id": "da1ac4e5f22fa23aea5412f6401ff9cfc9d143aa90045c9eebfa569d67a6040a",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
+   "link": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding staleness from nearly two days to under a minute and improved offline NDCG by 1.67%, while online testing increased uncancelled bookings by approximately one-third of a percent. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-28T13:53:00+00:00",
+   "id": "55f336d15e51352f1bd30196baee587877a240c136df1e442aeb2d3f6a891844",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-28T13:15:00+00:00",
+   "id": "a395c7da350b5086cc15f6b616a71f222298172ced3c491458f1fd1d38e79b77",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "How Beta Technologies Is Clearing the Runway for Electric Flight",
+   "link": "https://spectrum.ieee.org/beta-technologies-electric-aircraft",
+   "summary": "In the cockpit of Beta Technologies’ Alia CX300, pilot Chris Caputo steers onto Runway 33 at Patrick Leahy Burlington International Airport in Vermont. Cleared for takeoff, he releases the brakes and nudges the throttle forward. At the back of the aircraft, the five-blade pusher propeller snaps awake, and the Alia bolts forward. There’s no shriek of a turbofan spooling up, no shudder of a piston e",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-28T13:00:03+00:00",
+   "id": "9dde41a2a325c57c634144ef269dd9fdcd870b911291697a9af77c227562fd18",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "The Download: dead startups fueling AI and interspecies communication",
+   "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup, he didn’t think its data was worth much. But he’s…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-28T12:10:00+00:00",
+   "id": "0c62d1b8c05503d7ca0d3fdc5356d383f7281d2254329e838efda29ca7bca277",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Pairing industrial AI autonomy and human control",
+   "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+   "summary": "",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-10-28T12:00:00+00:00",
+   "id": "f143bf66df7b8ac9cf1536cbe5b9aa2b79389380f7de87ff070d840128853613",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Presentation: Wrangling Telemetry at Scale: A Guide to Self-Hosted Observability",
+   "link": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics, structured logs, and distributed traces using open-source tooling like Prometheus, VictoriaMetrics, and Jaeger, while navigating the engineering trade-offs of avoiding SaaS vendor lock-in. By Colin Douch",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-28T11:00:00+00:00",
+   "id": "ff482e6e0ca3b660e0d53fbe1eab32f86b4686eb26fdf32d569b31f01ed26231",
+   "tags": [
+    "architecture",
+    "observability",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Microsoft's October Security Update Fixes 1,400+ Vulnerabilities, One Exploited in the Wild",
+   "link": "https://www.infoq.com/news/2026/10/microsoft-october-2026-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Microsoft's latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited in the wild, while 85 are classified as critical. Affected products include Windows OS, Office, Exchange, .NET, Edge, as well as potentially Hyper-V and Azure components. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-28T10:30:00+00:00",
+   "id": "e96a3b0da5aa42f2b9cbb8cc42bc8809294177a06b7935f2d5214c8c991b15fb",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "The future of the firm",
+   "link": "https://openai.com/index/the-future-of-the-firm",
+   "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-28T10:00:00+00:00",
+   "id": "e2ed7680c50ae3f074e04f962f033e8bab070f352fa8087e45258e537064a005",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Chrome Opens Trial for the Email Verification API: Letting Sites Verify Without Sending Emails",
+   "link": "https://www.infoq.com/news/2026/10/chrome-email-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google has opened a Chrome origin trial for the Email Verification API, a WICG proposal that lets the browser confirm email ownership without sending a message. Gmail is the first provider. Developers add form hints and validate a signed token server-side. Commenters question the privacy benefit, and the API is best used as a progressive enhancement. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-28T09:32:00+00:00",
+   "id": "d5b021d13a3272b374eedc5e3749e68f272633a4d9083376fcf2761df2daa340",
+   "tags": [
+    "architecture",
+    "privacy",
+    "programming",
+    "web"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Legora is building the agentic operating system for legal work",
+   "link": "https://openai.com/index/legora",
+   "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-10-28T09:30:00+00:00",
+   "id": "709cc8e2bd467b7916899fb3ec62dbecfa135fc3209b011a85a1239ca7c1f0f6",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Article: Building an Offline-First AI Coding Tutor for Low-End Android Phones",
+   "link": "https://www.infoq.com/articles/building-offline-first-android-app-low-end-devices/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This article is about engineering an offline-first app for low-end devices based on our experience in Nigeria and India. The interesting problems in this space are storage, quota, cold start, and failure-path design. Our approach applies to any product whose users are on constrained devices and intermittent connections, when the assumption they have a laptop and broadband access do not hold. By Ch",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-28T09:00:00+00:00",
+   "id": "685fc4008f4b72ad431715e4ef5adca9a9fad4fccc15cc6d5ae95b4a0d463d61",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
+  {
+   "title": "Cloudflare Opens Quicksilver to Customers as Workers KV Instant, Inside a 1 MB Envelope",
+   "link": "https://www.infoq.com/news/2026/10/workers-kv-instant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has put Quicksilver, the internal key-value store behind nearly every request it serves, into private beta as a Workers KV mode. Reads resolve in 1.62 ms at p99 against 287 ms for classic KV. The constraints decide the use case: 10,000 keys, one megabyte per namespace, and one write per namespace per second. By Steef-Jan Wiggers",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-28T08:57:00+00:00",
+   "id": "4d7a4a48cc92b4cbcd4edd078b6c1b7a5a90cd5c4f3c0e7f7b7c0d33536a03f8",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
+  },
   {
    "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
    "link": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
@@ -83,6 +419,20 @@
     "research"
    ],
    "first_seen": "2026-10-28T06:22:52.150499+00:00"
+  },
+  {
+   "title": "Genie 4: A new generation of world simulation",
+   "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-10-27T16:01:38+00:00",
+   "id": "e960e8891f7d7ad86d1b82fb38dd6339695a2e548b1364f330e5b8eceb6d79af",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-10-29T06:23:02.531191+00:00"
   },
   {
    "title": "Securely connecting Gemini Enterprise to Snowflake data",
@@ -323,7 +673,7 @@
    "first_seen": "2026-10-28T06:22:52.150499+00:00"
   },
   {
-   "title": "Cloudflare and VoidZero Introduce tsrs: An AI-Generated Rust Port of TypeScript",
+   "title": "Cloudflare and VoidZero Introduce tsrs: an AI-Generated Rust Port of TypeScript",
    "link": "https://www.infoq.com/news/2026/10/cloudflare-tsrs-ai-typescript/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Cloudflare, VoidZero and Max Schwenk announced tsrs, an experimental Rust port of the TypeScript compiler, built with the TypeScript team's involvement. Cloudflare claims up to 8x faster checking and 70% less memory than TypeScript 7.0, though one test against 7.1 beta showed 2.7x. It lacks watch mode and a language server, and exits with code 2 on type errors. By Daniel Curtis",
    "source": "InfoQ",
