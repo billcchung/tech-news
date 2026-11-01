@@ -1,7 +1,119 @@
 {
  "month": "2026-10",
- "updated": "2026-10-31T06:17:19.148415+00:00",
+ "updated": "2026-11-01T06:18:35.166575+00:00",
  "items": [
+  {
+   "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+   "link": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Keys live only in kernel memory on verified regional servers, and any failed check rejects the request, a fail-closed choice practitioners ask could cause a regional outage. GA is planned for Q1 2027. B",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-31T19:56:00+00:00",
+   "id": "8cc19f211604dc33d1a74c1b4d6d3537737455b0ecec539d564f4f6e77ea8911",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-01T06:18:35.166575+00:00"
+  },
+  {
+   "title": "OpenBSD 8.0 Brings Expanded Hardware Support, Security Enhancements, and Virtualization Improvements",
+   "link": "https://www.infoq.com/news/2026/10/openbsd-8-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "OpenBSD 8.0 is a substantial upgrade bringing broader hardware compatibility, enhanced security, an expanded virtual address space, and support for modern architectures, including Intel Arc A-Series graphics support, ARM64 hibernation, RISC-V improvements, and enhanced virtual machine support. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-31T17:00:00+00:00",
+   "id": "f15040b4ceeb15644427a4ae4a141f91971835b28d9aaf17864f07e665b8a05e",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-11-01T06:18:35.166575+00:00"
+  },
+  {
+   "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
+   "link": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "There was a flurry of activity during the week of October 19th, 2026, highlighting: first release candidates of: Spring Boot, Spring Framework, Spring Data, Spring Cloud, Spring Security, Spring for GraphQL, Spring Session, Spring Integration, Spring HATEOS, Spring Modulith, Spring REST Docs, Spring AI, Spring Batch, Spring AMQP, Spring for Apache Kafka, Spring LDAP and Spring Web Services. By Mic",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-31T13:30:00+00:00",
+   "id": "9ade8f9b714f2c61ab38de3c3f1a026e416500f5d19ff425c9d9642e78677e66",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-11-01T06:18:35.166575+00:00"
+  },
+  {
+   "title": "When Electric Cars Were for Women",
+   "link": "https://spectrum.ieee.org/early-electric-vehicles",
+   "summary": "At the turn of the last century, the automobile industry was still new and evolving rapidly. In 1898, there were about 50 carmakers in the United States. A decade later, that number had increased fivefold. In 1901, the companies produced 7,000 vehicles. By 1910, production had reached 181,000. For several decades, electric cars vied with those powered by steam and internal combustion, and nobody w",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-10-31T13:00:02+00:00",
+   "id": "d7bd184b6cae6d4d7d33543ea9f13ea8e9c6da688e357eb628291f0ed253f391",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-11-01T06:18:35.166575+00:00"
+  },
+  {
+   "title": "Kubernetes Confidential Containers Get Fortanix Attestation and Key Management",
+   "link": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Fortanix's CoCo integration connects workload attestation to decryption-key release for Kubernetes AI workloads. GPU-verification settings affect protection, while upstream Trustee and Azure Secure Key Release offer alternative routes to attestation-based key release. By Mark Silvester",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-31T08:18:00+00:00",
+   "id": "666d65fb5c8d82e4cf025b8369b86edb8029386ebbb3f83c03814dd113981df6",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-11-01T06:18:35.166575+00:00"
+  },
+  {
+   "title": "LocalStack for Azure Enters Public Preview with Security Settings Stored but Not Enforced",
+   "link": "https://www.infoq.com/news/2026/10/localstack-azure-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "LocalStack has opened its Azure emulator to a free public preview, running Azure services locally and accepting existing ARM, Bicep, and Terraform without rewrites. Its own documentation reports partial operation coverage per service and a consistent pattern: configuration is stored and returned, while enforcement of access restrictions, TLS, and network rules is not implemented. By Steef-Jan Wigg",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-31T07:57:00+00:00",
+   "id": "b9a914c96b915b275c7c911477c7b5027de9a7f957041e1c8914fc7872a99ca0",
+   "tags": [
+    "architecture",
+    "cloud",
+    "networking",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-11-01T06:18:35.166575+00:00"
+  },
+  {
+   "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+   "link": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models to autonomously investigate potential vulnerabilities, but reports them only after deterministic validators successfully reproduce the exploit against a running application. By Rena",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-10-31T06:20:00+00:00",
+   "id": "6dc567e34d42c9764c5d0357c85eb937919bdd8c98fbb7ab90f688ceb4505d15",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-11-01T06:18:35.166575+00:00"
+  },
   {
    "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
    "link": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
