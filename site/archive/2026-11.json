@@ -1,7 +1,354 @@
 {
  "month": "2026-11",
- "updated": "2026-11-05T06:19:52.573622+00:00",
+ "updated": "2026-11-06T06:20:49.697300+00:00",
  "items": [
+  {
+   "title": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads",
+   "link": "https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hypervisor-enforced capabilities limit agents to specific actions without storing secrets in the workload. Initial releases cover scoped command execution and workload identity; credential-brokered API access will follow. By Olimpiu P",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-06T06:06:00+00:00",
+   "id": "6aea8b1e7926938ca66dbbd6240cea054ca5fd2d68017d3eac56402d4a13952c",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+   "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+   "summary": "Certain configurations of Alpine are affected. Other distros may be as well.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-11-05T23:09:36+00:00",
+   "id": "975fa8e739b5760d69bc26b97d2f904799fbd421b4b6fe4b23264e9dd93457b2",
+   "tags": [
+    "security"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Inside GitHub’s new Git storage architecture",
+   "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+   "summary": "GitHub's new Git storage architecture is built so thousands of agents can push to a single repository at once. Here's how it works. The post Inside GitHub’s new Git storage architecture appeared first on The GitHub Blog .",
+   "source": "GitHub Engineering",
+   "category": "Software Engineering",
+   "published": "2026-11-05T20:23:21+00:00",
+   "id": "c18d658a7097a990e521dee6d7b41a48f2cf9a217c697eea86f9f314fef24646",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Cult.fit builds operational muscle with Codex",
+   "link": "https://openai.com/index/cultfit-builds-with-codex",
+   "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-05T20:00:00+00:00",
+   "id": "bbd492caba72ca544b8bac3280d7afac87555fa4b30c0b12388bcfae24236fa4",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+   "link": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-11-05T19:35:16+00:00",
+   "id": "f25b9201ad6bdcc6fc966e82e19169484871d5662fdac1ebb6313d2e0a7a1d5f",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "link": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-11-05T17:05:16+00:00",
+   "id": "1750855042e8ceec185ecc41375648d063f395028a9c6496aadc44e5c1df3652",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Agents aren’t humans (but they kinda are)",
+   "link": "https://blog.cloudflare.com/trusted-agent-delegation/",
+   "summary": "AI agents act for millions, but servers see intermediaries that strip user visibility. This post defines the problem space and introduces a collaborative approach to safely identifying, allowing, and managing this automated traffic.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-05T17:03:04+00:00",
+   "id": "7f97ab3d43dc53a44c97e2d35653b84b742e99ad4d1fd35102700747b0a6d252",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "What’s new with Google Data Cloud",
+   "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+   "summary": "November 2 - November 6 BigQuery observability for data agents is now generally available : Data teams can now monitor the performance, adoption, latency, and cost of BigQuery data agents and their multi-turn conversations using Google Cloud Observability. This capability provides production-grade visibility into agent execution traces, usage volume, and query behavior so organizations can scale c",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-05T17:00:00+00:00",
+   "id": "1fe79cef03fb98b72fb3860e4f6173dacf35e64863ea1816bd52b5719202ed38",
+   "tags": [
+    "cloud",
+    "observability"
+   ],
+   "first_seen": "2026-09-04T06:30:47.825256+00:00"
+  },
+  {
+   "title": "Semantic aggregation over millions of rows in BigQuery with AI.AGG",
+   "link": "https://cloud.google.com/blog/products/data-analytics/semantic-data-aggregation-with-bigquery-and-ai-agg/",
+   "summary": "For more than a decade, BigQuery has helped set standards for structured data aggregation, calculating financial sums, counting active users, and computing historical averages at a petabyte scale in seconds. But as modern enterprises become inundated with unstructured data — application logs, customer service transcripts, product imagery, and diagnostic reports — a critical gap has emerged. Histor",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-05T17:00:00+00:00",
+   "id": "639df5d214cf1307c865d56b6b3f8ca194d85a550750862a7df8a1f6d06e434c",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Gemini Omni 1.2 Flash: Fast, cost-effective, and reliable video generation and editing now generally available",
+   "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available/",
+   "summary": "Today, Gemini Omni 1.2 Flash is generally available on Google Cloud. Built for the everyday videos businesses make in volume — like product videos, virtual try-ons, and ads — this model is fast, cost-effective, and follows your image, video and audio references more closely than before. Business users can create with it in Gemini for business and Google Vids, and developers can build with it via A",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-05T17:00:00+00:00",
+   "id": "0d262a8184eb08429667fddef30bdfef6f4eb0120b8fb2b97a4d4acc5184bb32",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Building an agent skill optimizer with AlphaEvolve, Harbor and Gemini 4 Argon",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-an-agent-skill-optimizer-with-alphaevolve-and-harbor/",
+   "summary": "Every day, more and more people are using coding agents like Google Antigravity and OpenCode to complete software engineering tasks. But those tools need instructions to operate and their output is only as good as the inputs they get. By utilizing agent skills that direct the agents through building, testing, and deploying code, developers have a powerful way to automate their workflows. But most ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-05T17:00:00+00:00",
+   "id": "640f892301ede48957e153f749c81a019fe11cda0f90d5f1d44834da72ced7f1",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Australian universities are creating AI-native graduates",
+   "link": "https://openai.com/index/australian-universities-ai-native-graduates",
+   "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-05T17:00:00+00:00",
+   "id": "616c68177b707eae60eb2b7e618a86105e3926c540e149caa916945e5a2342dd",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Use Your Year-End Review to Reach for a Promotion",
+   "link": "https://spectrum.ieee.org/how-to-get-a-promotion",
+   "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! Hard work rarely speaks for itself. When I landed my first job as a software engineer, I had a simple plan: Work hard and somebody would notice. Even",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-11-05T16:08:03+00:00",
+   "id": "ef700794dcde0eba90a754347a8b33ae45c51bfbb5eafd3a74eeb339eea26d74",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Google Cloud API Gateway Introduces Streaming Support for Real-Time and AI-Powered Applications",
+   "link": "https://www.infoq.com/news/2026/11/gcp-api-gateway-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google has announced the public preview of streaming support for API Gateway, extending its traditional request-response model to support applications requiring real-time communication. According to Google, this is particularly relevant for AI applications that provide streaming model responses, multi-step agent workflows, and interactive sessions. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-05T16:00:00+00:00",
+   "id": "820999cbdf690c2759141340bbdf51e1d1076e36a212777fcd60e28710508818",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Leapwork Play Reaches GA with Governance for Playwright Tests",
+   "link": "https://www.infoq.com/news/2026/11/leapwork-play-playwright/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Leapwork Play adds requirement traceability and approval workflows around portable Playwright tests. Full governance and audit capabilities require an enterprise package. By Mark Silvester",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-05T15:56:00+00:00",
+   "id": "c9581edae92bf4d13b8d6e0955e500b0a6b68b945010e0f0ff1800263a449531",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Why a Mathematician Is Chasing Eclipses With Algorithms and Cameras",
+   "link": "https://spectrum.ieee.org/2026-solar-eclipse",
+   "summary": "The sun hangs low over the plains of Castile and León, in the north-central region of Spain. But from a slope of the mountain Pico Trigaza , it appears that a few puffy white clouds have started to block the sun. That’s vexing. A group of researchers, some wearing cardboard eclipse glasses, is clustered around sets of portable telescopes and cameras connected to laptops. All this gear is scattered",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-11-05T14:00:02+00:00",
+   "id": "d8ec69625831a52374d5e2f2e64c49a019d7f1482b94fa4dd55d96a2f294dbfe",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+   "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-05T13:10:00+00:00",
+   "id": "e83299b5fb7485d8fbc58076fd810cd5f871649da6097b36cf0a339643745747",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Powering open infrastructure for autonomous agents",
+   "link": "https://cloud.google.com/blog/products/containers-kubernetes/open-infrastructure-for-autonomous-agents-comes-to-cncf/",
+   "summary": "As AI shifts from human scale to agent scale , from systems of record to systems of action , and from simple requests to complex agentic workflows , the workload underneath your platform changes completely. An agent works in a continuous, stateful loop: It proposes an action, spins up subagents, executes code or tool calls inside a sandbox, and feeds the results back into the model for the next tu",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-05T12:30:00+00:00",
+   "id": "2976bb865f5ebf11b648f7be4c56a26c80eb3e1907f4e954df7d324e2cd306a0",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "kpt v1.0.0 is released",
+   "link": "https://www.cncf.io/blog/2026/11/05/kpt-v1-0-0-is-released/",
+   "summary": "After many years and much development, the kpt community has released v1.0.0 of the kpt toolchain. This is a big step in maturing the kpt project after having it in pre-release status for several years. In...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-11-05T12:00:00+00:00",
+   "id": "97a1375e94c70de43befb00fbae4bae349e92f4f8e438be539ef4872528dbc4b",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Building a Culture for a Kubernetes-Based Platform in a Bank",
+   "link": "https://www.infoq.com/news/2026/11/culture-kubernetes-bank/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In banking, open source can earn trust by running real workloads, as Marcy Paramonova and Stéphane Cusin explained in their talk Building Cloud Native Culture in a Bank at KubeCon & CloudNativeCon Europe. Deploying Kubernetes was the easy part; the hard part was culture: community of practice, shared knowledge, rituals, ownership. Teams try things, keep what works, and improve bottom-up. By Ben Li",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-05T11:11:00+00:00",
+   "id": "b8b50a1cf05a76e745a88b0c136a5163490645afa4d71a4c6497d9debc30aaf0",
+   "tags": [
+    "architecture",
+    "cloud-native",
+    "kubernetes",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Presentation: Zero Trust Agent Systems that Pass Audits and Still Ship",
+   "link": "https://www.infoq.com/presentations/zero-trust-ai-agents-production-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Advait Patel shares a playbook for securing AI agent systems in production. He discusses moving defense boundaries from the prompt to the tool layer, enforcing scoped workload identities, and mitigating prompt injection via tool outputs. He explains how to structure audit-ready observability and implement kill switches to protect critical data while keeping deployment fast and compliant. By Advait",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-05T11:00:00+00:00",
+   "id": "a657002ccd766f8779254b6438b5c8be5b2d58c99c426af98d3a63e7f72b8d8f",
+   "tags": [
+    "ai",
+    "architecture",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "A new bill could change how the US builds energy infrastructure",
+   "link": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+   "summary": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan that could finally…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-05T10:00:00+00:00",
+   "id": "d16b86d0e8451b5251d92c5af5300ae8572db306dd73f7c04f843ac4ede9635c",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "link": "https://openai.com/index/introducing-gpt-6-cyber",
+   "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-05T09:00:00+00:00",
+   "id": "14e90e72d3401ddf817f6448fcef8d95a77a43c8c720ccf3b66937d995ee0634",
+   "tags": [
+    "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Merge builds product and business tools with OpenAI technology",
+   "link": "https://openai.com/index/merge-builds-with-openai",
+   "summary": "Merge uses GPT-6 Astra, ChatGPT, and Codex to review product code and support marketing. Its teams also use AI to plan executive dinners and prepare sales updates.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-05T08:00:00+00:00",
+   "id": "db9792e954d447010915e606e8fdb998d92778fb38af9f5ff78336a8db2d0092",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
   {
    "title": "Want to Rent an Internet Address at the White House?",
    "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
@@ -15,6 +362,63 @@
     "security"
    ],
    "first_seen": "2026-11-05T06:19:52.573622+00:00"
+  },
+  {
+   "title": "Setting a new standard for responsible AI infrastructure",
+   "link": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+   "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-05T02:00:00+00:00",
+   "id": "25fa4dd18ec78a48a9233cc009a7e10d7c8c98f49986ed2e5b02c4eebf5890b1",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Flipsnack grows product signups with conversion optimization",
+   "link": "https://openai.com/ads/customers/flipsnack",
+   "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-05T00:45:15+00:00",
+   "id": "2d1d326185a62641bed05bf7f26ce7de70018d67127b0626b6b2080acbead4c8",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Franklin Templeton uses OpenAI to support investment research",
+   "link": "https://openai.com/index/franklin-templeton",
+   "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-05T00:00:00+00:00",
+   "id": "a8e215d1c3fca63aee0ffd81acf9a149c8070d7929a87491384cb6b33805423d",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+   "link": "https://huggingface.co/blog/phonon-tts",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-11-05T00:00:00+00:00",
+   "id": "c65c7708e93995ca45416c5ef4b52b70460b293ce45783d81126b519537db1b3",
+   "tags": [
+    "ai",
+    "open-source",
+    "research"
+   ],
+   "first_seen": "2026-11-06T06:20:49.697300+00:00"
   },
   {
    "title": "Amazon S3 Tables now offer managed migration of Apache Hive tables to Apache Iceberg",
