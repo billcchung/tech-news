@@ -1,7 +1,69 @@
 {
  "month": "2026-11",
- "updated": "2026-11-07T06:17:36.887504+00:00",
+ "updated": "2026-11-08T06:18:02.980146+00:00",
  "items": [
+  {
+   "title": "We organized Sustainability Month. Here’s what we learned. 🌱",
+   "link": "https://www.cncf.io/blog/2026/11/07/we-organized-sustainability-month-heres-what-we-learned-%f0%9f%8c%b1/",
+   "summary": "What do Kubernetes resource allocation, eBPF, carbon observability, and GPUs have in common? Quite a lot, actually. Especially when you start looking at them through the lens of environmental sustainability. This October, we brought these conversations...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-11-07T12:30:00+00:00",
+   "id": "3f2300afb005d992436c0e5c8bbb66a2072fc5bd080ba49f7baf5ac01f4566af",
+   "tags": [
+    "cloud-native",
+    "hardware",
+    "kubernetes",
+    "observability",
+    "open-source"
+   ],
+   "first_seen": "2026-11-08T06:18:02.980146+00:00"
+  },
+  {
+   "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+   "link": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges, they implemented a layered defense strategy to prevent, detect, and contain crashes throughout the development and release lifecycle. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-07T11:00:00+00:00",
+   "id": "7726b14a2fe88515800452c95d5196ebfba5f48f8c8d8fe726df85ab4454b199",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-08T06:18:02.980146+00:00"
+  },
+  {
+   "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
+   "link": "https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the graph-based approach used by pgvector’s HNSW index, reducing memory requirements and index build times. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-07T09:49:00+00:00",
+   "id": "201cc1c0f2954c19e5cb7bc679db4da0aaed44abf45d7e7faa834bbff3de419d",
+   "tags": [
+    "architecture",
+    "databases",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-11-08T06:18:02.980146+00:00"
+  },
+  {
+   "title": "Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets",
+   "link": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog protocols, custom publish commands, and branch-based prereleases. Changesets v3, released in August 2026, closed many earlier gaps, though differences remain. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-07T06:54:00+00:00",
+   "id": "b57538abd6dff7518586a46480a1f11381a923338d3bcacc4867c50ff90da9d4",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-08T06:18:02.980146+00:00"
+  },
   {
    "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
    "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
@@ -300,7 +362,7 @@
    "first_seen": "2026-11-07T06:17:36.887504+00:00"
   },
   {
-   "title": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials From AI Agent Workloads",
+   "title": "Edera's Object Capability Bounded Authority Promises to Isolate Credentials from AI Agent Workloads",
    "link": "https://www.infoq.com/news/2026/11/ai-credentials-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Edera announced Object Capability Bounded Authority, a security model that separates an AI agent's or MCP server's required authority from the credentials behind it. Hypervisor-enforced capabilities limit agents to specific actions without storing secrets in the workload. Initial releases cover scoped command execution and workload identity; credential-brokered API access will follow. By Olimpiu P",
    "source": "InfoQ",
@@ -529,6 +591,20 @@
    "first_seen": "2026-11-06T06:20:49.697300+00:00"
   },
   {
+   "title": "Stop treating agents as one-off projects and start running them as a continuous discipline",
+   "link": "https://azure.microsoft.com/en-us/blog/stop-treating-agents-as-one-off-projects-and-start-running-them-as-a-continuous-discipline/",
+   "summary": "AI must be selected, architected, and managed as a continuous business discipline, not a series of isolated projects. The post Stop treating agents as one-off projects and start running them as a continuous discipline appeared first on Microsoft Azure Blog .",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-05T17:00:00+00:00",
+   "id": "bdb1926a2f71fe7bb840f91b968b5cfa3c4128572b3926450e941542fd2ef061",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-11-08T06:18:02.980146+00:00"
+  },
+  {
    "title": "Use Your Year-End Review to Reach for a Promotion",
    "link": "https://spectrum.ieee.org/how-to-get-a-promotion",
    "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! Hard work rarely speaks for itself. When I landed my first job as a software engineer, I had a simple plan: Work hard and somebody would notice. Even",
@@ -557,6 +633,19 @@
     "programming"
    ],
    "first_seen": "2026-11-06T06:20:49.697300+00:00"
+  },
+  {
+   "title": "Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200",
+   "link": "https://azure.microsoft.com/en-us/blog/designing-azure-silicon-on-azure-silicon-eda-workloads-on-cobalt-200/",
+   "summary": "Discover how Microsoft is accelerating electronic design automation (EDA) workloads with Azure Cobalt 200 VMs. Explore early performance results demonstrating faster simulation, verification, and static timing analysis, along with the benefits of scalable cloud infrastructure for silicon design and development. The post Designing Azure silicon on Azure silicon: EDA workloads on Cobalt 200 appeared",
+   "source": "Azure Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-05T16:00:00+00:00",
+   "id": "de66459459c408d107134ac0c5a6d409ddbae7b2c27fc971d5047583aa4168a2",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-11-08T06:18:02.980146+00:00"
   },
   {
    "title": "Leapwork Play Reaches GA with Governance for Playwright Tests",
