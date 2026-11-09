@@ -1,7 +1,66 @@
 {
  "month": "2026-11",
- "updated": "2026-11-08T06:18:02.980146+00:00",
+ "updated": "2026-11-09T06:27:16.058341+00:00",
  "items": [
+  {
+   "title": "Lima v2.3: Native on Windows, VMnet on Linux, and menu TUI",
+   "link": "https://www.cncf.io/blog/2026/11/08/lima-v2-3-native-on-windows-vmnet-on-linux-and-menu-tui/",
+   "summary": "Back in July with v2.2, we added support for Windows guests. On November 6, we shipped v2.3 of Lima and now it runs without extra dependencies on Windows: VMs start through the same Host Compute System...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-11-08T12:30:00+00:00",
+   "id": "af78e76a220ae86a77c4fa500ff7683a6999e2f89d3b83ba85cde6859b04c1c2",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-11-09T06:27:16.058341+00:00"
+  },
+  {
+   "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+   "link": "https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model, is not well suited to an environment where AI agents generate, review, and iterate on code at high speed. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-08T11:00:00+00:00",
+   "id": "9fd3c2202a8da1492f096c8e80a11122cfb506d1b606e187395b022d2e659aa6",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-09T06:27:16.058341+00:00"
+  },
+  {
+   "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
+   "link": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Google-managed VMware Engine and matches customer-operated offerings from AWS and Oracle, shifting lifecycle, patching and Broadcom licensing back to the customer. By Steef-Jan Wigger",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-08T07:16:00+00:00",
+   "id": "4d6d2a4124db2ff2f3614b639a28874d8223675acb484d1e7f6ddaf91bf40c54",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-11-09T06:27:16.058341+00:00"
+  },
+  {
+   "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+   "link": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and using eventual consistency. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-08T06:34:00+00:00",
+   "id": "bce42ec864a5fb120cfaa7b044f285e431109d18d74da56378aba0dcee3a611c",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-11-09T06:27:16.058341+00:00"
+  },
   {
    "title": "We organized Sustainability Month. Here’s what we learned. 🌱",
    "link": "https://www.cncf.io/blog/2026/11/07/we-organized-sustainability-month-heres-what-we-learned-%f0%9f%8c%b1/",
@@ -51,7 +110,7 @@
    "first_seen": "2026-11-08T06:18:02.980146+00:00"
   },
   {
-   "title": "Varlock Releases Bumpy: A File-Based Versioning Alternative to Changesets",
+   "title": "Varlock Releases Bumpy: a File-Based Versioning Alternative to Changesets",
    "link": "https://www.infoq.com/news/2026/11/bumpy-changesets-alternative/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Bumpy is an MIT-licensed, TypeScript tool for version management and changelogs in monorepos. It follows the changesets workflow, using markdown bump files, and adds support for workspace and catalog protocols, custom publish commands, and branch-based prereleases. Changesets v3, released in August 2026, closed many earlier gaps, though differences remain. By Daniel Curtis",
    "source": "InfoQ",
@@ -134,7 +193,7 @@
    "first_seen": "2026-11-07T06:17:36.887504+00:00"
   },
   {
-   "title": "Yelp Combines Native and Server-Driven UI for Its AI Assistant",
+   "title": "Yelp Combines Native and Server-Driven UI for its AI Assistant",
    "link": "https://www.infoq.com/news/2026/11/yelp-assistant-hybrid-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Yelp combines native mobile controls with server-driven conversation rendering in its AI Assistant using the CHAOS framework. The architecture separates view configuration from conversation data, supports backend-driven chat interactions, and enables faster UI updates without new app releases. Yelp also discusses cross-platform challenges and reuse for its Biz Ask Anything pilot. By Leela Kumili",
    "source": "InfoQ",
