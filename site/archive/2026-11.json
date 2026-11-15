@@ -1,7 +1,67 @@
 {
  "month": "2026-11",
- "updated": "2026-11-14T06:17:37.731922+00:00",
+ "updated": "2026-11-15T06:17:59.328832+00:00",
  "items": [
+  {
+   "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+   "link": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. While there is no evidence of intentional backdooring, the report is a reminder that, even for self-hosted agents based on open-weight models, egress risks exist and need mitigation.",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-15T02:42:00+00:00",
+   "id": "b01dbb7e0aa94f3d90e51a3f6bfe7dca4a4c65b282567f428c8d1b338ad3aa7b",
+   "tags": [
+    "architecture",
+    "cloud-native",
+    "programming"
+   ],
+   "first_seen": "2026-11-15T06:17:59.328832+00:00"
+  },
+  {
+   "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
+   "link": "https://www.infoq.com/news/2026/11/nodejs-debounce-throttle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends the experimental Virtual File System to node:ffi. The additions reduce the need for some userland dependencies. Node.js 26 is now Active LTS. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-14T08:03:00+00:00",
+   "id": "65dd69750e64b52436ca4132af7406344c823a25b5329ea522c5f65a73407ae3",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-15T06:17:59.328832+00:00"
+  },
+  {
+   "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
+   "link": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a header or query parameter. New versions can change defaults, error formats, and IAM checks without touching /v1 callers, a model Azure Resource Manager and Stripe have used for years. B",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-14T07:27:00+00:00",
+   "id": "b87dc1982760d80a95ca1fe6928bda7381766898ebcf6af767d21e10d477a676",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-11-15T06:17:59.328832+00:00"
+  },
+  {
+   "title": "Open Source DocumentDB 1.0 Reaches General Availability",
+   "link": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-14T06:37:00+00:00",
+   "id": "fafad86ae8f69b5f176445e11825489110439b712ec89aa1686b7e89578b1e78",
+   "tags": [
+    "architecture",
+    "databases",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-11-15T06:17:59.328832+00:00"
+  },
   {
    "title": "Kitesurf is now open source",
    "link": "https://blog.cloudflare.com/kitesurf-open-source/",
