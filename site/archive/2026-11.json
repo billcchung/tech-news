@@ -1,7 +1,80 @@
 {
  "month": "2026-11",
- "updated": "2026-11-15T06:17:59.328832+00:00",
+ "updated": "2026-11-16T06:30:58.112507+00:00",
  "items": [
+  {
+   "title": "A step toward defining the Standard Model on a lattice",
+   "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+   "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-15T22:00:01+00:00",
+   "id": "2e8f421d2ee2a3dfd36bfcc5be1c93ba1a42b98e60398a99d5e21362ce523fd9",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-16T06:30:58.112507+00:00"
+  },
+  {
+   "title": "Our new blog for science",
+   "link": "https://openai.com/index/our-new-blog-for-science",
+   "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-15T22:00:00+00:00",
+   "id": "33b95c2112c46efd095543028e60f6116680e85e464182b74c65e43667746d78",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-16T06:30:58.112507+00:00"
+  },
+  {
+   "title": "Uber's Secure AI Framework Governs Autonomous AI Agents across Their Lifecycle",
+   "link": "https://www.infoq.com/news/2026/11/uber-secure-ai-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In a recent article, Uber Engineering highlights the limitations of traditional identity and API controls in securing AI agents that dynamically reason over external content and take real-world actions. Uber developed a framework to determine whether an agent's action is appropriate given the user's request, the agent's intended purpose, its permissions, and the context of the interaction. By Serg",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-15T20:00:00+00:00",
+   "id": "16125b62f28c7dc39baa65e5f787c10732e2428ad88dc37fc69118d7722a03ed",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-16T06:30:58.112507+00:00"
+  },
+  {
+   "title": "Anthropic Outlines its AI-Powered Code Review Process for Claude Code",
+   "link": "https://www.infoq.com/news/2026/11/claude-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Anthropic has outlined how the Claude Code team handles code reviews as AI agents increasingly contribute to its codebase. The approach relies on multiple layers of automated verification, AI-powered reviews, and risk-based human approval, aiming to reduce manual review time without increasing regressions or production incidents. By Robert Krzaczyński",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-15T09:55:00+00:00",
+   "id": "539c58c9061022915af743fcb7be2669c39436eb219601dd287ff4e327072c75",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-16T06:30:58.112507+00:00"
+  },
+  {
+   "title": "Cloudflare Introduces Private Origins for Application Services",
+   "link": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound firewall ports. Private-to-private connectivity is not yet supported. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-15T06:18:00+00:00",
+   "id": "0358f72200e4cdd4aa6523981a0a98fd0ef56786dc42adb6090d4a5f4d5dc934",
+   "tags": [
+    "architecture",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-11-16T06:30:58.112507+00:00"
+  },
   {
    "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
    "link": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -18,7 +91,7 @@
    "first_seen": "2026-11-15T06:17:59.328832+00:00"
   },
   {
-   "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing Into Core Modules",
+   "title": "Node.js Brings Debounce, Throttle, and PKCS#12 Parsing into Core Modules",
    "link": "https://www.infoq.com/news/2026/11/nodejs-debounce-throttle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Node.js 26.10.0 adds util.debounce() and util.throttle(), plus util.markPromiseAsHandled(), to the core library. It also introduces crypto.parsePKCS12() for reading .p12 and .pfx bundles, and extends the experimental Virtual File System to node:ffi. The additions reduce the need for some userland dependencies. Node.js 26 is now Active LTS. By Daniel Curtis",
    "source": "InfoQ",
@@ -301,7 +374,7 @@
    "first_seen": "2026-11-14T06:17:37.731922+00:00"
   },
   {
-   "title": "Netflix Turns Operational Data Into a Knowledge Graph for AI-Driven Observability",
+   "title": "Netflix Turns Operational Data into a Knowledge Graph for AI-Driven Observability",
    "link": "https://www.infoq.com/news/2026/11/netflix-ai-driven-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
    "source": "InfoQ",
