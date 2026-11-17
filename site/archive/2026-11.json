@@ -1,7 +1,514 @@
 {
  "month": "2026-11",
- "updated": "2026-11-16T06:30:58.112507+00:00",
+ "updated": "2026-11-17T06:20:39.642989+00:00",
  "items": [
+  {
+   "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
+   "link": "https://arstechnica.com/tech-policy/2026/11/shareholders-sue-intel-its-ceo-and-cfo-after-stock-drops-28-6-percent-in-one-day/",
+   "summary": "The PC sales slump \"more than offset” AI boom gains, shareholders say.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-11-16T20:37:47+00:00",
+   "id": "9507e63bd34bba49d4de31c317055cb3f0ff90c342da63141216a3f34eb13f8e",
+   "tags": [
+    "ai"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "The open-source movement wants Jensen Huang back",
+   "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+   "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-16T18:38:47+00:00",
+   "id": "078c70bccadd2823d01aa4c6e59be7bb30c1da17d23483eacc2a895dd8148e52",
+   "tags": [
+    "ai",
+    "open-source",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Scheduling the removal of the kube-proxy IPVS backend",
+   "link": "https://kubernetes.io/blog/2026/11/16/ipvs-removal/",
+   "summary": "The ipvs backend for kube-proxy was an experiment in providing a service proxy implementation with better performance than the iptables backend. While it succeeded in that goal, the kernel IPVS API has turned out to be a bad match for the Kubernetes Services API, and the ipvs backend was never able to implement all of the edge cases of Kubernetes Service functionality correctly. In Kubernetes 1.29",
+   "source": "Kubernetes Blog",
+   "category": "DevOps & Reliability",
+   "published": "2026-11-16T18:35:00+00:00",
+   "id": "7d3dd160909af99c5bc142e9a6c6c156bb76fce6c5d760d73e2eaa260a6c6a46",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "AWS Weekly Roundup: AWS Nitro Sandboxes, AWS Emulator, and more (November 16, 2026)",
+   "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-nitro-sandboxes-aws-emulator-and-more-november-16-2026/",
+   "summary": "A second delivery of the same message can reveal more about an application than its happy-path demo. I like tools that make those cases easier to investigate while a change is still small. Last week’s launch of AWS Emulator brings part of that work onto your own machine: developers and coding agents can exercise AWS […]",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-16T17:55:46+00:00",
+   "id": "da6dd65149850094177b18e538b6c9f144067e33cd12f8c572aae57d8f2440a0",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Beyond the compute bottleneck: Maximizing the ROI of AI accelerators with purpose-built storage",
+   "link": "https://cloud.google.com/blog/products/storage-data-transfer/maximizing-ai-accelerator-roi-with-purpose-built-storage/",
+   "summary": "There’s a lot more to AI infrastructure than just buying accelerators. Indeed, the infrastructure mandate for enterprise AI has shifted from acquiring accelerators to keeping them fully utilized. Next to these expensive accelerators, storage accounts for only a small sliver of total AI spend. However, having the wrong storage in place can put the rest of your committed compute capital at risk. To ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-16T17:00:00+00:00",
+   "id": "03ac2677bc248660b211fd08c3e72eb1f3936e999af3f45180278be5532f34a2",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Broadening access to AI for scientists",
+   "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-16T17:00:00+00:00",
+   "id": "2d7a5d6b20fff3cd431e56c6c45800450e6e12e3351b563ba22db14d6cc86266",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "link": "https://openai.com/index/strengthening-online-child-safety",
+   "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-16T17:00:00+00:00",
+   "id": "dd659f011024f04f24b0b918544913431aa1336cb6fdeb78ce4549a3a5fdd29c",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Building trustworthy AI by fencing it in, not predicting it",
+   "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+   "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-16T16:04:28+00:00",
+   "id": "9ed8c032dbcdf137f78a60215dd1553f581f4c15866f1c4b02848b638d0d09b5",
+   "tags": [
+    "ai",
+    "observability",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Java News Roundup: Lazy Constants, Spring for Apache Pulsar, GlassFish, Hibernate, TomEE, Seed4J",
+   "link": "https://www.infoq.com/news/2026/11/java-news-roundup-nov09-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "This week's Java roundup for November 9th, 2026, features news highlighting: Lazy Constants proposed to target for JDK 28; TornadoVM jitLLM 3.0; point releases of Seed4J; second release candidates of Spring AI and Spring Boot; first release candidates of Hibernate ORM and Hibernate Reactive; fourth milestone release of GlassFish; and the second milestone release of Apache TomEE. By Michael Redlich",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-16T15:25:00+00:00",
+   "id": "29be130536e8e46d1e5e4c35b063be5bb1762a1b556f3ba3678d6ca6637444df",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG",
+   "link": "https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Uber’s Legal Redlining Agent reviews contract changes in Microsoft Word using RAG, historical lawyer feedback, and deterministic policy rules. Built with LangGraph, OpenSearch, and Redis, the system reports more than 20% lower average contract review time and 91% accuracy in AI-generated decisions. Uber is exploring agentic harnesses, skills, legal ontologies, and knowledge graphs. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-16T14:37:00+00:00",
+   "id": "2088b3feba02b88d44331318c51e993f3da7214a37061ad8db2858c78d45d2b0",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Can Robots Bring Stroke Surgery to Remote Hospitals?",
+   "link": "https://spectrum.ieee.org/telesurgery-stroke",
+   "summary": "I am practicing brain surgery on a patient lying 6 meters away, out of my sight and reach. I press a foot pedal, activating the controller in my hand, and carefully steer a thin flexible tube called a catheter up through the patient’s blood vessels. I head for what I believe to be the brain, tracking my progress on the live X-ray feed. As I imagine finding a blood clot, David Bell , the surgeon se",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-11-16T14:00:02+00:00",
+   "id": "5f4244f5edf262b44d921ba9e74f8c2d122e5e5a5b5e360b72ac4fa95e3e4338",
+   "tags": [
+    "hardware",
+    "privacy",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
+   "link": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold/",
+   "summary": "Written by: Aurora Blum, Kelli Vanderlee, Jess Xia, David Mainor Executive Summary As threat actors increasingly move beyond basic prompting to deploying autonomous multi-agent frameworks , automated vulnerability exploitation pipelines, and alternative monetization schemes like LLMJacking , the adversarial AI landscape has reached a critical inflection point. In this update, Google Threat Intelli",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-16T14:00:00+00:00",
+   "id": "19ffc913dde56b3a27cf9c0d38225ac59b409791ba587ba1c09f8dc932657d07",
+   "tags": [
+    "ai",
+    "cloud",
+    "security"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "The Download: testing tech promises and searching for cognitive immortality",
+   "link": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future? In the Impossible issue of MIT Technology Review, our series “Are…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-16T13:10:00+00:00",
+   "id": "09daa70462d05c203da1f49ebee79beee1cf4a8b32be89f282dffe3e55802233",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Building AI that can work across the enterprise",
+   "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+   "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-16T13:00:00+00:00",
+   "id": "d1436b6477306116b9c13ed55dd2abe15bdb3f6824815062e1d749523e7c7f70",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Airbnb Introduces CASTLE for Training Natural Language Search Models with Synthetic Data",
+   "link": "https://www.infoq.com/news/2026/11/airbnb-castle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Airbnb researchers have introduced CASTLE, a framework designed to address the cold-start problem in natural language search. The approach uses de-identified booking sessions and large language models (LLMs) to jointly generate synthetic search queries and relevance labels, enabling model training before sufficient real search traffic is available. By Robert Krzaczyński",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-16T12:25:00+00:00",
+   "id": "f92a09eb2a575c9154937e41ca771474e511386bb41747f4bcaa3e2d49094b90",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "link": "https://openai.com/index/science-at-the-frontier",
+   "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-16T12:00:00+00:00",
+   "id": "d91fd06de7b8771ee8ad78bbe6c6a0f8795962915436321f9652c6b42b553b9c",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Article: Governed Autonomous Intelligence for Mission-Critical Utility",
+   "link": "https://www.infoq.com/articles/utility-governed-autonomous-intelligence-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The article describes an architecture for agentic AI in regulated utility operations. Agents reason and propose actions, but a deterministic policy gate and a governed tool gateway control execution, with human approval where required. It covers an AWS reference implementation, grounding in runbooks, governed prediction, outcome validation, audit evidence, and phased autonomy. By Purnang Borah",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-16T11:00:00+00:00",
+   "id": "21f0e7766f2b390d204186b073930cab95022a1bd37fd54f01114ed456255fa1",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Podcast: Getting CRA Compliant Hardens the Code and Gets Your Company Closer to Digital Sovereignty",
+   "link": "https://www.infoq.com/podcasts/company-closer-digital-sovereignty/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "In this episode, Christopher \"CRob\" Robinson, CTO of OpenSSF, Akrites and Chief Security Architect of the Linux Foundation, explores the state of software supply chain security amid multiple security incidents and explains how tools like Scorecard, the Security Baseline framework, and SLSA help harden software. By Christopher Robinson",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-16T11:00:00+00:00",
+   "id": "5494ce3eb8b9c58953fefab6cb1f2e6891c1209273ba676bf2d29f6c0f14ccdc",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "AWS Open-Sources Emulator for Local Testing of 200+ Services by Coding Agents",
+   "link": "https://www.infoq.com/news/2026/11/aws-emulator-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS Emulator is a generally available local HTTPS endpoint, generated from public Smithy API models, that lets developers and coding agents test against more than 200 AWS services without an account, with published fidelity scores and documented limits around IAM, regions, and in-memory state. By Daniel Dominguez",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-16T10:40:00+00:00",
+   "id": "ad6e152280022a7768f1b636d89eb3177d0bd26bd8e55d402abc1fb46690c797",
+   "tags": [
+    "architecture",
+    "cloud",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "GitHub Rebuilds the Copilot App's Diff Surface to Open Million-Line Pull Requests Without Jank",
+   "link": "https://www.infoq.com/news/2026/11/github-pull-requests-rebuild/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "GitHub engineers rebuilt the diff view in the Copilot app to handle a pull request with 2,200 files, over a million changed lines and 400 inline comments. The design separates fixed-height code rows from variable-height comment blocks, which are measured in batches near the viewport. Performance is checked through CI budgets and automated app runs. By Daniel Curtis",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-16T10:32:00+00:00",
+   "id": "fac2a81a6b888b247b2383251cd030650c3f77d697580bdab4d2373c4c340933",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "programming"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
+   "link": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
+   "summary": "This article is brought to you by VicOne . VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. These include projects developed or maintained by Google, NVIDIA, and Meta, among others. Based on initial validation, all 28 findings are classified as zero-day vulnerabilities. The coun",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-11-16T10:00:01+00:00",
+   "id": "39d06ac9951051ce17214206db39ae0c1db087702d3f58db9fd4058439689df5",
+   "tags": [
+    "ai",
+    "hardware",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "How Revolut raises ambition without lowering the bar",
+   "link": "https://openai.com/business/customer-stories/revolut",
+   "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-16T09:30:00+00:00",
+   "id": "b82b64ef90f76e66fb0003e74649f67052cf66f11ce4f6f63d50fd3308925680",
+   "tags": [
+    "ai",
+    "research",
+    "security"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field",
+   "link": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has launched Nitro Sandboxes, running each opted-in EKS pod, ECS task or EC2 workload in its own Firecracker microVM with a separate kernel, enabled by one runtimeClassName field at no extra charge. A confidential mode adds attestation-gated key release. The documentation lists the trade-offs: no GPU passthrough, at most five sandboxes per vCPU, and half the compute on SMT instances. By Steef-",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-16T09:07:00+00:00",
+   "id": "62fc8b99c7dc5539e570ecfa4185f3f8162ad866655dd1935dfb04fc43b2b991",
+   "tags": [
+    "architecture",
+    "cloud",
+    "hardware",
+    "programming"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+   "link": "https://openai.com/index/lvmh-media-division-partnership",
+   "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-16T09:00:00+00:00",
+   "id": "ff7833693fa2a06713dc923ab6354b82d0a99faf362cef1531beb712e1bb1855",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Uno Platform 7.0 Adds WebGPU Backend, Apple TV and Reactor Support, and Retires Native Rendering",
+   "link": "https://www.infoq.com/news/2026/11/Uno-Platform-6-7-targets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Uno Platform 7.0 unifies rendering on SkiaSharp 4 with an opt-in WebGPU backend, adds Apple TV as a target and supports .NET 11 from day zero. It also runs third-party .NET MAUI controls and Microsoft.UI.Reactor on all targets, and removes native rendering and Mac Catalyst. By Edin Kapić",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-16T09:00:00+00:00",
+   "id": "b925b794497b038cc94e50d348f2d047439ecdc0afa8b6768c4b05ee7381cff7",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Alpine Linux Users Urged to Patch OpenSSH Authentication Flaw",
+   "link": "https://www.infoq.com/news/2026/11/alpine-linux-openssh-sshhole/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "A recently disclosed vulnerability in OpenSSH lets an unauthenticated attacker log into accounts that should have no usable password. The issue, named *sshole and tracked as CVE-2026-123158, affects Linux systems running OpenSSH with the musl C library and which don't use PAM. Security researchers now report that attackers are exploiting it in the wild. By Matt Saunders",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-16T09:00:00+00:00",
+   "id": "34d88deef50575303fe3343aaea15efb11fecda9dbfcc61738987209eff73dc1",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems",
+   "link": "https://cloud.google.com/blog/products/databases/2026-gartner-mq-cloud-operational-databases-management-systems/",
+   "summary": "Google has been recognized as a Leader and positioned furthest in vision in the 2026 Gartner® Magic Quadrant™ for Cloud Operational Database Management Systems (Cloud ODBMS). This recognition comes as we cross into the era of agentic AI. Leading enterprises are in their journey of deploying autonomous agents to transform core business functions. At the center is data, the fuel for AI. In our view,",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-16T08:30:00+00:00",
+   "id": "aa07cf6e1c6f8afb3e7d6bd391464932d29edbde561f4c32c2bd350e1ec84a3e",
+   "tags": [
+    "ai",
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "How ISVs are unlocking European workloads using Google Cloud Dedicated technology",
+   "link": "https://cloud.google.com/blog/products/identity-security/how-isvs-are-unlocking-european-workloads-on-google-cloud-dedicated/",
+   "summary": "Across Europe, organizations handling sensitive workloads in regulated sectors — such as financial services, healthcare, critical infrastructure, and the public sector — are trying to modernize their infrastructure while adhering to strict local data governance standards, including SecNumCloud in France and BSI C3A in Germany. To help organizations accomplish this, Google Cloud Dedicated provides ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-16T08:05:00+00:00",
+   "id": "dbe8c9605e872944d121067f85ae069651b4b44b589868c038f5274508ac83b9",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Inside the new Google Cloud Data Boundary experience",
+   "link": "https://cloud.google.com/blog/products/identity-security/inside-the-new-data-boundary-experience/",
+   "summary": "Digital sovereignty is evolving from a standard compliance requirement into a powerful strategic advantage for regulated industries worldwide. From European frameworks designed to meet sovereign standards (DORA, EHDS, GDPR) to FedRAMP/ILs/ITARs in the U.S., or expanding mandates across Asia-Pacific and the Middle East, organizations can build deeper global trust through clear governance over data ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-16T08:05:00+00:00",
+   "id": "3d4f882e525b4d85999ebcbb56e019cbc0e09a18ce5baf0ee4ab606ca4f2bc3c",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Our first phase of embedded assessments",
+   "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-16T08:00:00+00:00",
+   "id": "9fe6d2ae73e55f52b8078f1806f466588569fb6faa3605540c1891f86e100648",
+   "tags": [
+    "ai",
+    "observability",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Advancing computer-use agents for healthcare teams",
+   "link": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "summary": "",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-16T06:00:00+00:00",
+   "id": "21b4758ab52123ac78ffa3dbca8705003ed9e3a44cc34d1840f5a51cf6e091d0",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "More ways to move care forward with ChatGPT for Healthcare",
+   "link": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-16T06:00:00+00:00",
+   "id": "21e886491b30cfff0403f0b9b226dc169269e7194d3a973fb9f92f6fcc6f75b9",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "The King’s Trust and OpenAI launch £1m partnership",
+   "link": "https://openai.com/index/the-kings-trust-and-openai",
+   "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-16T00:00:00+00:00",
+   "id": "60f3c7381bc61eae5e3d002a0ecfce30c3913c926a7778f89e799b4b1d0cc1eb",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "At Holiday Extras, dots get to work before anyone asks",
+   "link": "https://openai.com/business/customer-stories/holiday-extras-dots",
+   "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-16T00:00:00+00:00",
+   "id": "3d4aeac88b69acfaa9cd944cf75b07a9d89f3c8d684549bae7f0b762916da940",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
+  {
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "link": "https://huggingface.co/blog/openrouter",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-11-16T00:00:00+00:00",
+   "id": "8ec21efa2c62273428cb36f48412c205c966c9e1c9840d1b4a0d5276d99867ca",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-11-17T06:20:39.642989+00:00"
+  },
   {
    "title": "A step toward defining the Standard Model on a lattice",
    "link": "https://openai.com/index/step-toward-defining-the-standard-model",
@@ -171,7 +678,7 @@
    "first_seen": "2026-11-14T06:17:37.731922+00:00"
   },
   {
-   "title": "How Microcredentials Help Engineers Build Trustworthy AI",
+   "title": "How Microcredentials Can Help Engineers Build Trustworthy AI",
    "link": "https://spectrum.ieee.org/microcredentials-trustworthy-ai",
    "summary": "Engineering teams are moving at breakneck speed to integrate artificial intelligence, but they are running into a formidable new barrier: compliance issues. Translating high-level AI ethics , governance , and auditing into daily operational workflows has become one of the industry’s toughest challenges. “AI ethics” refers to the principles developers use to govern and operate workflows. “Governanc",
    "source": "IEEE Spectrum",
