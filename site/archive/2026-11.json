@@ -1,7 +1,465 @@
 {
  "month": "2026-11",
- "updated": "2026-11-18T06:20:11.508167+00:00",
+ "updated": "2026-11-19T06:20:44.752755+00:00",
  "items": [
+  {
+   "title": "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework",
+   "link": "https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project eliminates layers of abstraction to directly leverage the device’s GPU, native mobile views, and a Rust core shared across platforms. Early results hint at a significant reduction in RAM usage and boot time for chat, voice, and streaming. ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-19T03:12:00+00:00",
+   "id": "7b727b162a7ee7597df2e483e889d03244c8a6a8b9a7ca83b9b8d1249767820b",
+   "tags": [
+    "architecture",
+    "hardware",
+    "programming"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
+   "link": "https://blog.cloudflare.com/open-clairic/",
+   "summary": "Add your teaser here. It should complement the headline, not repeat it. Teaser cannot be longer than 240 characters. The Blog Review Gem will suggest an excerpt. Clairic graduates from preview, while Clairic-flash joins the repertoire on Workers AI. We’re doing an open-weight release for both extraction models.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-18T22:00:00+00:00",
+   "id": "daf2b3e0d41882f4998104818fe6ff4171c7cb4cfddfd46dc1562bc460e34d5a",
+   "tags": [
+    "ai",
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "A bridge to modernization: What IDC’s Market Note says about Cameyo by Google",
+   "link": "https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google/",
+   "summary": "Organizations are increasingly adopting generative and agentic AI as they look for ways to unlock more business value. Yet for many IT leaders, business-critical legacy desktop apps stand in the way—too essential to retire, too complex and costly to rewrite—yet unequipped for the security challenges and productivity opportunities of the AI era. That doesn’t have to block your modernization strateg",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-18T21:36:00+00:00",
+   "id": "93242d2a7a14019e57c1371968079b6048adcdc461625f727c980e6f0f5f4737",
+   "tags": [
+    "ai",
+    "cloud",
+    "security"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Introducing Gemini 4 Neon",
+   "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-11-18T21:35:43+00:00",
+   "id": "fd9bebbff7e692862dad0cea3083003ab322baa30f38c6a3bb8661b8a80eee16",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+   "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-11-18T19:54:56+00:00",
+   "id": "f0b81ce3c14612880642c854f15f292b941326a9491f444584b41bfe82ab7a56",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "AWS Lambda now supports GPU instances for Event Functions on Lambda Managed Instances",
+   "link": "https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-gpu-instances-for-event-functions-on-lambda-managed-instances/",
+   "summary": "AWS Lambda now supports GPU instances (G-series) for Event Functions running on Lambda Managed Instances, enabling serverless GPU workloads like machine learning inference, media processing, and rendering. Lambda handles all infrastructure tasks, including instance lifecycle, driver management, and auto scaling, while maximizing GPU utilization across concurrent requests with standard EC2 pricing ",
+   "source": "AWS Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-18T19:39:07+00:00",
+   "id": "95fb4b22fcc4e9f54112dee8fa6ecfe2fb755cf377d5d93040b6e06bbce3a7e1",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "hardware"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Why your fine-tuning job takes longer than the FLOPs say",
+   "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-11-18T18:53:43+00:00",
+   "id": "e55c8f2df06c07ffc92b5ea28b360b047797a023e968816743ef7e472d87d336",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Genie 4 is now available",
+   "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+   "summary": "",
+   "source": "Google DeepMind",
+   "category": "AI & ML",
+   "published": "2026-11-18T18:13:42+00:00",
+   "id": "ca9ca0837de1673fe7157c5aacee390a01e91aa92b23247bd7648dbf04542dc2",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Build a Personal Brand to Help Employers Find You",
+   "link": "https://spectrum.ieee.org/personal-branding-for-engineers",
+   "summary": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! In one year, the number of developers working for themselves has more than doubled. Stack Overflow’s annual survey of more than 30,000 developers sho",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-11-18T17:33:26+00:00",
+   "id": "76e139c559476bf9375570c1746fdd9a0486e16073498e7762b9d0556be0dfb8",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "EMEA startups building the next-generation of agents on Google Cloud",
+   "link": "https://cloud.google.com/blog/topics/startups/google-cloud-highlights-emea-startup-momentum-at-slush-2026/",
+   "summary": "As thousands of founders, investors, and technology leaders gather in Helsinki for Slush 2026, the European startup ecosystem is undergoing a profound transformation. The conversation has moved from AI experiments to operating agents. Across Europe, the Middle East, and Africa (EMEA), pioneering startups are deploying autonomous AI agents that reason, integrate deeply with core systems, and automa",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-18T17:30:00+00:00",
+   "id": "254120196e764373a860352711ad73e0237265ab7e9759df7096fe0151709353",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "What’s new in OKF v0.3: enterprise-ready knowledge, use cases, and skills",
+   "link": "https://cloud.google.com/blog/products/data-analytics/introducing-okf-v0-3/",
+   "summary": "In June we introduced the Open Knowledge Format (OKF) , an open specification that provides plain markdown and YAML to give agents the context they need. In July, v0.2 added trust signals: provenance, trust, freshness, lifecycle, and attestation. In production, bundles move between organizations, multiple agents edit the same corpus, and independent tools need to read a bundle the same way. Releas",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-18T17:00:00+00:00",
+   "id": "ec8284ad712fd3ff70d137cff8ba844518922e6c5ed217eb79e1e418c8355c65",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Testing changes, fast: Introducing agentic assessments in Database Center",
+   "link": "https://cloud.google.com/blog/products/databases/database-center-assessments-for-cloud-sql-for-postgresql/",
+   "summary": "Applying recommendations to a production database can feel risky if you can’t easily quantify the performance benefit or justify the additional cost. While Database Center flags fleet-level health issues and provides proactive recommendations, database administrators still face the challenge of testing recommended changes without disrupting live applications or spending hours manually configuring ",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-18T17:00:00+00:00",
+   "id": "a60076b17b4917a71f5a0c3a842cf1af7cf6a0da17f3fe2ca57e03e8c3debf2b",
+   "tags": [
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Sashiko: Lessons from building an agentic code review system for Linux",
+   "link": "https://cloud.google.com/blog/products/application-development/lessons-from-building-sashiko-an-agentic-code-review-system/",
+   "summary": "The speed of development in large open-source projects has always been limited by code review, not code generation. Even as coding agents get better at writing code, they do not accelerate development on their own. This is especially true of patches to the Linux kernel. Without a way to build trust in proposed changes, more generated code simply piles up in front of the same small group of human m",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-18T17:00:00+00:00",
+   "id": "195ca5e57863019e603b9fbd59e7b49bef1b0a785104cab97852f6972fc26cc2",
+   "tags": [
+    "cloud",
+    "open-source"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Building an agentic stack in Envoy: routing models, tokens, and MCP",
+   "link": "https://cloud.google.com/blog/products/networking/the-envoy-agentic-stack-routing-models-tokens-and-mcp/",
+   "summary": "At Google Cloud, we believe the next generation of AI and agentic systems must be built on open, battle-tested foundations. Envoy, an open-source edge and service proxy designed for cloud-native applications, has already transformed microservices and modern cloud networking, powering everything from Google Cloud’s Application Load Balancers to the Agent Substrate dataplane on Google Kubernetes Eng",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-18T17:00:00+00:00",
+   "id": "a89fc45af709a9b8b3fe037e8b4b8828556e34a0e57f49993c7177223f735b03",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Scaling massive AI/ML workloads with IPv6 on Google Kubernetes Engine clusters",
+   "link": "https://cloud.google.com/blog/products/networking/run-aiml-workloads-on-ipv6-only-gke-clusters/",
+   "summary": "TL;DR: Single-stack IPv6 on GKE runs both nodes and pods without having to use private IPv4 addresses. Available in preview for Cloud TPU v6e and CPU node pools, including Axion, it works with DNS64/NAT64 to reach IPv4 endpoints. Long before they run out of compute or power, AI applications hit another wall: running out of IP addresses. A single AI deployment often requires a vast address space to",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-18T17:00:00+00:00",
+   "id": "e63626542c3cd2cb563b519ff5e15f736f8aa09f7768cf66657549312e122e50",
+   "tags": [
+    "ai",
+    "cloud",
+    "hardware",
+    "kubernetes"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+   "link": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also lowered compute costs by 10%, improved application runtimes by 14%, and reduced shuffle costs per task by nearly 90% through dedicated storage, replication, and data-plane optimizations. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-18T15:05:00+00:00",
+   "id": "7d33b1a7b4b5527df0c0040fac9ba49513d769ebf362534b15a6b6185c5acb33",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+   "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-11-18T15:00:23+00:00",
+   "id": "aef632472a5e3af7f91b4cd9c5d8e0ecee47135327c9822e26d24027e878b6a3",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "How Cloudflare WAF helps protect against Java4Shell (CVE-2026-114938)",
+   "link": "https://blog.cloudflare.com/java4shell-waf-protection/",
+   "summary": "Java4Shell is a critical memory-corruption flaw in OpenJDK's Base64 decoder that can lead to remote code execution. Cloudflare has released six WAF managed rules for paid plans that logs matching requests by default. Patch your Java runtimes now.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-18T14:52:10+00:00",
+   "id": "332e0d2625000ee23dd2f718fb67c13f011c866c5289699b4df71253198335be",
+   "tags": [
+    "cloud",
+    "networking",
+    "programming",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "The AI Hype Index: AI is everywhere",
+   "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+   "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-18T14:42:44+00:00",
+   "id": "e7c4908e584f5e820cfe90f53d0c2ed8c269939f5b49583fe36fd804311b9fee",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "The Download: AI learns to smell and hydropower struggles",
+   "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful notes—“nutty,” “peachy,”…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-18T13:10:00+00:00",
+   "id": "fcbb3504793dfb1a558ce7bbbb619e44a6bbeb1a0bdf867abf990a720445ef24",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Optimizing Kubernetes admission control: Where Kyverno’s CEL admission cost actually goes",
+   "link": "https://www.cncf.io/blog/2026/11/18/optimizing-kubernetes-admission-control-where-kyvernos-cel-admission-cost-actually-goes/",
+   "summary": "Kyverno’s CEL (Common Expression Language)-based engines exist to evaluate policy expressions. So when we profiled the admission path, we expected to find the bulk of the cost in CEL evaluation. It was not there. About 86%...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-11-18T12:30:00+00:00",
+   "id": "6aac48640d4b9c1f3c69df5a06308ac3e86e8df5c3f62e751f128ff4881ad2fa",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story",
+   "link": "https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built high-throughput model serving and feature stores operating at 400B predictions per day. He also shares insights on personalization, interleaved experimentation, and their new agentic AI foundation. By J",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-18T11:00:00+00:00",
+   "id": "780b90ea656ce17c4bdd1a9bdb30f4a77c3619def8c38239c8e54d5a26523c46",
+   "tags": [
+    "ai",
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "This smell startup says its AI nose is as good as a human’s",
+   "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+   "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-18T10:20:30+00:00",
+   "id": "c08d2bf5cfc43826878d77e47278b9e9342da150805b4ede88c33452ae6d0341",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors",
+   "link": "https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can compose accessible components and operate them through a documented agent bridge. By Daniel Dominguez",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-18T10:12:00+00:00",
+   "id": "e74cadd7a3875e27ba28317f6dca4826e4b92270b02f842d221e3fafcd446f14",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "The Silent Consensus",
+   "link": "https://openai.com/index/the-silent-consensus",
+   "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-18T10:00:00+00:00",
+   "id": "184d931227f2504de1a33bebb5615518a5072d45e1bfb93a37850e8332740e3a",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
+   "link": "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping address space and with consumer-initiated connections only. The consumer must wrap traffic in GENEVE; only TCP and DNS pass, and access logs cannot attribute traffic to a workload behind the endpoint.",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-18T09:29:00+00:00",
+   "id": "b3ace87cdeae82cf75ffcb605230a20fc53bb7f555163b757fd7fd9bb186e600",
+   "tags": [
+    "architecture",
+    "cloud",
+    "networking",
+    "programming"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Yelp Migrates Cassandra to EKS by Moving EBS Volumes",
+   "link": "https://www.infoq.com/news/2026/11/kubernetes-cassandra-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Yelp has moved its Cassandra fleet from legacy self-managed Kubernetes clusters to Amazon EKS by re-pointing existing EBS volumes at new pods, rather than streaming data between nodes. By Claudio Masolo",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-18T09:00:00+00:00",
+   "id": "d43a492d08a2042421d0b25df022d6bd29025d9b426f510feeb8d04ec8d47483",
+   "tags": [
+    "architecture",
+    "kubernetes",
+    "programming"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Research acceleration: The jagged frontier",
+   "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-18T08:00:00+00:00",
+   "id": "58da586369f33999eb920dc2411502d48d9dc9ca37a4ab1a788d83ffd176938a",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+   "link": "https://openai.com/business/customer-stories/sumitomo-life",
+   "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-18T08:00:00+00:00",
+   "id": "53d809d7420a3923e8bad7c3bd224d7d2c9da9cb37fe0d761411713f6da0b90e",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Inside the Codex sandbox",
+   "link": "https://openai.com/index/inside-the-codex-sandbox",
+   "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-18T08:00:00+00:00",
+   "id": "67952d9a918d2536a7bf3b37b6c05ec5dc7c7c22fdf68db178458bb74b4d4f2d",
+   "tags": [
+    "ai",
+    "networking",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Managing frontier AI risk: From training to deployment",
+   "link": "https://openai.com/index/managing-frontier-ai-risk",
+   "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-18T06:00:00+00:00",
+   "id": "99be0c0a7e074380d1a5d6cdb0953a68d68217eb3d8f50443a74e9d288a8cea0",
+   "tags": [
+    "ai",
+    "observability",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
   {
    "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
@@ -30,6 +488,63 @@
    "first_seen": "2026-11-18T06:20:11.508167+00:00"
   },
   {
+   "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+   "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+   "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-18T00:00:00+00:00",
+   "id": "a1de396d3910fa2e0f79d5fc1596f0a162b45e4ee5be0f06557fa126a8cc5915",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Advancing chip design with OpenAI models",
+   "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+   "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-18T00:00:00+00:00",
+   "id": "68ddb817fe4001c0fc7b71404e8ed33269a5f57651ec2110d7ae5f13ebb157e7",
+   "tags": [
+    "ai",
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+   "link": "https://huggingface.co/blog/moe-expert-streaming",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-11-18T00:00:00+00:00",
+   "id": "ec56b5eff9affb1c339e466ce0f8237f0117032663d5db85034279f9f2a19228",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
+   "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+   "link": "https://huggingface.co/blog/rumble-2-flash",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-11-18T00:00:00+00:00",
+   "id": "5b89a2db7f60ae9099b72ca73768977f61c082125cbaf94b72c9c9bced5f17aa",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-11-19T06:20:44.752755+00:00"
+  },
+  {
    "title": "Hundreds of websites deliver potent malware cocktail to unsuspecting visitors",
    "link": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites/",
    "summary": "Malware cocktail delivers cryptocurrency theft payloads and iOS exploits, among other things.",
@@ -43,7 +558,7 @@
    "first_seen": "2026-11-18T06:20:11.508167+00:00"
   },
   {
-   "title": "How Shopify Orchestrates AI-Powered Mobile App Development Without Overloading Developers' Machines",
+   "title": "How Shopify Orchestrates AI-Powered Mobile App Development without Overloading Developers' Machines",
    "link": "https://www.infoq.com/news/2026/11/shopify-remote-ai-dev/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "To prevent AI development workflows from exhausting developer machines' resources, Shopify built Remote Dev, a remote mobile development environment that enables AI agents to independently build, test and maintain iOS and Android applications and in parallel. By Sergio De Simone",
    "source": "InfoQ",
@@ -430,7 +945,7 @@
    "first_seen": "2026-11-18T06:20:11.508167+00:00"
   },
   {
-   "title": "Production AI, Architecture Trade-offs & Team Design: InfoQ Opens Registration for 6 January Cohorts",
+   "title": "Production AI, Architecture Trade-Offs & Team Design: InfoQ Opens Registration for 6 January Cohorts",
    "link": "https://www.infoq.com/news/2026/11/onlinecohort-jan27-certification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "From agent reliability to architecture decisions and delivery bottlenecks, InfoQ’s January 2027 cohorts give senior practitioners five weeks to examine current challenges, test approaches in their own work, and compare results with peers. By Artenisa Chatziou",
    "source": "InfoQ",
@@ -3946,7 +4461,7 @@
   {
    "title": "IEEE Program Schools Preuniversity Educators On Tech Topics",
    "link": "https://spectrum.ieee.org/ieee-preuniversity",
-   "summary": "Now in their third year, the IEEE TryEngineering educator sessions continue to empower preuniversity teachers with specialized professional development programs on engineering topics and classroom-tested lessons. This year’s sessions, held across the United States, have focused on educating teachers about artificial intelligence and semiconductor technology. One session was held in Egypt. In all, ",
+   "summary": "Now in their third year, the IEEE TryEngineering educator sessions continue to empower preuniversity teachers with specialized professional development programs on engineering topics and classroom-tested lessons. This year’s sessions have focused on educating teachers about artificial intelligence and semiconductor technology. Three sessions were held in the United States and one session was held ",
    "source": "IEEE Spectrum",
    "category": "Hardware & Emerging Tech",
    "published": "2026-11-05T19:00:02+00:00",
