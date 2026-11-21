@@ -1,7 +1,370 @@
 {
  "month": "2026-11",
- "updated": "2026-11-20T06:20:10.138251+00:00",
+ "updated": "2026-11-21T06:18:08.196079+00:00",
  "items": [
+  {
+   "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+   "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "summary": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key and charging victims a markup for work that was never performed.",
+   "source": "KrebsOnSecurity",
+   "category": "Security & Privacy",
+   "published": "2026-11-21T00:36:39+00:00",
+   "id": "10886014bf917685fd4d06a0fe63d5f553cae9521c95c46d26a49e5214d0f5f2",
+   "tags": [
+    "privacy",
+    "security"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+   "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+   "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+   "source": "Ars Technica",
+   "category": "General Tech",
+   "published": "2026-11-20T20:59:08+00:00",
+   "id": "f22d46a83ecd25c4b9af6d0ff25f287b78e78bcd7a1a6874250934d6587d79ee",
+   "tags": [
+    "ai",
+    "privacy"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+   "link": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+   "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T20:24:38+00:00",
+   "id": "c5d0ccae2291f91250639b1a9eef0b4c52a52e9dcf22d26a6521e396e5b0cf4e",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+   "link": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+   "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the same release.",
+   "source": "Cloudflare Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T20:00:45+00:00",
+   "id": "0c86565354b6242e71e1de8af0ccc5dd3ddb54375b23aa26a1921d13fcf92304",
+   "tags": [
+    "cloud",
+    "networking",
+    "security",
+    "web"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "The most misunderstood graph in AI just got a major update",
+   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+   "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-20T18:15:15+00:00",
+   "id": "6691469f1dc34a795664478a1f215653c4c0e1c156284ede437016ba3fce96c3",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Meta TLX, a Native GPU Compiler Extension Supporting Advanced Hardware Capabilities",
+   "link": "https://www.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Meta developed Triton Low-Level Extensions (TLX), designed to bridge the gap between high-level GPU programming abstractions and the low-level execution control required to fully exploit modern GPU architectures. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-20T18:00:00+00:00",
+   "id": "35b4ffade55a8f5415e83aeb2bb59f4afd0f6746a00f49ef4778ae48b4c5369d",
+   "tags": [
+    "architecture",
+    "dev-tools",
+    "hardware",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Ultimate guide for fixing your team’s API keys",
+   "link": "https://cloud.google.com/blog/topics/developers-practitioners/how-to-fix-your-teams-api-keys/",
+   "summary": "Most Gemini prototypes start the same way. You grab an API key from Google AI Studio , then paste it into your coding agent to start building a prototype. That speed is the point, and shouldn’t be slowed down. The trouble starts later, when the prototype gets real users and the key comes along unchanged. By then it usually isn't one key. Every developer has their own, often several, sitting in .en",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T17:00:00+00:00",
+   "id": "32042958efa4e483f86ec4e8145bb1de74a1ff3c3aa133935131652f09d52631",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Drowning in clicks: Scaling Black Friday pipelines with Managed Airflow agents",
+   "link": "https://cloud.google.com/blog/products/data-analytics/scaling-airflow-pipelines-with-ai-agents-on-managed-airflow/",
+   "summary": "When an Airflow pipeline fails in production, the hard part is rarely the fix. It's finding out what to fix. A task dies without a traceback. Is it the code, the data, or the environment? Hard to say, as clues are scattered across task logs, scheduler logs, and worker metrics. And once you know what the problem is, the question becomes whether to add memory, rewrite the DAG , or finally take on th",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T17:00:00+00:00",
+   "id": "fbec750b66013b556bc38fbfa20f15c50aa4bd1236d220f55f4ad36b73339a7c",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Frontier and Center: Why your data agents need a “wind tunnel”",
+   "link": "https://cloud.google.com/blog/products/data-analytics/a-data-simulator-to-test-agents/",
+   "summary": "Imagine you're building a data agent to answer questions about an enterprise data warehouse. Ideally, you'd develop and test it against production data, but access restrictions and data sensitivity make that difficult – especially when the engineers building the agent sit outside the team that owns the data. Even with access, a live warehouse is a poor test track: Catalog descriptions are often in",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T17:00:00+00:00",
+   "id": "67345a8a0c5c2ac01fa4dc98cde24e9e66a10c8487283baee015f578e716ce0b",
+   "tags": [
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "DynaPORT modernization on Google Cloud with AlloyDB for PostgreSQL and GKE",
+   "link": "https://cloud.google.com/blog/products/databases/dynaport-modernizes-with-alloydb/",
+   "summary": "In global maritime logistics, Marine Ports and Terminals play a significant role in the movement of container and cargo, within and beyond. Marine ports and terminals world-wide use a Terminal Operating System (TOS) which acts as the central nervous system managing port operations 24 hours a day, 365 days a year. A modern TOS plans, automates and orchestrates every physical and digital activities,",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T17:00:00+00:00",
+   "id": "97c5c26d38684e7dfffbf593d788554cde51adbe9a003006da80d554df059d2e",
+   "tags": [
+    "cloud",
+    "cloud-native",
+    "databases"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "What’s new in Managed Service for Apache Spark 4.0",
+   "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-in-managed-service-for-apache-spark-4-0/",
+   "summary": "As organizations move from reactive analytics to proactive systems of action powered by autonomous AI agents, data platforms face a new set of demands. Moving from human scale to agent scale changes both how data pipelines run and how they are built: Teams and AI agents now use Model Context Protocol (MCP) tools and agentic troubleshooting to build, submit, and diagnose Apache Spark pipelines whil",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T17:00:00+00:00",
+   "id": "37f92a6b608191ec3911fc379d4da546e28adaaab4509744f677e8d3fde5c46c",
+   "tags": [
+    "ai",
+    "cloud"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "How Spanner Graph detects ads fraud and abuse at Google at multi-billion node scale",
+   "link": "https://cloud.google.com/blog/products/databases/how-spanner-graph-detects-google-ads-fraud-and-abuse/",
+   "summary": "Ever wonder how the Google Ads team keeps the massive system stable and online, despite continuous attempts by hackers to take it down? Part of the answer is using Spanner as its core operational and graph database. The Google Ads team uses a central graph-based platform to fight fraud and abuse with batch and real-time signals. Built to protect the Google Ads ecosystem and now used by multiple te",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T17:00:00+00:00",
+   "id": "113af3cd796eb5c62e6e094f46918cd695720e0cd799a3616f5b20593c416a33",
+   "tags": [
+    "cloud",
+    "databases"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "How Vodafone is using the Data Engineering Agent to improve their data pipelines",
+   "link": "https://cloud.google.com/blog/products/data-analytics/vodafone-cuts-data-pipeline-costs-30-via-data-engineeringagent/",
+   "summary": "For large organizations, building and maintaining data pipelines is one of the most complex tasks that data engineering teams are tasked with. In BigQuery environments, the Data Engineering Agent can help, leveraging Gemini to to automate these workflows. In this blog post, Vodafone Czech Republic describes how it has used the Data Engineering Agent to modernize and optimize BigQuery stored proced",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T17:00:00+00:00",
+   "id": "e2d9297bf9b5f23750922a683e0bed488e0ef704123c20f736fedce10d0b30a5",
+   "tags": [
+    "cloud"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Introducing ambient networking for GKE",
+   "link": "https://cloud.google.com/blog/products/networking/ambient-networking-for-gke-sidecarless-service-mesh/",
+   "summary": "Network sidecars have a deserved reputation for excessive resource consumption and increased management overhead, especially in a service mesh environment. Today, we are announcing the general availability of ambient networking for Google Kubernetes Engine (GKE). This milestone marks an important evolution in how your run service mesh on GKE, bringing a sidecar-less architecture into production. I",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T17:00:00+00:00",
+   "id": "0f8a02fe8431b3d0ed8532ba693fbfc75ee06cf66887ed4fc604ff701c626203",
+   "tags": [
+    "architecture",
+    "cloud",
+    "kubernetes",
+    "networking"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "How to simplify cloud access with Unified Access Policies, now in preview",
+   "link": "https://cloud.google.com/blog/products/identity-security/how-to-simplify-cloud-access-with-unified-access-policies/",
+   "summary": "As organizations scale their cloud footprint to thousands of autonomous agents and microservices, you can accidentally create an operational bottleneck with strict Identity and Access Management (IAM). Meanwhile, administrators still need to enforce least privilege across thousands of resources without slowing down engineering velocity. Enter Unified Access Policies (UAPs), Google Cloud's next-gen",
+   "source": "Google Cloud Blog",
+   "category": "Cloud & Infrastructure",
+   "published": "2026-11-20T17:00:00+00:00",
+   "id": "2000053051a9bff807b257b212635543336d8c2d5ac9bca63b1c197bdea3fb64",
+   "tags": [
+    "architecture",
+    "cloud"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Uber Cuts Translation Cache Memory by up to 90% While Keeping P99 Latency Below 1 MS",
+   "link": "https://www.infoq.com/news/2026/11/uber-go-translation-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Uber redesigned its Go-based translation cache to reduce its initial memory footprint by more than 90% while maintaining a cache hit rate above 99.9% and p99 disk-backed cache miss latency below 100 microseconds. The hybrid architecture combines in-memory keys and frequently accessed values with disk-backed storage, reducing garbage-collection overhead and memory consumption. By Leela Kumili",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-20T14:38:00+00:00",
+   "id": "f4a72999fd6eb46bc897184138327461f650446388b00943d95180fa68c257f5",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "I Don’t Trust Visual Recordings Anymore. But One Day I Will Again",
+   "link": "https://spectrum.ieee.org/fighting-back-against-deep-fakes",
+   "summary": "In March of this year, a flurry of emails and text messages from a half dozen reporters around the world disrupted my quiet Saturday morning. An Iranian news agency had aired a week-old video of what appeared to be a U.S.-made Tomahawk missile hitting a school. News reports claimed that the strike killed more than 175 people, most of them children. The U.S. president and military denied responsibi",
+   "source": "IEEE Spectrum",
+   "category": "Hardware & Emerging Tech",
+   "published": "2026-11-20T14:00:03+00:00",
+   "id": "f227f31f7b751244ae8920327e4b9478245d213e9170e45ceef6d9825a10fc60",
+   "tags": [
+    "hardware",
+    "research"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "The Download: inside the quest to make our minds immortal",
+   "link": "https://www.technologyreview.com/2026/11/20/1149371/the-download-quest-to-make-minds-immortal/",
+   "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. What we learned when our Roundtables explored the quest to make minds immortal To preserve our sense of self, some scientists are working on ways to keep our brains going—even beyond…",
+   "source": "MIT Technology Review",
+   "category": "General Tech",
+   "published": "2026-11-20T13:10:00+00:00",
+   "id": "920754852bcdbc0b3ffb9b3fcec73830e673ba72305eb3919af3dfa731aaaad4",
+   "tags": [
+    "research"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "When a sync window closes: How Argo CD self-heal skipped the migration hook",
+   "link": "https://www.cncf.io/blog/2026/11/20/when-a-sync-window-closes-how-argo-cd-self-heal-skipped-the-migration-hook/",
+   "summary": "The uncomfortable question A few days ago, a customer asked me a question that sounded simple: “Argo CD said the sync succeeded, so why didn’t our migration run?” They had pushed a release while a deny...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-11-20T12:30:00+00:00",
+   "id": "5eba2c7e4931ec181d45c079e0a8b22e212f9367eae3a26e315e272082e4cb46",
+   "tags": [
+    "cloud-native",
+    "open-source"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Google Donates Agent Substrate and gVisor to the CNCF to Secure AI Agents at Scale",
+   "link": "https://www.infoq.com/news/2026/11/google-substrate-gvisor-cncf/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google has announced it is donating Agent Substrate and gVisor to the Cloud Native Computing Foundation (CNCF), placing two important components of its AI agent infrastructure under vendor-neutral open-source governance. By Craig Risi",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-20T12:00:00+00:00",
+   "id": "d05c0c3affb5e232ba08855dad4286fa01366601c1d103d3c414e9e6f8b8d61e",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud-native",
+    "open-source",
+    "programming"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Presentation: Modernising Retail at Scale: Architecting a Cloud‑to‑Edge Platform for a Global Enterprise",
+   "link": "https://www.infoq.com/presentations/tesco-enterprise-tech-transformation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Jayesh Bhayani discusses Tesco’s decade-long enterprise transformation from fragmented legacy systems to a unified cloud-edge platform. He explains how aligning system, talent, and process modernizations allowed Tesco to scale mission-critical retail operations to millions of customers, while sharing practical lessons on build vs. buy, cloud cost management, and preparing for agentic commerce. By ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-20T11:00:00+00:00",
+   "id": "d18dd2778ffff406dfac1432fa24041eecbb25a25376ce823ba52afa7655c61b",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Combatting adversarial distillation",
+   "link": "https://openai.com/index/combatting-adversarial-distillation",
+   "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-20T10:00:00+00:00",
+   "id": "7ad44f990f0c53ef2e2a537716dcd0f4d19ea5c4fbcd3c1cf3877b1b8eae8965",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "QCon San Francisco 2026: The Future of Apache Iceberg",
+   "link": "https://www.infoq.com/news/2026/11/iceberg-v4-metadata/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Apache Iceberg V4 proposes a redesign of table metadata to improve scalability and support more frequent writes, alongside new capabilities for data management and schema evolution. Daniel Weeks, co-creator of Apache Iceberg and member of technical staff at Databricks, presented a session at QCon San Francisco on the fourth version of the Apache Iceberg open table format specification. By Renato L",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-20T09:17:00+00:00",
+   "id": "70b6393d574dcbbfd6fdb9915781798e6f1dee612bff37680221138ad3e75763",
+   "tags": [
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Article: Building Reliability Into the Cloud: Observability as the Control Plane for Multi-Region Failover",
+   "link": "https://www.infoq.com/articles/observability-control-plane-failover/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Cloud SLAs promise uptime statistically, not absolutely. This article shows how to treat observability as a control plane that detects regional degradation, triggers automated failover, and confirms recovery rather than paging a human. Covers active-active architecture, DNS TTL pitfalls, composite Prometheus alerting, Route 53 weighted routing, and confirmation loops backed by a real S3 outage. By",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-20T09:00:00+00:00",
+   "id": "7916c1852c4b4d2f8570404bfded478e15627b74ccde80b80f0adc8e202f4dcd",
+   "tags": [
+    "architecture",
+    "networking",
+    "observability",
+    "programming"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "AWS Releases a Free Local Emulator of AWS Built Entirely by Agents",
+   "link": "https://www.infoq.com/news/2026/11/aws-emulator-local-testing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS has released AWS Emulator, a free, CC0-licensed local stand-in for more than 200 of its services, generated from its public API models and aimed at the test loops of coding agents. AWS says agents wrote and maintain all of the code and publishes per-release fidelity scores. The docs say it does not evaluate IAM, and practitioners are split on trusting an emulator nobody reviewed. By Steef-Jan ",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-20T06:53:00+00:00",
+   "id": "8d9763c268520bf094077569eb9a6088fdc77deb84db021ac070a36dfd5276a2",
+   "tags": [
+    "architecture",
+    "cloud",
+    "programming"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
   {
    "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
    "link": "https://blog.cloudflare.com/nginx2root/",
@@ -17,6 +380,62 @@
     "web"
    ],
    "first_seen": "2026-11-20T06:20:10.138251+00:00"
+  },
+  {
+   "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+   "link": "https://openai.com/business/customer-stories/hebbia",
+   "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-20T00:00:00+00:00",
+   "id": "8145fefb47ff1ca9fa5560e62b69bf54a222274ffe6f44de71f6b3dfaaa8f955",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Can AI help scientists identify promising drug candidates?",
+   "link": "https://openai.com/index/introducing-medchembench",
+   "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-20T00:00:00+00:00",
+   "id": "c1a2af93db54bfcf7c217cb74db83cfc0f90565b5c1b91d5871ab9ee0c953910",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+   "link": "https://huggingface.co/blog/inkling2mini",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-11-20T00:00:00+00:00",
+   "id": "824c03b970f1dc58cad676334e63167d2af3b369add30c83b73e4ecb318d913d",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
+  },
+  {
+   "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+   "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+   "summary": "",
+   "source": "Hugging Face Blog",
+   "category": "AI & ML",
+   "published": "2026-11-20T00:00:00+00:00",
+   "id": "701a571706ec6c00de8bbc6af8a9bc31d2eec98a2272e87a59a9e6a4a97a82f1",
+   "tags": [
+    "ai",
+    "open-source"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
   },
   {
    "title": "The Blueprint: How Kult built a gaming companion that actually knows your game",
@@ -246,6 +665,21 @@
     "programming"
    ],
    "first_seen": "2026-11-20T06:20:10.138251+00:00"
+  },
+  {
+   "title": "How to support your app on Kubernetes environments you don’t control",
+   "link": "https://www.cncf.io/blog/2026/11/19/how-to-support-your-app-on-kubernetes-environments-you-dont-control/",
+   "summary": "Running an application in Kubernetes is one thing, but supporting that application in Kubernetes environments your customers run is something else entirely. You don’t control the cluster configuration, its upgrade schedule, the surrounding tooling, or the...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-11-19T11:18:00+00:00",
+   "id": "0295e9389724037e645bad17dbb1278c4916b7a9bc9a2b9fb842ed77f784dd14",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
   },
   {
    "title": "How to tell a cyberattack from a plain old outage",
@@ -1493,6 +1927,22 @@
     "research"
    ],
    "first_seen": "2026-11-18T06:20:11.508167+00:00"
+  },
+  {
+   "title": "Your runtime security tool is not your baseline: Silos dressed as autonomy in cloud native teams",
+   "link": "https://www.cncf.io/blog/2026/11/16/your-runtime-security-tool-is-not-your-baseline-silos-dressed-as-autonomy-in-cloud-native-teams/",
+   "summary": "A deadline creates pressure, and a team decides to solve its part of the problem directly. I once saw this play out in a Kubernetes security initiative. The team had capable engineers, a clear objective and...",
+   "source": "CNCF",
+   "category": "DevOps & Reliability",
+   "published": "2026-11-17T00:00:00+00:00",
+   "id": "196ba56bc01e4c82fae4bd69971b487bd88cae2c982b01085f06fbdd2fd51770",
+   "tags": [
+    "cloud-native",
+    "kubernetes",
+    "open-source",
+    "security"
+   ],
+   "first_seen": "2026-11-21T06:18:08.196079+00:00"
   },
   {
    "title": "Shareholders sue Intel, its CEO, and CFO after stock drops 28.6 percent in one day",
