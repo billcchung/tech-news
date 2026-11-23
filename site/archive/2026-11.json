@@ -1,7 +1,98 @@
 {
  "month": "2026-11",
- "updated": "2026-11-22T06:18:11.153485+00:00",
+ "updated": "2026-11-23T06:27:54.638392+00:00",
  "items": [
+  {
+   "title": "QCon San Francisco 2026: The Harness Is the New Operating System",
+   "link": "https://www.infoq.com/news/2026/11/harness-new-operating-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "At QCon San Francisco 2026, Mad Labs founder and CEO Manju Rajashekhar opened the conference arguing that the harness around an AI model, rather than the model itself, decides what an agent can do and how safely it does it. The keynote mapped the parts of a harness, including context, tools, state, permissions and feedback loops, onto jobs that operating systems already perform. By Andrew Hoblitze",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-22T22:44:00+00:00",
+   "id": "edac7e42bab7cf1a2308ca6c622f4476dca732589de00f6e61fba6eaecc587f2",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-23T06:27:54.638392+00:00"
+  },
+  {
+   "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+   "link": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overhead and improving performance, with new tools for reorganizing tables without downtime and controlling query plans. By Robert Krzaczyński",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-22T12:54:00+00:00",
+   "id": "04c4a7f01a7ccd0bf2967fb7ad2b8544dfe6a090c6567aba34e92bd0ef8ac16f",
+   "tags": [
+    "architecture",
+    "databases",
+    "programming"
+   ],
+   "first_seen": "2026-11-23T06:27:54.638392+00:00"
+  },
+  {
+   "title": "Claude Code Has Been Leaking Secrets through its \"Don't Ask Again\" Feature",
+   "link": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified 1,122 secrets in claude/settings.local.json files and another 1,160 in git history, in the shared settings.json, and in agent chat transcripts stored in repos. By Sergio De Simone",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-22T11:00:00+00:00",
+   "id": "02f7f06c4d9a9f3d582d7329243e98df1b2c9b85ffed9baff0b2d9b63b310971",
+   "tags": [
+    "architecture",
+    "programming",
+    "security"
+   ],
+   "first_seen": "2026-11-23T06:27:54.638392+00:00"
+  },
+  {
+   "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
+   "link": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "Google recently announced Agent Compute Engine, a managed service that runs AI agents in isolated microVMs, with checkpointing capabilities to suspend and resume execution environments. The design keeps credentials, API keys, and OAuth refresh tokens outside the agent sandbox, using an external Agent Gateway to authenticate requests and inject the required secrets. By Renato Losio",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-22T06:30:00+00:00",
+   "id": "635424aeefc408255a8adb4dbc798d57b806e2fe2c1176d7a0857ff6c2895caf",
+   "tags": [
+    "ai",
+    "architecture",
+    "programming"
+   ],
+   "first_seen": "2026-11-23T06:27:54.638392+00:00"
+  },
+  {
+   "title": "AWS Lambda Now Runs GPU Inference with 48 Concurrent Invocations Sharing One Model per GPU",
+   "link": "https://www.infoq.com/news/2026/11/aws-lambda-gpu-managed-instances/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+   "summary": "AWS Lambda now runs Event Functions on EC2 G-series GPU instances through Lambda Managed Instances, with up to 48 concurrent invocations sharing one model per GPU, vLLM and SGLang base images that need no handler code, and 90-minute asynchronous timeouts. Billing is the instance price plus a 9.75 percent fee; first hands-on tests report an eight-minute publish and no response streaming. By Steef-J",
+   "source": "InfoQ",
+   "category": "Software Engineering",
+   "published": "2026-11-22T06:27:00+00:00",
+   "id": "4cbe852ef1a9ac5267a91358b2edd726f651a901b76b7e1fe1329acc3ed16f56",
+   "tags": [
+    "ai",
+    "architecture",
+    "cloud",
+    "hardware",
+    "programming"
+   ],
+   "first_seen": "2026-11-23T06:27:54.638392+00:00"
+  },
+  {
+   "title": "Perplexity and Intelligence",
+   "link": "https://openai.com/index/perplexity-and-intelligence",
+   "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "source": "OpenAI News",
+   "category": "AI & ML",
+   "published": "2026-11-22T00:00:00+00:00",
+   "id": "1a10f1676d46fc01a909d8eab6d17033b89331ee5fd1f1e04952fc2f6f54665c",
+   "tags": [
+    "ai",
+    "research"
+   ],
+   "first_seen": "2026-11-23T06:27:54.638392+00:00"
+  },
   {
    "title": "Grafana 13.3 Adds Shared Dashboard Variables and Notebooks",
    "link": "https://www.infoq.com/news/2026/11/grafana-13-3-shared-variables/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
@@ -266,7 +357,7 @@
    "first_seen": "2026-11-21T06:18:08.196079+00:00"
   },
   {
-   "title": "Uber Cuts Translation Cache Memory by up to 90% While Keeping P99 Latency Below 1 MS",
+   "title": "Uber Cuts Translation Cache Memory by up to 90% While Keeping P99 Latency below 1 MS",
    "link": "https://www.infoq.com/news/2026/11/uber-go-translation-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
    "summary": "Uber redesigned its Go-based translation cache to reduce its initial memory footprint by more than 90% while maintaining a cache hit rate above 99.9% and p99 disk-backed cache miss latency below 100 microseconds. The hybrid architecture combines in-memory keys and frequently accessed values with disk-backed storage, reducing garbage-collection overhead and memory consumption. By Leela Kumili",
    "source": "InfoQ",
